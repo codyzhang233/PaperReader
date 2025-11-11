@@ -156,7 +156,7 @@ def get_arxiv_records(searchText, createdTime):
         "search_query": f"all:{searchText} AND lastUpdatedDate:[{createdTime.replace("-", "")}0000 TO {createdTime.replace("-", "")}2359]",
         "sortBy": "relevance",
         "sortOrder": "descending",
-        "max_results": {arXivCount},
+        "max_results": arXivCount,
     }
 
     try:
@@ -202,7 +202,7 @@ def get_crossref_ieee_acm_records(searchText, createdTime):
         "query": searchText,
         "sort": "relevance",
         "order": "desc",
-        "rows": {crossrefCount},
+        "rows": crossrefCount,
         "select": "created,title,author,container-title,URL",
         "filter": f"prefix:10.1145,prefix:10.1109,from-created-date:{createdTime}",
         "mailto": "1424057661@qq.com",
@@ -295,4 +295,5 @@ def getAllPapers(searchText, createdTime):
 # 脚本入口
 # =============================
 # getAllPapers(searchText)
+
 
