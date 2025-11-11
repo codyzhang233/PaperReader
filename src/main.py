@@ -35,7 +35,7 @@ class FileLogger:
         self.log_file.close()
 
 # 重定向标准输出和标准错误到文件
-log_file = f'../runlog/{createdTime}.log'
+log_file = f'runlog/{createdTime}.log'
 logger = FileLogger(log_file)
 # original_stdout = sys.stdout
 # original_stderr = sys.stderr
