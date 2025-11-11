@@ -10,7 +10,7 @@ jobs:
       contents: write # 新增：允许写入仓库（push 权限）
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      OPENAI_API_BAS: ${{ secrets.OPENAI_API_BASE }}
+      OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
       MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
       MODEL: ${{ secrets.MODEL }}
       SEARCH_TEXT: ${{ secrets.SEARCH_TEXT }}
