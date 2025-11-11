@@ -16,11 +16,11 @@ chunk_size = 10
 createdTime = date.today().strftime("%Y-%m-%d")
 
 # 邮件配置（请改为你自己的账号或使用环境变量）
-SENDER_EMAIL = "1424057661@qq.com"
-SENDER_PASS  = "ekjzxmnwuaukieic"
-RECEIVER_EMAIL = "fangzhigang32@163.com"
-SMTP_SERVER = "smtp.qq.com"
-SMTP_PORT = 465
+SENDER_EMAIL = os.environ.get('SENDER_EMAIL')
+SENDER_PASS  = os.environ.get('SENDER_PASS')
+RECEIVER_EMAIL = os.environ.get('RECEIVER_EMAIL')
+SMTP_SERVER = os.environ.get('SMTP_SERVER', 'smtp.qq.com')
+SMTP_PORT = os.environ.get('SMTP_PORT', 465)
 
 # ========== 工具函数 ==========
 def _checkpoint_write(path, data):
@@ -338,4 +338,5 @@ def select_error_message_email(ErrorMessage):
 # ========== 使用示例 ==========
 # Paperpath = "../papers/paper2025-11-08.json"
 # select_translate_and_email(Paperpath)
+
 
