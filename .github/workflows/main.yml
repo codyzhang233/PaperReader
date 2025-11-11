@@ -36,9 +36,14 @@ jobs:
         uses: browser-actions/setup-chrome@v1
         with:
           chrome-version: 130.0.6723.58
-          
+
       - name: Synchronous Dependencies
         run: uv sync --locked --all-extras --dev
+      - name: Ensure output directories exist # 新增：预创建目录
+        run: |
+          mkdir -p papers
+          mkdir -p runlog
+          echo "Directories ready: $(pwd)/papers"
 
       - name: Run main.py
         run: uv run src/main.py
