@@ -1,7 +1,7 @@
 
-# 📚 Paper Auto-Retriever & Filter
+# 📚 PaperReader
 
-> 每日自动从 **arXiv**、**IEEE Xplore**、**ACM Digital Library** 数据库检索目标论文，经 LLM 智能筛选后推送至指定邮箱，无需手动监控数据库更新，支持本地调试运行。
+> 每日自动抓取 arXiv、IEEE Xplore、ACM Digital Library 三大数据库前一天最新的论文，经 LLM 智能筛选出与你研究领域高度相关的内容后，直接推送至指定邮箱，无需手动监控数据库，还支持本地调试运行，高效跟进学术动态！
 
 ---
 
@@ -73,7 +73,7 @@
 
 将上述 Secrets 对应项设置为系统环境变量。
 
-#### 🪟 Windows（PowerShell）
+#### 🐧 Windows（PowerShell）
 
 ```powershell
 $env:OPENAI_API_KEY="你的API密钥"
@@ -81,7 +81,14 @@ $env:OPENAI_API_BASE="你的API基础地址"
 $env:MODEL_PROVIDER="openai"
 $env:MODEL="gpt-3.5-turbo"
 $env:SEARCH_TEXT="你的检索关键词"
-# 继续添加其他配置项
+$env:SEARCH_TEXT="你的检索关键词"
+$env:ARXIV_COUNT=50
+$env:CROSSREF_COUNT=50
+$env:SENDER_EMAIL="xxx@xx.xx"
+$env:SENDER_PASS="Authorization code"
+$env:RECEIVER_EMAIL="xxx@xx.xx"
+$env:SMTP_SERVER="smtp.qq.com"
+$env:SMTP_PORT=465
 ```
 
 #### 🐧 macOS / Linux（Bash）
@@ -92,7 +99,13 @@ export OPENAI_API_BASE="你的API基础地址"
 export MODEL_PROVIDER="openai"
 export MODEL="gpt-3.5-turbo"
 export SEARCH_TEXT="你的检索关键词"
-# 继续添加其他配置项
+export ARXIV_COUNT=50
+export CROSSREF_COUNT=50
+export SENDER_EMAIL="xxx@xx.xx"
+export SENDER_PASS="Authorization code"
+export RECEIVER_EMAIL="xxx@xx.xx"
+export SMTP_SERVER="smtp.qq.com"
+export SMTP_PORT=465
 ```
 
 ---
@@ -170,3 +183,4 @@ uv run src/main.py
 - 请合理设置检索频率与数量，避免对数据库服务器造成不必要压力  
 
 ---
+
