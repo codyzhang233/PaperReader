@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2025-11-19",
+    "title": "Application of Large Language Models in Software Development: Review of the Current State and Development Perspectives",
+    "authors": "Bozidar Radenkovic, Sergei Prokhorov, Milos Radenkovic, Aleksandra Labus",
+    "publish": "2025 6th International Workshop on Engineering Technologies and Computer Science (EnT)",
+    "url": "https://doi.org/10.1109/ent68818.2025.11245717",
+    "source": "IEEE",
+    "abstract": "Large Language Models (LLMs) are rapidly transforming software engineering by automating tasks such as code generation, test creation, debugging, and documentation. Their integration across the software development lifecycle, from requirements analysis to deployment, introduces both unprecedented opportunities and serious challenges. This paper offers a comprehensive review of LLM applications in software engineering, contextualized within the frameworks of LLMOps and DevOps. It examines how specialized models and autonomous agents are reshaping workflows and proposes a framework for assessing organizational readiness for LLM adoption. In addition to technical capabilities, we discuss limitations such as hallucinations, context constraints, and the lack of explainability, as well as broader concerns around licensing, security, and developer deskilling. Drawing from recent research and tooling ecosystems, we synthesize the emerging best practices for safely deploying LLMs in production environments. This article aims to equip practitioners and researchers with a structured understanding of the current state and future direction of LLM-assisted software development.",
+    "title_zh": "大型语言模型在软件开发中的应用：现状综述与发展趋势",
+    "abstract_zh": "大型语言模型（LLMs）正迅速改变软件工程领域，通过自动化代码生成、测试创建、调试和文档编写等任务，推动开发流程的革新。它们在软件开发生命周期中的全面集成——从需求分析到部署——既带来了前所未有的机遇，也带来了严峻挑战。本文系统综述了LLM在软件工程中的应用，并将其置于LLMOps与DevOps的框架下进行探讨。文章分析了专用模型与自主智能体如何重塑开发工作流，并提出一个评估组织在LLM采纳方面准备程度的框架。除了技术能力之外，我们还讨论了幻觉现象、上下文限制以及可解释性不足等局限性，以及在许可、安全性和开发者技能退化等方面的更广泛担忧。基于最新的研究成果和工具生态系统，本文提炼出在生产环境中安全部署LLM的新兴最佳实践。本文旨在为从业者和研究人员提供对LLM辅助软件开发当前状态及未来发展方向的结构化理解。"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "More Granular, Less Trust: Enforcing Intra-Process Isolation with Arm CCA in an Untrusted Management Environment",
+    "authors": "Shiqi Liu, Zhouqi Jiang, Jie Wang, Wei Zhou, Kun Sun, Zhaohui Chen, Yulai Xie",
+    "publish": "IEEE Transactions on Information Forensics and Security",
+    "url": "https://doi.org/10.1109/tifs.2025.3634981",
+    "source": "IEEE",
+    "abstract": "With the increasing adoption of confidential computing, security-sensitive applications are often deployed in confidential virtual machines (CVMs), which reduce reliance on third-party cloud providers. However, privilege attacks originating from the OS remain a significant threat in these environments. Existing finer-grained isolation schemes, such as SHELTER (USENIX SEC’23), provide process-level protection but are still vulnerable to intra-process attacks and potential collusion between the OS and intra-process adversaries. Many current intra-process isolation techniques continue to depend on the OS to manage and enforce isolation domains, leading to a large Trusted Computing Base (TCB). This gap highlights the need for more granular, less trust-dependent confidential computing solutions. In this paper, we present CCAegis, a system that extends the Arm Confidential Compute Architecture (CCA) to enforce intra-process isolation of sensitive data and operations, safeguarding them from both intra-process adversaries and the OS. We employ static analysis to track the flow of sensitive data and identify functions that handle such data. Permission-switching instructions are inserted at the function call and return points, adjusting permissions via the Granule Protection Table (GPT) to ensure that only designated functions can access the isolated data. Notably, CCAegis places trust solely in the Secure Monitor, which configures the GPTs and manages domain switching, thereby minimizing the TCB. We implemented CCAegis on both an official emulator and a real development board to assess its performance. Our experimental results show that CCAegis effectively isolates sensitive data and operations, with performance overheads ranging from 1.01× to 1.43× compared to the original version across real-world cryptographic workloads.",
+    "title_zh": "更细粒度，更少信任：在不受信任的管理环境中使用 Arm CCA 实现进程内隔离",
+    "abstract_zh": "随着机密计算的日益普及，许多对安全性要求较高的应用通常被部署在机密虚拟机（CVM）中，从而降低对第三方云服务提供商的依赖。然而，源自操作系统的权限攻击在这些环境中仍然是一个重大威胁。现有的细粒度隔离方案，如 SHELTER（USENIX SEC’23），虽能提供进程级别的保护，但仍易受到进程内攻击以及操作系统与进程内攻击者之间潜在合谋的影响。目前许多进程内隔离技术仍依赖操作系统来管理与强制执行隔离域，导致可信计算基（TCB）规模庞大。这一差距凸显了对更细粒度、更少依赖信任的机密计算解决方案的迫切需求。\n\n本文提出 CCAegis，一种扩展 Arm 机密计算架构（CCA）的系统，旨在实现敏感数据和操作的进程内隔离，从而有效防范来自进程内攻击者及操作系统的威胁。我们采用静态分析技术追踪敏感数据的流动，并识别处理此类数据的函数。在函数调用和返回点插入权限切换指令，通过Granule Protection Table（GPT）动态调整访问权限，确保仅有指定函数能够访问隔离的数据。值得注意的是，CCAegis仅信任安全监控器（Secure Monitor），由其负责配置GPT并管理域切换，从而显著缩小了可信计算基（TCB）。我们在官方模拟器和真实开发板上实现了CCAegis系统，以评估其性能表现。实验结果表明，CCAegis能够有效隔离敏感数据与操作，在真实世界密码学工作负载下，相较于原始版本的性能开销仅为1.01倍至1.43倍之间。"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "MPU Circuit Generation From Programs With Meta-Instructions",
+    "authors": "Tomoyuki Morimoto, Hiroto Iwata, Kiyoto Goto, Toshiyuki Tsutsumi",
+    "publish": "2025 24th International Symposium on Communications and Information Technologies (ISCIT)",
+    "url": "https://doi.org/10.1109/iscit67082.2025.11231713",
+    "source": "IEEE",
+    "abstract": "Simultaneous consideration of the microprocessor's (MPU's) architecture and its corresponding circuit is essential in MPU design. Nonetheless, generating a comprehensive circuit diagram during the early stages of architectural design is a significant challenge for designers. At present, there are no established computer-aided design tools capable of automatically generating MPU circuit diagrams during the early stages of design. This research addresses this gap by enabling the automatic generation of MPU circuit diagrams at the architecture design level. Our MPU architecture design toolset, MEIMAT, has been enhanced to visualize the MPU circuit diagram required to execute a given assembly program. We present a novel method for generating the MPU circuit diagram by synthesizing instruction circuit diagrams derived from assembly programs written with MEIMAT's metainstructions. The MPU circuit diagram is visualized based on a corresponding MPU functional expression, which is synthesized from the functional expressions of the meta-instructions within the assembly program. Since the meta-instructions are capable of representing any instruction set, MEIMAT can generate MPU circuit diagrams for arbitrary assembly programs. This innovative toolset empowers MPU designers to achieve a comprehensive and precise understanding of architectural configurations during development.",
+    "title_zh": "带有元指令的程序生成MPU电路",
+    "abstract_zh": "在微处理器（MPU）设计中，同时考虑其体系结构及其对应的电路设计至关重要。然而，在体系结构设计的早期阶段生成完整的电路图，对设计人员而言仍是一项重大挑战。目前，尚无成熟的计算机辅助设计工具能够在设计初期自动完成MPU电路图的生成。本研究通过在体系结构设计层面实现MPU电路图的自动生成，填补了这一空白。我们对MPU体系结构设计工具集MEIMAT进行了改进，使其能够可视化执行给定汇编程序所需的MPU电路图。本文提出了一种新颖的方法：通过合成由MEIMAT元指令编写的汇编程序所导出的指令电路图，来生成MPU电路图。该电路图基于相应的MPU功能表达式进行可视化呈现，而该功能表达式则由汇编程序中元指令的功能表达式综合而成。由于元指令能够表示任意指令集，因此MEIMAT可为任意汇编程序生成MPU电路图。这一创新性工具集使MPU设计人员能够在开发过程中全面、精确地理解体系结构配置。"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "Systematic Mapping Study on AI Integration in CI/CD Pipelines",
+    "authors": "Othmane Berrouyne, Manal El Bajta, Imade Benelallam",
+    "publish": "2025 11th International Conference on Optimization and Applications (ICOA)",
+    "url": "https://doi.org/10.1109/icoa66896.2025.11236947",
+    "source": "IEEE",
+    "abstract": "This Systematic Mapping Study (SMS) investigates the integration of Artificial Intelligence (AI) within Continuous Integration and Continuous Deployment (CI/CD) pipelines an essential component of modern DevOps practices. Although AI is increasingly adopted in software engineering, its application in CI/CD remains fragmented and underexplored. This study systematically analyzes 30 primary research papers published between 2018 and 2024, classifying AI-enhanced CI/CD efforts by publication trends, methodologies, applied techniques, challenges, and future directions. Results show that AI is primarily employed for test case prioritization, build failure prediction, and CI workflow optimization, leveraging machine learning, deep learning, reinforcement learning, and hybrid models. However, notable challenges remain, including limited explainability, data scarcity, integration complexity, and a lack of real-world validation. The study highlights key research gaps particularly in DevSecOps, explainable AI, and cross-project generalization and advocates for benchmark dataset creation and improved AI-human collaboration. This SMS offers a structured foundation to advance research and guide the practical adoption of AI in CI/CD environments.",
+    "title_zh": "关于人工智能在CI/CD流水线中集成的系统性映射研究",
+    "abstract_zh": "本系统映射研究（SMS）探讨了人工智能（AI）在持续集成与持续部署（CI/CD）流水线中的融合应用，而CI/CD是现代DevOps实践中的关键组成部分。尽管AI在软件工程领域日益普及，但其在CI/CD中的应用仍呈碎片化且研究不足。本研究系统分析了2018年至2024年间发表的30篇原始研究论文，从发表趋势、研究方法、应用技术、面临挑战及未来方向等方面对AI增强型CI/CD工作进行了分类。研究结果表明，AI主要应用于测试用例优先级排序、构建失败预测以及CI/CD流程优化，所采用的技术包括机器学习、深度学习、强化学习及混合模型。然而，仍存在显著挑战，如可解释性不足、数据稀缺、集成复杂性高以及缺乏真实场景验证。研究揭示了若干关键研究空白，特别是在DevSecOps、可解释AI以及跨项目泛化能力方面，并呼吁建立基准数据集，提升AI与人类的协作水平。本研究为推进AI在CI/CD环境中的科研发展和实际应用提供了结构化的基础。"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "Inferring Input Grammars from Code with Symbolic Parsing",
+    "authors": "Leon Bettscheider, Andreas Zeller",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3776743",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "从代码中推断输入语法的符号解析",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "Graph Retrieval-Augmented Generation: A Survey",
+    "authors": "Boci Peng, Yun Zhu, Yongchao Liu, Xiaohe Bo, Haizhou Shi, Chuntao Hong, Yan Zhang, Siliang Tang",
+    "publish": "ACM Transactions on Information Systems",
+    "url": "https://doi.org/10.1145/3777378",
+    "source": "ACM",
+    "abstract": "Recently, Retrieval-Augmented Generation (RAG) has achieved remarkable success in addressing the challenges of Large Language Models (LLMs) without necessitating retraining. By referencing an external knowledge base, RAG refines LLM outputs, effectively mitigating issues such as “hallucination”, lack of domain-specific knowledge, and outdated information. However, the complex structure of relationships among different entities in databases presents challenges for RAG systems. In response, GraphRAG leverages structural information across entities to enable more precise and comprehensive retrieval, capturing relational knowledge and facilitating more accurate, context-aware responses. Given the novelty and potential of GraphRAG, a systematic review of current technologies is imperative. This paper provides the first comprehensive overview of GraphRAG methodologies. We formalize the GraphRAG workflow, encompassing Graph-Based Indexing, Graph-Guided Retrieval, and Graph-Enhanced Generation. We then outline the core technologies and training methods at each stage. Additionally, we examine downstream tasks, application domains, evaluation methodologies, and industrial use cases of GraphRAG. Finally, we explore future research directions to inspire further inquiries and advance progress in the field. In order to track recent progress, we set up a repository at https://github.com/pengboci/GraphRAG-Survey.",
+    "title_zh": "图检索增强生成：一项综述",
+    "abstract_zh": "最近，检索增强生成（Retrieval-Augmented Generation, RAG）在无需重新训练大型语言模型（Large Language Models, LLMs）的情况下，取得了显著进展，有效应对了LLM面临的一系列挑战。通过引用外部知识库，RAG能够优化LLM的输出，有效缓解诸如“幻觉”、缺乏领域专业知识以及信息过时等问题。然而，数据库中不同实体之间复杂的关联结构给RAG系统带来了新的挑战。为此，GraphRAG利用实体间的结构化信息，实现更精准、更全面的检索，捕捉关系型知识，从而支持更加准确且上下文感知的回答。鉴于GraphRAG的创新性与巨大潜力，开展对其现有技术的系统性综述显得尤为必要。本文首次提供了对GraphRAG方法学的全面概述。我们形式化地定义了GraphRAG的工作流程，包括基于图的索引（Graph-Based Indexing）、图引导的检索（Graph-Guided Retrieval）以及图增强的生成（Graph-Enhanced Generation）三个阶段，并详细阐述了各阶段的核心技术与训练方法。此外，本文还探讨了GraphRAG在下游任务、应用领域、评估方法及工业实践中的具体应用。最后，我们展望了未来的研究方向，以激发进一步探索，推动该领域的持续发展。为便于追踪最新研究进展，我们在 https://github.com/pengboci/GraphRAG-Survey 建立了一个开源项目仓库。"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "Multimodal Fusion for Smart Contract Vulnerability Detection: An Experimental Dive",
+    "authors": "Huynh-Giang Le, Huu-Han Nguyen, Thai Hung Van, Doan Minh Trung, Phan The Duy",
+    "publish": "2025 24th International Symposium on Communications and Information Technologies (ISCIT)",
+    "url": "https://doi.org/10.1109/iscit67082.2025.11231648",
+    "source": "IEEE",
+    "abstract": "Smart contract vulnerabilities pose serious risks in blockchain ecosystems, yet existing detection methods often rely on either source code or opcode analysis in isolation, missing complementary information across modalities. This paper presents a multimodal learning framework that combines semantic features extracted from source code using CodeBERT with Structure-Based Traversal (SBT) encoding and behavioral patterns derived from opcode sequences using a gMLP(gated Multi-Layer Perceptron) model applied to TF-IDF vectors. The framework systematically evaluates various fusion strategies, including concatenation, self-attention, cross-attention, and a hybrid attention mechanism, all within a unified architecture and dataset. Extensive experiments on the SmartBugs benchmark demonstrate two key findings: (1) the pairing of CodeBERT(SBT) and gMLP(opcode) achieves superior modality synergy (F1-score: 0.84), and (2) our hybrid attention fusion mechanism further improves performance to 0.87 F1, outperforming other fusion strategies by up to 3.6%. Compared to the best unimodal baselines, our approach yields a 12.8% F1 gain. To the best of our knowledge, this is the first study to provide a systematic benchmark of these fusion strategies under a unified framework for smart contract vulnerability detection. These results underscore the importance of informed modality selection and intelligent fusion design in building robust AI-driven vulnerability detection tools.",
+    "title_zh": "多模态融合在智能合约漏洞检测中的应用：一次实验性探索",
+    "abstract_zh": "智能合约漏洞在区块链生态系统中带来严重风险，而现有的检测方法通常仅依赖源代码或操作码分析中的单一方式，难以捕捉跨模态的互补信息。本文提出了一种多模态学习框架，将基于CodeBERT提取的源代码语义特征与基于结构遍历（SBT）编码的信息相结合，并融合通过gMLP（门控多层感知机）模型处理TF-IDF向量所获得的操作码序列行为模式。该框架系统地评估了多种融合策略，包括拼接、自注意力、交叉注意力以及一种混合注意力机制，所有方法均在统一的架构和数据集上进行比较。在SmartBugs基准测试上的大量实验揭示了两个关键发现：（1）CodeBERT(SBT)与gMLP(opcode)的组合实现了卓越的模态协同效应（F1分数：0.84）；（2）我们提出的混合注意力融合机制进一步将性能提升至0.87 F1，相比其他融合策略最高提升达3.6%。相较于表现最佳的单模态基线方法，本方法实现了12.8%的F1分数提升。据我们所知，这是首个在统一框架下对多种融合策略进行系统性基准测试的研究，为智能合约漏洞检测提供了全面评估。这些结果凸显了在构建鲁棒的AI驱动漏洞检测工具时，明智选择模态与智能融合设计的重要性。"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "Intent-Based Automatic Security Enhancement Method Towards Service Function Chain",
+    "authors": "Deqiang Zhou, Xinsheng Ji, Wei You, Hang Qiu, Yu Zhao, Mingyan Xu",
+    "publish": "IEEE Transactions on Network and Service Management",
+    "url": "https://doi.org/10.1109/tnsm.2025.3635228",
+    "source": "IEEE",
+    "abstract": "The reliance on Network Function Virtualization (NFV) and Software-Defined Network (SDN) introduces a wide variety of security risks in Service Function Chain (SFC), necessitating the implementation of automated security measures to safeguard ongoing service delivery. To address the security risks faced by online SFCs and the shortcomings of traditional manual configuration, we introduce Intent-Based Networking (IBN) for the first time to propose an automatic security enhancement method through embedding Network Security Functions (NSFs). However, the diverse security requirements and performance requirements of SFCs pose significant challenges to the translation from intents to NSF embedding schemes, which manifest in two main aspects. In the logical orchestration stage, NSF composition consisting of NSF sets and their logical embedding locations will significantly impact the security effect. So security intent language model, a formalized method, is proposed to express the security intents. Additionally, NSF Embedding Model Generation Algorithm (EMGA) is designed to determine NSF composition by utilizing NSF capability label model and NSF collaboration model, where NSF composition can be further formulated as NSF embedding model. In the physical embedding stage, the differentiated service requirements among SFCs result in NSF embedded model obtained by EMGA being a multi-objective optimization problem with variable objectives. Therefore, Adaptive Security-aware Embedding Algorithm (ASEA) featuring adaptive link weight mapping mechanism is proposed to solve the optimal NSF embedding schemes. This enables the automatic translation of security intents into NSF embedding schemes, ensuring that both security requirements are met and service performance is guaranteed. We develop the system instance to verify the feasibility of intent translation solution, and massive evaluations demonstrate that ASEA algorithm has better performance compared with the existing works in the diverse requirement scenarios.",
+    "title_zh": "面向服务功能链的基于意图的自动安全增强方法",
+    "abstract_zh": "网络功能虚拟化（NFV）与软件定义网络（SDN）的广泛应用，为服务功能链（SFC）引入了多种安全风险，因此亟需实施自动化安全措施以保障业务持续交付。针对在线SFC面临的安全威胁以及传统手动配置方式的不足，本文首次引入意图驱动网络（IBN），提出一种通过嵌入网络安全功能（NSF）实现自动安全增强的新方法。然而，SFC所具有的多样化安全需求与性能要求，给从意图到NSF嵌入方案的转化带来了巨大挑战，主要体现在两个方面。\n\n在逻辑编排阶段，NSF组合（包括NSF集合及其逻辑嵌入位置）将显著影响整体安全效果。为此，本文提出一种形式化的安全意图语言模型，用于精确表达安全意图。同时，设计了NSF嵌入模型生成算法（EMGA），通过利用NSF能力标签模型和NSF协作模型，确定最优的NSF组合，并进一步将其形式化为NSF嵌入模型。\n\n在物理嵌入阶段，不同SFC之间的差异化服务需求导致EMGA生成的NSF嵌入模型成为一个目标可变的多目标优化问题。为此，本文提出自适应安全感知嵌入算法（ASEA），该算法具备自适应链路权重映射机制，能够有效求解最优的NSF嵌入方案。该方法实现了安全意图到NSF嵌入方案的自动转换，确保在满足安全需求的同时，也保障了服务质量。\n\n为验证意图转换方案的可行性，我们构建了系统原型，并通过大规模实验评估表明，在多样化的应用场景下，ASEA算法相较于现有方法展现出更优的综合性能。"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "FedTM: Federated ASIC Technology Mapping",
+    "authors": "Bhabesh Mali, Akash Lal Dutta, Chigarapally Chandrabhusan Reddy, Chandan Karfa, Sukanta Bhattacharjee",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3777417",
+    "source": "ACM",
+    "abstract": "Electronic Design Automation (EDA) software needs to solve computationally hard problems to automate and optimize circuit design. Clever heuristics are used in the EDA tools to trade off between the quality of results (QoR) and runtime. The Application Specific Integrated Circuit (ASIC) Technology Mapping (TM) is a fundamental problem in EDA that transforms a technology independent Boolean representation of a circuit into a technology-dependent representation using standard cells. The academic logic synthesis tool ABC represents the input circuit as And Inverter Graph (AIG) and use a cut-based Boolean matching algorithm for TM. However, this process has high computational overhead due to the Boolean matching across an exponentially large number of cuts. Machine Learning (ML) can provide faster, improved solutions through learning. In this regard, we have proposed LEAP: a novel ML-based cut classifier and a delay predictor, exposing a few high-quality cuts to the mapper. LEAP reduces the number of cuts by 51% compared to the ABC, resulting in a 2% improvement in delay without incurring any area penalty.",
+    "title_zh": "FedTM：联邦ASIC技术映射",
+    "abstract_zh": "电子设计自动化（EDA）软件需要解决大量计算难题，以实现电路设计的自动化与优化。EDA工具中采用了巧妙的启发式算法，在设计质量（QoR）与运行时间之间进行权衡。专用集成电路（ASIC）技术映射（TM）是EDA中的一个基础性问题，其任务是将电路的与技术无关的布尔表示转换为使用标准单元的与技术相关的表示。学术界的逻辑综合工具ABC将输入电路表示为与非图（AIG），并采用基于切割的布尔匹配算法完成技术映射。然而，由于需在指数级数量的切割之间进行布尔匹配，该过程带来了较高的计算开销。机器学习（ML）可通过学习提供更快、更优的解决方案。为此，我们提出了LEAP：一种基于机器学习的新型切割分类器与延迟预测器，能够向映射器暴露少数高质量的切割。相比ABC，LEAP将切割数量减少了51%，在不增加任何面积开销的前提下，实现了2%的延迟改善。"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "ChatGPT for Computational Electrostatics: Case study of Axisymmetric Conductors and Dielectrics",
+    "authors": "David Pokrajac, Marko D. Petkovic, Jelena Pejic",
+    "publish": "2025 17th International Conference on Advanced Technologies, Systems and Services in Telecommunications (TELSIKS)",
+    "url": "https://doi.org/10.1109/telsiks65061.2025.11240979",
+    "source": "IEEE",
+    "abstract": "We discuss how ChatGPT can be utilized to iteratively generate computational electrostatics code and visualizations. Specifically, we consider axisymmetric conductors and dielectrics and calculate and visualize charge densities, potential and electrostatic fields.",
+    "title_zh": "ChatGPT在计算静电学中的应用：轴对称导体与电介质的案例研究",
+    "abstract_zh": "我们探讨如何利用ChatGPT迭代生成计算静电学代码及可视化结果。具体而言，我们研究轴对称导体和电介质，计算并可视化电荷密度、电势以及静电场分布。"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "AI with Attentive Intelligence (AI\n                    <sup>2</sup>\n                    ) – Enabling Physical Monitoring Without Physical Boundaries",
+    "authors": "Massimo Alioto",
+    "publish": "2025 24th International Symposium on Communications and Information Technologies (ISCIT)",
+    "url": "https://doi.org/10.1109/iscit67082.2025.11231644",
+    "source": "IEEE",
+    "abstract": "Next-generation AI will be predictive, proactive and agentic, anticipating needs and necessary actions based on context rather than waiting for instructions. This requires tight cooperation of sensing and intelligence, and a hence new generation of sensory intelligence at the edge for always-on monitoring (e.g., surveillance, assistive technologies, security). Indeed, it is now well understood that highly-distributed AI outside the cloud is a necessity in view of the infeasibility of raw data transmission to the cloud, latency challenges, data deluge and network bottleneck, high consumption of continuous wireless streaming, and privacy sensitivities. As a remarkable convergence, highly-distributed AI will also help address the daunting challenge posed by the ludicrously high levels of power consumption that next-generation datacenters are expected to require. In this talk, intriguing trends and brand new technologies from our Green IC group at NUS are illustrated to show how (incredibly) pervasive AI can be, while simultaneously addressing environmental and energy sustainability challenges. Several enabling silicon chip technologies for sensory intelligence and AI will be discussed, sharing the latest disruptive innovation in applications such as monitoring, surveillance, security and context awareness. Everywhere and continuously, with no physical boundaries.",
+    "title_zh": "具有感知智能的人工智能（AI²）——实现无物理边界的实体监测",
+    "abstract_zh": "下一代人工智能将具备预测性、主动性与自主性，能够基于上下文提前预判需求并采取必要行动，而无需等待指令。这要求感知与智能之间实现紧密协作，因而亟需在边缘端发展新一代的感官智能技术，以实现全天候的持续监控（如安防、辅助技术、安全防护等）。事实上，如今已普遍认识到：由于原始数据传输至云端存在不可行性、延迟挑战、数据洪流与网络瓶颈、持续无线流媒体带来的高能耗，以及隐私敏感性等问题，高度分布式的AI部署已不再是可选项，而是必然趋势。尤为值得注意的是，这种高度分布式的AI还将有效应对下一代数据中心所面临令人难以置信的高功耗挑战。在本次演讲中，新加坡国立大学（NUS）绿色集成电路（Green IC）团队的前沿趋势与全新技术将被生动展示，揭示AI如何在极其广泛且无处不在的场景中实现渗透，同时兼顾环境与能源可持续性的重大挑战。我们将深入探讨若干推动感官智能与人工智能发展的关键硅基芯片技术，分享其在监测、安防、安全及情境感知等应用领域中的最新突破性创新。无所不在，持续不断，突破物理边界。"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "FPGA-Based 16-Channel Parallel Large-Point Pipeline FFT Design",
+    "authors": "Xiuyuan Yang, Ao Zhu, Guang-Cai Sun, Chi He, Jiao Tian, Mengdao Xing",
+    "publish": "2024 5th China International SAR Symposium (CISS)",
+    "url": "https://doi.org/10.1109/ciss63346.2024.11241202",
+    "source": "IEEE",
+    "abstract": "As a necessary tool for SAR imaging, FFT operation speed greatly affects the timeliness of SAR imaging. In order to meet the demand for high real-time performance and large data volume of satellite-borne SAR imaging, this paper designs a 16-channel parallel streaming FFT architecture with any quadratic powerpoint number within 131072 points. The architecture is based on the frequency domain extraction FFT algorithm, which changes the data input point by point to 16-point by 16-point, and accelerates the FFT calculation speed by 16 times compared with the traditional single-channel FFT. For the situation where the large-point FFT algorithm consumes a lot of storage resources, the SDF-FFT computational structure is adopted to reduce the use of BRAM resources step by step. Compared with Xilinx's FFT IP core, the bandwidth and operation speed of this architecture are increased by 16 times under the same clock frequency, which can be deployed on a single XC7VX690 chip without external storage to meet the requirements of real-time computation for large data, and the correctness of the results is verified by the on-board verification.",
+    "title_zh": "基于FPGA的16通道并行大点数流水线FFT设计",
+    "abstract_zh": "作为合成孔径雷达（SAR）成像的必要工具，快速傅里叶变换（FFT）的运算速度直接影响SAR成像的实时性。为满足星载SAR成像对高实时性和大数据量的需求，本文设计了一种16通道并行流式FFT架构，可处理任意不超过131072点的平方数点数的FFT运算。该架构基于频域抽取FFT算法，将传统的逐点输入方式改为每16点一组的批量输入，使FFT计算速度相比传统单通道FFT提升16倍。针对大点数FFT算法占用大量存储资源的问题，采用SDF-FFT（流水线分解结构）计算结构，逐步降低BRAM资源的使用量。与Xilinx的FFT IP核相比，在相同时钟频率下，本架构的带宽和运算速度提升了16倍，且仅需部署于单颗XC7VX690芯片上，无需外部存储即可满足大规模数据实时计算需求。通过在轨验证，结果的正确性得到了充分验证。"
+  },
+  {
+    "date": "2025-11-19",
+    "title": "LLM-Assisted Security Vulnerability Analysis for Educational Websites: Risk Identification via LLM-EduAttackGraph",
+    "authors": "Chao Liu, Jiaxing Liu, Boxi Chen, Daxin Zhu, Ching-Chun Chang, Chin-Chen Chang",
+    "publish": "IEEE Internet of Things Journal",
+    "url": "https://doi.org/10.1109/jiot.2025.3631562",
+    "source": "IEEE",
+    "abstract": "The digital transformation of educational systems has significantly optimized administrative workflows and enhanced the user experience for educators and learners. However, the accumulation of sensitive personal data on educational websites has made them prime targets for cyber threats. Despite growing awareness of these security challenges, the technical roots of vulnerabilities within such platforms remain insufficiently explored. To address this gap, we introduce LLM-EduAttackGraph, a specialized tool designed to assist in vulnerability detection by leveraging large language models (LLMs). Rather than serving as a fully automated monitoring system, LLM-EduAttackGraph operates as a human-in-the-loop assistant, combining expert knowledge with the analytical capabilities of LLMs to help identify potential penetration paths based on network fingerprint information. Using LLM-EduAttackGraph, we have so far identified 961 penetration vulnerabilities across educational websites in mainland China—a number that continues to grow as analysis progresses. These findings demonstrate the tool’s practical value in augmenting cybersecurity research and efforts. Our in-depth analysis of the discovered vulnerabilities reveals that limited developer experience and a heavy dependence on outsourced website development are key contributing factors. By shedding light on these root causes, our research offers actionable strategies and insights aimed at improving the cybersecurity posture of educational platforms and ensuring the sustainable development of online education. Furthermore, we have compared LLM-EduAttackGraph with several existing large model penetration tools to demonstrate the performance of LLM-EduAttackGraph. Such strengths include its low demand for hardware resources and having undergone empirical verification.",
+    "title_zh": "基于大语言模型的教育网站安全漏洞分析：通过LLM-EduAttackGraph实现风险识别",
+    "abstract_zh": "教育系统的数字化转型显著优化了行政工作流程，并提升了教师与学习者用户的使用体验。然而，教育类网站上积累的大量敏感个人信息使其成为网络攻击的重要目标。尽管对这些安全挑战的认识日益增强，但相关平台中漏洞的技术根源仍缺乏深入研究。为填补这一空白，我们提出 LLM-EduAttackGraph——一种专用于漏洞检测的智能辅助工具，该工具基于大语言模型（LLM）技术构建。与完全自动化的监控系统不同，LLM-EduAttackGraph 采用“人在回路”（human-in-the-loop）的设计理念，将领域专家的经验知识与大语言模型的分析能力相结合，能够基于网络指纹信息识别潜在的渗透路径。\n\n借助 LLM-EduAttackGraph，我们目前已在大陆地区教育类网站中发现 961 个可被利用的渗透漏洞，且随着分析工作的持续深入，这一数字仍在不断增长。这些成果充分体现了该工具在增强网络安全研究与防护实践方面的实际价值。通过对所发现漏洞的深入分析，我们揭示出：开发人员经验不足以及过度依赖外包网站建设，是导致安全风险的主要根源。本研究通过揭示这些问题的根本成因，提出了切实可行的改进策略与洞见，旨在提升教育平台的整体网络安全水平，保障在线教育的可持续发展。\n\n此外，我们将 LLM-EduAttackGraph 与若干现有大型模型渗透测试工具进行了对比，验证了其优越性能。该工具具备硬件资源需求低、经过实证检验等优势，展现出良好的应用前景与实用价值。"
+  }
+]
