@@ -67,7 +67,7 @@
 
 ---
 
-## 4. 自定义研究方向筛选规则
+### 4. 自定义研究方向筛选规则
 
 论文相关性判断逻辑由 `src/selectRelevantPaper.py` 中的  
 `llm_is_relevant(title, abstract)` 方法控制，主要通过 `user_template` 定义筛选标准。
@@ -197,6 +197,7 @@ uv run src/main.py
 - 请合理设置检索频率与数量，避免对数据库服务器造成不必要压力  
 
 ---
+
 
 
 
