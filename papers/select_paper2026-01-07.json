@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-1-7",
+    "title": "A Declarative Conversion Framework for Legacy CAE Input Systems: Pattern-Based Parsing and Unified Intermediate Representation",
+    "authors": "Yushu Jiao, Xiaoman Dong, Peilong Tian, Xiaoyang Zhang, Sunwei Li",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779498",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向遗留CAE输入系统的声明式转换框架：基于模式的解析与统一中间表示",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Large Language Model Data Query Method Based on Feedback Optimization Prompt Word Engineering",
+    "authors": "Xu Zhang, Yi Liu, Wenshuai Li, Yongyi Huang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779503",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于反馈优化提示词工程的大语言模型数据查询方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Framework of Knowledge Graph-Enhanced Large Language Model Based on Global Planning_supp1-3639599.pdf",
+    "authors": "Dandan Song",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tkde.2025.3639599/mm1",
+    "source": "IEEE",
+    "abstract": "Knowledge graphs (KGs) can provide structured knowledge to assist large language models (LLMs) in interpretable reasoning. Knowledge graph question answering (KGQA) is a typical benchmark to evaluate KG-enhanced LLM methods. Previous methods of KG-enhanced LLMs for KGQA mainly include: 1) origin question-oriented methods, which perform KG retrieval based solely on the original question without explicitly analyzing multi-step reasoning logic; and 2) stepwise reasoning-oriented methods, which alternate between LLM generating the next reasoning step and targeted KG retrieval but lack systematic planning, leading to poor controllability. To tackle these limitations, we propose KELGoP, a framework of KG-enhanced LLM based on global planning. We propose fine-grained question categorization based on reasoning patterns and corresponding category-driven question decomposition for complex questions, enabling more controllable reasoning and atomic KG retrieval targeted to sub-questions. Furthermore, we propose an adaptive strategy that allows adjusting the reasoning pattern based on the performance of question answering, making the reasoning more flexible and robust. Finally, we introduce several efficient atomic KG retrieval strategies that operate on KG subgraphs to assist the LLM in answering atomic-level questions. A series of experiments on KGQA datasets demonstrate that our proposed framework achieves superior performance compared to existing baselines.",
+    "title_zh": "基于全局规划的知识图谱增强型大语言模型框架_supp1-3639599.pdf",
+    "abstract_zh": "知识图谱（KG）能够提供结构化知识，以辅助大语言模型（LLM）进行可解释的推理。知识图谱问答（KGQA）是评估增强型知识图谱的LLM方法的一个典型基准。以往针对KGQA的增强型LLM方法主要分为两类：1）基于原始问题的方法，仅根据原始问题执行知识图谱检索，而未显式分析多步推理逻辑；2）基于逐步推理的方法，交替进行LLM生成下一步推理和针对性的知识图谱检索，但缺乏系统性规划，导致控制能力较差。为解决上述局限性，我们提出了KELGoP——一种基于全局规划的增强型知识图谱LLM框架。该框架提出基于推理模式的细粒度问题分类，并据此实现类别驱动的问题分解，以应对复杂问题，从而实现更可控的推理过程以及针对子问题的原子级知识图谱检索。此外，我们设计了一种自适应策略，可根据问答性能动态调整推理模式，使推理过程更具灵活性与鲁棒性。最后，我们引入了多种高效的原子级知识图谱检索策略，这些策略在知识图谱子图上运行，以帮助LLM回答原子级别的问题。在多个KGQA数据集上的实验结果表明，所提出的框架在性能上显著优于现有基线方法。"
+  }
+]
