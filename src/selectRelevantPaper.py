@@ -42,10 +42,10 @@ def llm_is_relevant(title, abstract):
     
     user_template = (
     "My research focuses on next-generation wireless communications (6G), specifically Integrated Sensing and Communication (ISAC) and advanced physical layer technologies.\n\n"
-    "Key areas of my interest include:\n"
-    "1. Near-field, Far-field, and Mixed-field communications.\n"
-    "2. Intelligent Reflecting Surfaces (IRS/RIS) and UAV-assisted communications.\n"
-    "3. Advanced modulation and multiple access: OFDM, OTFS, and Rate Splitting Multiple Access (RSMA).\n"
+    "Key areas of my interest include:\n\n"
+    "1. Near-field, Far-field, and Mixed-field communications.\n\n"
+    "2. Intelligent Reflecting Surfaces (IRS/RIS) and UAV-assisted communications.\n\n"
+    "3. Advanced modulation and multiple access: OFDM, OTFS, and Rate Splitting Multiple Access (RSMA).\n\n"
     "4. Physical layer security and secure communication.\n\n"
     "Please determine whether the following paper is related to or potentially useful for my research.\n\n"
     "If the paper involves ISAC, Near-field/Far-field/Mixed-field communication, IRS/RIS, UAVs, 6G, OFDM, OTFS, RSMA, or Secure Communication, "
@@ -343,6 +343,7 @@ def select_error_message_email(ErrorMessage):
 # ========== 使用示例 ==========
 # Paperpath = "../papers/paper2025-11-08.json"
 # select_translate_and_email(Paperpath)
+
 
 
 
