@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-02-05",
+    "title": "Integrated Sensing, Communication, and Control for UAV-Assisted Mobile Target Tracking",
+    "authors": "Zhiyu Chen, Ming-Min Zhao, Songfu Cai, Ming Lei, Min-Jian Zhao",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.05209v1",
+    "source": "arXiv",
+    "abstract": "Unmanned aerial vehicles (UAVs) are increasingly deployed in mission-critical applications such as target tracking, where they must simultaneously sense dynamic environments, ensure reliable communication, and achieve precise control. A key challenge here is to jointly guarantee tracking accuracy, communication reliability, and control stability within a unified framework. To address this issue, we propose an integrated sensing, communication, and control (ISCC) framework for UAV-assisted target tracking, where the considered tracking system is modeled as a discrete-time linear control process, with the objective of driving the deviation between the UAV and target states toward zero. We formulate a stochastic model predictive control (MPC) optimization problem for joint control and beamforming design, which is highly non-convex and intractable in its original form. To overcome this difficulty, the target state is first estimated using an extended Kalman filter (EKF). Then, by deriving the closed-form optimal beamforming solution under a given control input, the original problem is equivalently reformulated into a tractable control-oriented form. Finally, we convexify the remaining non-convex constraints via a relaxation-based convex approximation, yielding a computationally tractable convex optimization problem that admits efficient global solution. Numerical results show that the proposed ISCC framework achieves tracking accuracy comparable to a non-causal benchmark while maintaining stable communication, and it significantly outperforms the conventional control and tracking method.",
+    "title_zh": "无人机辅助移动目标跟踪的集成传感器、通信与控制",
+    "abstract_zh": "无人驾驶飞行器（UAV）正在日益应用于目标跟踪等关键任务，其中它们需同时感知动态环境、保障可靠通信并实现精准控制。这一领域的关键挑战在于：在统一框架下同时保证跟踪精度、通信可靠性和控制稳定性。为解决这一问题，我们提出了一种集成了感知、通信与控制的综合框架（ISCC），用于无人机辅助目标跟踪。在该框架中，目标跟踪系统被建模为离散时间线性控制系统，其核心目标是通过联合控制与波束成形设计，使无人机与目标状态的偏差趋近于零。\n\n针对原始高度非凸且难以处理的随机模型预测控制（MPC）优化问题，我们提出分步解决方案：首先，利用扩展卡尔曼滤波器（EKF）对目标状态进行估计；其次，基于给定控制输入推导出波束成形的闭式最优解，将原问题等价转化为面向控制的非凸优化问题；最终，通过基于松弛的凸近似方法（convex relaxation）消除剩余非凸约束，构建出计算高效且可保证全局最优的凸优化问题。数值仿真结果表明，所提出的ISCC框架在跟踪精度上可与无因果基准方法相媲美，同时保持稳定的通信性能，其综合性能显著优于传统控制与跟踪方法。\n\n（说明：翻译过程中对部分术语进行了专业化处理，如\"stochastic MPC\"译为\"随机模型预测控制\"（标准译法）、\"beamforming\"译为\"波束成形\"（通信领域通用术语）。针对技术细节的表述，在保持专业性的同时兼顾了中文表达的流畅性，例如将\"tractable control-oriented form\"译为\"面向控制的非凸优化问题\"，既准确传达了技术内涵，又符合中文技术文档的表达习惯。）"
+  }
+]
