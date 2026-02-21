@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-2-20",
+    "title": "Securing Encrypted 6G Traffic: An Edge-Optimized AI Framework for Attack Detection",
+    "authors": "Daniel Esemezie, Iqra Batool, Mostafa M. Fouda, Mohamed I. Ibrahem, Zubair Md Fadlullah",
+    "publish": "2025 IEEE Smart World Congress (SWC)",
+    "url": "https://doi.org/10.1109/swc65939.2025.00214",
+    "source": "IEEE",
+    "abstract": "In today’s networks, encryption is ubiquitous—protecting data privacy while simultaneously hindering security monitoring. This research introduces a privacy-preserving framework that achieves 99.2% accuracy in detecting brute-force attacks in encrypted 6G traffic without decryption. We compare supervised (CNN) and unsupervised (autoencoder) models operating exclusively on flow-level metadata such as packet timing, size distribution, and protocol behavior. The CNN classifier significantly outperforms the autoencoder and can be optimized (0.7MB) for edge deployment, enabling terabit-speed monitoring with sub-millisecond latency when distributed across 6G networks. Our approach resolves the security-privacy tension by maintaining encryption while effectively identifying malicious activities, making it ideal for future 6G environments where both privacy and computational efficiency are critical.",
+    "title_zh": "保护加密的6G流量：边缘优化的AI框架用于攻击检测",
+    "abstract_zh": "在当今网络中，加密技术已成为标准配置——既保护了数据隐私，又对安全监控形成阻碍。本研究提出了一种隐私保护框架，能够在不解密的情况下，以99.2%的准确率检测针对6G加密流量中的暴力破解攻击。我们比较了仅基于流级元数据（如数据包时间、大小分布和协议行为）运行的监督式（CNN）与非监督式（自编码器）模型。实验表明，CNN分类器性能显著优于自编码器，且经过优化（压缩至0.7MB）后可适配边缘设备部署，在分布式6G网络架构下可实现太比特级吞吐量的监控，并保持亚毫秒级延迟。该方案通过加密流量保护与恶意行为识别的协同设计，有效平衡了安全与隐私的矛盾，为未来6G环境中的隐私敏感场景提供了兼具隐私保护与计算效率的解决方案。\n\n（说明：翻译在保持技术严谨性的同时进行了以下优化：\n1. 将\"ubiquitous\"译为\"标准配置\"更符合中文技术语境\n2. 使用\"协同设计\"强调技术平衡理念\n3. 补充\"吞吐量\"明确\"terabit-speed\"的技术内涵\n4. 将\"edge deployment\"具体化为\"边缘设备部署\"\n5. 增加\"隐私敏感场景\"作为应用场景的限定词\n6. 采用\"解决方案\"替代简单重复\"框架\"，突出系统性\n7. 通过\"经过优化（压缩至0.7MB）\"的表述更清晰传达技术细节）"
+  },
+  {
+    "date": "2026-2-20",
+    "title": "DRL-Based Wireless-Powered UAVs Trajectories Planning for Fair Communication_supp1-3664292.pdf",
+    "authors": "Xiaoyu Wang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tmc.2026.3664292/mm1",
+    "source": "IEEE",
+    "abstract": "While unmanned aerial vehicle base stations (UAV-BSs) offer transformative potential for enhancing terrestrial networks, their deployment faces dual challenges of limited onboard energy and dynamic channel conditions that compromise long-term fair communication coverage. In this paper, we investigate the problem of <bold xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><u>W</u></b>ireless-powered <bold xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><u>U</u></b>AVs <bold xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><u>T</u></b>rajectories planning for <bold xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><u>F</u></b>air communication (WUTF), that is, navigating multiple UAV-BSs powered by wireless charging towers (WCTs), to provide fair communication services for ground users. To address the problem, we first formulate the original optimization problem as a Partially Observable Markov Decision Process (POMDP), and propose a Deep Reinforcement Learning (DRL) based trajectory planning algorithm. The proposed approach incorporates a novel reward function that balances multiple objectives and adopts a Centralized Training with Executed Decentralization (CTED) framework. Furthermore, a sequential policy update scheme is introduced to enhance multi-UAV coordination and reduce policy conflicts. Simulation results show that our proposed algorithm significantly improves the communication fairness, total throughput, and communication efficiency, as compared to state-of-the-art DRL-based methods up to <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$32.01\\%$</tex-math></inline-formula> on average.",
+    "title_zh": "基于深度强化学习的无线供电无人机轨迹规划为公平通信Supp1-3664292.pdf",
+    "abstract_zh": "尽管<bold>无人机基站</bold>（UAV-BSs）为提升地面网络提供了变革潜力，但其部署面临双重挑战：有限的<bold>机载能源</bold>和动态信道条件对长期<bold>公平通信覆盖</bold>造成损害。本文研究的问题是<bold>无线供电无人机轨迹规划以实现公平通信</bold>（WUTF），即通过<bold>无线充电塔（WCTs）</bold>供电的<bold>多无人机基站</bold>进行导航，为地面用户提供<bold>公平通信服务</bold>。为解决这一问题，我们首先将原始优化问题建模为<bold>部分可观测马尔可夫决策过程（POMDP）</bold>，并提出一种基于<bold>深度强化学习（DRL）</bold>的轨迹规划算法。所提方法采用一种创新的<bold>奖励函数</bold>来平衡多个目标，并基于<bold>集中训练与执行去中心化（CTED）</bold>框架。此外，引入一种<bold>序列化策略更新机制</bold>以增强多无人机协同，减少策略冲突。仿真结果表明，相较于最先进的DRL方法，本提出的算法在通信公平性、总吞吐量和通信效率方面均显著提升，平均提升幅度达<bold>32.01%</bold>。"
+  }
+]
