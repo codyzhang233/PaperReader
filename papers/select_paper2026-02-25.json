@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-02-25",
+    "title": "Implementation and transition to post-quantum cryptography of the Minimal IKE protocol",
+    "authors": "Davide De Zuane, Paolo Santini, Marco Baldi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.21737v1",
+    "source": "arXiv",
+    "abstract": "This paper concerns the Minimal Internet Key Exchange (IKE) protocol, which has received little attention to date, despite its potential to make the best-known IKE protocol sufficiently lightweight to be also applied in contexts where it is currently prohibitive, due to its large footprint. First, we introduce and describe Colibri, an efficient, open-source implementation of the Minimal IKE protocol, which allows us to quantitatively assess its real advantages in terms of lightness. Then we introduce a post-quantum variant of the Minimal IKE protocol, which is essential to make it contemporary, and assess it through Colibri. We demonstrate that the protocol performance remains excellent even in such a more challenging context, making it suitable for deploying pervasive and quantum-resistant virtual private networks.",
+    "title_zh": "最小化IKE协议的后量子密码学实现及过渡。",
+    "abstract_zh": "本文探讨极简版IKE协议（Minimal Internet Key Exchange），尽管该协议具备将标准IKE协议轻量化至可应用于当前因占用空间较大而受限场景的潜力，却长期未受到足够关注。首先，我们介绍了Colibri——一个针对极简IKE协议的高效开源实现方案，并基于该实现定量评估了协议在轻量化方面的实际优势。其次，我们提出了一种后量子变种极简IKE协议，这是使其符合当代安全需求的关键。通过Colibri对变种协议进行性能评估，实验表明即使在更严苛的量子计算威胁环境下，该协议仍能保持卓越性能，特别适合部署抗量子虚拟专用网络（VPN）等泛在化安全场景。"
+  }
+]
