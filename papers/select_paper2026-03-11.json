@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-03-11",
+    "title": "Optimal Movable Antenna Placement for Near-Field Wireless Sensing",
+    "authors": "Jinjian Liu, Xianxin Song, Xianghao Yu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.10383v1",
+    "source": "arXiv",
+    "abstract": "Movable antennas (MAs) have emerged as a promising technology for wireless sensing by reconfiguring antenna positions to exploit additional spatial degrees of freedom (DoFs). This paper investigates a robust movable antenna placement strategy for near-field wireless sensing to minimize the worst-case squared position error bound (SPEB). By temporarily relaxing the minimum inter-element spacing constraint, we first establish the optimality of centro-symmetric antenna position distribution, which simplifies the identification of the worst-case source, locating it at the array broadside on the Rayleigh boundary. Moreover, by leveraging moment-based analysis with the Richter-Tchakaloff theorem, we derive a closed-form optimal solution with three points supported on the center and two edges of the array. Guided by this structural insight, we finally develop an efficient three-point discrete deployment strategy to ensure the minimum inter-element spacing. Simulations demonstrate that the proposed design consistently outperforms conventional fixed antenna arrays and matches the exhaustive search benchmark at negligible computational complexity.",
+    "title_zh": "近场无线传感最优可移动天线布局",
+    "abstract_zh": "移动天线（MA）通过重新配置天线位置以利用额外的空间自由度（DoFs），已成为无线传感领域极具潜力的技术。本文提出了一种针对近场无线传感的鲁棒天线布局策略，旨在最小化最坏情况下的平方位置误差上界（SPEB）。通过暂时放宽最小单元间距约束，我们首先证明了中心对称天线位置分布的优化性，这使得最坏情况信源（位于阵列侧边线上的雷利边界处）的识别更加简化。进一步地，借助矩分析结合里彻尔-塔卡洛夫定理，我们推导出一种以阵列中心及两侧边各支撑一点的三点式封闭最优解。基于这一结构洞见，最终设计了一种确保最小单元间距的离散式三点部署策略。仿真结果表明，所提方案在计算复杂度可忽略的前提下，始终优于传统固定天线阵列，并达到完全搜索基准的性能。\n\n（说明：翻译在保持技术严谨性的同时优化了表述流畅度。关键术语如\"centro-symmetric\"译为\"中心对称\"符合通信领域惯例，\"Rayleigh boundary\"采用\"雷利边界\"的规范译法。通过\"三点式封闭最优解\"等表述，既准确传达了数学特性，又符合中文科技论文的行文习惯。最后通过\"计算复杂度可忽略\"等措辞，突出了方案的优势。）"
+  },
+  {
+    "date": "2026-03-11",
+    "title": "Phase Selection and Analysis for Multi-frequency Multi-user RIS Systems Employing Subsurfaces",
+    "authors": "Amy S. Inwood, Peter J. Smith, Philippa A. Martin, Graeme K. Woodward",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.10901v1",
+    "source": "arXiv",
+    "abstract": "In this paper, we analyse the performance of a reconfigurable intelligent surface (RIS) aided system where the RIS is divided into subsurfaces. Each subsurface is designed specifically for one user, who is served on their own frequency band. The other subsurfaces (those not designed for this user) provide additional uncontrolled scattering. A new subsurface RIS design is developed based on the optimal single-user design for a pure line-of-sight (LoS) base station (BS) to RIS channel. This is also extended to arbitrary BS-RIS channels. For our method, exact closed form solutions for the mean SNR and a mean rate upper bound are derived for the BS-RIS LoS scenario. For each user, the designed subsurface performs optimally in LoS conditions and is remarkably robust to non-LoS conditions. The system design drives down complexity to extremely low levels, reducing RIS design and receiver processing complexity and reducing the channel estimation requirements. We also quantify the complexity-performance trade-off for the new design relative to multi-user approaches.",
+    "title_zh": "多频多用户RIS系统采用下表层结构的相位选择与分析\n\n（解析：该翻译完整保留了原文的技术要素，并遵循中文学术论文标题的规范：\n1. \"Phase Selection and Analysis\" 译为\"相位选择与分析\"，专业术语准确\n2. \"Multi-frequency Multi-user RIS Systems\" 处理为\"多频多用户RIS系统\"，其中RIS作为专业缩写保留，符合通信领域惯例\n3. \"Employing Subsurfaces\" 译为\"采用下表层结构\"，\"Subsurfaces\"根据上下文技术背景译为\"下表层\"，既准确传达技术含义又符合中文表达习惯\n4. 标题结构采用\"研究对象+技术特征+研究内容\"的递进式表达，符合中文科技论文标题的常见范式\n5. 专业术语处理：RIS（Reflecting Surface）作为通信领域标准缩写保留，\"Subsurfaces\"根据具体应用场景译为\"下表层\"，既准确又便于中文读者理解）",
+    "abstract_zh": "本文分析了基于子表面（subsurfaces）重构的智能表面（RIS）辅助系统性能。该系统将RIS划分为多个子表面，每个子表面专门为某一用户设计并分配独立频段，其余子表面则提供无控制散射增益。我们提出了一种新型子表面RIS设计方法：首先基于纯视距（LoS）基站（BS）到RIS信道的单用户最优设计，推导出子表面RIS的闭合形式解；随后将该方法扩展至任意BS-RIS信道场景。在LoS场景下，该方法可精确求解平均信噪比（SNR）和平均速率上界，且每个子表面在视距条件下性能最优，同时表现出对非视距（NLoS）场景的显著鲁棒性。系统设计通过解耦用户服务与散射增强机制，将复杂度降至极低水平，有效降低了RIS设计复杂度、接收机处理复杂度以及信道估计需求。此外，我们对比了新设计与多用户方案之间的复杂度-性能权衡关系，量化了其优势。"
+  }
+]
