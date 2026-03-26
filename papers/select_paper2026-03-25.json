@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-03-25",
+    "title": "RIS-Assisted D-MIMO for Energy-Efficient 6G Indoor Networks",
+    "authors": "Akshay Vayal Parambath, Jose Flordelis, Venkatesh Tentu, Charitha Madapatha, Fredrik Rusek, Erik Bengtsson, Tommy Svensson",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.24180v1",
+    "source": "arXiv",
+    "abstract": "We propose an alternating optimization framework for maximizing energy efficiency (EE) in reconfigurable intelligent surface (RIS) assisted distributed MIMO (D-MIMO) systems under both coherent and non-coherent reception modes. The framework jointly optimizes access point (AP) power allocation and RIS phase configurations to improve EE under per-AP power and signal-to-interference-plus-noise ratio (SINR) constraints. Using majorization-minimization for power allocation together with per-element RIS adaptation, the framework achieves tractable optimization of this non-convex problem. Simulation results for indoor deployments with realistic power-consumption models show that the proposed scheme outperforms equal-power and random-scatterer baselines, with clear EE gains. We evaluate the performance of both reception modes and quantify the impact of RIS phase-shift optimization, RIS controller architectures (centralized vs. per-RIS control), and RIS size, providing design insights for practical RIS-assisted D-MIMO deployments in future 6G networks.",
+    "title_zh": "反射面辅助的D-MIMO在6G室内网络中的能效优化  \n(Fǎnshèmiàn fǔzhù de D-MIMO zài 6G Shìnài Wǎngluò zhōng de néngxiào yōuhuà)  \n\n**解析：**  \n1. **RIS-Assisted** 译为“反射面辅助的”，直接对应技术手段与辅助关系。  \n2. **D-MIMO** 保留英文缩写，因该术语在中文文献中通用且无需翻译。  \n3. **Energy-Efficient 6G Indoor Networks** 译为“6G室内网络中的能效优化”，突出应用场景（室内网络）与目标（能效优化），符合中文技术标题的表述习惯。  \n4. 整体结构采用“技术手段 + 应用场景 + 优化目标”的递进式表达，简洁且信息完整。  \n\n若需进一步调整（如强调“方案”或“技术”），可微调为：  \n- **6G室内网络能效优化方案：RIS辅助的D-MIMO技术**  \n（6G Shìnài Wǎngluò Néngxiào Yōuhuà Fāngàn: RIS Fǔzhù de D-MIMO Jìshù）",
+    "abstract_zh": "我们提出了一种交替优化框架，用于在协作式与非协作式接收模式下的RIS辅助分布式MIMO（D-MIMO）系统中最大化能效（EE）。该框架通过联合优化接入点（AP）的功率分配和RIS的相位配置，在满足每接入点功率限制和信干噪比（SINR）约束条件下提升能效。通过主元-最小化方法进行功率分配，并结合按元素的自适应RIS相位调整，实现了对这一非凸问题的可处理优化。仿真结果表明，在室内部署场景下采用实际功耗模型时，本方案较等功率分配和随机散射体基准方案能效提升显著。我们进一步评估了两种接收模式的性能表现，并量化了RIS相位优化、集中式与分布式控制器架构设计以及RIS规模对系统性能的影响，为未来6G网络中RIS辅助D-MIMO系统的实际部署提供了关键设计启示。\n\n（说明：翻译过程中对专业术语进行了标准化处理，如：\n1. \"alternating optimization framework\"译为\"交替优化框架\"（学术常用译法）\n2. \"coherent/non-coherent reception modes\"译为\"协作式/非协作式接收模式\"（符合通信领域术语规范）\n3. \"majorization-minimization\"译为\"主元-最小化\"（数学优化领域标准译法）\n4. \"SINR\"保留英文缩写并补充中文全称\"信干噪比\"\n5. \"centralized vs. per-RIS control\"译为\"集中式与分布式控制器架构\"，通过补充说明保持技术准确性\n6. \"design insights\"译为\"设计启示\"，既保留原意又符合中文表达习惯）"
+  },
+  {
+    "date": "2026-03-25",
+    "title": "Robust and Secure Near-Field Communication via Curved Caustic Beams",
+    "authors": "Shicong Liu, Xianghao Yu, Robert Schober",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.24077v1",
+    "source": "arXiv",
+    "abstract": "Near-field beamfocusing with extremely large aperture arrays can effectively enhance physical layer security. Nevertheless, even small estimation errors of the eavesdropper's location may cause a pronounced focal shift, resulting in a severe degradation of the secrecy rate. In this letter, we propose a physics-informed robust beamforming strategy that leverages the electromagnetic (EM) caustic effect for near-field physical layer security provisioning, which can be implemented via phase shifts only. Specifically, we partition the transmit array into caustic and focusing subarrays to simultaneously bypass the potential eavesdropping region and illuminate the legitimate user, thereby significantly improving the robustness against the localization error of eavesdroppers. Moreover, by leveraging the connection between the phase gradient and the EM wave departing angle, we derive the corresponding piece-wise closed-form array phase profile for the subarrays. Simulation results demonstrate that the proposed scheme achieves up to an 80% reduction of the worst-case eavesdropping rate for a localization error of 0.25 m, highlighting its superiority for providing robust and secure communication.",
+    "title_zh": "基于弯曲光焦线的健壮安全近场通信\n\n解析：\n1. \"Robust and Secure\" 译为\"健壮安全\"，采用并列结构符合中文表达习惯，同时保留原文强调的双重特性。\n2. \"Near-Field Communication\" 标准译为\"近场通信\"，该术语在通信领域已有通用译法。\n3. \"Curved Caustic Beams\" 译为\"弯曲光焦线\"，其中：\n   - \"Curved\" 对应\"弯曲\"\n   - \"Caustic\" 在光学领域译为\"光焦线\"（指光线反射/折射形成的焦散曲线）\n   - \"Beams\" 译为\"线\"而非\"束\"，因中文文献中更常用\"光焦线\"描述该现象\n4. 采用\"基于...的...\"结构，既准确传达\"via\"的语义，又符合中文科技论文标题的规范（如《基于XXX的...研究》）\n5. 标题长度控制在20字以内（中文论文标题最佳实践），同时完整保留原文信息要素\n\n备选方案：\n- \"通过弯曲焦散波束实现可靠安全的近场通信\"（更强调技术实现路径）\n- \"基于曲线光焦线的高可靠近场通信系统\"（突出系统属性）\n\n最终选择\"基于弯曲光焦线的健壮安全近场通信\"，在准确性和简洁性之间取得最佳平衡，符合IEEE等国际期刊的中文译名规范。",
+    "abstract_zh": "近场波束聚焦技术利用极大孔径阵列可有效增强物理层安全。然而，窃听者位置估计的微小误差可能导致显著焦点偏移，进而引发机密速率的严重下降。本文提出一种基于物理原理的鲁棒波束成形策略，通过利用电磁焦散效应实现近场物理层安全防护，且仅需相位调整即可完成。具体而言，我们将发射阵列划分为焦散子阵列和聚焦子阵列，同步绕过潜在窃听区域并照射合法用户，从而显著提升系统对窃听者定位误差的鲁棒性。此外，通过建立相位梯度与电磁波出射角之间的关联，我们推导出子阵列的分段闭合式阵列相位轮廓。仿真结果表明，所提方案在窃听者定位误差为0.25米时，可实现最坏情况窃听速率降低达80%，凸显了其在保障可靠安全通信方面的优越性。\n\n（说明：翻译过程中着重处理了以下技术要点：\n1. \"caustic effect\"译为\"焦散效应\"，保留专业术语特征\n2. \"piece-wise closed-form\"采用\"分段闭合式\"的译法，既准确又符合中文表达习惯\n3. \"secrecy rate\"统一译为\"机密速率\"，保持术语一致性\n4. \"localization error\"译为\"定位误差\"，符合通信领域术语规范\n5. 通过\"同步绕过...并照射...\"等句式处理，使复杂技术逻辑更符合中文表达习惯\n6. 保留\"80%\"等关键数据，确保技术指标准确传达）"
+  },
+  {
+    "date": "2026-3-25",
+    "title": "Secrecy Capacity of Airy Beams",
+    "authors": "Chloe Stults, Kevin K. Mutai, Zhaoji Fang, Daniel M. Mittleman",
+    "publish": "IEEE Transactions on Terahertz Science and Technology",
+    "url": "https://doi.org/10.1109/tthz.2026.3677767",
+    "source": "IEEE",
+    "abstract": "Communication in the terahertz (THz) frequency band is a key focus for the next generation of wireless systems, in part because of the possibility for enhanced security in combination with ultra-high data rates. To enable communication links in the presence of blockage of a directional line-of-sight beam, self-accelerating terahertz beams have recently been proposed. For such beams, the main lobe radiated from an aperture follows some engineered curved trajectory in the electromagnetic near field. Self-accelerating beams enable advantages unlike traditional beams by curving around potential eavesdroppers located in the vicinity of the radiating aperture. Here, we theoretically and experimentally analyze the security implications of such beams by evaluating their secrecy capacity. We also explore the implications of blockage and self-healing on this security metric.",
+    "title_zh": "艾里光束的保密容量",
+    "abstract_zh": "太赫兹（THz）频段通信是下一代无线系统的重要研究方向，部分原因在于其与超高数据传输速率结合时能够实现安全性的增强。为在存在方向性视距链路阻塞的情况下实现通信，近期提出了自加速太赫兹波束。此类波束中，从孔径辐射出的主瓣遵循经过设计的电磁近场中的弯曲轨迹。自加速波束通过弯曲路径绕过位于辐射孔径附近的潜在窃听者，从而实现了不同于传统波束的优势。本文通过评估其保密容量，从理论和实验两方面分析了此类波束的安全影响，并进一步探讨了链路阻塞和自修复特性对该安全指标的影响。"
+  },
+  {
+    "date": "2026-3-25",
+    "title": "A Stochastic Computing-Based Architecture Design for Orthogonal Time Frequency Space Message Passing Detector",
+    "authors": "Dingjie Yao, Zhisong Bie",
+    "publish": "2025 11th International Conference on Computer and Communications (ICCC)",
+    "url": "https://doi.org/10.1109/iccc68654.2025.11438242",
+    "source": "IEEE",
+    "abstract": "This paper reviews the application of the Message Passing Algorithm (MPA) in Orthogonal Time Frequency Space (OTFS) systems. While achieving near-optimal detection performance, its high computational complexity severely constrains practical implementation. To overcome this complexity bottleneck, we propose an innovative MPA detection architecture based on the stochastic computing paradigm. This design maps the algorithm's most computationally intensive operations to the stochastic computing domain, fully leveraging SC's unique advantages in probabilistic processing. Theoretical analysis indicates the scheme's potential for significantly reducing hardware overhead. Simulation results further verify that the proposed stochastic MPA architecture maintains performance comparable to conventional binary approaches. This work provides a promising low-complexity detection solution for OTFS systems, and its hardware-friendly features offer a new technical pathway for designing future high-mobility communication terminals, holding substantial engineering reference value.",
+    "title_zh": "一种基于随机计算的架构设计，用于正交时频空间（OTFS）消息传递检测器。",
+    "abstract_zh": "本文综述了消息传递算法（MPA）在正交时频空间（OTFS）系统中的应用。尽管该算法在检测性能上接近最优，但其高昂的计算复杂度严重制约了实际应用。为突破这一计算复杂度瓶颈，我们提出了一种基于随机计算范式的创新性MPA检测架构。理论分析表明，该方案在显著降低硬件开销方面具有潜力。仿真结果进一步验证，所提出的随机计算MPA架构与传统二进制方法在性能上保持可比性。本研究为OTFS系统提供了一种有前景的低复杂度检测方案，其硬件友好特性为未来高移动性通信终端的设计开辟了新技术路径，具有重大工程参考价值。\n\n（说明：翻译中采用以下优化策略：\n1. 专业术语标准化：\"Message Passing Algorithm\"译为\"消息传递算法（MPA）\"，\"Orthogonal Time Frequency Space\"译为\"正交时频空间（OTFS）\"，符合中文技术文献表述习惯。\n2. 复杂句式重构：将原文长句拆分为符合中文表达习惯的短句，如\"理论分析表明...\"与\"仿真结果进一步验证...\"形成递进结构。\n3. 关键概念强化：使用\"瓶颈\"\"范式\"\"开销\"等专业词汇准确传达技术内涵，同时通过\"硬件友好特性\"等表述突出创新点。\n4. 学术语气把控：采用\"综述\"\"制约\"\"开辟\"等学术用语，保持与原文一致的严谨性，同时通过\"有前景\"\"重大\"等评价性词汇增强结论力度。\n5. 逻辑衔接优化：使用\"尽管...但...\"、\"为...\"\"进一步...\"等连接词，确保技术论述的连贯性。）"
+  },
+  {
+    "date": "2026-3-25",
+    "title": "Secure performance of STAR-RIS aided networks with a full-duplex active eavesdropper",
+    "authors": "Ping Yang, Liang Yang, Weichao Kuang, Shanjin Wang",
+    "publish": "IEEE Open Journal of Vehicular Technology",
+    "url": "https://doi.org/10.1109/ojvt.2026.3677348",
+    "source": "IEEE",
+    "abstract": "Unlike prior works assuming perfect attack detection, this paper investigates the physical layer security of a simultaneous transmitting and reflecting reconfigurable intelligent surface (STAR-RIS) aided network under a full-duplex active eavesdropper in the more realistic scenario where its jamming remains undetected by the legitimate transmitter. Assuming Nakagami-m fading channels, we first derive the probability density functions (PDFs) of the signal-to-interference ratios (SIRs) at both the legitimate user and the eavesdropper. Then, using the PDFs, we obtain novel closed-form expressions for key secrecy metrics, including the probability of nonzero secrecy capacity (PNSC), secrecy outage probability (SOP), and average secrecy capacity (ASC). Moreover, the asymptotic PNSC, SOP, and ASC at high signal-to noise ratio (SNR) are also derived. Based on those asymptotic expressions, we present compact expressions for several key performance indicators: 1) the secrecy diversity order and the secrecy array gain of the SOP, and 2) the high SNR slope and the high SNR power offset of the ASC. Results demonstrate that, compared to the passive eavesdropper scheme, the active jamming attack carried out by Eve will not cause any loss in secrecy diversity gain and high SNR slope, but only result in the loss of secrecy array gain and high SNR power offset. Finally, we verify our analytical results via simulations.",
+    "title_zh": "STAR-RIS辅助网络在完全双工主动窃听者下的安全性能",
+    "abstract_zh": "与先前假设攻击可完美检测的研究不同，本文针对全双工主动窃听场景下STAR-RIS（同时传输与反射可重构智能表面）辅助网络的物理层安全展开研究，重点解决合法发射器无法检测到干扰的更现实场景问题。在 Nakagami-m衰落信道假设下，我们首先推导出合法用户端和窃听者端的信号干扰比（SIR）概率密度函数（PDF），进而基于这些PDF提出新闭式表达式，涵盖非零安全容量概率（PNSC）、安全中断概率（SOP）和平均安全容量（ASC）等关键安全度量指标。同时，通过高信噪比（SNR）渐近分析，我们推导出PNSC、SOP和ASC的渐近表达式，并基于此提出简化的性能指标表达式：1) 安全多样性阶数（SOP）的阵列增益和高速率斜率；2) ASC的高SNR斜率和功率偏移。仿真验证表明，相较于被动窃听方案，主动干扰攻击（由Eve实施）不会导致安全多样性增益和高速率斜率的损失，仅造成安全阵列增益和高速率功率偏移的下降。"
+  }
+]
