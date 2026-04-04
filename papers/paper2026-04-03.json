@@ -1,0 +1,902 @@
+[
+  {
+    "date": "2026-4-3",
+    "title": "Re-Creating Arago’s Disc",
+    "authors": "Isaac Martin",
+    "publish": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "url": "https://doi.org/10.1109/isec64801.2025.11460335",
+    "source": "IEEE",
+    "abstract": "François Arago was a famous 19th century physicist who contributed a lot to modern day physics. He did work on polarization, optics, and the effects of magnetic fields. Arago was also one of the people who discovered eddy currents and built a model to demonstrate the effect of a magnetized needle suspended above a rotating copper disc. This project aims to recreate such a device with modern technology such as cad and 3d printing. It will consist of a crank turning a metal disc via a belt and two pullies. This model should have relatively easy to source parts and be easy to 3d print as in not needing special support settings or big unsupported areas. Above the rotating disc is a clear acrylic sheet on which a compass or any other magnetic object can be placed. In doing this, I hope to create a functional model that can be recreated by others to spread the knowledge of eddy currents."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "WildPose v2: A Compact Tri-Modal Platform for Long-Range Animal Motion Capture",
+    "authors": "Gerald N. Maswoswere, Paul Amayo, Amir Patel",
+    "publish": "IEEE Sensors Letters",
+    "url": "https://doi.org/10.1109/lsens.2026.3680398",
+    "source": "IEEE",
+    "abstract": "Long-range, non-contact biomechanics in the field often fails because narrow-FOV telephoto sensors lose subjects too early. We present WildPose v2, a compact tri-modal rig that pairs a high-speed telephoto camera with a 4 K/<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$120^\\circ$</tex-math></inline-formula> “scout” camera and a Livox Tele-15 LiDAR. A two-stage calibration aligns the sensor suite, achieving a mean wide–LiDAR reprojection error of 3.5 px (<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$\\approx$</tex-math></inline-formula> 10 cm lateral at 50 m), which supports contextual fusion and colorization but does not support high-precision joint-center localization or tight skeletal fitting without further refinement. Although GPS-disciplined time-stamping yields an inter-sensor skew of <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$\\leq$</tex-math></inline-formula> 40 ms, this proves adequate for the wide view's primary roles: early detection, interaction co-visibility maintenance, and contextual LiDAR colorization. In cheetah sprint trials (50–60 m corridor), the scout channel significantly increased data reliability: it improved telephoto temporal coverage by 22.5% on average, maintained predator–prey interaction co-visibility at 85%, and achieved 98% LiDAR colorization completeness. We outline a path toward continuous buffering to mitigate operator trigger latency. WildPose v2 demonstrates a practical pathway to reliable, long-range, multi-modal capture for wildlife biomechanics in a compact, field-ready package."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Communication Complexity of Exact Sampling under Rényi Information",
+    "authors": "Spencer Hill, Fady Alajaji, Tamás Linder",
+    "publish": "IEEE Transactions on Information Theory",
+    "url": "https://doi.org/10.1109/tit.2026.3680805",
+    "source": "IEEE",
+    "abstract": "We study the problem of exact sampling under an exponential communication cost, specifically Campbell’s average codeword length <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">L(t)</i> of order <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">t</i> [1], and Rényi’s entropy. We provide a lower bound on the Campbell cost of exact sampling that grows approximately as <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">D</i><sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1/α</sub>(<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">P||Q</i>), the Rényi divergence of order 1/α, with α = 1/1 + <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">t</i>. Using the Poisson functional representation of Li and El Gamal [2], we prove an upper bound on <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">L(t)</i> whose leading Rényi divergence term has order within ϵ of that of the lower bound. Our results reduce to the bounds of Harsha et al. [3] as α→1. We also provide numerical examples comparing the bounds in the cases of normal and Laplacian distributions, demonstrating that the upper and lower bounds are typically within 5-10 bits of each other. Our results characterize exactly the optimal asymptotic Campbell cost <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">L(t)</i> per sample as the number of independent and identically distributed (i.i.d.) samples grows to infinity. We show that under the exponential cost, any causal sampler performs strictly worse asymptotically than noncausal samplers. This contrasts with the case of expected message length, where both causal and noncausal samplers have the same optimal asymptotic cost."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Rethinking Topic Modeling With Information Bottleneck Principle",
+    "authors": "Zhibin Duan, Xinyue Hu, Bo Chen, Chaojie Wang, Xuefei Cao, Fei Meng, Mingyuan Zhou",
+    "publish": "IEEE Transactions on Neural Networks and Learning Systems",
+    "url": "https://doi.org/10.1109/tnnls.2025.3644425",
+    "source": "IEEE",
+    "abstract": "By modeling global word co-occurrence patterns, topic models aim to uncover the underlying semantic structure of a corpus. However, their effectiveness is often undermined in short texts due to severe data sparsity, as limited co-occurrence information is available. In contrast, word embedding models (e.g., skip-gram) and masked language models (e.g., BERT) rely on local contextual signals, which makes them more effective in short-text scenarios. The prevailing explanation attributes the performance differences between these approaches to the type of information they exploit. In this article, we revisit this view and propose a unified perspective for understanding topic models, skip-gram, and BERT through the lens of the information bottleneck (IB) principle. By formulating all three as instances of text autoencoders (AEs), we analyze their performance differences in terms of how tightly they adhere to the IB principle. Our theoretical analysis reveals that the varying degrees of IB compliance explain their distinct behaviors on short texts. We further illustrate this insight by examining cases where the mutual information (MI) between observed data and latent variables is explicitly constrained. Empirically, we demonstrate that, under the IB perspective, topic models can achieve performance comparable to that of skip-gram and BERT in short-text settings. These findings provide a new theoretical foundation for understanding the strengths and weaknesses of various language models and suggest a principled approach for improving topic models through information–theoretic regularization."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "GCL-MSE: Graph Contrastive Learning with Mutual Similarity Enhancement for Drug Repositioning",
+    "authors": "Shasha Tao, Jin Liu, Min Xiang, Xin Ma, Tongtong Huo, Xiaolin Ning",
+    "publish": "IEEE Journal of Biomedical and Health Informatics",
+    "url": "https://doi.org/10.1109/jbhi.2026.3680660",
+    "source": "IEEE",
+    "abstract": "Amidst the shift to data-driven drug repositioning, existing models struggle to capture complex semantic and topological relationships in biomedical knowledge graphs for drug-disease association (DDA) mining. We propose a Graph Contrastive Learning with Mutual Similarity Enhancement (GCL-MSE). The core innovation lies in defining a concept of mutual similarity. This concept comprises two aspects: drug therapeutic domain similarity, which captures the functional associations between drugs based on their therapeutic spectra, and disease pharmacological response similarity, which reflects the pathological associations between diseases based on drug response patterns. Based on this concept, a Mutual Similarity Enhancement mechanism (MSE) is constructed to fuse four similarities, to build a semantic relationship topology that captures the complex semantic dependencies in DDA. Further, an Adaptive Orthogonal Noise Contrastive Estimation Loss (AdaOrthoNCE) is proposed to disentangle biological relationships in the latent space while optimizing discriminative representations. GCL MSE integrates the semantic topology via MSE, employs a three-channel graph convolutional model to generate topology-semantic co-representations, and utilizes AdaOrthoNCE to learn optimized embeddings, ultimately enabling cross-scale DDA prediction. Experimental results demonstrate that GCL-MSE significantly outperforms state of-the-art models in both AUROC and AUPRC metrics, with improvements of over 4.8% in AUROC and 25.5% in AUPRC, thereby validating the effectiveness of collaborative modeling that integrates features from pharmacological, therapeutic, and topological perspectives. Additionally, GCL MSE predicts the therapeutic roles of drugs such as lamotrigine for Alzheimer's disease and hydroxyurea for breast cancer. Molecular docking experiments and related studies further confirm its validity."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "EasyVoid: A Handheld Coand&amp;#x0103; Effect Uroflowmeter for Accurate and Portable Measurement of Urinary Flow Dynamics_supp1-3679932.pdf",
+    "authors": "Manu Prakash",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/jtehm.2026.3679932/mm1",
+    "source": "IEEE",
+    "abstract": ""
+  },
+  {
+    "date": "2026-4-3",
+    "title": "EcoPath: Energy-Efficient Multi-Path Data Aggregation for Ubiquitous Connectivity Services",
+    "authors": "Yaru Zhao, Yuanting Yan, Man He, Yuanwei Zhu, Yi Yue, Yakun Huang",
+    "publish": "IEEE Transactions on Network and Service Management",
+    "url": "https://doi.org/10.1109/tnsm.2026.3680781",
+    "source": "IEEE",
+    "abstract": "Ubiquitous connectivity is a key 6G usage scenario, in which large-scale sensing systems deployed in remote and underserved regions must deliver heterogeneous sensing data under stringent energy budgets and deadline constraints. This paper presents EcoPath, a two-tier data aggregation framework for clustered large-scale sensor networks. EcoPath separates low-power intra-cluster collection from a high-rate multi-interface backhaul operated by cluster heads, where Multipath QUIC (MPQUIC) can be practically deployed to exploit path diversity. At the cluster head, EcoPath jointly integrates (i) a deadline-aware bundling controller that aggregates sensor frames into MTU-bounded bundles to amortize protocol overhead while bounding additional waiting time, and (ii) a robust multi-path scheduler that prioritizes packets using Weighted Earliest- Deadline-First (W-EDF) with fairness protection and selects backhaul paths via a stability-aware quality metric with hysteresis to avoid flapping under time-varying links. We further formulate an explicit energy–timeliness optimization and show how its outputs parameterize the online bundling and scheduling policies. Extensive simulations with realistic wireless effects, together with baselines and ablations, demonstrate that EcoPath improves energy efficiency and deadline satisfaction for large-scale aggregation."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "What You See Is What You Wear: Crafting Garments for Diverse Avatars with Consistent Wearing Effects",
+    "authors": "Zan Wang, Anqi Li, Yixuan Li, Wei Liang, Bing Ning",
+    "publish": "IEEE Transactions on Visualization and Computer Graphics",
+    "url": "https://doi.org/10.1109/tvcg.2026.3680706",
+    "source": "IEEE",
+    "abstract": "In immersive VR applications, avatars shape users' identities and social presence. Personalization requires generating realistic outfits for avatars, often specified through a single reference image, while supporting seamless editing, adaptation to diverse avatars, and efficient rendering. Achieving these goals is challenging because VR avatars, even humanoid ones, exhibit substantial variations in body shapes and topologies. This inherent diversity makes it difficult to collect sufficient paired data, impeding the evolution of generalizable end-to-end image-to-garment models. To this end, we propose Tailor, a two-stage framework that dresses 3D humanoid avatars from a single reference image while preserving the wearing effects observed in the image. In the first stage, Tailor leverages a structured garment representation based on sewing patterns, enabling the network to predict garments in a low-dimensional, interpretable, and topology-independent space. In the second stage, Tailor performs instance-specific optimization to adapt the predicted sewing pattern to the avatar, ensuring consistent wearing effects across varying avatars. Furthermore, this framework also enables seamless garment editing, on-the-fly adaptation, and real-time rendering, making it particularly suitable for large-scale VR environments. Extensive experiments demonstrate that Tailor achieves results comparable to professional manual designs and produces garments that are both visually appealing and better aligned with reference styles than those generated by naive pattern-scaling baselines, as validated through human perceptual studies."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Tools and Analysis for Distributed SAR Systems",
+    "authors": "Greta Zefi, Finlay Rollo, Christos Ilioudis, Carmine Clemente",
+    "publish": "IEEE Transactions on Radar Systems",
+    "url": "https://doi.org/10.1109/trs.2026.3680763",
+    "source": "IEEE",
+    "abstract": "Spaceborne synthetic aperture radar (SAR) is a crucial sensor for wide-area Earth observation, playing a pivotal role in terrain mapping, ocean monitoring, and disaster management. To meet the growing demand for diverse applications and improved performance, and enabled by advances in satellite and radar technologies, distributed configurations have emerged as a key approach in the development of spaceborne SAR. This paper presents a full analytical characterization of distributed SAR systems. To the best of our knowledge, the closed-form expressions for azimuth and ground-range resolution in distributed SAR presented in this work are derived for the first time. Mathematical derivations of the azimuth and range resolution are provided, and the case of bandwidth overlap in azimuth resolution is also considered, together with a detailed characterization of iso-Doppler and iso-range lines. Among the various geometric configurations analyzed, particular attention is devoted to the symmetric case, where receivers are arranged symmetrically with respect to the transmitter. In this configuration, the iso-Doppler and iso-range contours converge to those of the equivalent monostatic SAR geometry."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Network Slicing with Flexible VNF Order: A Branch-and-Bound Approach",
+    "authors": "Quang-Trung Luu, Minh-Thanh Nguyen, Tuan-Anh Do, Michel Kieffer, Tai Hung Nguyen, Huu Thanh Nguyen, Van-Dinh Nguyen",
+    "publish": "IEEE Transactions on Network and Service Management",
+    "url": "https://doi.org/10.1109/tnsm.2026.3680673",
+    "source": "IEEE",
+    "abstract": "Network slicing is a critical feature in 5G and beyond communication systems, enabling the creation of multiple virtual networks <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">(i.e., slices)</i> on a shared physical network infrastructure. This involves efficiently mapping each slice component, including virtual network functions (VNFs) and their interconnections (virtual links), onto the physical network. This paper considers the slice embedding problem in which the order of VNFs can be adjusted. This provides increased flexibility for service deployment, but the selection of the best order of VNFs also complicates embedding. We propose an optimization framework to tackle the challenges of jointly optimizing slice admission control and embedding with flexible VNF ordering. Additionally, we introduce a near-optimal branch-and-bound (BnB) algorithm, combined with the A* search algorithm, to generate embedding solutions efficiently. Extensive simulations on both small and large-scale multi-tiered 5G networks demonstrate that flexible VNF ordering increases the number of deployable slices within a network infrastructure, thereby improving resource utilization and better meeting diverse demands across varied network topologies."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "A Contrastive Free Energy-Enhanced Transformer Framework for Efficient Reinforcement Learning_supp1-3677738.pdf",
+    "authors": "Jinlong Lei",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tnnls.2026.3677738/mm1",
+    "source": "IEEE",
+    "abstract": "To address the challenges of low training efficiency and unstable performance in multiagent reinforcement learning (MARL), this article proposes a novel efficient MARL algorithm called contrastive free energy-enhanced multiagent Transformer (CFMAT), which integrates upstream perception and downstream decision-making in a joint training framework. The upstream perception module consists of a representation encoder and a prediction model. Specifically, the representation encoder is first learned using contrastive learning to generate a unified and compressed representation of the joint observations. The prediction model is then designed to predict future observation representation sequences, which are subsequently utilized in the downstream decision-making module to enhance the policy network’s performance. To ensure the stability of the upstream module’s learning process, we propose a novel contrastive free energy loss inspired by active inference (AIF) theory. Additionally, the downstream decision-making module employs a Transformer-based encoder–decoder architecture. The representation encoder is further co-trained with the actor–critic network in the downstream learning process. By integrating the upstream perception and downstream decision-making modules into a joint framework, the training efficiency is improved by enabling efficient learning of the overall observation representation. We evaluate CFMAT on challenging multiagent benchmarks, where experimental results show that it significantly outperforms state-of-the-art baselines in both training efficiency and stable performance across various scenarios."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Emission Spectroscopy for Tracking Reactive Nitrogen and Oxygen species in DBD Plasma",
+    "authors": "Tanishka Taware, Sanjana Venkatesh, Faizi R. Zaidi, Kiran Manghnani",
+    "publish": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "url": "https://doi.org/10.1109/isec64801.2025.11460346",
+    "source": "IEEE",
+    "abstract": "Our poster presented at the conference outlines Dielectric Barrier Discharge (DBD) plasma’s main uses and the benefits of optimizing concentration of Reactive Oxygen (O2) or Nitrogen (N2) Species (RONS) within the plasma for medical applications such as sterilizing equipment and healing wounds. The experimental setup consisted of a plasma torch with 5-10kV (20-50 kHz) applied voltage to achieve a jet length of 5 centimeters. The poster covered types of conditions that can optimize concentration of RONS, and how the intensity of spectral emission lines changes with the concentrations of RONS. The results showed that the overall intensity of emission lines increased as applied voltage increased. Furthermore, adding small concentrations of N2 to Helium significantly increased the intensity of N2 lines and decreased the intensities of other spectral lines. Adding O2 considerably reduced N2 lines showing that it was important to keep control of added oxygen to keep reactive N2 species in the plasma for wound healing purposes. In conclusion, we demonstrated that adding small amounts of N2 and O2 can provide an active control on RONS that may help to optimize the process for wound healing."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Beyond Connectivity: An Open Architecture for AI-RAN Convergence in 6G",
+    "authors": "Michele Polese, Niloofar Mohamadi, Salvatore D'Oro, Leonardo Bonati, Tommaso Melodia",
+    "publish": "IEEE Communications Magazine",
+    "url": "https://doi.org/10.1109/mcom.001.2500438",
+    "source": "IEEE",
+    "abstract": "Data-intensive Artificial Intelligence (AI) applications at the network edge demand a fundamental shift in Radio Access Network (RAN) design, from merely consuming AI for network optimization, to actively enabling distributed AI workloads. This presents a significant opportunity for network operators to monetize AI while leveraging existing infrastructure. To realize this vision, this article presents a novel converged O-RAN and AI-RAN architecture for unified orchestration and management of telecommunications and AI workloads on shared infrastructure. The proposed architecture extends the Open RAN principles of modularity, disaggregation, and cloud-nativeness to support heterogeneous AI deployments. We introduce two key architectural innovations: (i) the AI-RAN Orchestrator, which extends the O-RAN O-RAN Service Management and Orchestration (SMO) to enable integrated resource and allocation across RAN and AI workloads; and (ii) AI-RAN sites that provide distributed edge AI platforms with real-time processing capabilities. The proposed architecture enables flexible orchestration, meeting requirements for managing heterogeneous workloads at different time scales while maintaining open, standardized interfaces and multi-vendor interoperability."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "MTFuse: Fast Multi-Task Network for Infrared and Visible Image Fusion with Brightness Enhancement Four Lines",
+    "authors": "Dongdong Sun, Chuanyun Wang, Mingqi Zhou, Qian Gao, Tian Wang, Zhaokui Li",
+    "publish": "IEEE Transactions on Consumer Electronics",
+    "url": "https://doi.org/10.1109/tce.2026.3680515",
+    "source": "IEEE",
+    "abstract": "Electronic equipment used for videotaping is often not well imaged at night. Infrared-visible image fusion and image brightness enhancement are two important methods used in nighttime imaging. Existing methods do not unite these two approaches appropriately. In order to cross the gap between them, this paper proposes a multi-task fusion framework (MTF-use), which combines brightness enhancement and fusion tasks into an end-to-end network to solve the environment awareness problem in dark light. Firstly, a fast feature extraction module is constructed based on the reparameterisation theory. The module provides a rich stream of information to the network during training and degenerates losslessly into a convolutional layer during testing. Next, the brightness enhancement module is designed based on Retinex theory as the basic unit of the feature extraction part. Ultimately, the labels are generated using the brightness enhancement algorithm for training. A large number of experiments show that the proposed method has achieved the most advanced performance in vision and quantitative comparisons. In addition, the proposed method also shows great application prospects in the field of multispectral detection. Our code is available at https://github.com/UAVSwarm/MT-fuse-code."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Investigating the Neural Correlates of a Thermal Illusion in Augmented Reality Using Electroencephalography",
+    "authors": "Daniel Eckhoff, Jan Schnupp, Colin Blakemore, Ryszard Auksztulewicz, Reuben Chaudhuri, Björn Friedrich, Royce Ng, Alvaro Cassinelli",
+    "publish": "IEEE Transactions on Visualization and Computer Graphics",
+    "url": "https://doi.org/10.1109/tvcg.2026.3680741",
+    "source": "IEEE",
+    "abstract": "Augmented Reality can induce illusory perceptions of heat when users experience virtual flames rendered on their hands. In this exploratory study, we used high-density electroencephalography to investigate the neural correlates associated with this experience. We recorded neural activity in a within-subjects design during three key audiovisual conditions: (A) lifelike virtual flames on the hand paired with a burning sound; (B) a non-fire-like control stimulus (green, downward-flowing visuals with a synthetic sound) on the hand; and (C) realistic flames presented between the hands. Our preliminary analyses revealed distinct electroencephalography signatures between the Fire-on-Hand condition and both control conditions. Our findings suggest that AR-induced thermal illusions may engage brain networks involved in somatosensation, multisensory body representation, and spatial attention. This top-down, predictive mechanism appears to recruit neural systems that overlap with those involved in the higher-order cortical processing of actual thermal stimuli."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "A Cubic Boost DC-DC Converter with Reduced Switch Voltage Stress for DC Microgrid Application",
+    "authors": "M. S. Bhaskar, Seshagiri Rao Vemparala, Mahmoud F. Elmorshedy, Dhafer Almakhles, Md Rabiul Islam, Kashem M Muttaqi, Sharmin Shila",
+    "publish": "IEEE Transactions on Industry Applications",
+    "url": "https://doi.org/10.1109/tia.2026.3680371",
+    "source": "IEEE",
+    "abstract": "Switched-inductor and switched-capacitor based converters can achieve a substantially higher step-up gain compared to the classical boost converter; however, in many topologies their practicality is constrained by excessive voltage stress on semiconductor devices, often approaching the full output voltage. To address these limitations, this paper proposes a cubic boost-derived DC-DC converter that extends the quadratic concept to achieve a cubic boost-voltage with reduced voltage-stress (CBRV) across all switches and capacitors. The proposed CBRV topology ensures continuous input current and maintains a common ground between input and output, making it highly suitable for renewable energy and DC microgrid applications. Comprehensive steady-state analysis is performed under both continuous and discontinuous conduction modes (CCM and DCM), including non-idealities. A small-signal model is developed to examine dynamic performance. Comparative evaluation with existing high-gain converters demonstrates superior gain-stress trade-off and efficiency. A 500 W laboratory prototype validates the design, achieving a conversion from 36 V to 650 V and confirming the practicality and robustness of the CBRV topology in steady state and dynamic operations. Finally, simulation studies are conducted for the CBRV converter in a DC microgrid application."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "3-D Transient Model of Drawing Vacuum Arc Coupled With CuCr Alloy AMF Contact and Anode Thermal Process",
+    "authors": "Jieli Chen, Lijun Wang, Xiangyu Wang, Hongjian Wang, Yiduo Xie, Zhefeng Zhang",
+    "publish": "IEEE Transactions on Plasma Science",
+    "url": "https://doi.org/10.1109/tps.2026.3676472",
+    "source": "IEEE",
+    "abstract": "In this article, a 3-D transient model is established to simulate the transient process of the drawing vacuum arc with CuCr alloy cup-shaped axial magnetic field (AMF) contact. At the same time, the parameters of the anode temperature and vacuum arc are calculated self-consistently in the model. Based on the 3-D transient model, the process of arc change to anode active mode under actual magnetic field is studied. The simulation results show that the arc experiences complex change processes at different stages under realistic physical conditions. In the initial stage, the arc has not occupied the entire contact. This makes the current density, electron temperature, ion temperature, and energy flux density very large. So the anode temperature increased rapidly in the initial stage under the action of the vacuum arc with a smaller diameter. Meanwhile, the AMF is small due to the eddy current in this stage. Then the arc expands throughout the contact as the current continues to rise. At the same time, the AMF generated by the cup-shaped contact makes the ions rotate. It can be observed that the ion rotation at the slot is more intense. Then the current starts to decrease. But the anode temperature did not immediately decrease. Its maximum value appears 1.5 ms after the peak current. And the electron temperature and ion temperature at the anode are still high due to the increase in gap distance and the anode change to active mode in this stage. At the same time, the high-temperature area of the anode is still expanding at this stage. Finally, the anode temperature and arc morphology were compared with the experimental results. The simulation results were in good agreement with experimental results."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Robust μ-Channel Estimation for IoT and 6G Edge Devices via Defensive Distillation",
+    "authors": "Tarek Ali, Mohammed Al-Khalidi, Ali Kashif Bashir, Norah S. Alghamdi",
+    "publish": "IEEE Internet of Things Journal",
+    "url": "https://doi.org/10.1109/jiot.2026.3680842",
+    "source": "IEEE",
+    "abstract": "Reliable channel state information (CSI) is a critical enabler for low-power Internet of Things (IoT) links and emerging 6G edge devices, where receivers must operate under tight energy/latency budgets and in the presence of non-ideal noise and malicious interference. Deep learning (DL)-based channel estimators can surpass classical LS/MMSE baselines; however, they remain vulnerable to distribution shifts and adversarial attacks targeting pilot observations. This paper proposes a lightweight and robust micro-channel estimation (μ-CE) framework based on<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> defensive distillation</i>, where a compact student convolutional neural network (CNN) is trained under a higher-capacity teacher estimator using a regression-oriented distillation loss. The resulting μ-CE learns a smoother input–output mapping with reduced gradient sensitivity, improving trustworthiness without sacrificing accuracy or computational efficiency. Using MATLAB-and DeepMIMO-generated 5G NR TDL-C channels, we evaluate robustness under diverse non-adversarial noise types and four white-box gradient-based attacks (Fast Gradient Sign Method (FGSM), Basic Iterative Method (BIM), Momentum Iterative Method (MIM), and Projected Gradient Descent (PGD)). Compared with an undefended CNN, the proposed μ-CE improves normalized mean squared error (NMSE) by approximately 0.5–1 dB under the considered non-adversarial noise conditions (including additive white Gaussian noise (AWGN) at a signal-to-noise ratio (SNR) of 15 dB in the default test setting), limits adversarial NMSE degradation to within 1–2 dB of the clean baseline for moderate perturbation budgets, and reduces attack success rate (ASR) by about 25–40%. Moreover, the distilled μ-CE requires roughly 14× fewer parameters and multiply-accumulate (MAC) operations than the teacher model, supporting practical deployment for robust CSI acquisition in resource-constrained IoT and 6G edge receivers."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Circularly Polarized Antenna with Polarization-Compliable PRS Unit Cells for Gain Enhancement and Sidelobe Suppression",
+    "authors": "Kittisak Phaebua, Suramate Chalermwisutkul, Titipong Lertwiriyaprapa, Danai Torrungrueng, Hsi-Tseng Chou",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3680642",
+    "source": "IEEE",
+    "abstract": "This paper presents a compact circularly polarized (CP) antenna that achieves high gain and low sidelobe levels (SLL) using a single-layer polarization-compliable partially reflective surface (PRS). Each PRS unit cell combines overlapping cross- and rectangular-slot elements to provide balanced reflection responses for vertical and horizontal polarizations while suppressing cross-polarization. By jointly optimizing the reflection magnitude and phase of both polarizations, the proposed PRS achieves uniform aperture-field distribution that enhances gain and preserves edge tapering for SLL suppression. In addition, alternative analysis framework in which the PRS layer modeled as a Bi-Characteristic-Impedance Transmission Line (BCITL) is proposed. By retrieving the BCITL parameters (Z<sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">0</sub><sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">+</sup>, Z<sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">0</sub><sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">-</sup>, γ) from Floquet-mode S-parameters of the PRS unit cell, the method reveals the intrinsic propagation constant of the PRS layer and clarifies the relation between the PRS reflection coefficient and the BCITL parameters (Z<sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">0</sub><sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">+</sup>, Z<sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">0</sub><sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">-</sup>, γ). This dual viewpoint full-wave plus BCITL enables more physical insight into how the PRS height, co- and cross- polarized reflection coefficients, and edge taper collectively influence the gain and SLL trade-off. The retrieved cross-polarized propagation constants exhibit strong attenuation, confirming that cross-polarized modes are effectively suppressed thus maintaining the purity of the CP main beam and low SLL. A corner-trimmed square patch antenna operating at 10 GHz is used to validate the concept, achieving a simulated gain increase from 5.8 to 24 dBic with SLLs below −22 dB, axial ratio (AR) < 2.5 dB. The proposed PRS features an aperture of 6.27λ×6.27λ and a compact thickness of only 0.5λ (λ denotes the free space wavelength), achieving a simulated aperture efficiency of 60%. Measurement results confirm the simulations and validate the effectiveness of the proposed design, validating both the design concept and the BCITL-based interpretation."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "The Paradigm Shift Toward User-Centric Digital Identity Approaches: A Systematic Literature Review",
+    "authors": "Ioannis Konstantinidis, Ioannis Mavridis, Evangelos K. Markakis",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3680835",
+    "source": "IEEE",
+    "abstract": "Digital identity is undergoing a structural transformation toward user-centric architectures based on digital wallets. While prior literature conceptualises decentralised identity and Self-Sovereign Identity (SSI) as paradigms of enhanced user control, most large-scale national and international implementations adopt differentiated approaches that combine wallet-based credential management with centralised trust anchors and governance frameworks. This paper analyses the architectural evolution of digital identity (2021-2025) and provides a comparative examination of implementations in the European Union, the United States, Canada and the Netherlands, Japan, Argentina, Bhutan and Aruba. It develops a taxonomy across five analytical dimensions: trust anchor, governance scope, credential scope, user control and standards alignment. The findings reveal a persistent divergence between theoretical paradigms and emerging implementations, underscoring challenges for scalable and interoperable user-centric approaches."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "A Lightweight Wavelet-Aligned Difference and Mask-Guided Fusion Network for Change Detection",
+    "authors": "Yuting Liu, Shihua Li, Lorenzo Bruzzone",
+    "publish": "IEEE Transactions on Geoscience and Remote Sensing",
+    "url": "https://doi.org/10.1109/tgrs.2026.3680645",
+    "source": "IEEE",
+    "abstract": "Remote sensing change detection (CD) plays an important role in many application domains. To meet the practical demand for both high accuracy and efficiency, and address the fundamental challenges of bitemporal misalignment, insufficient difference representation, and change and non-change coupling, this article proposes a lightweight wavelet-aligned difference and mask-guided feature fusion network (WDMF-Net). WDMF-Net first employs a Siamese MobileNetV2 with an improved adjacent-level aggregation module to extract multiscale complementary features. A wavelet-enhanced feature alignment module (WFAM) is then introduced to enhances local boundaries and global structures of these features in frequency domain, followed by context-consistent spatial alignment to reduce bitemporal misregistration. On this basis, a collaborative feature difference module (CFDM) is designed to model the intermediate complementary relationship between channel and spatial dimensions, enabling accurate localization and capture of contextual differences. Finally, a mask-guided feature enhancement module (MFEM) is employed, where foreground and background mask priors are progressively involved in multiscale difference fusion to explicitly decouple changed and unchanged regions. Experiments demonstrate that WDMF-Net outperforms 16 SOTA methods on five public CD datasets, and achieves a favorable balance among detection accuracy, computational efficiency, and generalization capability. The code is available at https://github.com/LYT-Works/WDMF-Net."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Feature Importance-Aware Deep Joint Source-Channel Coding for Computationally Efficient and Adjustable Image Transmission",
+    "authors": "Hansung Choi, Daewon Seo",
+    "publish": "IEEE Internet of Things Journal",
+    "url": "https://doi.org/10.1109/jiot.2026.3680582",
+    "source": "IEEE",
+    "abstract": "Recent advances in deep learning-based joint source–channel coding (deepJSCC) have substantially improved communication performance, but their growing computational cost hinders practical deployment. Moreover, certain applications require the ability to dynamically adapt computational complexity. To address these issues, we propose a Feature Importance-Aware deepJSCC (FAJSCC) model for image transmission that is both computationally efficient and adjustable. FAJSCC employs axis-dimension specialized computation, which performs efficient operations individually for each spatial and channel axis, significantly reducing computational cost while representing features effectively. It further incorporates selective deformable self-attention, which applies self-attention only to selected and adaptively adjusted features, leveraging the importance and relations of input features to efficiently capture complex feature correlations. Another key feature of FAJSCC is that the number of selected important areas can be controlled separately by the encoder and the decoder, depending on the available computational budget. It makes FAJSCC the first deepJSCC architecture to allow independent adjustment of encoder and decoder complexity within a single trained model. Experimental results show that FAJSCC achieves superior image transmission performance under various channel conditions while requiring less computational complexity than recent state-of-the-art models. Furthermore, experiments independently varying the encoder and decoder’s computational resources reveal, for the first time in the deepJSCC literature, that understanding the meaning of noisy features in the decoder demands the greatest computational cost. The code is publicly available at github.com/hansung-choi/FAJSCCv2."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Based on the Sub-Image Wavefront Curvature Compensation SAR Imaging Algorithm for High-Speed Maneuvering Platforms",
+    "authors": "Zirui Xi, Guanyong Wang, Lei Zhang, Xinshuo Wang, Zhichao Meng, Jingyue Lu, Hualin Zhang, Yifeng Wu",
+    "publish": "IEEE Journal on Miniaturization for Air and Space Systems",
+    "url": "https://doi.org/10.1109/jmass.2026.3680085",
+    "source": "IEEE",
+    "abstract": "To address the defocusing issue in imaging caused by severe wavefront curvature due to curved trajectories of high-speed maneuvering platforms, this paper proposes an improved parametric polar format algorithm based on sub-image compensation for wavefront curvature. After imaging with the improved parametric polar format algorithm, the proposed method sequentially compensates for the wavefront curvature term at the center of each sub-scene, thereby reducing the defocusing effect caused by azimuthal space-variance and enhancing the quality of the imaging results. The effectiveness and feasibility of the algorithm are verified through simulation experiments and real measured data."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Partial Arm Weight Support Does Not Hamper the Weight Perception of Haptically-Rendered Virtual Objects: A Psychophysics Study",
+    "authors": "A. L. Ratschat, D. A. Abbink, G. M. Ribbers, L. Marchal-Crespo",
+    "publish": "IEEE Transactions on Haptics",
+    "url": "https://doi.org/10.1109/toh.2026.3680656",
+    "source": "IEEE",
+    "abstract": "Arm weight support (AWS) from upper-limb exoskeletons aids training by reducing fatigue and increasing the movement workspace, especially in people with acquired brain injury (ABI). Simultaneously, task-specific training could be enabled via haptic rendering, simulating the interaction forces with tangible virtual objects. However, how AWS affects somatosensory perception, such as the perception of the weight of haptically rendered virtual objects, is unclear. We therefore conducted a psychophysics experiment with 40 participants investigating the effect of partial AWS on virtual object weight perception during dynamic lifting. Participants performed the lifting task under two conditions: with and without AWS, where AWS compensated for 50% of their arm weight. An upperlimb exoskeleton equipped with a haptic hand module provided both AWS and haptic rendering of virtual objects. The virtual objects and a representation of the participant's arm and hand were visualized using immersive virtual reality.Weight perception was assessed using just-noticeable differences (JNDs). To evaluate the experimental setup, participants' estimated elbow torques were analyzed. Additionally, subjective measures of task load, motivation, and user experience with the exoskeleton were collected to explore potential secondary factors influencing weight perception. We found that partial AWS effectively reduced elbow load during dynamic lifting compared to no-AWS. The JND was not significantly different between conditions, suggesting that AWS does not hamper weight discrimination. However, participants with a larger self-reported sense of control over their movement and those who reported that the robot followed their movements more closely were associated with better weight perception. Our findings suggest that including haptic rendering into exoskeletons that provide partial AWS could be a viable solution to provide task-specific training."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Patent Quality, Institutions, and Innovation Leadership in FinTech: A Multidimensional Machine Learning Analysis_supp1-3680345.docx",
+    "authors": "Milad Armani Dehghani",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tem.2026.3680345/mm1",
+    "source": "IEEE",
+    "abstract": "Firms in technology-intensive industries require reliable tools to evaluate patent quality and guide R&D resource allocation. Conventional indicators such as patent counts or citation totals provide incomplete signals and often privilege volume over strategic substance. This study develops and applies a Patent Quality Index (PQI), a multidimensional framework integrating technological scope, legal robustness, and market responsiveness to capture the intrinsic quality of patents. Using a global dataset of 96,657 FinTech patents filed between 2000 and 2023, the PQI is constructed through complementary statistical and machine-learning methods and applied to compare patent quality across firms and jurisdictions. Results reveal substantial heterogeneity in patent quality, clear trade-offs between portfolio size and average quality at the firm level, and systematic cross-country differences. Specifically, regulatory quality, corruption control, and foreign direct investment significantly shape national patterns of patent quality, linking firm-level innovation strategies with broader governance environments. By providing a scalable and theory-grounded measure of patent quality, the PQI advances innovation measurement and offers practical guidance for managers, policymakers, and investors seeking to benchmark portfolios, prioritise high-value patents, and design policies that promote substantive innovation. Although demonstrated in the FinTech sector, the framework is adaptable to other technology-driven industries."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "A Total Variation Regularizer with Partially Known Support for Pulse-Echo Speed-of-Sound Imaging",
+    "authors": "Samuel Beuret, Louise Zhuang, Jeremy J. Dahl, Jean-Philippe Thiran",
+    "publish": "IEEE Transactions on Ultrasonics",
+    "url": "https://doi.org/10.1109/tuson.2026.3680830",
+    "source": "IEEE",
+    "abstract": "Pulse-echo speed-of-sound imaging is emerging as a powerful extension of conventional echography. It shows particular promise for diagnosing metabolic dysfunction-associated steatotic liver disease, whose prevalence is increasing worldwide alongside obesity rates. However, current techniques often lack robustness, particularly when limited data are available. Existing methods rely on different regularization strategies to incorporate knowledge on the speed-of-sound distribution within tissues. In this work, we propose a novel regularization approach that automatically integrates information from the B-mode image. The proposed regularizer relies on the principle of sparsity with partially known support applied to a total variation norm, enabling increased robustness compared to regularizers disregarding information contained in B-mode images, or circumventing drawbacks of approaches based on the manual segmentation of the latter. We evaluate the proposed technique with simulated and in vivo data, considering both large and reduced datasets, with a specific focus on liver imaging. The results indicate that our method enhances speed-of-sound accuracy with simulated data when compared with regularizers proposed in the literature, whereas the robustness to data reduction is improved with in vivo data. Notably, our approach can facilitate the deployment of pulse-echo speed-of-sound imaging on ultra-portable transducers, which are typically constrained in data acquisition capacity."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "A Framework of Automated\n                    <i>LC</i>\n                    -VCO Design with Physical Layout Based on Reinforcement Learning",
+    "authors": "Sungjin Kim, Hyunsoo Lee, Seongmin Hong, Heein Yoon, Taigon Song",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2026.3680789",
+    "source": "IEEE",
+    "abstract": "Artificial Intelligence (AI) has been increasingly utilized across various fields, including communications, healthcare, and Computer-Aided Design (CAD). However, AI has shown relatively limited advances in analog and RF circuit design, which are critical for modern communication systems such as 5G due to their higher complexity and nonlinear characteristics. For example, the Inductor-Capacitor Voltage-Controlled Oscillator (<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">LC</i>-VCO) is a crucial component in frequency synthesizers, determining the performance of RF systems, including high data transmission rates and wide bandwidth. In fact, <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">LC</i>-VCO design is challenging due to the high parameter variability and complex interactions between design variables, making it challenging to optimize parameters to meet target specifications. Thus, this study proposes a comprehensive <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">LC</i>-VCO design methodology compatible across multiple process nodes and supports optimization down to the layout level. We use Reinforcement Learning (RL) to navigate the nonlinear design space efficiently for schematic optimization and apply an algorithm from Gradient Descent to optimize the design at the physical layout level. We highlight that the versatility of our methodology is demonstrated by producing optimized Figures of Merit (FoM) across various technology nodes and frequency ranges, showcasing its potential as a universal design tool accessible to all users."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "IEEE Industrial Electronics Society Information",
+    "authors": "N/A",
+    "publish": "IEEE Transactions on Industrial Electronics",
+    "url": "https://doi.org/10.1109/tie.2026.3676236",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Impact of Attention Mechanisms and Focal Loss Tuning on RetinaNet Performance for Crop-Weed Detection: A Comparative Study with Anchor-Free Detectors",
+    "authors": "Y. Unal",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3680687",
+    "source": "IEEE",
+    "abstract": "Weed control remains a major challenge in agricultural production, as weeds compete with crops for essential resources such as water, nutrients, and sunlight, which reduces yield and sustainability. Advances in deep learning and computer vision have facilitated the development of automated weed detection systems that function effectively in complex field environments. This study conducts a systematic ablation analysis of attention mechanisms and focal loss optimization within the RetinaNet architecture for tobacco and weed detection in small-scale agricultural image datasets. Six model variants are assessed: a vanilla RetinaNet baseline, focal loss optimization alone, and three lightweight attention modules (CBAM, ECA, and Coordinate Attention), each combined with optimized focal loss parameters (α=0.3, γ=2.5). To benchmark performance against contemporary detectors, YOLOv11n is included as an anchor-free baseline. Experiments utilize a dataset of 307 field images with a 70/15/15 train/validation/test split to ensure independent evaluation. Results indicate that ECA combined with focal loss achieves the highest mAP@50 (0.760) and mAP@75 (0.477) among RetinaNet variants, representing an 8.3% improvement in localization quality over the vanilla baseline. Coordinate Attention attains the highest recall (0.611), highlighting its suitability for detection-critical applications. Ablation results also demonstrate that CBAM without focal loss substantially reduces performance, emphasizing the importance of loss stabilization in small-dataset scenarios. Although YOLOv11n achieves a higher overall mAP (0.511 vs. 0.442), the proposed attention-enhanced RetinaNet variants deliver competitive mAP@50 performance with interpretable, modular enhancements. These findings offer practical guidance for designing attention-integrated detectors in precision agriculture applications with limited annotation resources."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Multilingual Deepfake Speech Dataset for Robust and Generalizable Detection",
+    "authors": "Candy Olivia Mawalim, Yutong Wang, Aulia Adila, Shogo Okada, Masashi Unoki",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3680508",
+    "source": "IEEE",
+    "abstract": "The rise of sophisticated technologies capable of generating realistic synthetic human speech has introduced significant security challenges in voice-based applications. These advances in speech generation have enabled malicious actors to produce convincing speech deepfakes, undermining the reliability of speaker verification systems and digital communication. Despite growing interest in deepfake speech detection, many existing datasets are limited in linguistic diversity and fail to capture the complexity of real-world scenarios, thus constraining model generalization. In this work, we introduce the JAIST Multilingual Deepfake Speech (JMDS) dataset, a large-scale, multilingual, and multi-source corpus designed to support the development and evaluation of robust and generalizable deepfake speech detection systems. Covering 17 languages and comprising over 350,000 utterances, JMDS incorporates a wide range of deepfake generation methods and includes both human (pristine) and machine-generated (spoofed) speech, sourced from publicly available corpora and a curated subset of private data. We provide detailed analyses of utterance duration, generation techniques, and audio quality, along with comprehensive evaluations across multiple model architectures and configurations. Cross-dataset evaluations are also conducted to assess the generalization capabilities of detection models across diverse languages and data domains. This study contributes to a deeper understanding of the limitations and opportunities in current detection systems, ultimately paving the way for more resilient and linguistically inclusive countermeasures."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Event-Triggered Fault Tolerant Control for Unmanned Marine Vehicle System with Actuator Fault and Disturbance",
+    "authors": "Bing Hu, Zhenyang Xue, Jiachen Ke, Yukang Cui, Jian Liu, Zhixin Sun",
+    "publish": "IEEE Internet of Things Journal",
+    "url": "https://doi.org/10.1109/jiot.2026.3680597",
+    "source": "IEEE",
+    "abstract": "This paper proposes a fault tolerant control strategy for unmanned marine vehicles (UMVs) suffering from unknown actuator bias faults to avoid the structural complexity of conventional T-S fuzzy model. A fault observer is introduced to estimate actuator fault through online learning for real-time control input compensation. Further, to conserve network resources, an adaptive frequency event-triggered mechanism (AFETM) is applied. Unlike conventional event-triggered control methods that use fixed thresholds, AFETM dynamically adjusts the triggering condition based on historical transmission frequency and error, effectively reducing unnecessary data transmission. Moreover, instead of the traditional dual-network adaptive dynamic programming structure, a single critic network is employed to solve the Hamilton-Jacobi-Isaacs equation, significantly reducing computational burden and parameter complexity. Additionally, the stability of the UMV system is analyzed using the Lyapunov stability theorem, which demonstrates that the system states are uniformly ultimately bounded (UUB) under the proposed method. Simulation results demonstrate that the proposed AFETM reduces communication load by 99.6% and 25.4% compared with time-triggered mechanisms static and event-triggered methods, while ensuring UUB stability of the system states under actuator faults and disturbances."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Unsupervised Domain Adaptation in Biomedical Images Segmentation with Guided Diffusion Generative Prior",
+    "authors": "Alexandre Stenger, Étienne Baudrier, Nicolas Passat, Benoît Naegel",
+    "publish": "IEEE Transactions on Image Processing",
+    "url": "https://doi.org/10.1109/tip.2026.3678763",
+    "source": "IEEE",
+    "abstract": "Semantic segmentation has suffered for a while from a lack of datasets such as ImageNet for image classification. This issue was partially alleviated by the advent of the segment anything model (SAM), which provides a foundation model trained on the largest and most diverse segmentation dataset to date. However, the SAM often falls short in segmenting specific regions, mostly in regard to biomedical images; this is why unsupervised domain adaptation (UDA) remains the best option for addressing the challenge of generalization capabilities. Classical UDA methods might be ineffective in several biomedical segmentation cases because the gap between two datasets, named domain shift, is too high. To address this issue, we propose a strategy based on learning the source mask probability distribution with a segmentation diffusion model as a generative prior to propose accurate target segmentation at inference. This latter can be guided by supplementary inputs, which allows us to call for the rich information contained in SAM raw segmentation both to perform adaptation and to improve robustness. A study was conducted using a comprehensive collection of segmentation datasets: 3 domains for mitochondria, 2 for the endoplasmic reticulum, and 2 for brain tumors, allowing the creation of 10 adaptation scenarios and providing an extensive test basis. The results of the experiments reveal that our proposed method outperforms various state-of-the-art UDA methods. Furthermore, ablation studies highlight the significant role of each component of our presented strategy. The code will be made available."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "UGFusion: Uncertainty-Guided LiDAR-Camera Fusion for 3-D object detection",
+    "authors": "Ziyang Zhang, Hegui Zhu, Libo Zhang",
+    "publish": "IEEE Sensors Journal",
+    "url": "https://doi.org/10.1109/jsen.2026.3678662",
+    "source": "IEEE",
+    "abstract": "Existing multi-modal 3-D object detection frameworks often assume deterministic sensor inputs and perfect cross-modal calibration, making them fragile under real-world scenarios such as calibration drift, occlusion, and adverse weather. To overcome these limitations, we present Uncertainty-Guided Fusion (UGFusion), a robust framework that explicitly models and propagates uncertainty throughout the entire Bird’s-Eye-View (BEV) perception pipeline. First, we establish an Uncertainty Lift-Splat-Shoot (LSS) Transform, which predicts pixel depth with its associated uncertainty and then refines the depth estimation by sparse LiDAR priors. By mathematically modeling the non-uniform amplification of depth errors during projection, this module effectively translates pixel-level uncertainty into a geometry-aware BEV uncertainty map. Second, based on this map, we introduce an Uncertainty Align Fuser (UAFuser) that constructs a joint multi-modal confidence field. This field guides deformable alignment and confidence-gated feature fusion to suppress noise from residual cross-modal misalignments. Extensive experiments on the nuScenes and nuScenes-C datasets demonstrate that UGFusion delivers superior accuracy and markedly improved robustness across challenging conditions."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "A Simplified Mathematical Guide to Cyber Assets, Value, and Risk for K–12 Students",
+    "authors": "Prashant Vajpayee, Gahangir Hossain",
+    "publish": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "url": "https://doi.org/10.1109/isec64801.2025.11460366",
+    "source": "IEEE",
+    "abstract": "With the rise in online education, digitalization, and a shortage of cybersecurity talent, it's essential to incorporate cybersecurity education into the K-12 curriculum. This research proposes using basic math and real-time examples to explain cyber assets, their value, and associated risks. The approach builds students' foundational knowledge and enables them to apply their learning in cybersecurity activities. By fostering interest and curiosity, this method creates a safe educational environment for children and prepares the future workforce for cybersecurity roles, which is in the national interest."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Terrain-Inspired Bumpiness Prediction for Off-Road Autonomous Driving",
+    "authors": "Kai Wang, Meiling Wang, Wenjie Song",
+    "publish": "IEEE Sensors Journal",
+    "url": "https://doi.org/10.1109/jsen.2026.3678703",
+    "source": "IEEE",
+    "abstract": "With the increasing demands for stability and comfort of unmanned ground vehicles (UGVs) driving in off-road environments, there is a higher requirement for bumpiness prediction in various terrains. Bumpiness prediction can accurately characterize the vehicle’s dynamic performance when traversing terrains, but it remains vulnerable to exteroceptive sensing errors caused by ego-motion uncertainty. To address these requirements, we propose a self-supervised learning framework for off-road bumpiness prediction. The framework is designed to achieve stable terrain perception under inevitable vehicle vibrations. Bayesian generalized kernel (BGK) inference is applied to compensate for perceptual blind spots caused by rapid maneuvers of the UGV. For bumpiness prediction, we introduce a convolutional Long Short-Term Memory (conv-LSTM) network that takes the vehicle speed and feature images extracted from light detection and ranging (LiDAR) point clouds as inputs, with spatially corresponding Inertial Measurement Unit (IMU)-derived bumpiness values serving as self-supervised labels. Real-world experimental results demonstrate that the proposed framework can accurately predict bumpiness values that consistent with the vehicle’s dynamic performance, even under ego-motion uncertainty."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "IEEE Transactions on Terahertz Science and Technology Publication Information",
+    "authors": "N/A",
+    "publish": "IEEE Transactions on Terahertz Science and Technology",
+    "url": "https://doi.org/10.1109/tthz.2026.3676639",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Leveraging AI Tools in Engineering Education: Promise and Pitfalls of AI in Software Development",
+    "authors": "Antonio Carlos Bento, José Reinaldo Silva, Marcos Ribeiro Pereira Barretto, Sérgio Camacho-León, Elsa Yolanda Torres-Torres",
+    "publish": "IEEE Revista Iberoamericana de Tecnologias del Aprendizaje",
+    "url": "https://doi.org/10.1109/rita.2026.3680777",
+    "source": "IEEE",
+    "abstract": "This paper examines the pedagogical impact of Artificial Intelligence-assisted tools in a university software construction course. Through a 10-week case study with 25 engineering students, the study captures qualitative insights into how students interact with AI tools, the challenges they face, and the learning strategies that emerge. While students reported perceived time savings, the core contribution lies in understanding the educational implications, both positive and challenging of integrating AI into project-based learning environments. The findings reveal that Artificial Intelligence tools enhance prototyping and debugging skills but require structured integration to mitigate over-reliance. The study contributes a framework for balancing Artificial Intelligence use with traditional pedagogy, supporting Sustainable Development Goals 4’s goal of equitable education, while the opinion survey carried out with students shows a result of 96% satisfaction with the use of assisted artificial intelligence tools during the development of the project during the studies."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "IEEE Industry Applications Society Information",
+    "authors": "N/A",
+    "publish": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+    "url": "https://doi.org/10.1109/jestpe.2026.3662555",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Table of Contents",
+    "authors": "N/A",
+    "publish": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+    "url": "https://doi.org/10.1109/jestpe.2026.3662551",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Semi-Supervised Regression via Hierarchical Confidence Screening and Neighbor-Guided Pseudo-Label Calibration",
+    "authors": "Yunfei Mao, Bowen Yao",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3680669",
+    "source": "IEEE",
+    "abstract": "Semi-supervised regression enhances model performance by effectively utilizing unlabeled data during training. Most existing methods select only a small subset of high-confidence unlabeled samples based on single confidence metrics to participate in model training. However, these approaches suffer from incomplete reliability assessment and inefficient utilization of the majority of unlabeled data. In this paper, we propose a semi-supervised regression via hierarchical confidence screening and neighbor-guided pseudo-label calibration (S2RSC) algorithm that operates through two synergistic stages. First, we establish a consensus-driven selection mechanism where multiple diverse regressors evaluate prediction consistency, coupled with a safe labeling technique ensuring pseudo-label reliability. In this way, high-confidence unlabeled samples are reliably identified and incorporated into the labeled dataset for subsequent training. Second, we introduce an uncertainty-weighted unsupervised loss where Monte Carlo Dropout quantifies uncertainty to dynamically adjust sample contributions during training. Consequently, all remaining unlabeled data can be effectively utilized while mitigating the adverse effects of noisy pseudo-labels. Third, we propose a neighbor-guided pseudo-label calibration technique that leverages local labeled neighborhoods to adaptively calibrate pseudo-labels as a data augmentation strategy. This approach addresses the scarcity of augmentation methods for tabular data and enhances model robustness through effective consistency regularization. Experiments were performed on fifteen benchmark datasets from biomedical, business, ecology, physical, and life domains. The results demonstrate that S2RSC compares favorably against eight state-of-the-art semi-supervised regression algorithms across the majority of benchmark scenarios."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "A 230-GHz Wideband High-Efficiency Beam-Steering 1 × 2 Phased-Array Signal Source in 40-nm CMOS",
+    "authors": "Yi-Hsiu Liu, Somia Sharma, Chun-Sheng Lin, Chun-Hsing Li",
+    "publish": "IEEE Microwave and Wireless Technology Letters",
+    "url": "https://doi.org/10.1109/lmwt.2026.3678225",
+    "source": "IEEE",
+    "abstract": "This work presents a 230-GHz <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$1\\times 2$</tex-math> </inline-formula> phased-array signal source (SS) that integrates a voltage-controlled oscillator (VCO), two 360° phase-shifting amplifier-frequency-multiplier chains (AMCs), and two high-resistivity Si dielectric resonator antennas (DRAs). Each AMC comprises a driver amplifier (DA) and a frequency tripler (FT). The DA employs a phase-shifter-embedded impedance-matching network (IMN) that simultaneously provides balun functionality, >120° phase shifting, and impedance transformation, effectively reducing power loss and chip area. The FT employs a fundamental voltage-tuning technique to tolerate higher input power without voltage breakdown issues, improving the output power by 2.5dB. The DRA utilizes a tapered feeding structure to broaden the bandwidth (BW), achieving an antenna gain of 3.9 dBi and a fractional BW of ~10% at 230 GHz. Fabricated in a 40-nm CMOS process, the proposed SS provides frequency tuning from 215 to 240 GHz, an equivalent isotropically radiated power (EIRP) of 8.5 dBm, and a 60° beam-steering range at 225 GHz."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Witnessing 25 Years of Weiser's Legacy in Pervasive Computing",
+    "authors": "Željko Obrenović",
+    "publish": "IEEE Pervasive Computing",
+    "url": "https://doi.org/10.1109/mprv.2026.3677801",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Flat UP: A Converged RAN-Core Architecture for the 6G User Plane",
+    "authors": "Hasanin Harkous, Ahan Kak, Alistair Urie, Heiko Straulino, Huanzhuo Wu, Huu-Trung Thieu, Nakjung Choi",
+    "publish": "IEEE Transactions on Network and Service Management",
+    "url": "https://doi.org/10.1109/tnsm.2026.3680720",
+    "source": "IEEE",
+    "abstract": "The ongoing industry shift toward Radio Access Network (RAN) disaggregation, virtualization, and cloudification has disrupted the conventional hierarchical design of cellular networks and opened the door to greater convergence between the RAN and core domains. Despite this progress, implementing such converged architectures in practice presents numerous challenges, including those related to protocol and architectural design, quality-of-service (QoS) assurance, control plane configuration, and support for emerging 6G-specific use cases. To address these challenges, this article presents the flat User Plane (UP) architecture, a novel framework for RAN-core convergence centered around a new 6G-native component: the Access User Plane Function (AUPF). The article outlines the key innovations in the newly proposed flat user plane architecture, including protocol- and feature-level design evolutions as well as enhancements to QoS provisioning. It then explores various counterpart Control Plane (CP) architectures, analyzing the impact of the new design on different 3GPP CP procedures. A concrete, system-level prototype implementation of the AUPF is developed, accompanied by a comprehensive over-the-air evaluation to assess both fundamental network performance metrics and user plane Quality of Experience (QoE). Additionally, multiple deployment models are examined to quantify the CP signaling overhead associated with different architectural options. The results demonstrate that the proposed flat UP architecture not only improves throughput, latency performance and QoE but also reduces overall compute resource utilization when compared to the conventional hierarchical 5G user plane. The CP evaluation further provides practical insights and guidelines for real-world deployment scenarios."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Uniformity of Frequency Support Between Grid-Following and Grid-Forming Converters",
+    "authors": "Hongyu Zhou, Shuhan Fan, Cheng Wang, Wei Yao, Gen Li, Qihang Zong, Jinyu Wen",
+    "publish": "IEEE Transactions on Industry Applications",
+    "url": "https://doi.org/10.1109/tia.2026.3680366",
+    "source": "IEEE",
+    "abstract": "Grid-connected renewable energy for frequency support of the grid is conducive to improving the grid frequency security level. Grid-following (GFL) converters and grid-forming (GFM) converters are two important types of equipment to support renewable energy integration into the grid. Both GFM and GFL have a variety of different control strategies when performing frequency support. Clarifying the relationship between different strategies of GFM and GFL when performing frequency support will provide guidance for renewable energy frequency support. This paper investigates the grid frequency regulation characteristics of five common control schemes applied in converters of renewable energy. First, it reveals the uniformity between the damping path and governor path in virtual synchronous generator (VSG)-based GFM control. Then, the necessary conditions for achieving frequency-support uniformity among droop-based GFL control, integrated inertia-based GFL control, droop-based GFM control, and VSG-based GFM control are revealed. Furthermore, the application scenarios and limitations of the established uniformity theory are discussed. Finally, using the doubly-fed induction generator (DFIG) as an example in MATLAB/Simulink and Opal-RT, the proposed theory is comprehensively validated."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Overdriving Visual Depth Perception via Sound Modulation in VR_supp1-3679918.pdf",
+    "authors": "Daniel Jimenez-Navarro",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tvcg.2026.3679918/mm1",
+    "source": "IEEE",
+    "abstract": "Our ability to perceive and navigate the spatial world is a cornerstone of human experience, relying on the integration of visual and auditory cues to form a coherent sense of depth and distance. In stereoscopic 3D vision, depth perception requires fixation of both eyes on a target object, which is achieved through vergence movements, with convergence for near objects and divergence for distant ones. In contrast, auditory cues provide complementary depth information through variations in loudness, interaural differences (IAD), and the frequency spectrum. We investigate the interaction between visual and auditory cues and examine how contradictory auditory information can overdrive visual depth perception in virtual reality (VR). When a new visual target appears, we introduce a spatial discrepancy between the visual and auditory cues: the visual target is shifted closer to the previously fixated object, while the corresponding sound localization is displaced in the opposite direction. By integrating these conflicting cues through multimodal processing, the resulting percept is biased toward the intended depth location. This audiovisual fusion counteracts depth compression, thus reducing the required vergence magnitude and enabling faster gaze retargeting. Such audio-driven depth enhancement may further help mitigate the vergence-accommodation conflict (VAC) in scenarios where physical depth must be compressed. In a series of psychophysical studies, we first assess the efficiency of depth overdriving for various VR-relevant combinations of initial fixations and shifted target locations, considering different scenarios of audio displacements and their loudness and frequency parameters. Next, we quantify the resulting speedup in gaze retargeting for target shifts that can be successfully overdriven by sound manipulations. Finally, we apply our method in a naturalistic VR scenario where user interface interactions with the scene show an extended perceptual depth."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Analysis of Coupling Mechanism and Research on Control Strategy for Rotorcraft Aerial Manipulators",
+    "authors": "LingJu Kong, Pengjun Mao, Chengyuan Zhan, Ashutosh Sharma, Kai Guo",
+    "publish": "IEEE Transactions on Consumer Electronics",
+    "url": "https://doi.org/10.1109/tce.2026.3680731",
+    "source": "IEEE",
+    "abstract": "Recently, automation using Aerial Manipulators (AM) plays a vital role in the consumer centric industries where tasks need to be accurate with stability. Rotorcraft aerial manipulators are hybrid robotic systems composed of multi-rotor unmanned aerial vehicles (UAVs) and robotic arms. They possess advantages such as high-altitude flexible maneuverability and interactive operation, rendering significant application value in fields like high-altitude maintenance, hazardous material transportation, and emergency rescue. However, the strong nonlinear force-position coupling between the UAV and the robotic arm during operation leads to unstable flight attitudes and increased positioning errors at the end-effector of the robotic arm. Traditional PID control methods struggle to cope with such complex coupling characteristics. To address this critical issue, this paper first reveals the chain coupling mechanism of \"centroid offset-inertial transfer-aerodynamic disturbance\" for rotorcraft aerial manipulators from three dimensions combined with dynamic simulations. On this basis, a multi-field coupling dynamic equation covering centroid offset, inertial coupling, and aerodynamic disturbance is innovatively established, providing a theoretical foundation for the design of control strategies. Furthermore, an adaptive PID control strategy based on multi-agent reinforcement learning (MAAC-PID) is proposed, which innovatively adopts a \"centralized learning-distributed execution\" architecture. Through two agents optimizing the UAV's PID parameters and the robotic arm's joint control respectively, global cooperative optimization of the coupled system is achieved. Simulation results show the MAAC-PID algorithm outperforms traditional PID and PPO, reducing trajectory errors and enhancing stability. Specifically, under 2KG load condition, the standard deviation of the error of the MAAC-PID algorithm in the square trajectory is reduced by approximately 16.1% compared with the PPO algorithm; in addition, the MAAC-PID algorithm achieves an improvement of 0.03m in average maximum trajectory error compared with the PPO algorithm, exhibiting stronger robustness and adaptability."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Interoperability Assessment Framework for IEC 61850 Multivendor Digital Substations: Challenges and Recommendations",
+    "authors": "Gustav Keppler, Andrea Bonetti, Veit Hagenmeyer, Ghada Elbez",
+    "publish": "IEEE Transactions on Industry Applications",
+    "url": "https://doi.org/10.1109/tia.2026.3680372",
+    "source": "IEEE",
+    "abstract": "The transition to IEC 61850-based digital substations requires robust interoperability among devices from multiple vendors. This paper presents a practical interoperability assessment framework developed and applied within an expanded multivendor laboratory environment. We address challenges including vertical and horizontal data exchange reliability, Precision Time Protocol (PTP) synchronization complexities, process interface integration using I/O boxes, and variations in vendor implementations of the IEC 61850 standard. Based on initial findings, this work details experiences gained through a two-phase engineering approach (bottom-up followed by top-down), comprehensive communication chain validation, and analysis of specific vendor behaviors, such as Report Control Block limitations and PTP handling in network switches. Although conformance testing is essential, achieving interoperability also requires meticulous configuration, targeted testing of vendor-specific nuances, and suitable network infrastructure. Ongoing standardization efforts, particularly the collaborative initiatives of IEC Technical Committees 95, 38, and 57 through the new Joint Advisory Group JAG 25, minimize these engineering and testing demands by enabling greater inherent interoperability in IEC 61850 based substations. We provide recommendations for establishing similar testbeds and executing effective interoperability assessments, aiming to streamline future deployments and enhance the reliability of digital substations."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Safe School Water Initiative, A Comprehensive Study on Water Quality Testing Among Schools",
+    "authors": "Cindy Yu, Meghan Huntoon",
+    "publish": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "url": "https://doi.org/10.1109/isec64801.2025.11460334",
+    "source": "IEEE",
+    "abstract": "Water quality is a critical factor in maintaining the health and well-being of students, staff, and the entire school community. Ensuring that the water on school premises is safe to consume and use is of paramount importance. The project aimed to examine and monitor the drinking water quality across Howard County Public School System (HCPSS) in Maryland and advocate for necessary improvements in school water infrastructure, collaborating with local authorities to ensure lasting impact."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Time-Series Analysis and Forecasting of Film Genres Emerging Globally",
+    "authors": "Sunny Yang, Prithvi Kapilavai",
+    "publish": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "url": "https://doi.org/10.1109/isec64801.2025.11460367",
+    "source": "IEEE",
+    "abstract": "As the entertainment industry evolves, it continues to serve as a mirror that reflects historical events, technological advancements, and societal changes."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Investigating Subjective and Physiological Effects of Color Temperature and Visual Thermal Cues in Virtual Reality",
+    "authors": "Christoph Wührl, Sabrina Hössl, Tien-Julian Ho, Barbara Stiglbauer, Niels Henze, Martin Kocur",
+    "publish": "ACM Transactions on Computer-Human Interaction",
+    "url": "https://doi.org/10.1145/3801544",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Advanced Encryption Techniques for Enhancing Data Security and Privacy in Cloud Environments",
+    "authors": "Parth Shah, Samarth Shah, Anurag Agrawal",
+    "publish": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "url": "https://doi.org/10.1109/isec64801.2025.11460372",
+    "source": "IEEE",
+    "abstract": "The rapid evolution of cloud computing technology has fundamentally transformed the landscape of data management, shifting the paradigms of storage, processing, and transmission from conventional local infrastructures to the cloud. While cloud computing proffers substantial benefits in terms of convenience and scalability, it simultaneously users in unparalleled challenges concerning data security and privacy safeguards. This paper presents a novel hybridised encryption framework, BH-WABE, for securing cloud data, which combines symmetric encryption (Blowfish) and attribute-based encryption (ABE) to ensure fine-grained access control. The proposed scheme utilises a weight attribute-based authority (WAA) to dynamically assign attribute weights, enforcing hierarchical access policies and ensuring multi-authority security and resistance to collusion. Performance evaluations show that the encryption time increases from 118 ms to 341 ms, and the decryption time rises from 113 ms to 598 ms as the file size grows from 1 MB to 3 MB, with throughput remaining stable at approximately 0.00847 to 0.00874. Comparative analysis with the base E-ART algorithm reveals that BH-WABE outperforms E-ART in both encryption and decryption times. For instance, BH-WABE achieves encryption times of 118 s, 230 s, and 341 s for file sizes of 1 MB, 2 MB, and 3 MB, respectively, while E-ART lags behind with higher encryption times. Future work will be based on the enhancement of the algorithm for application in large cloud environments and more sophisticated cryptographic practices. In addition, further study on the scalability of the key generation and the storage of keys will be conducted for greater demand on cloud data security."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "NASTaR: A NovaSAR-Based Automated Ship Target Recognition Dataset_supp1-3679941.pdf",
+    "authors": "Benyamin Hosseiny",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/lgrs.2026.3679941/mm1",
+    "source": "IEEE",
+    "abstract": "We introduce the NovaSAR Automated Ship Target Recognition (NASTaR) dataset. This dataset comprises of 3415 ship patches extracted from NovaSAR S-band imagery, with labels matched to AIS data. It includes distinctive features such as 23 unique classes, inshore/offshore separation, and an auxiliary wake dataset for patches where ship wakes are visible. We validated the dataset’s applicability across prominent ship-type classification scenarios using benchmark deep learning models. Results demonstrate over 60% accuracy for classifying four major ship types, over 70% for a three-class scenario, more than 75% for distinguishing cargo from tanker ships, and over 87% for identifying fishing vessels. The NASTaR dataset is available at https://doi.org/10.5523/bris.2tfa6x37oerz2lyiw6hp47058, while relevant codes for benchmarking and analysis are available at https://github.com/benyaminhosseiny/nastar."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Robust Design Under Uncertainty in Quantum Error Mitigation",
+    "authors": "Maksym Prodius, Piotr Czarnik, Michael McKerns, Andrew T. Sornborger, Lukasz Cincio",
+    "publish": "IEEE Transactions on Quantum Engineering",
+    "url": "https://doi.org/10.1109/tqe.2026.3680641",
+    "source": "IEEE",
+    "abstract": "Error mitigation techniques are crucial to achieving near-term quantum advantage. Classical post-processing of quantum computation outcomes is a popular approach for error mitigation, which includes methods such as Zero Noise Extrapolation, Virtual Distillation, and learning-based error mitigation. However, these techniques have limitations due to the propagation of uncertainty resulting from the finite shot number of a quantum measurement. In this work, we introduce general and unbiased methods for quantifying the uncertainty and error of error-mitigated observables based on the strategic sampling of error mitigation outcomes. We then extend our approach to demonstrate the optimization of performance and robustness of error mitigation under uncertainty. To illustrate our methods, we apply them to Zero Noise Extrapolation and Clifford Date Regression in the ground state of the XY model simulated using depolarizing and IBM Toronto noise models, respectively. In particular, we optimize the choice of noise levels and the allocation of shots for Zero Noise Extrapolation and the distribution of the training circuits for Clifford Data Regression. While our methods are readily applicable to any post-processing-based error mitigation approach, in practice they must not be prohibitively expensive – even though they perform optimizations of the error mitigation hyperparameters requiring sampling of a statistical distribution of error mitigation outcomes. By leveraging surrogate-based optimization, we show that our methods can efficiently perform optimal design for a Zero Noise Extrapolation implementation. We then further demonstrate the transferability of learned Zero Noise Extrapolation hyperparameters to other similar circuits."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "MHD Flows in the Lower Expansion Chamber of a Generic Outboard Blanket Segment for DEMO",
+    "authors": "Leo Bühler, Chiara Mistrangelo, Christina Koehly",
+    "publish": "IEEE Transactions on Plasma Science",
+    "url": "https://doi.org/10.1109/tps.2026.3670923",
+    "source": "IEEE",
+    "abstract": "The water-cooled lead lithium (WCLL) blanket has been chosen as the European reference concept for a DEMO reactor. In the proposed design, liquid metal velocities in the columnar-arranged breeder units (BUs) are very small. This weak purge flow is required to circulate lead lithium (PbLi) toward external ancillary facilities for purification and tritium extraction. When the electrically conducting PbLi moves through the strong plasma-confining magnetic field, magnetohydrodynamics (MHD) affects the flow distribution and creates an increased pressure drop compared to hydrodynamic conditions. Previous MHD analyses have been performed for a single column of breeder units, with focus on the pressure drop in the poloidal manifolds that distribute PbLi among BUs. Manifolds have been identified as key and possibly critical components for the performance of blanket modules, since the major fraction of pressure drop arises in these elements. Moreover, they determine the partitioning of the PbLi flow among breeding zones. While the International Thermonuclear Experimental Reactor (ITER) Test Blanket Module (TBM) is designed only with two columns of BUs, in a DEMO reactor design, the number of parallel poloidal feeding and draining manifolds is larger. As a consequence, liquid metal has to be distributed from a single supply line into those channels via complex 3D geometries. In the present design of a DEMO blanket outboard segment, this is achieved by a toroidal expansion chamber located in the lower part of the module. The present analysis considers the MHD flow in this chamber, which expands from a radial circular entrance pipe along the toroidal direction toward two circular holes in the back plate of the blanket. Through these openings, the liquid metal is then distributed into the poloidal manifolds. Pressure and electric potential distributions are calculated via an asymptotic numerical approach valid for intense magnetic fields when inertia effects are negligible. Pressure losses, which arise preferentially from 3D MHD effects in expansion and contraction regions, are quantified."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "VRN-Back: an Immersive Music Rhythm Game for Working Memory Training in Virtual Reality",
+    "authors": "Haiyan Jiang, Le Luo, Jie Guo, Zixiao Liu, Wangda Zhu, Dongdong Weng, Weitao Song, Henry Been-Lirn Duh",
+    "publish": "IEEE Transactions on Visualization and Computer Graphics",
+    "url": "https://doi.org/10.1109/tvcg.2026.3680633",
+    "source": "IEEE",
+    "abstract": "The N-back task is widely recognized as a paradigm for cognitive training due to its adaptability and effectiveness in mitigating working memory decline. However, its repetitive and monotonous design often leads to reduced engagement and poor long-term adherence, lowering intervention effectiveness. To address these limitations, researchers have turned to game-based interventions and immersive technologies to enhance user motivation and sustain training participation. In this study, we propose VRN-back, a music rhythm-based gamified cognitive training system in virtual reality (VR). The system combines the adaptive N-back paradigm with rhythm-game mechanics to increase enjoyment and motivation, while immersive interaction fosters engagement and enhances training outcomes. We conducted a seven-day study with 15 young adults to evaluate the system's impact on their working memory, transfer to related cognitive domains, and user experience. Results showed significant improvements in N-back accuracy, reaction time, and maximum N level, as well as transfer effects on attention and inhibitory control tasks. Subjective evaluations indicated good usability and user experience, with the System Usability Scale scoring 80.83/100, the short User Experience Questionnaire rating pragmatic quality as “Good” and hedonic quality as “Above Average”, and the Pleasure-Arousal-Dominance scale confirming sustained positive emotional states. Simulator sickness remained minimal before and after training, ensuring usability. These findings suggest the feasibility and effectiveness of immersive rhythm-based gamified VR systems for cognitive training, laying a foundation for future research on long-term cognitive intervention technologies."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Novel Single-Phase Converter with Reduced Common Mode EMI",
+    "authors": "Keisha K. Davis, Giovanna Oriti, Alexander L. Julian, Christine L. Malong",
+    "publish": "IEEE Transactions on Industry Applications",
+    "url": "https://doi.org/10.1109/tia.2026.3680383",
+    "source": "IEEE",
+    "abstract": "This paper proposes a novel bidirectional power converter with reduced common mode (CM) voltage and leakage current, which can be used for a wide range of applications to replace the traditional full bridge (known also as H-bridge) converter, including battery chargers, transformerless photovoltaic (PV) converters, grid-forming microgrid converters, etc. The four-leg topology eliminates the CM voltage at the switching frequency, resulting in lower conducted electromagnetic interference (EMI), and reduced leakage current compared to a two-leg full bridge converter. Further, the volt-ampere rating of the switching devices is equivalent to that of a traditional full bridge, making the novel topology cost competitive with other power electronic topologies used in the PV converter market. This paper focuses on the grid-forming mode of operation, introducing also a novel dq reference frame voltage controller with a delta-modulated inner current controller. The converter meets the conducted EMI limits in leading standards without a CM choke. The experimental validation is carried out on a silicon carbide (SiC) converter controlled by a field programmable gate array."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Hybrid Generative Adversarial Network Assisted Oversampling for Credit Card Fraud Detection_supp1-3680136.docx",
+    "authors": "M. AHMED ELSHEWEY",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/access.2026.3680136/mm1",
+    "source": "IEEE",
+    "abstract": ""
+  },
+  {
+    "date": "2026-4-3",
+    "title": "A Reconfigurable SPR-based D-shaped Dual-Sensing Photonic Crystal Fiber Biosensor Using Ge\n                    <sub>2</sub>\n                    Sb\n                    <sub>2</sub>\n                    Te\n                    <sub>5</sub>\n                    Phase Change Material for Cancer Cell Detection",
+    "authors": "A Sanam Thasha, M S Arjunan, K J Suja",
+    "publish": "IEEE Transactions on NanoBioscience",
+    "url": "https://doi.org/10.1109/tnb.2026.3680512",
+    "source": "IEEE",
+    "abstract": "A surface plasmon resonance (SPR)-based D-shaped photonic crystal fiber biosensor has been proposed as an effective technique for detecting cancer. Despite several advanced SPR biosensor designs that have been reported to achieve high sensitivity, most exhibit non-uniform responses toward different cancerous cells and lack reconfigurability. Since sensitivity strongly depends on the plasmonic material, distinct sensors are often preferred for specific cancerous cells. However, previous studies on common cancer types have not explicitly addressed the issue of non-uniform sensitivity across different cells, as the widely varying sensitivity has not been systematically analyzed or treated as a key design concern, thereby limiting the general applicability of existing SPR biosensors. In this work, we define and address this gap for the first time by proposing a reconfigurable SPR-based D-shaped PCF biosensor utilizing an Au/Ge2Sb2Te5 (GST) phase change material (PCM) interface. The distinct crystalline and amorphous phases of GST, exhibiting significant optical contrast, provide dual sensing capability and thereby enable different sensitivity responses for the detection of various cancer cells. In the amorphous GST, high sensitivity is observed for skin (4000nm/RIU), cervical (3333.33nm/RIU), and breast II(MCF-7) cancer (2857.14nm/RIU). In contrast, the crystalline phase exhibits high sensitivity in blood (2857.14nm/RIU), adrenal (2857.14nm/RIU), and breast I (MDA-MB-231) cancer (2857.14nm/RIU). Thus, by switching the GST phase, the sensor can be reconfigured to select different cancerous cells. Hence, the reconfigurability of the PCM effectively mitigates the issue of non-uniform sensitivity of conventional SPR-based biosensors, demonstrating the strong potential and versatility for futuristic biosensing technologies."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Multiobjective Optimization for Uncertain Integrated Energy Systems: Aggregating EVs in Demand Response via Photovoltaic-Energy Storage",
+    "authors": "Zhichen Li, Jijiao Wei, Hongtian Chen, Huaicheng Yan, Dahua Yu, Baoping Zhou",
+    "publish": "IEEE Transactions on Industrial Informatics",
+    "url": "https://doi.org/10.1109/tii.2026.3676670",
+    "source": "IEEE",
+    "abstract": "In this article, a multiobjective optimization methodology is tailored for energy producers and sellers (Prosumers) and electric vehicle charging service providers (EVCS) in IES. The primary objective is to harmonize economic and safety aspects of system, while addressing uncertainties associated with renewable energy and involvement of electric vehicles (EVs) in integrated demand response (IDR). Initially, an orderly charging model for EVs is developed by driving behavior patterns, taking into account the influence of EVCS aggregating EVs in IDR via photovoltaic-energy storage charging stations. Subsequently, a stochastic programming method with conditional value at risk is utilized to alleviate potential risks from stochastic and intermittent nature of renewable energy outputs. Furthermore, the optimization framework incorporates operating costs of Prosumers and EVCS, and peak-to-valley difference of IES load as multiobjective functions. The optimal solution is determined by technique for order of preference by similarity to ideal solution. Ultimately, case studies confirm that the proposed approach effectively balances economic performance for multiple stakeholders and operational safety, and enhances system robustness under uncertain conditions."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Robotic Non-Contact Three-Dimensional Micromanipulation by Acoustohydrodynamic Effects",
+    "authors": "Chenhao Bai, Zhuo Chen, Qiang Huang, Tatsuo Arai, Xiaoming Liu",
+    "publish": "IEEE Transactions on Automation Science and Engineering",
+    "url": "https://doi.org/10.1109/tase.2026.3680668",
+    "source": "IEEE",
+    "abstract": "Robotic non-contact three-dimensional (3-D) micromanipulation of micro-objects is critical for micro-assembly applications, but achieving high precision and reliable release in the microscale remains challenging. Traditional contact and non-contact techniques face limitations in automated 3-D operation. We present a fully automated micromanipulation system using an acoustic bubble end-effector for non-contact 3-D handling of microbeads. The system integrates real-time vision feedback with Z-axis autofocus and adaptive proportional-integral-derivative control for precise trapping, transport, and release. Leveraging localized bubble-driven microstreaming and acoustic radiation forces, our end-effector forms a stable trap within 100 ms and transports microbeads at speeds up to 1 mm/s. Experiments demonstrate exceptional 3-D dexterity, with trapping success rates consistently greater than 80% for microbeads of 60-120 μm diameter, and release placement accuracy is confirmed to be within ±2.5 μm when operating below a 150 μm height. The system achieves broad size adaptability and operates in free-space 3-D environments, overcoming workspace constraints of microfluidic setups. By eliminating mechanical contact, this approach reduces contamination and damage while delivering precise 3-D control often lacking in other non-contact methods. Our system bridges acoustofluidics and robotic automation, offering a versatile solution for automated micro-assembly and biomedical applications."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Latent Danger Zone: Distilling Unified Attention for Cross-Architecture Black-box Attacks",
+    "authors": "Yang Li, Chenyu Wang, Tingrui Wang, Yongwei Wang, Haonan Li, Zhunga Liu, Quan Pan",
+    "publish": "IEEE Transactions on Dependable and Secure Computing",
+    "url": "https://doi.org/10.1109/tdsc.2026.3680667",
+    "source": "IEEE",
+    "abstract": "Black-box adversarial attacks remain challenging due to limited access to model internals. Existing methods often depend on specific network architectures or require numerous queries, resulting in limited cross-architecture transferability and high query costs. To address these limitations, we propose JAD, a latent diffusion model framework for black-box adversarial attacks. JAD generates adversarial examples by leveraging a latent diffusion model guided by attention maps distilled from both a convolutional neural network (CNN) and a Vision Transformer (ViT) models. By focusing on image regions that are commonly sensitive across architectures, this approach crafts adversarial perturbations that transfer effectively between different model types. This joint attention distillation strategy enables JAD to be architecture-agnostic, achieving superior attack generalization across diverse models. Moreover, the generative nature of the diffusion framework yields high adversarial sample generation efficiency by reducing reliance on iterative queries. Experiments demonstrate that JAD attack offers improved attack generalization, generation efficiency, and cross-architecture transferability compared to existing methods, providing a promising and effective paradigm for black-box adversarial attacks."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "K-12 Education: Explaining Cyber Value at Risk Using Electrical K-Map and Truth Table",
+    "authors": "Prashant Vajpayee, Gahangir Hossain",
+    "publish": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "url": "https://doi.org/10.1109/isec64801.2025.11460248",
+    "source": "IEEE",
+    "abstract": "Cyber Value at Risk (CVaR) is often associated with value, yet determining the value of an asset can be subjective and challenging due to the extended impact of cyber-attacks or valuation errors. In educational settings, where cybersecurity awareness is paramount, it is essential to elucidate cyber risks for students. With the proliferation of online learning, broader internet access, and extensive use of electronic devices by children, cyber risks are increasingly significant. This research leverages various factors—cyber assets, asset value, protection levels, types of attacks, and associated risks—to underscore the importance of considering high risks. By fostering a better understanding of cyber issues and associated risks in real-time scenarios, we aim to cultivate critical thinking among students. Utilizing an Electrical K-map for explanations enhances comprehension, enabling students to grasp the complexities of cybersecurity. This approach can profoundly impact their daily activities, equipping them to make informed decisions regarding cybersecurity and cyber risks. Future research should incorporate additional data points and validate this concept for broader applicability, ultimately advocating for curriculum enhancements in K-12 cybersecurity education."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Software Vulnerabilities as Cognitive Blindspots; Assessing the Suitability of a Dual Processing Theory of Decision Making for Secure Coding",
+    "authors": "Matthew Ivory, John Towse, Miriam Sturdee, Mark Levine, Bashar Nuseibeh",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3806388",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Challenges in Testing Large Language Model Based Software: A Faceted Taxonomy",
+    "authors": "Felix Dobslaw, Robert Feldt, Juyeon Yoon, Shin Yoo",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3806396",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-4-3",
+    "title": "In silico inhibitor analysis of ran binding protein 9 (RanBPM) in non-small cell lung cancer (NSCLC)",
+    "authors": "Suhruth Koneru, Gaurav Sharma",
+    "publish": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "url": "https://doi.org/10.1109/isec64801.2025.11460249",
+    "source": "IEEE",
+    "abstract": "Non-small cell lung cancer (NSCLC) is the most common type of lung cancer, accounting for approximately 85% of all lung cancer cases. Despite the development of advanced therapies against it, chemotherapy has extensive side effects and prolonged treatment. Therefore, developing novel therapeutic strategies to modulate emerging molecular targets is imperative. RanBPM is a protein found in the nucleus and cytoplasm of the cell, which is necessary for multiple different cell functions. Recently, RAN Binding Protein 9 (RanBPM) protein has been linked to the NSCLC and could be a potential target. In NSCLC, RanBPM gets overexpressed and aids in cancer progression. We hypothesize that the ligands bind to the RanBPM protein and could inhibit the RanBPM protein functioning, thus preventing lung cancer. In the current research work, we have performed computational simulations so the RANBP9 protein can be inhibited, which can hinder the NSCLC progression. To perform this simulation, we first need RanBP9 and chemical ligands. The Protein Data Bank (PDB) was used to get the 3D structure of the RanBP9 protein. the Zinc20 database was used to get the 3D structures of the ligands, and molecular docking was performed using the AutoDock Vina software. Based on our studies, we have predicted five chemical compounds (ligands) that bind strongly to the predicted binding site of the protein. After molecular docking simulations, we used PLIP analysis to predict the interaction between the ligands and RANBP9. To understand the pharmaceutical properties of the ligands, we have used the SwissADME web server, which showed that the ligands have high gastrointestinal absorption and a high blood-brain barrier, meaning that these drugs can easily be absorbed from the stomach and taken orally. This research paves the way for precision therapies targeting RanBP9 in NSCLC, enabling novel drug development and biomarker-based diagnostics."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Clinical Metadata Guided Limited-Angle CT Image Reconstruction_supp1-3677586.pdf",
+    "authors": "Hengyong Yu",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tmi.2026.3677586/mm1",
+    "source": "IEEE",
+    "abstract": "Limited-angle computed tomography (LACT) improves temporal resolution and reduces radiation dose, but suffers from severe artifacts due to missing projections. Clinical workflows record abundant patient- and acquisition-level metadata, yet such information remains underutilized in image reconstruction. To tackle the ill-posed LACT inverse problem, we propose a metadata-guided two-stage diffusion framework that leverages structured clinical contexts as semantic priors for robust reconstruction. In Stage-I, we learn a metadata-to-anatomy generative prior by conditioning a transformer-based diffusion model on clinical metadata (acquisition parameters, patient demographics, and diagnostic impressions), and sampling a coarse anatomical estimate from Gaussian noise. In Stage-II, a second conditional diffusion model performs coarse-to-fine refinement, using the Stage-I estimate as an image prior while re-injecting the same metadata to recover full-resolution anatomy. To preserve anatomical fidelity and suppress hallucinations, projection-domain data consistency is enforced periodically after denoising update via an ADMM-based solver. Experiments on the public multimodal CTRATE dataset demonstrate that the proposed framework outperforms iterative, CNN-based, and diffusion-based baselines, with the greatest gains under severe truncation, <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">e.g</i>., up to 5.23%/11.21% higher SSIM/PSNR than the strongest metadata-free diffusion competitor at 90°. On real clinical cardiac CT, it yields coronary artery calcium scores closer to full-view references, indicating improved clinical utility. Furthermore, the proposed method is generalized to out-of-distribution angular ranges and projection geometries, and ablation results confirm complementary contributions from different metadata types under limited-angle conditions. Our results highlight clinical metadata as actionable semantic priors to synergize with physics-informed constraints to improve both reconstruction fidelity and clinical quantification in LACT."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "DyCITO+: Scalable Deep Reinforcement Learning for Generating Class Integration Test Orders of Java Programs",
+    "authors": "Yanru Ding, Yanmei Zhang, Guan Yuan, Shujuan Jiang, Wei Dai, Luciano Baresi",
+    "publish": "IEEE Transactions on Software Engineering",
+    "url": "https://doi.org/10.1109/tse.2026.3680517",
+    "source": "IEEE",
+    "abstract": "Class Integration Test Order (CITO) generation is essential to minimize testing cost in object-oriented software.Traditional methods based on static dependencies often producesuboptimal results, while recent approaches that incorporatedynamic dependencies typically neglect accurate stubbing costestimation and face scalability challenges. We propose DyCITO+,an extension of DyCITO, which originally modeled CITO generationas a Reinforcement Learning (RL) problem using Qlearning.However, DyCITO relies on tabular methods, and thislimits its scalability. DyCITO+ addresses this by introducingthree Deep Reinforcement Learning (DRL) algorithms: DeepQ-Network (DQN), Proximal Policy Optimization (PPO), andAdvantage Actor-Critic (A2C), to handle the complexity oflarge-scale systems more effectively. DyCITO+ builds on thedynamic dependency analysis mechanism from DyCITO, whichcaptures more accurate runtime relationships, including interfaceimplementation, abstract class inheritance, method overriding,and multilevel inheritance. We evaluated DyCITO+ on eightJava programs of varying sizes. The results show that DyCITO+significantly improves the scalability and effectiveness of CITOgeneration. Among the three DRL methods, A2C consistentlyproduces the lowest overall stubbing complexity, particularly inmedium- and large-scale systems."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "High Color Rendering Index Solution-Processed White OLEDs Based on Novel Exciplexes_supp1-3678242.docx",
+    "authors": "Baiquan Liu",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/ted.2026.3678242/mm1",
+    "source": "IEEE",
+    "abstract": "Organic light-emitting diodes (OLEDs) are increasingly vital in display and lighting technology due to their self-emission, high contrast, rapid response, and solution processability. Conventional white OLEDs, reliant on combining complementary colors, often involve complex structures and material losses during evaporation. Alternatively, the exciplex, formed by donor–acceptor molecular interactions, offers simplified designs and tunable emission. However, the emission mechanisms of exciplex remain underexplored. Additionally, the achievement of high-quality white exciplex emission is a significant challenge. Here, this study investigates binary donor-acceptor systems, pairing donors (small molecules CBP, TCTA; polymers PVK, PTAA) with the acceptor TpPyPb, to fabricate solution-processed OLEDs with simplified architectures. Exciplex formation is validated by using a modified Rehm–Weller equation to assess Gibbs free energy, complemented by spectroscopic analysis to elucidate formation mechanisms. Remarkably, a novel bulk exciplex system, PTAA: TpPyPb, yields a high-quality white emission with a color rendering index (CRI) of 84, which is among the highest for solution-processed exciplex-based OLEDs. Polymeric donors demonstrate more discrete charge-transfer state energies, which facilitate broader spectral emission, making them ideal for white exciplex and host materials. This work provides critical insights into exciplex emission mechanisms and advances the development of high-performance, solution-processed white OLEDs, offering a pathway to simplified, efficient, and high-quality lighting and display technologies."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Carbon Footprint Reduction for Product Returns: Impacts of Return Freight Insurance_supp1-3680225.pdf",
+    "authors": "Yiming Fan",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tem.2026.3680225/mm1",
+    "source": "IEEE",
+    "abstract": "In e-commerce, excessive product returns have generated severe environmental problems. While green technology investment and stringent return policies are potential mitigations, the lenient return freight insurance strategy is widely adopted in practice. Nevertheless, it remains unclear how firms should invest in green technology under return freight insurance and what impact such insurance has on the environment. To explore these issues, we construct a model where a retailer sells products to consumers who are uncertain about product quality and concerned about the carbon footprint of potential returns. Our findings show that return freight insurance changes retailer preferences for carbon reduction investment, prompting the low-quality retailer to increase investment while encouraging the high-quality retailer to decrease investment. The analysis also reveals that return freight insurance can lead to better environmental performance at high premiums, even when the high-quality retailer invests less in carbon reduction technology or the low-quality retailer faces higher return volumes caused by the insurance. Moreover, return freight insurance always creates a conflict between profit and environment for the high-quality retailer. By contrast, if the retailer sells low-quality products, the insurance can simultaneously increase profit and reduce overall carbon footprints, resulting in a “win-win” outcome when consumer eco-consciousness is high and the insurance premium is low. Finally, we verify the robustness of results through multiple model extensions. Our study sheds light on how return freight insurance can serve as a crucial instrument for online retailers when integrated with carbon footprint reduction."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Generative AI-Enabled Transmission and Computing Integration for Cloud-Edge Collaborative IoT",
+    "authors": "Haoyu Ci, Yuxiang Leng, Ziming Li, Yiming Chen, Haijun Liao, Zhenyu Zhou, Wenqing Wu, Xiaoyan Wang",
+    "publish": "IEEE Transactions on Consumer Electronics",
+    "url": "https://doi.org/10.1109/tce.2026.3680801",
+    "source": "IEEE",
+    "abstract": "Cloud–edge collaborative internet of things (IoT) enables consumer energy management by exploring task offloading and migration for low-latency processing. However, treating transmission and computing separately leads to inefficient resource utilization. Furthermore, in queue backlogs with long-tail distributions, traditional learning based approaches exhibit deteriorated performance because rare but critical backlog scenarios remain undervalued. Therefore, we propose a generative artificial intelligence (GAI)-enabled transmission and computing integration framework to intelligently distribute workloads based on channel conditions and cloud–edge capabilities. For transmission, GAI-assisted upper confidence bound (UCB) is proposed for device-side offloading compression ratio optimization. It adjusts exploration weight dynamically, ensuring robust transmission reliability under varying channel conditions. For computing, GAI-enhanced federated deep Q-network (FDQN) is developed to jointly optimize task migration and computing resource allocation. GAI synthesizes rare events and extreme experiences for augmented training of global DQN, enabling adaptive learning and robustness under extreme events. Simulation results demonstrate that the proposed algorithm’s effectiveness in reducing delay while ensuring long-term transmission reliability."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Joint Tailoring of Electromagnetic Radiated Emission and Susceptibility Limits for Coexistence of Multiple Radio-Frequency Devices",
+    "authors": "Houpu Xiao, Yaoyao Li, Youwei Meng, Weiping Tong, Zongqi Hu, Laibing Feng",
+    "publish": "IEEE Transactions on Electromagnetic Compatibility",
+    "url": "https://doi.org/10.1109/temc.2026.3674675",
+    "source": "IEEE",
+    "abstract": "The widespread deployment of multiple radio-frequency (RF) devices on complex platforms poses critical challenges for spectrum coexistence. Excessive radiated emissions and insufficient radiated susceptibility can cause intolerable interference, whereas traditional electromagnetic compatibility (EMC) design typically enforces uniform limits across all devices. Such uniformity neglects system heterogeneity, resulting in constraints with excessive interference margins or compromised system-level robustness. To address this issue, we propose a Joint Tailoring of Radiated Emission and Susceptibility Limits (JTRESL) framework. Explicitly accounting for the physical link between emission and immunity, a radiation coupling network model is first developed to characterize electromagnetic interference among devices. Based on this model, a multiobjective optimization formulation is established to balance interference immunity, implementation cost, and spectral smoothness, while incorporating engineering constraints. The resulting nonconvex problem is solved using an iterative algorithm based on sequential quadratic programming, which updates tailoring variables frequency-by-frequency and jointly optimizes emission limits and susceptibility thresholds. Experiments in a multidevice anechoic chamber demonstrate that the proposed method effectively eliminates interference states, controls engineering cost, and produces smooth limit curves. This enables targeted tightening in high-risk bands and appropriate relaxation in overly conservative bands. Overall, JTRESL provides an efficient and feasible solution to enhance EMC and spectrum coexistence in heterogeneous multiple RF platforms."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Image Captioning via Compact Bidirectional Architecture",
+    "authors": "Zijie Song, Yuanen Zhou, Zhenzhen Hu, Daqing Liu, Huixia Ben, Richang Hong, Meng Wang",
+    "publish": "IEEE Transactions on Multimedia",
+    "url": "https://doi.org/10.1109/tmm.2026.3680397",
+    "source": "IEEE",
+    "abstract": "Most current image captioning models typically generate captions from left-to-right. This unidirectional property makes them can only leverage past context but not future context. Though refinement-based models can exploit both past and future context by generating a new caption in the second stage based on pre-retrieved or pre-generated captions in the first stage, the decoder of these models generally consists of two networks (i.e. a retriever or captioner in the first stage and a captioner in the second stage), which can only be executed sequentially. In this paper, we introduce a Compact Bidirectional Transformer model for image captioning that can leverage bidirectional context implicitly and explicitly while the decoder can be executed parallelly. Specifically, it is implemented by tightly coupling left-to-right(L2R) and right-to-left(R2L) flows into a single compact model to serve as a regularization for implicitly exploiting bidirectional context and optionally allowing explicit interaction of the bidirectional flows, while the final caption is chosen from either L2R or R2L flow in a sentence-level ensemble manner. We conduct extensive ablation studies on MSCOCO benchmark and find that the compact bidirectional architecture and the sentence-level ensemble play more important roles than the explicit interaction mechanism. By combining with word-level ensemble seamlessly, the effect of sentence-level ensemble is further enlarged. We further extend the conventional one-flow self-critical training to the two-flows version under this architecture and achieve new state-of-the-art results in comparison with non-vision-language-pretraining models. Finally, we verify the generality of this compact bidirectional architecture by extending it to LSTM backbone. Source code is available at <uri xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">https://github.com/YuanEZhou/cbtic</uri>."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Hybrid Late-Fusion Approach for Intelligent Fault Identification under Cross-Load Operating Conditions",
+    "authors": "Knap Paweł, Jachymczyk Urszula",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3680489",
+    "source": "IEEE",
+    "abstract": "This paper addresses several practical gaps in intelligent fault identification of rotating machinery: (i) limited cross-load generalization, (ii) lack of interpretability of data-driven models, and (iii) overly optimistic results caused by weakly controlled testing protocols. We propose a relatively simple hybrid late-fusion framework that combines a deep learning branch operating on raw vibration signals with a conventional machine-learning branch trained on handcrafted condition indicators. The two branches are fused at the decision level using a stacking meta-classifier, which enables both performance gains and explicit analysis of the fusion mechanism. On a dedicated laboratory test rig evaluated in a cross-load setting (training at no-load and testing at load of 4 Nm), the condition indicators-based Machine Learning (ML) model alone achieves an accuracy of approximately 83.4%, while the deep 1D-CNN branch reaches about 86.7%. The proposed stacking-based late fusion with a Radial Basis Function Support Vector Classifier (RBF-SVC) meta-classifier increases the accuracy to 92.2%, with consistent improvements in F1-score and AUC. Additional experiments on the widely used Case Western Reserve University (CWRU) bearing dataset yield 100% accuracy, confirming that the proposed architecture remains competitive on standard benchmarks while its main benefits appear under realistic operating-condition shifts. To improve interpretability, we perform an extensive SHapley Additive exPlanations (SHAP) analysis of both the ML branch and the stacking meta-model. The results link the decisions to physically meaningful condition indicators and show how the meta-classifier integrates deep and classical predictions, providing an explicit, quantitative explanation of the hybrid model’s behaviour."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "GhostBackdoor: A Resistant Backdoor Attack",
+    "authors": "Omid Rajabi Rostami, Rui Ning, Chunsheng Xin, Jin-Hee Cho, Jiang Li, Hongyi Wu",
+    "publish": "IEEE Internet of Things Journal",
+    "url": "https://doi.org/10.1109/jiot.2026.3680800",
+    "source": "IEEE",
+    "abstract": "The robustness, security, and safety of artificial intelligence (AI) systems have become growing concerns, particularly as deep learning models are increasingly deployed in critical applications. Among emerging threats, backdoor attacks pose a serious risk by embedding hidden malicious behaviors into otherwise well-performing models. Although recent advances in detection techniques have improved defenses for computer vision systems, our findings demonstrate that even simple but carefully designed poisoning strategies can successfully evade these defenses. In this paper, we introduce GhostBackdoor, a novel backdoored model trained using a custom loss function and targeted data augmentation. The proposed loss function aligns neuron activations between clean and poisoned inputs, effectively masking activation anomalies, while the augmentation enforces strict location- and pattern-specific triggers that activate the backdoor only under specific conditions. After training, the model maintains behavior indistinguishable from a clean model unless exposed to the designated trigger with the specific pattern and at the designed locations. We evaluate GhostBackdoor against a broad range of leading defense mechanisms, most of which fail to detect the implanted backdoor. Our results highlight how the vast hypothesis space of deep learning models can be exploited to conceal malicious activations, underscoring the need for more robust security strategies in AI-driven systems, including those used in Internet of Things (IoT) applications."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Scheduling Schemes for Mission-Critical IoT Healthcare Applications: A Systematic Review",
+    "authors": "Michael Okopa, John Ngubiri, Odongo Steven Eyobu",
+    "publish": "IEEE Internet of Things Journal",
+    "url": "https://doi.org/10.1109/jiot.2026.3680483",
+    "source": "IEEE",
+    "abstract": "Due to limited spectrum availability, both ultra-reliable low-latency communication (URLLC), also known as mission-critical, and enhanced mobile broadband (eMBB) applications coexist on the same carrier to enhance spectrum efficiency. Mission-critical applications demand reliable and timely delivery of traffic because if the traffic arrives too late, it is of limited use and may cause degradation in service, economic loss, or even loss of life and property. Conversely, eMBB applications require high throughput. These conflicting requirements create a significant trade-off between the latency and reliability needs of URLLC and the throughput demands of eMBB applications. This study presents an in-depth, state-of-the-art systematic review of current scheduling schemes for URLLC and eMBB, with a focus on their suitability for the joint scheduling of MC-IoT healthcare and eMBB applications. To ensure replicability and clearly report the study’s main findings, the review is based on PRISMA guidelines. The survey considered a total of 99 papers published between 2015 and April 2025. Three research questions are addressed in this study: 1) What scheduling schemes are currently used for MC-IoT and eMBB applications, and how do they manage spectrum sharing; 2) What challenges and limitations exist in scheduling MC-IoT healthcare and eMBB applications; and 3) What queuing models have been proposed for URLLC and eMBB scheduling, and how well do they meet the performance requirements of MC-IoT healthcare applications. The findings show that although existing reviews on scheduling systems for URLLC and eMBB consider multiple factors for their efficiency, other critical factors, such as traffic burstiness and URLLC traffic differentiation, have not been considered. To the best of our knowledge, this survey is the first to examine existing scheduling schemes for URLLC and eMBB applications while considering critical factors such as traffic burstiness and URLLC traffic differentiation."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Review of Superconducting Qubit Devices and Their Large-Scale Integration",
+    "authors": "Hiu Yung Wong",
+    "publish": "IEEE Electron Devices Reviews",
+    "url": "https://doi.org/10.1109/edr.2026.3680072",
+    "source": "IEEE",
+    "abstract": "The superconducting qubit quantum computer is one of the most promising quantum computing architectures for large-scale integration due to its maturity and close proximity to the well-established semiconductor manufacturing infrastructure. From an education perspective, it also bridges classical microwave electronics and quantum electrodynamics. In this paper, we will review the basics of quantum computers, superconductivity, and Josephson junctions. We then introduce important technologies and concepts related to DiVincenzo’s criteria, which are the necessary conditions for the superconducting qubit technology to work as a useful quantum computer. Firstly, we will discuss various types of superconducting qubits formed with Josephson junctions, from which we will understand the trade-off across multiple design parameters, including their noise immunity. Secondly, we will discuss different schemes to achieve entanglement gate operations, which are a major bottleneck in achieving more efficient fault-tolerant quantum computing. Thirdly, we will review readout engineering, including the implementations of the Purcell filters and quantum-limited amplifiers. Finally, we will discuss the nature and review the studies of two-level system defects, which are currently the limiting factor of qubit coherence time. DiVincenzo’s criteria are only the necessary conditions for a technology to be eligible for quantum computing. To have a useful quantum computer, large-scale integration is required. We will review proposals and developments for the large-scale integration of superconducting qubit devices. By comparing with the application of electronic design automation (EDA) in semiconductors, we will also review the use of EDA in superconducting qubit quantum computer design, which is necessary for its large-scale integration."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Low-cost Testing of 2.4GHz Receiver on Standard Digital ATE: Practical Implementation",
+    "authors": "T. Vayssade, K. Tahraoui, F. Lefèvre, L. Latorre, F. Azaïs",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2026.3680795",
+    "source": "IEEE",
+    "abstract": "In this paper, we present the implementation of a low-cost solution for the test of 2.4GHz receivers on a standard Automatic test Equipment (ATE). The approach relies on the use of a customized binary signal generated by a digital tester channel as the test stimulus. This binary signal is specifically defined such that it presents similar spectral characteristics in the frequency band of the Device Under Test (DUT) as a conventional analog test stimulus generated by an RF tester channel. Dedicated scripts are developed that permit (i) the selection of an appropriate sampling frequency for the digital channel to avoid spectral corruption in the DUT frequency band, and (ii) the automatic conversion of the I/Q data computed by the ATE in case of a conventional RF stimulus into a binary sequence to be stored in the vector memory of the digital tester channel. Experimental results are provided that validate the efficiency of the proposed solution, under different communication protocols (ZigBee and Bluetooth Low Energy) and signal strengths."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "USCNet: Transformer-Based Multimodal Fusion with Segmentation Guidance for Urolithiasis Classification",
+    "authors": "Changmiao Wang, Songqi Zhang, Yongquan Zhang, Yifei Wang, Liya Liu, Nannan Li, Xingzhi Li, Jiexin Pan, Yi Jiang, Xiang Wan, Hai Wang, Ahmed Elazab",
+    "publish": "IEEE Journal of Biomedical and Health Informatics",
+    "url": "https://doi.org/10.1109/jbhi.2026.3680589",
+    "source": "IEEE",
+    "abstract": "Kidney stone disease ranks among the most prevalent conditions in urology, and understanding the composition of these stones is essential for creating personalized treatment plans and preventing recurrence. Current methods for analyzing kidney stones depend on post operative specimens, which prevents rapid classification before surgery. To overcome this limitation, we introduce a new approach called the Urinary Stone Segmentation and Classification Network (USCNet). This innovative method allows for precise preoperative classification of kidney stones by integrating Computed Tomography (CT) images with clinical data from Electronic Health Records (EHR). USCNet employs a Transformer-based multimodal fusion framework with CT-EHR attention and segmentation-guided attention modules for accurate classification. Moreover, a dynamic loss function is introduced to effectively balance the dual objectives of segmentation and classification. Experiments on an in-house kidney stone dataset show that USCNet demonstrates outstanding performance across all evaluation metrics, with its classification efficacy significantly surpassing existing mainstream methods. This study presents a promising solution for the precise preoperative classification of kidney stones, offering substantial clinical benefits. The source code has been made publicly available: https://github.com/fancccc/KidneyStoneSC."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Design of a Scalable Modular Bias Voltage Supply with Reduced Noise for Multi-Channel SiPM Readout",
+    "authors": "Davide Colaiuda, Alfiero Leoni, Sosuke Horikawa, Giuseppe Ferri, Vincenzo Stornelli",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3680630",
+    "source": "IEEE",
+    "abstract": "This work presents the design and characterization of a modular, digitally programmable Voltage Supply Unit (VSU) optimized for Silicon Photomultiplier (SiPM) arrays in high-sensitivity applications such as cryogenic particle detectors. The proposed VSU combines a flyback converter with a cascaded linear regulator and an SPI-controlled (Serial Peripheral Interface) Digital-to-Analog Converter (DAC) reference. A set of passive and active noise mitigation strategies, including snubber networks, common-mode filtering, and careful layout design, enables sub-millivolt peak-to-peak noise up to 200V DC output. Each module provides galvanic isolation, per-channel programmability, and low output current, making it suitable for scalable, low-background SiPM-based detectors. Experimental results demonstrate a peak-to-peak noise of less than 1mV<sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">pp</sub> at 200V and 2mA, corresponding to SiPM gain fluctuations below 0.1%, with a Signal-to-Noise Ratio (SNR) higher than 80 dB and a programming resolution of 3.1 mV. A comparison with commercial and custom systems confirms competitive performance at reduced cost and form factor. The novelty of this approach lies in combining low-noise design, digital control, and modularity using discrete components, making the VSU suitable for use in large-scale systems, where stable, channel-isolated high-voltage biasing is required."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Graph Neural Network-Based Hybrid Precoding for Intelligent Integrated mmWave MIMO Systems",
+    "authors": "Lalitha Nagapuri, Narasimha Rao Banavathu",
+    "publish": "IEEE Transactions on Consumer Electronics",
+    "url": "https://doi.org/10.1109/tce.2026.3680485",
+    "source": "IEEE",
+    "abstract": "This paper investigates graph neural network (GNN)-based hybrid precoding in millimeter-wave (mmWave) multiple-input multiple-output (MIMO) systems. The design of hybrid beamforming is formulated as a problem of graph representation, where the channel’s spatial and structural features are modeled by graph connections between antennas and data streams. Further, a GNN framework is used to approximate the optimal fully digital precoder by exploiting message-passing mechanisms that learn channel correlations. The proposed design is compared against conventional orthogonal matching pursuit (OMP) and deep learning-based convolutional neural network (CNN) methods. Simulation results show that the GNN-based method attains superior spectral efficiency and lower bit error rates in the considered signal-to-noise ratio (SNR) regime. In the high-SNR regime, the proposed scheme improves spectral efficiency by up to 3.67× and 11.45× compared to CNN and OMP, respectively, while approaching the performance of fully digital precoding under practical hardware constraints. These results confirm that GNN can be a powerful tool for the optimization of hybrid beamforming in next-generation mmWave MIMO systems."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Mirror Descent Safe Policy Optimization for Reinforcement Learning Agents_supp1-3674995.pdf",
+    "authors": "Tao Yang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tpami.2026.3674995/mm1",
+    "source": "IEEE",
+    "abstract": "Embodied intelligence and related disciplines have identified several mechanisms that help embodied agents learn how to solve complex problems. Reinforcement learning (RL) is one of the most promising computational approaches toward enhancement of the learning-based problem-solving abilities of such agents. Given the recent rapid evolution of artificial intelligence, RL has become a keystone technology, accelerating scientific discoveries and also finding applications in many other domains. In RL, an agent collects data when interacting with the environment, which optimizes a policy ensuring a higher return. Further improvement requires more exploration of the action space. However, not all actions in that space are safe and acceptable. The exploration of an agent must be constrained. In this work, a novel mirror descent safe policy optimization (MDSPO) algorithm is proposed to ensure the safety of an RL agent. The algorithm leverages mirror descent optimization to maximize the return while satisfying the safety constraint. A novel optimization objective is formulated, and an innovative three-stage optimization strategy is employed-comprising gradient descent without the cost constraint, projection onto the nonparametric policy space with the cost constraint, and projection onto the parametric policy space. Compared to previous methods, MDSPO is a simple and easy to implement first-order approach, which does not impose a hard constraint on the trust region. Theoretical analysis of the MDSPO reveals a lower bound on return improvement and an upper bound on constraint violation at the time of each policy update. The numerical results obtained from two sets of different constrained locomotive experiments demonstrate that MDSPO improves the average return by about 12% and better satisfies the cost constraints than other state-of-the-art methods do. In a real-world obstacle avoidance experiment using an unmanned surface vessel, MDSPO both finds the optimal path and guarantees agent safety."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Toward Sustainable 6G: A Holistic View of Trade-Offs and Enablers",
+    "authors": "Mattia Merluzzi, Olivier Bouchet, Ali Balador, Gilles Callebaut, Anastasius Gavras, Liesbet Van der Perre, Albert Banchs, Mauro Renato Boldi, Emilio Calvanese Strinati, Bahare M Khorsandi, Marja Matinmikko-Blue, Lars Christoph Schmelz",
+    "publish": "IEEE Communications Magazine",
+    "url": "https://doi.org/10.1109/mcom.001.2500386",
+    "source": "IEEE",
+    "abstract": "The sixth generation of mobile networks (6G) can play a central role in shaping a sustainable future, the most compelling contemporary challenge. Connecting the unconnected, reducing carbon emissions of vertical sectors, and allowing heterogeneous types of intelligence (including humans) to safely and constructively interact in complex environments, are only a few of the several challenges that can be supported by 6G. However, this requires a careful design that balances positive and negative impacts of 6G, towards a sustainable and sustainability-enabling technology. This article presents a holistic view that translates the complex interplay between the 6G enabling effects and the sustainability of 6G by design, into concrete trade-offs and research questions. Starting from today's challenges for society and associated key values, we unfold the dilemma into a set of technical trade-offs, whose solutions span from technological innovations to standardization actions towards applicability."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Use Case Matters: Comparing the User Experience and Task Performance across Tasks for Embodied Interaction in VR",
+    "authors": "Jonathan Tschanter, Christian Merz, Marie Luisa Fiedler, Carolin Wienrich, Marc Erich Latoschik",
+    "publish": "IEEE Transactions on Visualization and Computer Graphics",
+    "url": "https://doi.org/10.1109/tvcg.2026.3680577",
+    "source": "IEEE",
+    "abstract": "Integrated Virtual Reality (IVR) systems are central to avatar-mediated use cases in Virtual Reality (VR), reconstructing users' movements on avatars. They differ primarily in their tracking architectures, which determine how completely and accurately users' movements are captured and reconstructed on avatars. Many current IVR systems reduce user-worn hardware, trading reconstruction accuracy against cost and setup complexity, yet their impact on user experience and task performance across use cases remains underexplored. We compared three reduced user-worn IVR systems. Each system has distinct technical approaches: (1) Captury (markerless outside-in optical tracking), (2) Meta Movement SDK (markerless inside-out optical tracking), and (3) Vive Trackers (marker-based outside-in optical tracking with IMUs). In a 3x5 mixed-design, participants performed five tasks, simulating different use cases, to probe distinct aspects of these systems. No system consistently outperformed the others. Meta excelled in hand-based, fast-paced interactions, while Captury and Vive performed better in lower-body tasks and during full-body pose observation. These findings underscore the need to evaluate reduced user-worn IVR systems within the specific use case. We offer practical guidance for system selection based on use-case demands and released our tasks as an open-source, extensible framework to support future evaluations for selecting IVR systems."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Professors' Impact on Cybersecurity Students' Learning",
+    "authors": "Emre Tokgoz, Julissa Molina, Joel Joseph, Sergio Duarte, Alyssa Xiang, Tanvir Ahmed",
+    "publish": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "url": "https://doi.org/10.1109/isec64801.2025.11460351",
+    "source": "IEEE",
+    "abstract": "Cybersecurity students have certain expectations from professors when it comes to conceptual learning. Such factors have not been studied pedagogically in the literature. In addition, such factors can impact the course flow and may also impact these learners' motivation and success not only in the classroom but also in their major and their future careers. In this study, we use qualitative and quantitative techniques to analyze data collected from 103 students at a university located in the Northeastern side of the United States. The study attained Institutional Review Board (IRB) approval and was conducted during a 6-month period. Quantitative data analysis applications included statistics, data distribution with model fitting, correlation with heatmap evaluation, cross-correlation, and Mann-Whitney U-test. The qualitative data analysis relied on 30-40-minute video recorded and transcribed interview responses of the participants that aimed to follow up on their research questionnaire answers; Each participant is compensated money for taking place in the video recorded interviews. The overall quantitative results indicated the ability of the professor to explain the theory, examples provided by the professor, professor's friendliness, and experiences of the professor to be the top four choices. The experiences of the professor and real-life examples given are highly cared for by the research participants. The majority of the participants indicated the importance of the lecture flow for a smooth educational experience."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "NeuroViT-Net: A Study on Performance Improvement of a Transformer-Based Brain Tumor Classification Model",
+    "authors": "Hyunsun Kang",
+    "publish": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "url": "https://doi.org/10.1109/isec64801.2025.11460350",
+    "source": "IEEE",
+    "abstract": "Early diagnosis of brain diseases plays a crucial role in determining patient outcomes. Brain tumors, in particular, require prompt and accurate diagnosis, as delayed detection can result in life-threatening complications. The current medical environment in South Korea, marked by healthcare strikes and resource shortages, highlights the urgent need for efficient artificial intelligence (AI)-based diagnostic tools. This study proposes a novel model, NeuroViT-Net, designed to classify major brain tumor types, including Glioma, Meningioma, Pituitary tumors, and No Tumor, with high accuracy. Built upon the Vision Transformer (ViT) architecture, NeuroViT-Net incorporates significant modifications to address the unique challenges of medical imaging, such as variations in tumor size, shape, and texture. By leveraging self-attention mechanisms and adapting the model for both 2D and 3D datasets, NeuroViT-Net demonstrates superior performance compared to traditional convolutional neural network (CNN)-based models like VGG and ResNet. Experimental results show that the model achieves higher accuracy, particularly in detecting subtle cases of Glioma and Meningioma, while maintaining a smaller computational footprint. This efficiency makes it highly suitable for resource-limited healthcare environments. Future research will focus on expanding the model's capabilities to detect rare brain tumors and its applicability to other neurological disorders. By offering a lightweight and accurate diagnostic solution, this study paves the way for integrating AI in medical imaging, improving early detection and patient outcomes."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Optimal Dual-Polarized Signal Fusion for Remote Sensing of Space Targets with Passive Radar",
+    "authors": "Karol Abratkiewicz, Konrad Jędrzejewski, Piotr Wójtowicz, RafałNajda, Mariusz Pożoga, Hanna Rothkaehl",
+    "publish": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "url": "https://doi.org/10.1109/jstars.2026.3680689",
+    "source": "IEEE",
+    "abstract": "Modern remote sensing systems for space situational awareness and low Earth orbit (LEO) observation encompass a wide range of technologies, enabling continuous and reliable monitoring. Radar systems, capable of detecting targets over long distances, in all weather conditions, and at any time of day, are being actively developed to address the increasing demands of LEO surveillance. Observing weak targets, such as small space debris or compact satellites, remains particularly challenging due to their low radar cross-section and the large propagation distances involved. Moreover, the unknown polarization of the target echo often differs from that of the radar receiver, reducing the received signal strength. In this study, radar performance is enhanced through optimal fusion of orthogonally polarized signals, in which appropriately weighted contributions from two orthogonal polarization channels are combined into a single signal, resulting in a stronger target echo and an improved detection probability. The proposed method is rigorously analyzed through simulations, demonstrating both the feasibility of estimating the target echo polarization and the resulting improvement in signal-to-noise ratio (SNR) after polarization compensation. Furthermore, real-world experimental validation was performed using the Low-Frequency Array (LOFAR) as a directional passive radar receiver and the International Space Station (ISS) as a LEO target. The results indicate increased echo strength and enhanced detection performance, confirming the effectiveness of the proposed processing and its potential contribution to improved space situational awareness."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Optimized Non-Uniform Pilot Pattern for OFDM Sensing",
+    "authors": "Amir Bouziane, Hüseyin Arslan",
+    "publish": "IEEE Wireless Communications Letters",
+    "url": "https://doi.org/10.1109/lwc.2026.3680740",
+    "source": "IEEE",
+    "abstract": "Standard periodic pilot patterns in orthogonal frequency division multiplexing (OFDM) systems induce severe delay-domain grating lobes, compromising radar sensing. This paper proposes a two-stage framework to design non-periodic pilot patterns that minimize the peak sidelobe level (PSL) while strictly enforcing communication anchor constraints. We solve this combinatorial problem using a low-complexity hybrid greedy-stochastic cyclic coordinate descent (SCCD) algorithm. This approach shatters cyclic periodicities to suppress deterministic grating lobes beneath the impassable data-to-pilot interference (DPI) noise floor. System-level evaluations demonstrate the performance of the proposed design in resolving the sensing-communication trade-off, showing improved range root mean square error (RMSE) without degrading the primary communication bit error rate (BER)."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "SemiPoint: Generalizing Cross-Scene Point Cloud Video Streaming With Semi-Supervised Learning and Residual-Aware Adaptation",
+    "authors": "Ao Yu, Hui Yang, Cuiyang Feng, Petteri Nurmi, Mohamed Cheriet, Pan Hui",
+    "publish": "IEEE Transactions on Multimedia",
+    "url": "https://doi.org/10.1109/tmm.2026.3680432",
+    "source": "IEEE",
+    "abstract": "Viewport prediction algorithms are shedding new light on point cloud video (PCV) streaming. Most existing methodologies are trained with labeled frames (supervised learning) to reduce bandwidth consumption. However, the fully supervised paradigm requires labor-intensive video labeling, struggles to generalize to unfamiliar scenes, and thus produces noisy bitrate allocation outputs. In this study, we propose SemiPoint, a cross-scene PCV streaming framework that features a semi-supervised viewport prediction module and a residual-augmented deep reinforcement learning (DRL)-based bitrate adaptation module. The viewport prediction module employs a semi-supervised architecture that enhances scene generalization by exploiting unlabeled frames through unsupervised constraints. Furthermore, the DRL-based bitrate adaptation module incorporates a residual model that dynamically corrects abrupt viewport shifts through real-time residual compensation. Extensive experimental evaluations demonstrate that SemiPoint achieves superior performance compared to fully supervised approaches with limited labeled datasets. It demonstrates enhanced generalization capabilities in changing scenes and delivers more reliable bitrate adaptation in scenarios involving sudden head/body movements."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Table of Contents",
+    "authors": "N/A",
+    "publish": "IEEE Transactions on Medical Imaging",
+    "url": "https://doi.org/10.1109/tmi.2026.3675395",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Seamless Dual Mode Control Strategy for Wide Soft Switching Range in Consumer-Centric Dual Active Bridge Converters",
+    "authors": "Karthik Parihar, Shobhit Sharma, Mukesh.K. Pathak, Nishant Kumar",
+    "publish": "IEEE Transactions on Consumer Electronics",
+    "url": "https://doi.org/10.1109/tce.2026.3680657",
+    "source": "IEEE",
+    "abstract": "The realization of Zero Voltage Switching (ZVS) for all active switches throughout the operating range is critical to achieve high efficiency and meet the power density requirements of modern isolated bidirectional single-stage DC–DC converters. This paper proposes a novel Seamless Dual Mode Control (SDMC) strategy for the Dual Active Bridge (DAB) converter, enabling the full load range ZVS of all switches while minimizing transformer peak current. Two control variables are introduced to govern the respective operating modes, facilitating optimal control across a wide output voltage range. A detailed analysis of ZVS conditions and transformer peak current behaviour are presented for each mode, explicitly considering the impact of switch junction capacitance and transformer magnetizing inductance. Based on these analytical models, a unified control scheme is developed to ensure complete ZVS, minimized peak current, and seamless mode transitions without compromising system performance. Comparative evaluations demonstrate that SDMC significantly improves conversion efficiency relative to conventional phase shift (CPS) control, extended phase shift with current stress optimization (EPS-CSO), and other state-of-the-art techniques. Experimental results obtained from a 5.5 kW laboratory prototype validate the effectiveness of the proposed SDMC method. The proposed approach offers a promising solution for enhancing the performance and reliability of high-power isolated bidirectional DC-DC converters operating under wide voltage."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "How Can State Space Models Enhance Machine Learning on Graphs?",
+    "authors": "Yinan Huang, Siqi Miao, Pan Li",
+    "publish": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "url": "https://doi.org/10.1109/tpami.2026.3680437",
+    "source": "IEEE",
+    "abstract": "Message Passing Neural Networks are known to struggle with limited expressivity and capturing long-range dependencies. While Graph Transformers alleviate these issues with global attention modules, their quadratic complexity limits efficiency. Recently, State Space Models have emerged as a compelling alternative to attention for sequence modeling to 1) capture long-range dependencies, 2) enable computational efficiency and 3) generalize well across varying sequence lengths. However, extending SSMs to graphs presents unique challenges due to the lack of canonical node ordering. This work studies how to leverage the insights of SSM design to improve learning on graph-structured data and proposes Graph State Space Convolution (GSSC). Using global permutation-equivariant set aggregation and factorizable graph kernels based on relative node distances, GSSC retains the three advantages of SSMs. Across 11 real-world, widely used graph benchmark datasets, GSSC achieves the best results on 5 datasets with significant improvements over the state-of-the-art baselines and competitive performance on the other 6. Our findings highlight the potential of building powerful and scalable models upon GSSC for graph machine learning. Our code is available at this link."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Dynamic Optimization Framework for Intelligent Maintenance of Offshore Wind Turbines with Competing Failure Modes",
+    "authors": "Qingwei Li, Guolian Hou, Congzhi Huang, Ting Huang",
+    "publish": "IEEE Transactions on Instrumentation and Measurement",
+    "url": "https://doi.org/10.1109/tim.2026.3680194",
+    "source": "IEEE",
+    "abstract": "Operation and maintenance (O&M) costs account for a substantial share of offshore wind expenditures. However, maintenance optimization models for offshore wind turbines (OWTs) typically rely on idealized states, neglecting stochastic environmental shocks and spatiotemporal dependencies. To bridge this gap, a dynamic optimization framework for intelligent maintenance of OWTs with competing failure modes is proposed. The objective of optimal scheduling is to maximize wind energy profit and reduce maintenance costs. This problem is formulated as a mixed-integer programming model that explicitly characterizes uncertainties in operational revenue and turbine lifespan. Additionally, the objective function integrates time discounting and penalty factors to quantify expected profits and maintenance expenditures accurately. Then, a novel daily rolling optimization algorithm is designed to dynamically update O&M decisions. In the framework, the spatiotemporal dependencies among OWTs are captured to refine assessment of power losses. And a reliability function considering degradation-induced and shock-induced competing failures is derived. Case studies on two real-world offshore wind farms demonstrate the superior performance and robustness of the proposed method."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "GNSS Jamming and Spoofing Threats in UAV Navigation: Countermeasure Status and Challenges",
+    "authors": "Yejia Zeng, Zukun Lu, Xiaoyu Zhao, Zhu Xiao, Shaojie Ni, Zhu Han, Keqin Li",
+    "publish": "IEEE Communications Surveys &amp; Tutorials",
+    "url": "https://doi.org/10.1109/comst.2026.3680438",
+    "source": "IEEE",
+    "abstract": "Unmanned aerial vehicles (UAVs) have become indispensable in both civilian and military applications. However, their reliance on Global Navigation Satellite System (GNSS)-based navigation exposes them to escalating threats from sophisticated jamming and spoofing attacks. These threats severely compromise operational safety and mission integrity, necessitating the development of effective countermeasures. This survey provides a comprehensive overview of GNSS interference threats specific to UAV navigation, with a focus on the analysis of jamming and spoofing attacks, and summarizes state-of-the-art techniques for interference detection and mitigation. We first review the principles of satellite navigation for UAVs and identify the inherent vulnerability of GNSS signals to interference. Then, we systematically examine existing countermeasures, including signal processing-based, array antenna-based, and artificial intelligence-based approaches, highlighting their effectiveness against jamming and spoofing. Despite these advances, significant challenges remain in ensuring robust UAV navigation in adversarial electromagnetic environments, particularly those arising from resource constraints, limited algorithmic flexibility, and the lack of UAV-specific countermeasures. To address these issues, we propose a hierarchical framework that integrates robust signal reception, intelligent algorithm optimization, and system-level collaboration. This framework provides practical strategies for enhancing the resilience of next-generation UAV navigation systems to complex interference."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Predicting Student Dropout: Evaluating Genetic Algorithm Optimization of Support Vector Machine Under Various Normalization Techniques",
+    "authors": "Gehan Boteju, Leon Tang, Shanti Budha, Nathan Ho, Michael Scott Brown",
+    "publish": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "url": "https://doi.org/10.1109/isec64801.2025.11460370",
+    "source": "IEEE",
+    "abstract": "Predicting student dropout rates in higher education institutions is crucial for implementing timely interventions and optimizing resource allocation. Accurate predictions of student outcomes offer significant benefits for both universities and students. This paper explores the combined effects of Genetic Algorithm optimization and data normalization techniques on Support Vector Machine performance in predicting student success. Expanding on our previous work, which evaluated the effectiveness of various normalization methods for improving Machine classification accuracy, we introduce Genetic Algorithm as an optimization technique for feature selection and hyperparameter tuning. While the Standard Scaler showed a slight increase in F1-score from 0.7148 to 0.7239, other normalization techniques, including Max Absolute Scaler, One Hot Encoder, and Min-Max Scaler, saw slight decreases in F1-score when GA was applied. The results show that this optimization does not always improve Support Vector Machine performance across all preprocessing methods. The effectiveness of Genetic Algorithm optimization is contingent on the choice of normalization technique, highlighting the importance of tailored preprocessing strategies in predictive modeling."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Amyloid-Beta and RAGE Interactions in Alzheimer's Disease",
+    "authors": "Annabelle Wu",
+    "publish": "2025 IEEE Integrated STEM Education Conference (ISEC)",
+    "url": "https://doi.org/10.1109/isec64801.2025.11460375",
+    "source": "IEEE",
+    "abstract": "Alzheimer’s disease is a neurodegenerative disease that occurs when nerve cells in the brain die, famously known for involving memory loss. The Receptor for Advanced Glycation Endproducts (RAGE) regulates metabolism, inflammation, and epithelial survival in stress settings. A soluble type of RAGE (sRAGE), has no cytosolic tail but can bind to the same ligands without causing a cellular response. Previous experiments have found connections between high levels of RAGE expression and declining mental capacity in mice."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Design Method of Pixelated Electron Gun Based on CNN Model",
+    "authors": "Shilong Zhu, Jianling Cui, Yulu Hu, Haiying Yuan, Jiaxiang Zhou, Quan Hu, Bin Li",
+    "publish": "IEEE Transactions on Plasma Science",
+    "url": "https://doi.org/10.1109/tps.2026.3678521",
+    "source": "IEEE",
+    "abstract": "This study presents an innovative structural design for pixelated electron guns, coupled with a dedicated structural screening algorithm. By constructing a convolutional neural network (CNN) model for the anode component, we achieve high-precision forward prediction of key electron gun parameters—emission current, operational range, and beam waist radius. Simulation-based validation demonstrates a minimal average relative error (ARE) of 0.54% between predicted and simulated results. Furthermore, leveraging the established CNN framework with parameter standardization methodology, we demonstrate rapid inverse synthesis of pixelated electron guns. The inverse design yields an ARE of 8.27% compared to the target specifications. This integrated approach significantly broadens design flexibility while enhancing developmental efficiency for electron gun systems."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Monodisperse CoFe2O4 Nanocubes: Influence of Particle Size on the Magnetic Properties",
+    "authors": "Ľ. Nagy, A. Zeleňáková, D. Mačáková, P. Hrubovčák, Ž. Fabriciová, M. Barutiak, M. Lisnichuk",
+    "publish": "IEEE Transactions on Magnetics",
+    "url": "https://doi.org/10.1109/tmag.2026.3680574",
+    "source": "IEEE",
+    "abstract": "Monodisperse CoFe₂O₄ nanocubes with edge lengths of approximately 9, 13, and 16 nm were synthesized via thermal decomposition to investigate the influence of particle size on their magnetic properties. Magnetic characterization was carried out using SQUID magnetometry, including measurements of <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">M(H)</i> and <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">M(T)</i> curves under Zero-Field Cooling (ZFC) and Field Cooling (FC) conditions. Structural analysis was performed using transmission electron microscopy (TEM), energy-dispersive X-ray spectroscopy (EDX) and X-ray diffraction (XRD). From the collected data, key magnetic parameters such as coercivity, remanent and saturation magnetization and magnetocrystalline anisotropy constant were extracted and quantitatively compared across the different particle sizes. The results demonstrate a size dependence of the magnetic behavior, which is discussed in the context of tailoring of magnetic materials for future biomedical applications, including magnetic hyperthermia."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Homogenization of the Eddy Current Problem in Laminated Open-Type Cores Accounting for Perpendicular Flux",
+    "authors": "Stjepan Frljić, Valentin Hanser, Karl Hollaus, Markus Schöbinger",
+    "publish": "IEEE Transactions on Magnetics",
+    "url": "https://doi.org/10.1109/tmag.2026.3680721",
+    "source": "IEEE",
+    "abstract": "Laminated open-type cores are typically used in power voltage transformers for substation service and rural electrification. When modeling such cores, the magnetic flux component perpendicular to the laminations has a significant impact on the eddy-current solution. Proper approximations of the magnetic flux density and the current density in the conductive region, based on two vector potentials, yield a weak formulation suitable for homogenization of the material. Only the linear case in the frequency domain using the phasor representation is considered. After the homogenization, an anisotropic effective material is obtained, allowing for a relatively coarse mesh in the lamination stacking direction. A numerical example validates the introduced approximations, showing very good agreement with the reference model with discretised laminations."
+  },
+  {
+    "date": "2026-4-3",
+    "title": "IEEE Transactions on Industrial Electronics Information for Authors",
+    "authors": "N/A",
+    "publish": "IEEE Transactions on Industrial Electronics",
+    "url": "https://doi.org/10.1109/tie.2026.3676234",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-4-3",
+    "title": "Modality-Mix Learning: Promoting Multimodal Learning Through Multilabel Objective",
+    "authors": "Nannan Lu, Zhen Tan, Zhiyuan Han, Song Zhu",
+    "publish": "IEEE Transactions on Neural Networks and Learning Systems",
+    "url": "https://doi.org/10.1109/tnnls.2026.3677806",
+    "source": "IEEE",
+    "abstract": "Multimodal fusion provides a comprehensive way to understand the world by integrating data from different sources. However, some studies believe that due to the optimization imbalance, partial modalities cannot be fully learned during multimodal learning. They attempt to achieve the balance between different modalities by controlling their learning process but ignore the function of the learning objective as an essential factor. The uniform objective for all modalities leads to the network being unable to sufficiently exploit discriminative information from different modalities. Therefore, we propose a new multimodal learning method, namely, modality-mix learning (MM learning), aiming to promote the sufficient learning of each modality via the designed multilabel objective. MM learning generates modality-mixed samples by combining modalities of different samples with varied labels, transforming the single label of a sample into a probability vector representing multilabel information. These modality-mixed samples are then fed into the network, which is trained to recognize the varying proportions of multilabel information. In addition, we introduce a bilevel learning scheme, where the network is first trained using standard learning to capture general features and select samples with strong prediction, followed by MM learning on these selected samples to further optimize the subexploration modality. MM learning forces different objective information to be learned from different modalities, avoiding the insufficient learning of modalities caused by the uniform learning objective. The experimental results show that the method can significantly boost different fusion strategies and methods in diversified multimodal datasets and improve the robustness of multimodal networks as well."
+  }
+]
