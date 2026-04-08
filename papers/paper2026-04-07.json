@@ -1,0 +1,902 @@
+[
+  {
+    "date": "2026-4-7",
+    "title": "Analyzing Deviations from Monotonic Trends through Database Repair",
+    "authors": "Shunit Agmon, Jonathan Gal, Amir Gilad, Ester Livshits, Or Mutay, Brit Youngmann, Benny Kimelfeld",
+    "publish": "Proceedings of the ACM on Management of Data",
+    "url": "https://doi.org/10.1145/3786624",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Tailoring the Sensitivity-Range Tradeoff in Monolithic InGaN/GaN Temperature Sensing Devices via Indium Content Engineering",
+    "authors": "Hongying Yang, Xiaoshuai An, Kwai Hei Li",
+    "publish": "IEEE Transactions on Electron Devices",
+    "url": "https://doi.org/10.1109/ted.2026.3679655",
+    "source": "IEEE",
+    "abstract": "Monolithic integration of InGaN-based optoelectronics offers a promising platform for compact sensing devices, yet the influence of key material parameters such as indium content on temperature-sensing performance remains unexplored. This work systematically studies the effect of the indium concentration in InGaN/GaN multiquantum wells (MQWs) on the performance of monolithically integrated light-emitting diode (LED)–photodetector (PD) devices. Devices with indium fractions from 0.137 to 0.302, yielding room-temperature emission from 431 to 540 nm, are fabricated and characterized from <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$0~^{\\circ }$</tex-math> </inline-formula>C to <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$220~^{\\circ }$</tex-math> </inline-formula>C. The sensing mechanism is driven by the temperature-dependent spectral overlap between the LED emission and PD responsivity, influenced by thermal bandgap narrowing, thermal depolarization, and carrier dynamics. Experimental results demonstrate that higher indium content extends the linear operational range (from 0–<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$140~^{\\circ }$</tex-math> </inline-formula>C to 0–<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$220~^{\\circ }$</tex-math> </inline-formula>C) but reduces sensitivity (from 0.441%/°C to 124%/°C), revealing a direct design tradeoff. All devices exhibit high reversibility, stability, and linearity (R<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">${}^{{2}} \\gt 0.98$</tex-math> </inline-formula>). This study identifies indium concentration as a critical parameter for tailoring the sensitivity-range compromise, providing essential design guidelines for optimizing monolithic III-nitride optoelectronic devices."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Towards Robot Skill Learning and Adaptation with Gaussian Processes_supp1-3681188.mp4",
+    "authors": "A K M Nadimul Haque",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/lra.2026.3681188/mm1",
+    "source": "IEEE",
+    "abstract": "General robot skill adaptation requires expressive representations robust to varying task configurations. While recent learning-based skill adaptation methods refined via Reinforcement learning (RL) have shown success, existing skill models often lack sufficient representational capacity for anything beyond minor environmental changes. In contrast, Gaussian process (GP)-based skill modelling provides an expressive representation with useful analytical properties; however, adaptation of GP-based skills remains underexplored. This paper proposes a novel, robust skill adaptation framework that utilises GPs with sparse via-points for compact and expressive modelling. The model leverages the demonstrated trajectory's first and second analytical derivatives to preserve the skill's kinematic profile. We present three adaptation methods to cater for the variability between initial and observed configurations. Firstly, an optimisation agent that adjusts the path's via-points while preserving the demonstration velocity. Second, a behaviour cloning agent trained to replicate output trajectories from the optimisation agent. Lastly, an RL agent that has learnt to modify via-points whilst maintaining the kinematic profile and faster feed-forward adaptation. Evaluated across three tasks (drawer opening, cube-pushing and bar manipulation) in both simulation and hardware, our proposed methods outperform every benchmark in success rates. Furthermore, the results demonstrate that the GP-based representation enables all three methods to attain high cosine similarity and low velocity magnitude errors, indicating strong preservation of the kinematic profile. Overall, our formulation provides a compact representation capable of adapting to large deviations from a single demonstrated skill."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A Simulation-Based Framework for Fatigue-Aware Task Reallocation in Human-Robot Collaboration: Software Verification with 1000-Episode Digital Twin",
+    "authors": "Claudio Urrea",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3681728",
+    "source": "IEEE",
+    "abstract": "Collaborative robotics in Industry 4.0 manufacturing faces persistent challenges in balancing productivity with operator safety, particularly when human fatigue accumulates during extended work shifts. While physical validation remains the gold standard, computational simulation offers advantages for systematic algorithm development: perfect ground truth unavailable from self-reported fatigue measures, parameter sweeps across physiological ranges infeasible with human subjects, and controlled testing of extreme scenarios unsafe for physical trials. A simulation framework is presented for developing fatigue-aware task reallocation algorithms before deployment on actual collaborative robots. The framework implements a tricolor semaphore system (Green/Orange/Red thresholds at 30%/40% fatigue) with dynamic sampling rates (5.0 min baseline, 0.1 min critical monitoring) and automated robotic intervention when operator fatigue exceeds safe thresholds. Software verification across 1000 simulated episodes demonstrates 99.30% collision-free operation—approaching but not yet achieving the ISO/TS 15066:2016 safety target of 99.85%, with a 0.55 percentage point gap for future algorithm refinement. Friedman analysis confirms statistically significant fatigue progression (chi-squared=3000.0, p<0.001) from 28.06% at baseline to 68.04% at 45 minutes, with all pairwise comparisons significant (p<0.001, Cohen’s d=1.18–2.34). The framework achieves 100% intervention triggering when needed, with robots active during 50.28% of episode duration. Analysis reveals strong temporal coupling between skill and fatigue (r=+0.970): operators advance from Intermediate to Advanced competence while simultaneously accumulating physiological depletion. This correlation arises naturally from the model structure where both variables increase with time, demonstrating that growing expertise does not offset fatigue-related safety risks. Results establish computational feasibility of the approach and provide baseline metrics for subsequent physical implementation with actual collaborative robots and physiological sensors. The complete simulation environment, statistical analysis code, and 4000-point dataset are publicly available at https://doi.org/10.6084/m9.figshare.30983713 (GitHub: https://github.com/ClaudioUrrea/TM14X) to support reproducible research and algorithm benchmarking in human-robot collaboration safety systems."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Real-Time Emulator of Robust Speed Controller for PMSM Wind Energy Conversion via a FATA Morgana Algorithm using OPAL-RT",
+    "authors": "Walid S. E. Abdellatif, Saad A. Mohamed Abdelwahab, Manal M. Emara, Mohamed A. Amar, Noura A. Nouraldin",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3681682",
+    "source": "IEEE",
+    "abstract": "This study investigates advancements in modern wind power systems, focusing on rapid wind speed tracking, efficient maximum power point tracking (MPPT), and enhanced performance under uncertain wind conditions. A novel MPPT method is proposed, based on the FATA Morgana Algorithm-based PI controller FATA-PIC. To evaluate its effectiveness, the FATA-PIC is compared with two techniques: the Harris Hawks algorithm-based PI controller (HHA-PIC) and the conventional PI controller (CPIC). Performance metrics include power efficiency, algorithmic complexity, and adaptability to varying wind conditions. Extensive simulations are conducted in MATLAB/SIMULINK under various wind speed scenarios-including step changes, ramp variations, and real-world wind fluctuations. The results indicate that the FATA-PIC controller consistently delivers superior performance, reaching an efficiency of 90.03%, which slightly surpasses the 88.57% achieved by HHA-PIC and the 87.20% recorded with CPIC. Additionally, the root mean square error (RMSE) analysis confirms the high accuracy of the FATA-PIC in estimating wind speed and maintaining performance stability under dynamic conditions. To further validate these findings, the proposed control system is implemented in real time using OPAL-RT 4610 platform. This advanced real-time simulator enables precise hardware-in-the-loop (HIL) integration of detailed MATLAB/Simulink models, facilitating accurate emulation of real-world operating conditions. The real-time simulations confirm that the FATA-PIC offers better dynamic response and control quality when compared to HHA-PIC and CPIC controllers, especially during critical transition periods and under rapidly."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "SIRE-ST: A Swin Transformer-Based Cascaded Model for Urban Rainfall Estimation in Complex Environments",
+    "authors": "Guanyu Hou, Zeming Zhao, Tianlong Bao, Hengyi Zhang, Xinjie Zhuo, Chulei Zhang, You Zhou",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3681681",
+    "source": "IEEE",
+    "abstract": "Sudden changes in rainfall may cause serious potential threats to human life and property such as traffic accidents, landslides, and urban floods. Therefore, timely and accurate rainfall amount estimation plays an important role in preventing and mitigating disasters caused by these events. However, due to the complexity and variability of rainfall, rainfall estimation methods still face many challenges in complex environments. In this paper, we propose Swin Transformer for Single-Image Rainfall Estimation（SIRE-ST), which is cascaded architecture consisting of two kinds of sub-networks: a raindrop extraction network and a rainfall estimation network based on Swin Transformer. We use raindrop extraction network to generate raindrop streak from images, Then the raindrop streak image will be the inputs of rainfall estimation network which enables efficient rainfall estimation based on the extracted raindrop streak information.To explore the impact of number of backgrounds in the dataset on the generalization ability of the model, we synthesized a dataset based on real raindrop streaks and real backgrounds. SIRE-ST was shown to be effective on three publicly-available datasets, according to experimental results. Our model also has mean absolute percentage errors in the range of 5.68% on the RD3-night2 dataset to 19.78% on the more challenging RD2-nightdataset which are better than current methods in all cases. Especially, the generalization performance of the model is very strong when dealing with daytime rainfall events.In summary, our research not only makes new advances in rainfall estimation based on innovative methods, but also provides a new idea for the production of datasets."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Comparing Patent Network Approaches for Extracting Technology Intelligence",
+    "authors": "Leehee Kim, Sungjoo Lee",
+    "publish": "IEEE Transactions on Engineering Management",
+    "url": "https://doi.org/10.1109/tem.2026.3681928",
+    "source": "IEEE",
+    "abstract": "Patent network offers advantages for extracting technology intelligence, such as analyzing technology trend and identifying emerging technologies. Despite the significant value of patent network methods, few studies compare similarity measures used to construct a network, which can have a substantial impact on analysis results. Because technology intelligence extraction depends on contextual relevance, understanding the unique characteristics of each similarity measure enables more appropriate and effective insights. This study first conducts a network structure analysis using multiple patent similarity measures. Basic network statistics and comparisons of network similarity are performed, along with sensitivity analyses that vary similarity measurement levels and threshold settings to examine how network characteristics change under different analytical conditions. The study then compared three similarity measures—citation-, classification-, and text-based approaches—across two perspectives: patent clustering and key patent identification. For clustering, we further evaluate robustness, assessing stability across hyperparameter configurations and consistency of pairwise assignments. The findings provide guidance on the selection of patent network construction strategies for analytical objectives."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "U-NEXT: A User-Centered New Prototype for Walking Excavator Simulator",
+    "authors": "Long Cheng, Gilberto Mazzola, Samuel Knüsel, Michael Schreiner, Andreas Kunz",
+    "publish": "IEEE Transactions on Visualization and Computer Graphics",
+    "url": "https://doi.org/10.1109/tvcg.2026.3679892",
+    "source": "IEEE",
+    "abstract": "The walking excavator is a highly complex construction machine, characterized by challenges in control, instruction, and operational safety. In this work, we implemented a virtual reality (VR) walking excavator simulator that integrates real hardware components with kinematic physics simulation. Using the simulator, we conducted two user studies. The first involved 45 participants and examined the effects of user perspectives on performance and preference. The second involved 12 participants and investigated the influence of video passthrough of the controllers. Results show that the choice of perspective should be task-dependent. Third-person view outperformed first-person view in the undercarriage task in which complex leg movements are needed. It supported better planning and allowed complete body visualization. However, it did not reduce motion sickness and was less preferred than first-person view for training. From the second user study, passthrough significantly improved controller learning compared to animated controllers, with participants making fewer errors when using the passthrough design. Based on these findings, we provide design recommendations for user perspectives and controller representation in VR-based training simulators."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Interaction Under Whole-Body User Rotations in VR Space_supp1-3680596.pdf",
+    "authors": "Filip Skola",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tvcg.2026.3680596/mm1",
+    "source": "IEEE",
+    "abstract": "Virtual reality (VR) enables interactions beyond real-world limitations, yet many such capabilities remain underexplored due to concerns about user comfort and increased disorientation and cybersickness. This study examined how altering the user's virtual pitch orientation influences interaction performance and subjective ratings. In a within-subject design, 30 seated participants experienced 12 virtual tilts from moderate to extreme (±180°). We assessed comfort, simulator sickness, perceptual responses, and performance. Our results revealed no significant increases in nausea, disorientation, or decreased comfort, with mild tilts performing equivalently to baseline. Notably, even extreme tilts maintained low nausea levels. Performance effects were mixed: forward tilts yielded similar or slightly improved performance, whereas backward tilts modestly impaired performance, though not significantly. These findings suggest that VR experiences featuring virtual body orientations distinct from the user's physical posture are feasible without compromising comfort or performance, enabling novel opportunities in simulation, interface design, visualization, creative content creation, and VR gaming."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A Two-Stage RF-SVM Model Against SSDF Attack in Cooperative Spectrum Sensing",
+    "authors": "Renjie Yu, Jun Wu, Hongru Zhang, Rui Zhao, Chenpu Li, Yanrong Zhai, Fan Li, Xiaorong Xu, Jianrong Bao",
+    "publish": "IEEE Sensors Journal",
+    "url": "https://doi.org/10.1109/jsen.2026.3678048",
+    "source": "IEEE",
+    "abstract": "With the increasing use of wireless devices, available spectrum resources are becoming increasingly precious. Cooperative spectrum sensing (CSS) is a key technology in cognitive radio (CR) networks. It enhances spectrum utilization efficiency by enabling multiple secondary users (SUs) to jointly detect the spectrum occupancy of the primary user (PU). However, its inherent data fusion mechanism makes it vulnerable to spectrum sensing data falsification (SSDF) attack. To enhance the system’s SSDF fault tolerance, this paper proposes a novel two-stage hybrid malicious user (MU) detection model integrating random forest (RF) and particle swarm optimization-support vector machine (PSO-SVM), denoted as RF-SVM. This model first employs an RF for preliminary screening of SUs, followed by support vector machine (SVM) for fine-grained classification, thereby combining the strengths of both algorithms. Experimental results demonstrate that the proposed RF-SVM model outperforms both the PSO-SVM and standalone RF models, as well as advanced methods such as the enhanced support vector machine (ESVM) and isolation forest-spectral clustering (IFSC), in terms of both detection accuracy and false alarm control. This model maintains stable performance even under scenarios with high-intensity attacks and limited training samples, while also achieving efficient computation. These advantages fully verify its effectiveness, robustness and practical application value."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Wideband Low-RCS Phased Array Antenna Based on Hybrid Reduction Mechanism",
+    "authors": "Xin Yue, Jinbo Liu, Qingxin Guo, Fei Liu, Zengrui Li",
+    "publish": "IEEE Antennas and Wireless Propagation Letters",
+    "url": "https://doi.org/10.1109/lawp.2026.3681744",
+    "source": "IEEE",
+    "abstract": "A novel integrated phased array is proposed to achieve wideband low radar cross section (RCS) and maintain its high-gain scannable beam, addressing the trade-off between RCS reduction and radiation performance. It adopts a hybrid reduction mechanism that combines phase cancellation and wave absorption. Each element comprises a resistive metasurface (RM), an antenna, and a stripline-based optimum load impedance network. The structural-mode and the antenna-mode scattering fields of the element have nearly equal amplitudes and are 180° out of phase, which lead to phase cancellation and thereby achieves in-band RCS reduction. The RM exhibits an absorption–transmission–absorption frequency characteristic to reduce out-of-band RCS. An 8×8 array is designed and fabricated, with a 30.77% 10-dB impedance matching bandwidth (5.5–7.5 GHz). Measured results show a peak gain of 22.4 dBi and a scanning capability of ±45° in both xoz- and yoz-planes, demonstrating no degradation in key radiation performance. Meanwhile, under normal incidence, the 7-dB RCS reduction bandwidth is 96.1% (3.3–9.4 GHz) for x-polarization and 47.6% (3.7–4.9 GHz and 7.8–9.5 GHz) for y-polarization."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Dispersion and Bandgap Analysis of Miniaturized Meander-Lined EBG for Sub-GHz Communication",
+    "authors": "Siva, Crasencia Mary, Divya Lakshmi, Mohan",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465406",
+    "source": "IEEE",
+    "abstract": "This paper offers a dispersion and bandgap analysis of a compact square-shaped electromagnetic bandgap (EBG) structure constructed on a 1.6mm thick FR-4 substrate. In order to achieve sub-wavelength functioning inside a 10 mm × 10 mm footprint, the unit cell uses a downsized meander-lined architecture with many turns that effectively extend the current route length. In sub-GHz and lower-microwave wireless systems, the structure's prominent bandgap of 0.45 GHz, which covers the 4.45-4.85 GHz range, makes it appropriate for reducing surface-wave propagation and enhancing antenna isolation. To assess the propagation behavior and verify the stopband's existence, dispersion characteristics are retrieved. The findings show that for small RF platforms needing improved electromagnetic performance, the suggested miniaturized EBG unit cell offers an effective, affordable option."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Emerging Approaches for Integrating Passive Balancing and Charging Strategies in Electric Vehicle Batteries",
+    "authors": "Shrusti Girimath, Anupama R. Itagi, Rakhee Kallimani",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465539",
+    "source": "IEEE",
+    "abstract": "The growing pace of electric vehicle (EV) adoption and renewable energy storage has increased the need for safe, efficient and long-life lithium-ion battery systems. Among the various strategies used in Battery Management Systems (BMS), cell balancing and charging algorithms are important for maintaining battery health and operational safety. In this work, the operation of a passive cell balancing mechanism combined with the Constant Current-Constant Voltage (CC-CV) charging algorithm is studied. The focus is on the relationship between SoC equalization and charging efficiency, and the associated trade-off for energy loss and control complexity. A complete literature survey is performed to synthesize recent advances in balancing strategies from traditional resistive mechanisms to AI-enhanced hybrid methods, and their interactions with new charging algorithms. By collating relevant findings from the literature review, the work highlights the need for adjustable, intelligent, and low-cost balancing-charging paradigms to improve the safety, reliability, and durability of lithium-ion batteries with strong applicability for EVs. This comprehensive literature review establishes that the work is grounded in the current literature and will proceed to address meaningful gaps in the literature."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Multimodal FactCheckNet on Low Resource Social Media Data",
+    "authors": "Vani Malagar, Aditi Sharma, Shailendra Tiwari",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465680",
+    "source": "IEEE",
+    "abstract": "Social media, as a medium for news consumption, offers both positive and negative aspects. With the advent of its affordability, accessibility, and speedy dissemination of information, individuals can pursue and engage with news via social media, which, conversely, facilitates the prevalence of “fake news,” defined as low-quality news containing deliberately incorrect information that creates a significant social threat involving the manipulated content. The categorization of multimodal misinformation presents an intricate challenge of complexity, especially under conditions of restricted data availability and resource constraints. This study addressed the classification challenge of differentiating between fake and legitimate news employing a multimodal framework that integrates text and visual data. In this paper, our analysis was carried on a sizable social media dataset due to limited computational resources and the restricted availability of complete datasets as a result of content removal or platform-based restrictions and proposed a Fact_Check_Net architecture by comparing the lightweight and heavier based deep learning configurations for multimodal data by evaluating under the fusion strategies to understand how the encoder depth influences the classification performance."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "The Future of VLSI Testing: Deep Learning Models for Accurate Fault Detection – Review",
+    "authors": "Balkees Marliyya S, Saumiya S, Kirubasankar K",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459552",
+    "source": "IEEE",
+    "abstract": "The growth in digital VLSI circuits has increased the complexities in fault detection. Traditional methodology such as ATPGs and SAT-based algorithms suffer from space explosion and limited scalability fails to detect the faults such as hardware Trojans. Enhancement in machine learning especially in deep learning algorithms such as SSAE (Stacked sparse autoencoder), and DSAE promises effective fault detection. These models guarantee efficient feature extraction, test pattern recognition and efficient fault classification in sequential and combinational circuits. The main objective of this paper is to review and compare machine learning-based fault detection, deep learning-based fault detection with conventional method in digital VLSI. It highlights their comparative strength, limitation, scalability, research gaps and methodology used in each method. The novelty of the paper lies in its structured comparison of unsupervised, semi-supervised and supervised models for fault detection."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Design of Camouflage Military Robot using Raspberry Pi and Machine Learning",
+    "authors": "T A Mohanaprakash, D R Swathi Kumari, Savija. J, M.Geetha, K.M. Gopinath, S.Kaviarasan",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459658",
+    "source": "IEEE",
+    "abstract": "Globally speaking, India is a country that is growing quickly. Crop diseases pose a severe danger to food security, yet they are still hard to identify. Due to their reliance on a manually created feature extraction process, these systems' accuracy has reached its peak. This approach classification method needs to incorporate CNN to surpass grading accuracy for tomato leaf pestilence. To properly describe and categorize tomato infections, the Deep Learning algorithm is used. Using a sample of 3000 frames of tomato leaves with nine various pestilences and a better and healthier leaf, the full simulation was carried out using Google Colab. The targeted area of the input photographs is first segregated from the genuine snaps after preprocessing the input images. Second, the frames are further processed using various CNN model hyper-parameters. CNN also extracts additional qualities from frames, such as colours, borders, and textures. The results reveal that the predictions made by the demonstrated replica are 98.49% precise."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "SmartLib: Next-Generation IoT Access Control for Libraries",
+    "authors": "Sushant Naik, Swarup Magar, Sneha More, Sakshi Murade, Tejas Pandure, N.S. Patankar",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459756",
+    "source": "IEEE",
+    "abstract": "In response to the limitations of the traditional library system, which is still supervised manually, this paper presents SmartLib, an IoT architecture for an automated library management system. The system’s primary feature is an automated access control system which is secure and RFID enabled and uses a solenoid lock to free the access control system from manual entry logs. To assist the administrators, SmartLib provides an analytics dashboard which is robust and presents real-time visitor information and provides usage reports on resources. Also, the framework enables students to access an online portal to browse the library catalogue and remotely reserve books which are still on the library stack. The effectiveness of SmartLib shows a large improvement in operational efficiency, security and resource management in academic libraries."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Label-Guided Imputation via Forest-Based Proximities for Improved Time Series Classification",
+    "authors": "Jake S. Rhodes, Adam G. Rustad, Sofia Pelagalli Maia, Evan Thacker, Hyunmi Choi, Jose Gutierrez, Tatjana Rundek, Ben Shaw",
+    "publish": "2025 International Conference on Machine Learning and Applications (ICMLA)",
+    "url": "https://doi.org/10.1109/icmla66185.2025.00131",
+    "source": "IEEE",
+    "abstract": "Missing data is a common problem in time series data. Most methods for imputation ignore label information pertaining to the time series even if that information exists. In this paper, we provide a framework for missing data imputation in the context of time series classification, where each time series is associated with a categorical label. We define a means of imputing missing values conditional upon labels, the method being guided by powerful, existing supervised models designed for high accuracy in this task. From each model, we extract a tree-based proximity measure from which imputation can be applied. We show that imputation using this method generally provides richer information leading to higher classification accuracies, despite the imputed values differing from the true values."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "MADE-PI: Framework for Effective Anomaly Detection in Federated Learning Applications",
+    "authors": "Raman Zatsarenko, Sergei Chuprov, Dmitrii Korobeinikov, Leon Reznik, Adrian Peña",
+    "publish": "2025 International Conference on Machine Learning and Applications (ICMLA)",
+    "url": "https://doi.org/10.1109/icmla66185.2025.00067",
+    "source": "IEEE",
+    "abstract": "In this research, we address a critical vulnerability of Federated Learning (FL) in practical applications: their susceptibility to adversarial attacks from malicious participants, which can severely degrade a global model’s performance. We propose MADE-PI, a novel defense mechanism designed to identify and exclude malicious clients early in the training process. Our method introduces a pre-aggregation step where the server evaluates each client update using a Proportional-Integral (PI) score. This score is a unique distance-based metric inspired by the PID controller, where a proportional term P measures the immediate deviation of a client’s update, and an integral term I tracks its behavior over time. By analyzing the distribution of these scores, our technique effectively flags and removes malicious contributions. We validate our approach through an empirical study on three datasets representing various applications of FL, including intelligent transportation, medical image analysis, and handwriting recognition. We concentrate on data poisoning as a highly relevant class of attacks. The results demonstrate that MADE-PI outperforms conventional defenses by providing superior malicious client detection and improving both learning efficiency and final model accuracy."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Ensuring Multi-Microgrids Emergency Resilience and User-Side Demand via Vehicle-to-X: A Transfer Hierarchical Safe Reinforcement Learning",
+    "authors": "Peixiao Fan, Runzhuo Ma, Siqi Bu, Song Ke, Yuxin Wen",
+    "publish": "2026 IEEE Green Technologies Conference (GreenTech)",
+    "url": "https://doi.org/10.1109/greentech68285.2026.11471598",
+    "source": "IEEE",
+    "abstract": "Existing long-timescale dispatch strategies cannot handle instantaneous power shortages in microgrids, undermining resilience and user supply. Vehicle-to-everything (V2X) enables rapid energy and information exchange for emergency support, but its potential is limited by a lack of real-time scheduling and effective user participation. This paper proposes a V2X-based emergency resilience enhancement strategy for multi-microgrids using transfer hierarchical safe reinforcement learning (TH-SRL). First, key resilience metrics covering microgrid operation and user demand in the early post-event stage are defined, and a hierarchical scheduling framework for emergency response is established. The framework coordinates microgrids, distributed resources, and loads (including charging stations), embeds a user participation mechanism, and exploits V2X to orchestrate energy and information flows. TH-SRL employs transfer learning to handle heterogeneous electric vehicles, coordinates power control via the hierarchy, and enforces battery and grid safety constraints through safe reinforcement learning. Simulations show that TH-SRL improves multi-microgrid resilience while safeguarding user demand."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Joint Radio-Computing Resource Allocation Modeling for Next-Generation Networks",
+    "authors": "Tammam Z. Dawood, Hanin N. Karhili, Mikhail S. Stepanov, Ghanshyam Singh, Artwell R. Muzata",
+    "publish": "2026 Systems of Signals Generating and Processing in the Field of on Board Communications",
+    "url": "https://doi.org/10.1109/ieeeconf68869.2026.11461056",
+    "source": "IEEE",
+    "abstract": "Next-generation networks face the challenge of efficiently managing both radio and computational resources, especially under the demands of bandwidth-intensive services such as $\\mathbf{4 K}$ video streaming. This paper presents a joint radio and computational resource allocation model for a single $\\mathbf{5 G}$ access node equipped with Multi-access Edge Computing (MEC), serving homogeneous 4K-video streaming sessions. The model describes the interplay between finite radio and computing resources, deriving expressions for steady-state probabilities, blocking probability, and average resource utilization. A recursive algorithm is proposed to determine the minimal radio and computing resources required to meet a target quality of service (QoS). Numerical experiments illustrate the applicability of the model, showing how blocking probability varies with traffic load and resource availability. The results provide a practical framework for planning next-generation access nodes with joint resource constraints."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Multi-Regional Neighborhood Spatio-Temporal Dynamics for Crop Yield Prediction",
+    "authors": "Meenakshi, Deepa Bura",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465997",
+    "source": "IEEE",
+    "abstract": "For agricultural planning and food security, accurate crop yield prediction is essential, but it is still difficult because of intricate inter-district spatial dependencies and extremely erratic temporal variations caused by agroclimatic factors. The ability of current deep learning techniques to capture higher-order regional interactions and non-linear temporal behaviour present in agricultural systems is limited because they frequently rely on local neighbourhood assumptions for spatial modelling and smooth temporal evolution. A spatiotemporal framework for modelling multi-regional neighbourhood dynamics in district-level crop yield prediction is presented in this paper. The suggested method creates a series of annual spatial graphs to depict inter-district relationships that go beyond close neighbours, making it possible to examine more extensive regional influences. A multi-neighbor graph convolutional mechanism based on MixHop is used to learn multi-regional spatial representations by aggregating data from several neighbourhood ranges. A chaos-aware Long Short-Term Memory network is used to capture irregular and non-linear yield fluctuations resulting from climatic uncertainty in order to model temporal evolution. Superior predictive performance is achieved by explicitly modelling multi-regional spatial dependencies along with irregular temporal dynamics, according to experimental evaluation on district-level crop yield data. The suggested framework consistently outperforms cutting-edge baselines, achieving an RMSE of 0.103, a <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$R^{2}$</tex> score of 0.790, and a correlation coefficient of 0.890. These findings demonstrate how crucial multi-regional spatiotemporal modelling is for reliable and accurate crop yield forecasting."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Federated Learning for Early Detection of Diabetic Retinopathy in Distributed Healthcare Systems",
+    "authors": "S. Sathya, R. Anandha Lakshmi, R.Bagavathi Lakshmi, Vishwa Priya V, D. Narayani, N. Anandakrishnan",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459545",
+    "source": "IEEE",
+    "abstract": "Diabetic retinopathy (DR) is one of the leading causes of preventable vision loss in the world, and early detection is critical for an effective intervention. However, the sensitive nature of patient data, together with regulatory considerations, restricts the use of centralized model training of healthcare data across institutions. This study presents a federated learning (FL) framework, to train a deep convolutional neural network(CNN) (EfficientNet-B0), to provide remote, early detection of DR type using retinal fundus images collected from multiple clinics that are distributed geographically, without sharing un-identified raw health data. The performance of the FL training-and-test scheme was evaluated on a range of AUC, accuracy, sensitivity, and specificity against a central, local only, ensemble, and pre-trained model. It is found that the FL model achieved an AUC of 0.91, and accuracy of 88.3%. Federated learning is chosen for this study to ensure patient privacy to handle distributed non-IID data, and achieve near-centralized diagnostic accuracy. This work also explores the future research opportunities for federated learning, and suggests that federated learning represents an advanced, scalable and privacy-respecting avenue for the implementation of AI-supported diagnostic imaging tools in the healthcare distributed healthcare systems."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Relai — AI for Disaster Response and Relief Using Random Forest Regression for Faster Response and Alerting",
+    "authors": "Mohith Mohan, Mokshitha Garapati, Goutham Y. K, Manoranjan S, Abdul Haq Nalband, Bahubali Shiragapur",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465476",
+    "source": "IEEE",
+    "abstract": "Disaster response is increasingly relying on artificial intelligence, which uses a range of data-how it saves lives and the challenges it faces. AI has become a powerful new tool for disaster response, and the Department of Homeland Security is investigating how to best use it. In concert with a team of scientists from Lawrence Livermore National Laboratory, we produced a very preliminary AI model to demonstrate the potential of this new technology. This model was trained with a combination of human-generated and machine-generated datasets, using the XGBoost Classifier-a machine learning algorithm that Lawrence Livermore National Laboratory scientists have found works well with the kinds of data we have and the types of problems we're trying to solve. The model can be used to predict where and when a disaster will occur so that maps of the projected disaster zones can be generated and displayed on a monitor."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "High Performance Convolutional Neural Network for Brain Tumour Detection from MRI Images",
+    "authors": "Sangita Hirani, Niti Khetra",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465467",
+    "source": "IEEE",
+    "abstract": "This study presents an automated framework for the detection and classification of brain tumours using deep learning methodologies, incorporating Convolutional Neural Networks (CNN), Artificial Neural Networks (ANN), and transfer learning (TL) strategies. The proposed system aims to accurately identify tumour presence and categorise tumour types from Magnetic Resonance Imaging (MRI) scans, thereby assisting radiologists and clinicians in clinical decision making. By improving diagnostic accuracy and reducing analysis time, the proposed approach has the potential to enhance early detection, optimise treatment planning, and ultimately improve patient outcomes in real world healthcare. The training dataset comprises 1635 brain MRI images with tumours and 1584 images of normal brains. The developed CNN model includes three convolutional layers with max-pooling operations, supplemented by dropout layers and fully connected dense layers for classification. Comparative analysis indicates that the proposed model outperforms existing CNN-based techniques, achieving an accuracy of 97 %, precision of 96 %, recall of 97 %, specificity of 97 %, and an F1-score of 97 %, demonstrating its suitability for brain tumour detection tasks."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Comparing Neural Architectures for English-Spanish Machine Translation: From LSTM to Transformer",
+    "authors": "Jingyuan Zhu, Anbang Chen, Bowen Wang, Sining Huang, Yukun Song, Yixiao Kang",
+    "publish": "2026 6th International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+    "url": "https://doi.org/10.1109/nnice68970.2026.11465609",
+    "source": "IEEE",
+    "abstract": "This paper presents a systematic comparison of neural architectures for English-to-Spanish machine translation. We implement and evaluate five model configurations ranging from vanilla LSTM encoder-decoders to Transformer models. Using the OPUS-100 corpus (1M training pairs) and FLORES+ benchmark (2,009 test pairs), we evaluate translation quality using BLEU, chrF, and COMET metrics. To ensure rigor, we employ a unified preprocessing pipeline with a shared BPE vocabulary across all models. Our best Transformer model achieves a BLEU score of 20.26, closing approximately 65% of the performance gap between our strongest LSTM baseline (BLEU 10.66) and the state-of-the-art Helsinki-NLP model (BLEU 26.60). We further analyze the impact of frozen pretrained FastText embeddings on recurrent architectures and provide a detailed breakdown of metric discrepancies."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Hierarchical Feature Integration Framework for Software Defect Prediction: Combining Syntactic Structure Mining with Neural Code Representations",
+    "authors": "Cheng Yuan, Ziyang Liu",
+    "publish": "2026 6th International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+    "url": "https://doi.org/10.1109/nnice68970.2026.11466249",
+    "source": "IEEE",
+    "abstract": "Software defect prediction plays a critical role in improving software quality and optimizing the allocation of testing resources during software development lifecycle. Existing approaches typically rely on either handcrafted software metrics or neural semantic representations extracted from pre-trained models, both of which exhibit inherent limitations in comprehensively capturing the multidimensional characteristics of defective code. Handcrafted metrics lack semantic understanding while pure neural approaches often ignore explicit structural information. This paper proposes a hierarchical feature integration framework that synergistically fuses Abstract Syntax Tree (AST) structural patterns with pre-trained code model representations to achieve enhanced defect prediction performance. Our framework introduces three key components: (1) Syntactic-Semantic Hybrid Encoding (SSHE), which serializes AST hierarchical structures into sequential format suitable for pre-trained model processing, enabling the joint capture of syntactic hierarchies and lexical semantics within unified contextual embeddings; (2) Multi-Scale Feature Aggregation (MSFA), which integrates high-dimensional neural embeddings with low-dimensional traditional software metrics through SMOTE-based class balancing and L2-normalized concatenation, effectively addressing both class imbalance and feature scale disparity issues; (3) Random Forest ensemble classifier for robust and stable prediction. Comprehensive experiments conducted on six widely used open-source Java projects under both within-project (cross-version) and cross-project settings demonstrate the effectiveness of our approach. Our framework achieves F1-scores of 0.752 and 0.691, AUC values of 0.813 and 0.752, and MCC values of 0.412 and 0.347 for within-project and cross-project prediction, respectively. These results correspond to a relative improvement of 9.1% to 14.8% in F1-score and 6.8% to 9.1% in AUC over state-of-the-art baseline methods. Ablation studies rigorously validate the contribution of each component, revealing that syntactic-semantic encoding provides the most significant benefit, yielding a relative F1-score improvement of 10.6%."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Full-Wave Simulation and Experimental Validation of Antennas Using Complex RF Components",
+    "authors": "Anthony Eldridge, Alastair Wiegelmann, Samuel Drake, Shengjian Jammy Chen",
+    "publish": "2026 Australasian Symposium on Antennas (ASA)",
+    "url": "https://doi.org/10.1109/asa69049.2026.11466689",
+    "source": "IEEE",
+    "abstract": "Full-wave antenna simulations typically exclude complex Radio Frequency (RF) components because accurately modeling their intricate performance is challenging. However, this work demonstrates an approach to include accurate modeling of complex RF components in full-wave antenna simulation using both Touchstone<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">®</sup> data (S-parameters) provided by the supplier and a Computer Assisted Drawing (CAD) model with material properties which can provide a more comprehensive antenna performance prediction. As an example, we illustrate the process using a half-wave dipole antenna fed by a transformer-based balun, where the manufacturer's multi-port Touchstone<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">®</sup> file (S-parameters of a 4 port network) for the transformer is incorporated into a full-wave simulation workflow in conjunction with a CAD file of the transformer with appropriate material properties applied. Good agreement between simulation and the measured results of an antenna prototype proves that the proposed approach efficiently predicts complex antenna behavior and supports reliable design of advanced antenna structures."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Software Reliability Growth Across Multiple Releases Considering Fault Removal Efficiency, and Error Generation",
+    "authors": "Shivani Kushwaha, Umashankar Samal, Rangan Kumar Guha",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465349",
+    "source": "IEEE",
+    "abstract": "With technology becoming a part of our daily lives, there is a growing demand on adaptable software. Nevertheless, such software is complicated and time-intensive to develop, and therefore difficult to keep a breast with a mong companies. Companies have to keep their products upgraded to keep abreast with the competition and meet the requirements of the users. The single release model can not support this continuous process and this is why multi release software is required. Software reliability is affected by multiple factors throughout the development process, such as inefficiency in f ault removal, the disparity between fault-removal and actual faults, and the occurrence of more faults. That's why fault removal efficiency (FRE), fault reduction factor (FRF), and error generation, must be considered while modeling software reliability growth. This study presents a software reliability growth model (SRGM) for multi-release software that integrates FRE, FRF, and error generation. Fault reduction is modeled with the help of generalized modified Weibull d istribution (GMWD), which p rovides a more realistic model of failure behavior. This model provides a robust framework for evaluating debugging efficiency a nd optimizing reliability across multiple releases."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "On the Problem of Interpretability of Neural Algorithms for Predicting Microscopic Traffic Flow Data",
+    "authors": "Mikhail Gorodnichev",
+    "publish": "2026 Systems of Signals Generating and Processing in the Field of on Board Communications",
+    "url": "https://doi.org/10.1109/ieeeconf68869.2026.11461116",
+    "source": "IEEE",
+    "abstract": "This paper develops and experimentally validates a method for interpreting driver behavior based on inertial sensor data. The relevance of the study stems from increasing road safety requirements and the development of telematics services and driver monitoring systems. A dataset consisting of multidimensional accelerometer and gyroscope time series was generated. Preprocessing was performed, including feature standardization, sequence segmentation into observation windows, and preparation of training samples. An interpretable algorithm for aggregating classifier predictions is proposed. Based on the distribution of recognized maneuvers, it generates a final driving style assessment based on threshold rules. The developed approach can be applied in telematics, driver monitoring, and behavioral insurance, and can also serve as a basis for further expansion with additional data sources and adaptation to various operating conditions."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A Survey on Privacy-Preserving Clustering Techniques: From K-Anonymity to Federated Learning",
+    "authors": "Sachidanand, Sreemoyee Biswas, Pragati Agrawal",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465190",
+    "source": "IEEE",
+    "abstract": "Privacy-preserving data publishing has become increasingly important due to concerns regarding data misuse, re-identification <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$r$</tex> isks, a nd <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$r$</tex> egulatory c onstraints s uch as GDPR and HIPAA. This survey reviews recent advances in privacy-preserving clustering, focusing on three methodological streams: differentially private hierarchical clustering, clustering-based k-anonymization, and privacy-preserving clustering in federated and distributed settings. We synthesize theoretical foundations, algorithmic developments, evaluation methodologies, and privacy–utility trade-offs across over twenty peer-reviewed studies. A unified taxonomy is proposed, followed by a discussion of open challenges and future research directions."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "DualFusion SwinConv-UNet++: A Hybrid CNN–Transformer Framework for Thyroid Ultrasound Image Segmentation",
+    "authors": "Smitirekha Behuria, Sujata Swain, Kriti Raj, Anjan Bandyopadhyay",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465732",
+    "source": "IEEE",
+    "abstract": "Segmentation of thyroid ultrasound image is a critical step to automating and improving the diagnosis and treatment planning of thyroid disease. Nevertheless, the natural imaging issues, including the speckle noise, low contrast, and non-uniform nodule morphology, make the accuracy of segmentation of traditional techniques more challenging. We address these challenges by proposing the state-of-the-art hybrid deep learning architecture, DualFusion SwinConv-UNet++ that consists of convolutional neural networks (CNNs) and Swin Transformer designs with a new attention-based fusion mechanism and a nested U-Net++ decoder to improve feature interaction and reconstruction. Extensive tests on publicly available benchmark datasets show that the segmentation performance is substantially improved, and the mean Dice coefficient is 0.90, the pixel accuracy is above 92 percent, and the quantitative results are better than the state-of-the-art baselines. The work has provided new possibilities to create strong and clinically applicable thyroid ultrasound analysis tools."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Machine Learning Approaches for EMG Signal Classification to Predict Hand Gesture",
+    "authors": "Yogendra Narayan, Fayzullo Omonov, Deepak Vasant Ulape, Charul Jain, Manu Kumari, Deepak Juneja",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465912",
+    "source": "IEEE",
+    "abstract": "In this study, the hand gestures prediction for electromyography (EMG) signals classification is provided. EMG signals which are electrical stimulations of muscles were measured, processed and analyzed to achieve discriminative features in time, frequency and time-frequency domain. To improve a better result of the classification, a number of classifiers namely, Support Vector Machine (SVM), k-Nearest Neighbors (k-NN), Random Forest (RF) and Artificial Neural Network (ANN) have been compared with each other with the objective of hybrid feature combination to enhance the accuracy of the result of the classification. As it turned out, ANN proved to be the most precise in classification (96.2 percent), followed by SVM (94.6 percent), RF (92.7 percent) and k-NN (89.4 percent). These findings suggest that hybrid feature extraction works better in terms of discriminative power and nonlinear learning capacity of ANN can be employed to extract the complicated and non-stationary nature of EMG signals. Overall, this research paper indicates the potential of hybrid feature extraction in conjunction with sophisticated learning architectures to enhance performance, robustness and flexibility of EMG-based hand gesture recognition systems to be applied in the field of prosthetic control, rehabilitation robotics as well as human-machine interfaces."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Wideband Metamaterial Absorber Based on Polylactic Acid for Stealth Technology",
+    "authors": "Kushagra Pratap, Shiven Shiv Senkumar, Tanishq Kapoor, Dilip Kumar Choudhary",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465930",
+    "source": "IEEE",
+    "abstract": "This work aims to present a PLA (Polylactic Acid) based microwave absorber aimed for wideband applications, with best performance in X-band <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(8-12 \\text{GHz})$</tex>. The absorber structure consists of two hexagonal resonator rings coated with resistive rings, positioned over a concentric split ring column structure. This structure is backed by a copper sheet. There is a frame like PLA stripe along the perimeter of the copper sheet for improved structural integrity. The use of presented geometry instead of using a slab of similar dimensions also results in achieving of a light form factor. The resistive ink used on the horizontal resonator has bulk conductivity of <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$2500 \\mathrm{S} / \\mathrm{m}$</tex>. The dimensions are <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{1 1. 6 m m} \\times \\mathbf{1 1. 6 m m} \\times \\mathbf{5 m m}$</tex>. The structure resonates at the frequency of 9.56 GHz. The −10 dB working band is <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$6.88 \\text{GHz}-19.88 \\text{GHz}$</tex>, thus the proposed absorber can be of utility in operations in <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathrm{C}, \\mathrm{X}, \\text{Ku}$</tex> and K bands. Further, fractional bandwidth of 135.9% is offered by the structure. Absorptivity of greater than 88% is accomplished in the occupied band."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Passive Fingerprinting of ICS Devices Using Aggregates of Modbus Packets",
+    "authors": "Andres Galiasso, Peter J. Hawrylak",
+    "publish": "2026 IEEE Green Technologies Conference (GreenTech)",
+    "url": "https://doi.org/10.1109/greentech68285.2026.11471618",
+    "source": "IEEE",
+    "abstract": "Industrial Control Systems (ICS) serve as the foundation for the operation of industrial processes by monitoring and controlling physical systems. Fingerprinting of ICS devices is a crucial first step in maintaining the security of industrial networks. Active scanning may have adverse effects on an industrial network, so using passive fingerprinting is important. In this paper, we propose a technique for fingerprinting ICS devices that utilize the Modbus protocol. Our technique is based on analyzing an aggregate of Modbus query and response packets within a fifteen minute window. The Modbus registers accessed are recorded for each Modbus query, and the Shannon Entropy and hexadecimal sums of chosen segments of the message are calculated for each Modbus response packet. The distribution of these values are used to create 17 statistical features that a multinomial logistic regression machine learning algorithm uses to fingerprint the ICS devices. Two experiments were performed to evaluate the fingerprinting model. The model achieved an accuracy score of 90.55% in classifying a set of five devices during our most challenging experiment."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Quantum-Inspired Sparse Bayesian Learning Framework for Ultra-Reliable Spectrum Sensing in Low-SNR Cognitive Radio Networks",
+    "authors": "Anandh Nagarajan, Hema V, S Punitha, B.Senthil Kumar, S.Lavanya, V.Brinda",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459588",
+    "source": "IEEE",
+    "abstract": "Cognitive radio networks using spectrum sensing technology are prone to problems at low signal-to-noise ratio (SNR) conditions, where traditional schemes of detection are characterised by low probability of accurate detection and high false alarms. In this paper, a framework of the Quantum-Inspired Sparse Bayesian Learning is proposed that aims to attain the ultra-reliable spectrum sensing under such unfavorable conditions. The method utilizes ideas in quantum probability theory to formulate signal presence uncertainty, and combines sparse Bayesian learning to make use of signal sparsity inherent in the frequency domain. The method allows better discrimination between primary user signals and noise even under low SNR (SNR < -20 dB), because the sensing problem is expressed in a quantum-inspired Hilbert space. The framework also includes an adaptive prior updating scheme where the algorithm would respond to different spectral occupancy patterns in a dynamic manner and hence increase the robustness of the algorithm to environmental changes. The results of simulations indicate better detection probability, low computational complexity, and noise uncertainty resilience than the conventional energy detection, matched filtering, and cyclostationary methods. This paper offers a promising route toward next-generation, ultra-reliable spectrum awareness of cognitive radio and emerging 6G wireless systems."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "H-OTFS: An Anti-Jamming Transmission Scheme for OTFS via Hadamard Spreading",
+    "authors": "Yongning Zhuo, Yuhan Qiu",
+    "publish": "2026 6th International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+    "url": "https://doi.org/10.1109/nnice68970.2026.11465845",
+    "source": "IEEE",
+    "abstract": "Aimed to enhance the ability of robust transmission in jamming environment for OTFS system, a novel scheme termed H-OTFS is proposed, which spreads the sparse user data using Hadamard transformation to Delay-Doppler (DD)domain. At the receiver, after converting the received signal into the DD domain, a screening process is employed to excise DD domain bins contaminated by jamming signals whose power exceeds a predefined threshold. The original user data are subsequently recovered from the partial observation using a multi-constraint compressive sensing (CS) with Alternating bidirectional multiplier algorithm (ADMM). Simulation results demonstrate that the proposed scheme significantly outperforms conventional OTFS systems under strong dense jamming conditions, achieving a substantial reduction in bit error rate."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Hello-Id: Honeypot Enabled Deep Learning Framework for Intrusion Detection",
+    "authors": "Sangyam Rohith Shailaja, Ushanadhini",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459640",
+    "source": "IEEE",
+    "abstract": "An Intrusion Detection System (IDS) is designed to monitor network traffic for signs of suspicious activity and generate alerts when threats are detected. IDS play a critical role in identifying and mitigating cybersecurity risks by differentiating between legitimate and malicious network traffic. However, traditional IDS frameworks often face challenges in accurately detecting complex attack patterns and distinguishing them from normal activity. This leads to a high rate of false positives and hampers the system's ability to adapt to the rapidly evolving landscape of cyber threats. To address these challenges, this paper proposes a Honeypot EnabLed deep Learning framewOrk for Intrusion Detection (HELLO-ID) approach for enhancing network security and detecting attacks accurately. Initially, the system utilizes a honeypot server for data collection. The system employs Dragonfly Optimization for feature selection and a Stacked Convolutional Neural Network (SCNN) and Bidirectional Gated Recurrent Unit (BiGRU) approach for attack classification. Experiments on the NSL-KDD and IDS2018 datasets show that the suggested HELLO-ID outperforms other existing methods. The suggested technique efficiency is assessed utilizing accuracy, precision, recall, f1score, and MSE. Compared to existing techniques the proposed approach offered enhanced results for two datasets with 97.84%, and 97.59% accuracy, respectively."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Suicide Prediction Using Machine Learning on Assamese Language",
+    "authors": "Manabjyoti Choudhury, Aniruddha Deka, Gunikhan Sonowal, Soraisam Gobinkumar Singh",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465245",
+    "source": "IEEE",
+    "abstract": "Sentiment analysis in low-resource Indian languages remains a challenging research area due to limited annotated corpora, complex linguistic morphology and script-specific processing requirements. This study presents a vigorous machine learning channel for Assamese sentiment arrangement using a stratified TF-IDF feature representation combined with a stacking ensemble classifier. The proposed framework integrates Random Forest, XGBoost, Gradient Boosting and Decision Tree as base learners with meta-level soft voting to enhance generalization. Experiments were conducted on a manually curated three-class Assamese sentiment dataset and the model performance of 87.58 % of accuracy and 94.45 % of macro-AUC value in ensemble stacking. The projected method accomplishes good performance compared to existing deep learning and transformer-based models reported in recent Assamese and Indic sentiment literature, demonstrating that optimized ensemble learning remains a strong contender for resource-constrained languages where pretrained language models or large-scale datasets may not be accessible."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Athercare: Unified AI System for Health Intelligence in Real Time",
+    "authors": "Pandurang, V Mareeswari, Snigdha Kesh, Navyashree N, Nandana P T, S M Siddalingaswamy",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459636",
+    "source": "IEEE",
+    "abstract": "Quality healthcare access is a worldwide issue, with disjointed systems, slow diagnostic processes, and complex medical documentation posing significant barriers for many. Medical AI introduces an innovative digital health ecosystem that simplifies and improves the delivery of care. this sophisticated platform integrates a range of advanced features, such as geolocation-based tools to locate nearby medical facilities in real time, AI-driven assessments for detecting acne and other skin conditions, and intelligent processing of blood test results from PDF reports. An interactive chatbot delivers tailored health advice, making it easier for users to navigate their health concerns. the platform leverages sophisticated image processing and machine learning-driven natural language processing to interpret intricate medical records effortlessly. Mediconnect AI is particularly impactful in rural and underserved communities, where access to specialized medical expertise is often scarce. By improving diagnostic precision and simplifying medical data for patients, it empowers individuals to better understand their health. mediconnect AI marks a fundamental advance in creating a more equitable, intuitive and affordable health system, offering immediate assistance and allowing users to be in charge of their health journey."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Universal Onboard Complex of an Unmanned Ground Vehicle",
+    "authors": "I. A. Pestova, A. A. Gorbenko, V. M. Zuev",
+    "publish": "2026 Systems of Signals Generating and Processing in the Field of on Board Communications",
+    "url": "https://doi.org/10.1109/ieeeconf68869.2026.11461204",
+    "source": "IEEE",
+    "abstract": "The article provides a detailed analysis of the onboard systems of autonomous transport vehicles. The architecture “sensors-computing-actuators” is examined, and the operating principles as well as the trade-offs in selecting various types of sensors (lidars, radars, cameras) are analyzed in detail. Special attention is paid to AI-based computing platforms and software stacks for perception, prediction, and path planning. Key technological challenges are identified, such as ensuring fault tolerance and handling “edge cases”."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Mitigation of Crosstalk of On-Chip Antenna in RFIC Using Dual Guard Band Method",
+    "authors": "Harshavardhan Singh, Vipin Singh",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11466067",
+    "source": "IEEE",
+    "abstract": "On-chip antennas (OCAs) provide a solution for designing a truly wireless and compact Radio Frequency Integrated Circuit (RFIC) for system on chip applications. However, crosstalk between OCA and other RFIC components limits the application. This study analyzes the crosstalk between two components (here, two OCA) on a single chip placed side by side and then provides a solution to mitigate it. Initially, a miniaturized on-chip patch antenna is designed at 10.5 GHz. To analyze crosstalk <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\left(S_{12}\\right)$</tex>, two similar antennas on the chip were placed adjacent. With the 6 mm optimized separation between two patches, <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$S_{12}$</tex> is obtained as −20.1 dB. Furthermore, the placement of two parallel guard bands between patches reduces the <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$S_{12}$</tex> to −32.5 dB. In addition, a parametric study was performed to decide the optimal number of guard bands. The simulated results, along with the comparative analysis, validate the potential of the proposed method in crosstalk reduction in the RFIC environment."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Design and Analysis of a Stack-Enhanced LECTOR-Based Power Gating Scheme with PMOS Sleep Transistors",
+    "authors": "Mahesh Bidarkote, M. Suresh, Deep Chandra Upadhyay, Ankur Beohar, Pallabi Sarkar",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465950",
+    "source": "IEEE",
+    "abstract": "This paper presents a novel hybrid leakage reduction scheme named SL-PG (Stack-Enhanced LECTOR with PMOS-only Power Gating) for CMOS digital circuits. By synergistically combining Forced Stack, LECTOR, and PMOS sleep transistor techniques, the proposed approach achieves superior leakage suppression in deep-submicron regimes. Through comprehensive SPICE simulations on 2 -input NOR gates and 4:1 multiplexer in 90nm technology, we analyze static/dynamic power, total dissipation, and Power-Delay Product (PDP). Results demonstrate that SL-PG achieves 99.47% leakage reduction <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(0.00369 \\mu ~\\mathrm{W})$</tex> for NOR gates with optimal PDP of 1.78 fJ for multiplexers. Forced Stack offers 99.1 % leakage suppression with moderate overhead, while LECTOR increases power by 167 % in NOR gates. Based on extensive analysis, we provide design guidelines for selecting appropriate techniques across applications."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A Deep Reinforcement Learning-Based Dynamic Queue Management Approach for Network Traffic Scheduling",
+    "authors": "Xiaoliang Zhang, Yinan Dou, Mei Yan, Shuyu Han, Chenyang Xu, Jian Wu, Bei Ou, Yitong Liu",
+    "publish": "2026 6th International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+    "url": "https://doi.org/10.1109/nnice68970.2026.11466221",
+    "source": "IEEE",
+    "abstract": "With the growing scale and heterogeneity of network traffic, efficient network traffic scheduling has become a critical challenge in modern communication systems. Existing methods often show limited adaptability under resource constraints and dynamic traffic conditions. This paper proposes a deep reinforcement learning-based dynamic queue management approach for network traffic scheduling, termed DRL-DQM, which formulates traffic scheduling as a queue-level sequential decision-making problem to achieve multi-dimensional performance optimization. Extensive simulations under diverse traffic loads and bandwidth configurations demonstrate that DRL-DQM significantly outperforms baseline methods in queueing latency and packet loss rate. Moreover, the proposed approach exhibits strong stability and robustness across different network scenarios."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A Fused Ensemble Learning Approach for Early Heart Disease Prediction",
+    "authors": "Narayan Jee, Gesu Thakur, Sumit Kumar",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465176",
+    "source": "IEEE",
+    "abstract": "The correct early diagnosis of heart illness ensures effective therapy and improves patient outcomes. This article presents a new method using fused ensemble learning that combines the abilities of different machine learning models to increase the accuracy and robustness of heart disease diagnosis. The framework uses basic classifiers comprising Random Forest (RF), Support Vector Machine (SVM), and Gradient Boosting (GBM), which are later enhanced through meta-level fusion. Based on all-round testing on benchmark datasets, ensemble models outperform both individual classifiers and standard classification techniques in precision, recall, and classification accuracy. The results emphasize the mixed ensemble approach's effectiveness as a consistent decision-support system for the early detection of heart disease in clinical settings."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "MediVault - Your Medical Wallet",
+    "authors": "R. Jegatha, Jayani Nirupa V, Saivarshaa S, Krithika G",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465499",
+    "source": "IEEE",
+    "abstract": "In critical care scenarios, timely access to accurate patient data is paramount. This paper introduces MediVault, a comprehensive, end-to-end digital solution designed to securely consolidate and manage electronic health records (EHRs). Developed as a cross-platform mobile application using Flutter with a Supabase backend, MediVault centralizes a patient's medical history, including diagnoses, prescriptions, and reports–enabling healthcare professionals to retrieve essential information swiftly. The system employs device-based biometric authentication to uphold stringent privacy standards. By providing a unified platform with role-based access for patients, doctors, and administrators, MediVault reduces data fragmentation and improves continuity of care. The core objective is to support medical personnel with immediate access to vital health data, thereby minimizing clinical errors and improving patient outcomes in both emergency and routine healthcare settings."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "SnapClean: Garbage Violation Reporting and Monitoring System",
+    "authors": "Aniket Amte, Poonam Gupta, Harsh Desai, Jay Baraskar",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465873",
+    "source": "IEEE",
+    "abstract": "Solid waste management has become one of the most critical challenges in rapidly urbanizing societies due to the increase in population density, unregulated waste disposal practices, and the inability of municipal authorities to effectively monitor and respond to violations. Manual reporting methods for garbage violations are often unreliable, delayed, and inconsistent, resulting in public dissatisfaction and environmental hazards. This paper presents an AI-powered Garbage Violation Reporting and Monitoring System that integrates deep learning-based image classification, severity prediction, and geo-located citizen reporting to enhance municipal waste management efficiency. A ResNet-50 convolutional neural network (CNN) is trained on a custom garbage image dataset to classify waste images into four severity classes: High, Moderate, Low, and Invalid. The Invalid class enables automatic rejection of non-garbage or irrelevant submissions, ensuring data reliability. Citizens can upload geotagged waste images through a web-based platform, which are processed by the trained model to generate actionable insights for municipal dashboards. The system provides real-time visualization of violation hotspots, severity-based prioritization, and report analytics. Experimental evaluation on the custom dataset demonstrates an overall classification accuracy of approximately 76%, reflecting robust performance under real-world lighting and background conditions. The proposed system promotes civic participation, supports data-driven decision-making, and improves the responsiveness of urban waste management operations."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Multi-Resolution Fall Transformer: A Dual-Branch Transformer for Wrist-IMU Fall Detection Using WEDA-FALL and FallAllD Datasets",
+    "authors": "Milan Mondal, Yadunath Pathak",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11466078",
+    "source": "IEEE",
+    "abstract": "The importance of accurate fall detection is crucial for promoting the safety of seniors and allowing for remote, independent health monitoring. However, the inconsistency in behavior of models across datasets due to variations in sensor sampling rate and individual movement characteristics makes it difficult to develop reliable models. In our study, we propose the concept of the Multi-Resolution FallTransformer (MR-FT). This is a dual-branch Transformer architecture that takes into account wrist IMU data sampled at two different rates (WEDA-FALL samples at <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{5 0 ~ H z}$</tex>; FallAllD samples at <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{2 3 8 ~ H z}$</tex>), without requiring any downsampling. Both branches learn their respective rhythmic motion behaviors, yet the cross-attention block acts as some form of communication mechanism to allow both branches to “communicate” with each other, to ensure that slow changes in posture are identified along with rapid impacts that are detected by both branches. We demonstrated that the MR-FT achieved an AUC score of approximately 0.979 and an accuracy score of approximately 0.889 when tested using paired testing, outperforming typical CNN, BiLSTM, and single-branch Transformer configurations. We developed MR-FT to maintain the original timing information and allow attention to fuse the data, creating an extremely robust and transparent method to combine data recorded at multiple sensor sampling rates. Therefore, MR-FT will allow us to better design systems capable of adapting to various applications including, but not limited to fall detection, rehabilitation tracking, and daily health monitoring."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Electricity Rate Analysis for Remote Alaskan Microgrid Communities: Impact of Renewable Energy Integration and Electrification",
+    "authors": "J. R. Yadav, I. Mathiasson, B. Panikkar, M. Almassalkhi",
+    "publish": "2026 IEEE Green Technologies Conference (GreenTech)",
+    "url": "https://doi.org/10.1109/greentech68285.2026.11471585",
+    "source": "IEEE",
+    "abstract": "Alaska’s remote communities face some of the nation’s highest electricity rates due to reliance on diesel generation, prompting state through the Power Cost Equalization (PCE) program and growing interest in renewable energy and tribal Independent Power Produce (IPP) models. This paper presents an analysis of the complex dynamics of electricity rates within this context, focusing on how renewable penetration (α), IPP sales rate (R<inf xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">IPP</inf>), electrification, and fixed costs influence retail rates (R) and stakeholder outcomes. This analysis identifies combinations of α and R<inf xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">IPP</inf> that keep retail rates within the PCE threshold ($/kWh) and demonstrates strategies to bring the retail rate back into the eligible range when it exceeds the PCE threshold. The key finding is that when renewable energy is procured at a price lower than fossil-fuel generation, it benefits both the utility and the state by reducing overall production costs and lowering the use of PCE funds, while simultaneously generating revenue for tribally owned IPPs. This collaborative framework promotes cleaner operations, enhances system efficiency, and stabilizes retail rates against fluctuations in diesel fuel prices."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Interleaved Luo Converter-Fed Electric Vehicle Battery Charger Integrated with Renewable Energy",
+    "authors": "K.Sharmela, D.Velmurugan, G.BANU, Sivaranjani S., Sujitha K, Janani K.",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459727",
+    "source": "IEEE",
+    "abstract": "The Proposed system aims to develop an advanced EV charger using an Interleaved Luo Converter, a special DC-DC converter that improves power quality, reduces harmonic distortion, and maximizes charging efficiency. With electric vehicles growing globally spurred by the demand for renewable energy and lower carbon emissions, efficient and reliable charging stations are more in demand. The proposed system contributes to environmental sustainability by reduces transportation-related emissions In discontinuous conduction mode, the system is effective, splits the input current, and lowers switching losses thanks to its two interleaved Luo converter cells. The design also reduces the input and output current ripple. Until a certain state of charge is reached, the charger runs in continuous current mode. A PIC microcontroller provides precise control and safe operation, while a flyback converter creates electrical isolation between the input and output."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Intelligent Air Quality Forecasting and Pollution Prediction using Hybrid Machine Learning Algorithm",
+    "authors": "Rajarajeshwari B, Sankari S, Harivel GK, Muthupandi G, S. Pavithra",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459541",
+    "source": "IEEE",
+    "abstract": "Urban air pollution is the next global emerging problem thrown in by rapid industrialization, urbanization, and booming vehicular emissions. A novel machine learning-based model for the estimation of air quality and prediction of pollution in support of sustainable environmental management for smart city infrastructure is proposed. The model performs temporal dependency analyses and multi-horizon forecasting of pollutant levels using the Temporal Fusion Transformer (TFT). The model first applies Random Forest algorithms to identify significant environmental drivers and secondly uses CatBoost to determine pollution severity class levels with a superior rationale regarding complex interactions of features. As a multi-algorithm model, it deals better with noisy, incomplete, and non-linear IoT sensor network data with reasonably high prediction accuracy with regard to traditional models. It provides policymakers and city planners with real-time actionable inferences from which they may decide most efficiently for pollution abatement. Experimental results show substantial improvements in forecast accuracy of R2=0.9809. By integrating advanced machine learning techniques to real-time data streams, this study takes strides toward envisioning more intelligent and healthy cities and thus advocates sustainable policies that will attempt to stem the environmental and health implications of air pollution."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "YOLOv8 with Integrated Attention Mechanism and ASFF for Brain Tumor Detection and Classification in MRI Images",
+    "authors": "Shuang Zhang, Yang Chen",
+    "publish": "2026 6th International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+    "url": "https://doi.org/10.1109/nnice68970.2026.11465812",
+    "source": "IEEE",
+    "abstract": "Brain tumors pose a significant threat to human health, making their early and precise detection critical for improving clinical outcomes and patient survival. Traditional manual diagnosis of brain tumor MRI images is inefficient for large datasets and susceptible to subjective errors. The YOLOv8 algorithm, known for its high speed and accuracy, shows strong potential in medical image analysis. This study proposes an enhanced YOLOv8 framework that integrates the CBAM and SE attention mechanisms to improve feature extraction and the ASFF module for optimized multi-scale feature fusion, addressing challenges such as complex tumor morphology and small lesion detection. Experimental results demonstrate notable improvements: mAP50 reached 0.951 (a 6.4% increase) and mAP50-95 rose to 0.806 (a 23.1% gain). For Meningioma and No Tumor classes, mAP50 achieved 0.986, indicating high classification accuracy. Although the introduced attention and feature fusion modules increase computational overhead, the complexity analysis clarifies the source of the performance improvements. This study provides an effective baseline model for subsequent model lightweighting, offering a clear pathway for advancing high-precision models toward real-time clinical applications."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Comparative Analysis of Sample-and-Hold Circuits for Low-Voltage and Low-Frequency Biomedical Applications",
+    "authors": "Anoop Garg, Ankit Kumar, Hrishikesh Das, Gaurav Kaushal, Manisha Pattanaik",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465360",
+    "source": "IEEE",
+    "abstract": "Sample-and-hold (S/H) circuits are critical building blocks in analog-to-digital converters (ADCs), especially for biomedical signal acquisition systems that operate under lowvoltage, low-frequency, and low-power constraints. This paper presents a comparative transient-analysis-based evaluation of NMOS-based, PMOS-based, transmission-gate-based, and bootstrapped S/H circuits. All architectures are designed and simulated using 180 - nm CMOS technology in Cadence Virtuoso. The comparison focuses on key performance metrics extracted from transient simulations, namely power consumption and signal-to-noise ratio (SNR), along with an analysis of the trade-off between linearity and circuit complexity. Simulation results show that basic MOS-based S/H circuits offer minimal complexity and low power consumption but suffer from poor linearity and reduced SNR. Transmission-gate-based S/H circuits provide improved linearity and SNR at the expense of increased circuit complexity. Bootstrapped S/H circuits achieve the highest SNR and best linearity; however, this performance improvement comes with significantly higher design complexity and dynamic power consumption. For low-frequency biomedical signals such as electrocardiogram (ECG) and electroencephalogram (EEG), passive op-amp-free S/H architectures demonstrate an effective balance between power efficiency, linearity, and implementation complexity."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Comparative Numerical Analysis of Lead-Free Perovskite Solar Cells Using SCAPS-1D",
+    "authors": "Md Shazarul Islam, Md Abdul Kuddus Sheikh, Hasina Huq",
+    "publish": "2026 IEEE Green Technologies Conference (GreenTech)",
+    "url": "https://doi.org/10.1109/greentech68285.2026.11471569",
+    "source": "IEEE",
+    "abstract": "A comprehensive numerical study of lead-free perovskite solar cells was conducted using the SCAPS-1D simulation framework with the device architecture ITO/SnO<inf xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</inf>/Perovskites/NiO<inf xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">x</inf>/Au. The work investigates the replacement of the central Pb cation with Sn, Ge, and Bi, followed by absorber-layer thickness optimization to enhance device performance. The impact of systematic Pb substitution on key photovoltaic parameters was first evaluated. Among the candidates, FASnI<inf xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">3</inf>-based devices exhibited the most promising performance, achieving a power conversion efficiency (PCE) of 26.48%, with a short-circuit current density (J<inf xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">sc</inf>) of 19.31 mAcm<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">-2</sup>, an open -circuit voltage (V<inf xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">oc</inf>) of 1.57 V, and a fill factor (FF) of 87.29%. Further optimization of absorber thickness revealed an optimal value of 1600 nm, yielding an enhanced PCE of 27.15%. These results highlight the strong potential of Pb-free perovskites for next-generation eco-friendly photovoltaic technologies."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A Wide Depletion Region Single Photon Avalanche Diode",
+    "authors": "Guilan Feng, Jichen Zhang, Tianqi Zhao, Junjie Hou",
+    "publish": "2026 6th International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+    "url": "https://doi.org/10.1109/nnice68970.2026.11465283",
+    "source": "IEEE",
+    "abstract": "Single photon avalanche diode (SPAD) has achieved a wide range of applications in the field of single-photon detection by virtue of their single-photon level sensitivity, ultra-high speed, and other characteristics. Front-illuminated SPAD has gained widespread attention in recent years due to their advantages of low fabrication cost, simple process, and compatibility with mature CMOS. However, the photon detection performance of conventional front-illuminated SPAD is often limited by the issues such as narrow depletion region of planar avalanche junction. In this paper, a wide depletion region silicon-based SPAD with a pixel radius of 2.55 μm is designed and simulated using TCAD software and several electrical parameters and optoelectronic characteristics has been obtained. The SPAD creates several high values of electric field through several semicircular N-type regions. With a reverse bias above the breakdown voltage, several semicircular areas with high electron breakdown probability appear near the top surface of the device. These areas help improve the photon detection probability. Finally, according to the simulation results, the device has a peak photon detection probability of 45% and a DCR value of 1180cps while Vex=5V, wavelength = 450nm."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Deep Reinforcement and Federated Learning-Based Joint Spectrum and Power Allocation in D2D-Enabled Cellular Networks",
+    "authors": "Srinivasarao Yarlagadda, Telaprolu Dhanushyasri, Kolakani Hansika Bose, Lebaka Kyathi, Thati Jaya Sarayu, Ajay Bhardwaj",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465377",
+    "source": "IEEE",
+    "abstract": "In underlay cellular networks supporting Device-to-Device (D2D) communication, efficient <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$r$</tex> esource allocation remains a key challenge due to spectrum sharing and crosstier interference. This work proposes a Deep Reinforcement Learning (DRL)-based framework for joint spectrum and power allocation aimed at maximizing system throughput while limiting interference to cellular users (CUs). The network environment is modeled as a Markov Decision Process (MDP) that captures essential wireless characteristics, including path loss, interference, and signal-to-interference-plus-noise ratio (SINR). Two DRL algorithms, namely Deep Q-Networks (DQN) and Proximal Policy Optimization (PPO), are implemented using the Stable Baselines3 framework to dynamically assign resource blocks and transmission power levels to D2D pairs in a shared spectrum setting. Simulation results demonstrate that the PPO-based agent consistently outperforms DQN and baseline allocation schemes in terms of average throughput, SINR distribution, energy efficiency, and convergence stability. Overall, the proposed DRL-based approach achieves an effective trade-off between throughput maximization and interference mitigation under dynamic network conditions. While federated learning is discussed as a promising direction for distributed and privacy-preserving optimization, this study focuses on centralized DRL-based resource allocation and leaves federated extensions for future investigation."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Deep Learning-Driven Framework for Robust Cybersecurity Threat Detection and Classification",
+    "authors": "Narsing Rao Dyavani, Bhagath Singh Jayaprakasam, Charles Ubagaram, Rohith Reddy Mandala, Ignatious K Pious, S.Jayanthi",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459726",
+    "source": "IEEE",
+    "abstract": "Network Intrusion detection Network intrusion is an important factor in safeguarding network infrastructures against increasing cyberattacks. Conventional intrusion detection systems are characterized by the existence of a lot of false positives and false negatives particularly when the network is large and dynamic. In this paper, a new model is suggested that combines feature-classification Long Short-Term Memory (LSTM) with Ant Colony Optimization (ACO) to learn the model and optimize hyperparameters. The capability of LSTM to learn time-related patterns in network traffic and the efficiency of ACO in the feature selection and hyperparameter optimization allow the proposed model to be much better regarding the accuracy and the complexity of computations. The framework is assessed using the Network Traffic Data for Intrusion Detection dataset, with an accuracy of 99.78, precision of 98.56, recall of 97.78 and F1-score of 98.87. These findings prove the possibility of the framework to be deployed in the real world to protect networks. In this paper, the synergy between deep learning and optimization plans is highlighted to improve intrusion detection, which proves to be an inspiring control mechanism to effective cybersecurity in large-scale networks. The originality of the work is the fact that LSTM is used along with the ACO to classify, as well as to select the features and establish the hyperparameters, reducing the number of computing resources, the number of false positives, and maximizing the accuracy, which makes the framework highly relevant to the real-world cybersecurity problem."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Intelligent Control Strategies for EV Motor Drives: A Comparative Study of BLDC and PMSM Systems",
+    "authors": "Sujatha Banka, Chava Sunil Kumar, Arakala Harshitha, Theegala Anupriya",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459676",
+    "source": "IEEE",
+    "abstract": "Electric Vehicles (EVs) mainly use Brushless DC (BLDC) motors and Permanent Magnet Synchronous Motors (PMSM) because of their features like efficient, reliable, and compact. Motor drives that use Fuzzy logic controllers (FLCs) can make sure optimal energy use. They provide smooth acceleration and under various operating conditions improves efficiency. EVs use FLCs to control BLDC and PMSMs. FLC offers an optimised solution with different principles, which removes the need for complex mathematical models. In BLDC motors, FLC improves speed control and reduces torque ripples, which will make the operation smoother and more stable. For PMSM, FLC works together with direct torque control (DTC) to reduce torque ripples and improving response times and overall efficiency. MATLAB/Simulink software supports modelling and simulation. Simulations and real-time tests show that the FLC-based control system is more efficient than traditional Proportional-Integra (PI) controllers. It responds very fastly to changes in motor behavior, ensuring reliable, flexible, and energy-efficient performance. This makes FLC the best choice for the future of electric vehicles, ensuring the best motor performance in various conditions and also improves overall vehicle efficiency and durability"
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A Hybrid Machine Learning Approach for Fraud Prevention and Health Insurance Claim Verification",
+    "authors": "Talari Srinivasa Rao, Myneedi Chetan Viswa Kumar, Janapati Malathi, Shaik Mujahid",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11466016",
+    "source": "IEEE",
+    "abstract": "Insurance fraud is a loss for both the insurers and the honest insured. To counter this, a hybrid model was created combining XGBoost and SVM, supported by Optical Character Recognition (OCR) and Natural Language Processing (NLP) for extracting key information from claim documents and accelerating the verification process. In order to deal with the class imbalance problem, both SMOTE and random undersampling were implemented which in turn improved the performance of the model. The overall accuracy was 98.48% in the case of the developed system. For the legitimate claims, it achieved 98% precision, 99% recall, and a 99% F1-score, while for the fraudulent claims the scores were 99% precision, 97% recall, and 98% F1-score. The AUC and ROC score of 0.98 indicates the robustness of the model and reveals its strong potential for real-time, scalable fraud detection."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Robot Learning Framework using Behavioral Cloning and Gaussian Mixture Model (BC-GMM) for Sorting Tasks",
+    "authors": "Hambal Tella, Prajyot Patil, Maria Kyrarini",
+    "publish": "2025 International Conference on Machine Learning and Applications (ICMLA)",
+    "url": "https://doi.org/10.1109/icmla66185.2025.00133",
+    "source": "IEEE",
+    "abstract": "As collaborative robots (cobots) become available in industry, it is crucial to enable non-coders to program cobots easily. For example, in sorting tasks that may require adjustments over time, workers could easily adjust the cobot’s behavior by utilizing learning from demonstrations (LfD) approaches. This paper presents an LfD approach for enabling a cobot to learn sorting tasks by integrating the Gaussian Mixture Model (GMM), validated in Mujoco for policy training. Quantitative analysis shows that the improved BC-GMM achieves the lowest mean squared error (MSE = 0.00207) and highest R-squared score (R<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup>=0.89), outperforming other methods, such as standard BC, diffusion policy, and implicit behavioral cloning (IBC)."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Fusing Camera and Electromyography Data for Enhanced Range of Motion Assessment",
+    "authors": "Xuke Yan, Bo Liu, Jinzhao He, Guangzhi Qu",
+    "publish": "2025 International Conference on Machine Learning and Applications (ICMLA)",
+    "url": "https://doi.org/10.1109/icmla66185.2025.00071",
+    "source": "IEEE",
+    "abstract": "Accurate and automated Range of Motion (ROM) assessment is essential for rehabilitation, physical therapy, and post-surgical recovery. Traditional manual goniometer-based evaluations suffer from subjectivity, inter-rater variability, and reliance on trained professionals. Although RGB-based computer vision enables markerless ROM estimation, it remains susceptible to occlusions, pose estimation errors, and difficulties detecting subtle joint movements. Furthermore, vision alone cannot capture neuromuscular activation, which is crucial for understanding joint dynamics. To address these challenges, we propose a multi-modal deep learning framework that integrates RGB-based motion tracking with electromyography (EMG) signals. EMG provides neuromuscular activation data, enhancing the robustness against visual occlusions and improving sensitivity to subtle joint displacements. Our method employs an Hourglass-based convolutional neural network (CNN) for spatial feature extraction and a gated recurrent unit (GRU)-based model for temporal EMG processing. To further enhance performance, we introduce feature-level and modality-level attention modules, dynamically emphasizing the most informative features and modality contributions. Experimental results demonstrate that our proposed model achieves an overall RMSE of 2.55, and improvements via the feature and modality attention mechanisms, respectively. Moreover, the fully fused RGB-EMG model outperforms RGB-only approaches, particularly in accurately predicting subtle ROM movements."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Reducing Tail Latency in Storage-Disaggregated Database Systems",
+    "authors": "Xi Pang, Jianguo Wang",
+    "publish": "Proceedings of the ACM on Management of Data",
+    "url": "https://doi.org/10.1145/3786688",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Enhancing Earthquake Prediction with Ensemble Learning: A Hybrid XGBoost and LightGBM Approach",
+    "authors": "Manni Kumar, Nivedita Sharma, Mahatava Saxena, Samaira Handa, Tamanna Sarawag, Tamanna Kashyap",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465913",
+    "source": "IEEE",
+    "abstract": "Anticipated prediction of earthquakes is also a critical component of disaster management that requires accurate and timely forecasts to minimize the possible damages. The study adopts a two-machine learning system that comprises of XGBoost and LightGBM to attain better accuracy in the process of predicting earthquakes. The data of historical seismic activity is merged with seismic parameters such as magnitude and depth and location-based information which was acquired at Kaggle. The combination of XGBoost and LightGBM functions in an ensemble model allows more sophisticated seismic patterns to be detected that eventually adds value to the prediction quality. When ensemble learning approaches are applied, the results of improved generalization and reduced overfitting issues are achieved, which in turn allows the application in the real world. The mixture of XGBoost and LightGBM works in the ensemble model permits to rent finer seismic patterns and is more enhanced than individual models in prediction. Ensemble learning through the assistance of a special preprocessing pipeline of unequal seismic data and strong hyperparameter optimization that improve generalization and reduce overfitting. The quick detection of earthquakes that will be evident through the assistance of this strategy will assist the authorities in charge of disaster management in undertaking pre-emptive preventive measures in order to minimize the number of victims and safeguard infrastructure. As has been shown, the proposed ensemble outperforms the classic machine learning baselines, and it means that the methods of AI- based ensemble are applicable in the real world when it comes to earthquake prediction."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Design and Validation of a YOLOv8 Synthetic Data Generation Pipeline for Surface Defect Detection in Manufacturing",
+    "authors": "Armin Moghadam, Sahib Bhatia, Fatemeh Davoudi Kakhki, Hiroyuki Ichikawa",
+    "publish": "2025 International Conference on Machine Learning and Applications (ICMLA)",
+    "url": "https://doi.org/10.1109/icmla66185.2025.00176",
+    "source": "IEEE",
+    "abstract": "Surface defect detection is essential for maintaining quality in manufacturing as it helps ensure product reliability and reduces material waste. While AI-driven visual inspection in manufacturing offers promising automation, to achieve high performance, it demands large, diverse and annotated datasets, which are often impractical to collect specially in low-volume or additive manufacturing contexts. Traditional defect detection methods relying on manual inspection and physical sensors can be labor-intensive, costly, and subject to variability. This study introduces a validated scalable pipeline for generating synthetic image datasets tailored for AI-based surface defect detection. Our pipeline integrates 3D modeling in Blender, procedural defect simulation, randomized rendering, and annotation generation to produce synthetic datasets with controlled variations in lighting, camera angles, and defect morphology. Cylindrical components were selected as the test geometry due to their industrial relevance and predictable curvature for defect propagation. To validate the pipeline, synthetic images were used to train a YOLOv8-based instance segmentation model, which was then applied, without retraining, to images of 3D printed physical parts. The trained model achieved 88% accuracy and 90% precision on the real object test dataset, demonstrating strong generalization and validating the realism and utility of the generated synthetic data. This research provides a scalable, low-cost approach for developing AI inspection systems without the need for labor-intensive real-world data collection. By bridging simulation and deployment through 3D printed physical validation, this pipeline contributes a practical foundation for synthetic-data-driven quality assurance in smart manufacturing environments."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "An Efficient Technique to Implement Individual Temperature Control of Dynamic Burn-in Tests for High Power Integrated Circuits",
+    "authors": "Yuansheng Li, Zewei Wang, Lili Teng, Xu Zhang, Jun Luo, Zhizhe Wang, Guoguang Lu, Pengfei Hu, Shuanzhu Fang",
+    "publish": "2026 6th International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+    "url": "https://doi.org/10.1109/nnice68970.2026.11465251",
+    "source": "IEEE",
+    "abstract": "This paper presents an efficient technique to achieve individual temperature control during dynamic burn-in of high-power integrated circuits (ICs). A CPU dynamic burn-in board prototype was developed featuring dual, independently temperature-controlled stations, each incorporating multi-source heating, a thermal management system, real-time temperature acquisition, and FPGA-implemented PID regulation. Specifically, an efficient vapor-chamber-based cooling methodology is proposed to support burn-in for 200 W TDP chips. Furthermore, the system provides flexible digital I/O and DPS configurations so that it can accommodate a wide range of test conditions. The efficacy of this technique is validated by experimental results, which show that the proposed method achieves temperature control accuracy within ±1 °C and maintains a relative error below 5%."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Real-Time Plastic Waste Detection and Region Density Mapping using Optimized YOLOv5 and Heatmaps Overlays",
+    "authors": "Semmathi G S, R Mathesh, Samvrutha S B, G Muthupandi, S Pavithra",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459786",
+    "source": "IEEE",
+    "abstract": "Plastic waste in coastal and marine environments threatens ecosystems and biodiversity. This calls for rapid detection systems to detect and prioritize zones of high-density waste for effective monitoring and removal strategies. Limited computational power in field conditions and the absence of actionable visual insights pose hurdles in the practical deployment of these systems. This work seeds these gaps by building a two-step plastic waste detection and density mapping system. Essentially, we first put lightweight YOLOv5 variants (YOLOv5n, s, and m) to test on a filtered TACO dataset in an attempt to find the optimal accuracy-time trade-off. Then the selected model is used for the generation of zone-based heatmaps by spatial accumulation of detection densities followed by Gaussian smoothing. The proposed system maintains real-time detection while visually highlighting the waste accumulation zones for cleanup planning. Experimental results show that YOLOv5s yields the best compromise between speed and accuracy; and the heatmaps provide meaningful and interpretable localization of prioritization for environmental cleanup."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Hybrid Clinical–Fundus Model for Diabetes Classification",
+    "authors": "Devnihil S, Sri Venkada Krishnan S, S Ajay Vikram, S. Manimaran",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465987",
+    "source": "IEEE",
+    "abstract": "Diabetes prediction models have traditionally relied either on structured clinical measurements or on retinal fundus image analysis, which limits their ability to fully exploit visual biomarkers while remaining lightweight and deployable. Traditional diabetes prediction relies on isolated clinical or imaging modalities, limiting holistic risk assessment. In this work, we propose a hybrid multimodal framework that fuses deep convolutional embeddings from EfficientNet-B3 with structured clinical variables (e.g., BMI, Glucose) and handcrafted Haralick texture features. By concatenating these diverse signals into a unified vector, we capture both metabolic risk factors and subtle microvascular retinal changes. The proposed pipeline achieves 97 % accuracy and 0.97 AUC, significantly outperforming an image-only baseline <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(84 \\%)$</tex>. Statistical validation via McNemar's test <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(p&lt;0.001)$</tex> confirms that integrating clinical metadata with deep and handcrafted visual biomarkers yields robust, statistically superior predictions for non-invasive screening."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Wireless Electric Vehicle Charging Powered by Solar Monitoring",
+    "authors": "Malathika A, Dharun P.K, M. Shyamalagowri",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459472",
+    "source": "IEEE",
+    "abstract": "The fast adoption of electric vehicles (EVs) has created an urgent need for more efficient, available, and sustainable charging solutions. This paper proposes a novel prototype system that integrates Dynamic Wireless Electric Vehicle Charging with a Solar-Powered Monitoring Mechanism, aiming to revolutionize how EVs are powered in real-time, in particular in urban and highway environments. A microcontroller-primarily based transmission unit is powered thru a solar-assisted battery financial institution, ensuring that the strength supply remains smooth, renewable, and impartial of traditional grid systems. The middle charging mechanism employs switching circuits to manipulate the inductive energy drift correctly, with system parameters which includes voltage, modern, and strength switch fee being monitored continuously. A real-time comments machine and show interface enhance visibility and manipulate, at the same time as a secondary embedded unit within the car manages reception and safety. Furthermore, remote monitoring competencies are included via Wi-Fi conversation protocols to ensure clever diagnostics, device indicators, and performance analytics. This prototype addresses key boundaries in conventional plug-in and static wireless charging systems by presenting flexibility, sustainability, and scalability. Field-stage validation of the prototype demonstrates solid performance and promising energy switch performance, marking a huge step towards clever transportation ecosystems. The integration of sun electricity with dynamic Wi-Fi charging affords a feasible and eco-friendly course forward for the future of electric mobility."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "SkewFuse: Unsupervised Confidence-Guided Rank Fusion for Multi-View Image Retrieval",
+    "authors": "Enis Teper, Mustafa Keskin, Emre Rençberoğlu, Yusuf Hüseyin Şahin",
+    "publish": "2025 International Conference on Machine Learning and Applications (ICMLA)",
+    "url": "https://doi.org/10.1109/icmla66185.2025.00036",
+    "source": "IEEE",
+    "abstract": "In image retrieval systems, the use of multiple embedding models to capture diverse visual features often improves retrieval performance. However, traditional rank aggregation methods generally assume uniform reliability across retrieval models, neglecting the variability in model confidence across different queries. This paper introduces SkewFuse, an unsupervised rank fusion approach that dynamically weights retrieval results based on statistical skewness of similarity score distributions, effectively capturing query-specific confidence. We extend the Dowdall positional voting method by integrating these confidence weights, achieving adaptive and robust fusion. Evaluations conducted on the In-Shop Clothes Retrieval dataset demonstrate that SkewFuse consistently outperforms existing unsupervised and supervised fusion methods, notably improving early precision metrics, including a 4.7% relative gain in Recall@1 over the strongest baseline. SkewFuse offers an efficient, parameter-light solution ideal for real-world applications where top-ranked retrieval precision is critical."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Deep Learning-Based Sentiment Analysis in English Literature",
+    "authors": "Santhi P, Rajya Lakshmi Yamala, Renu Sree Pokala, Shabeena Shaik, S Ram, K Krishnam Raju, Jhansi Vazram Bolla",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11466299",
+    "source": "IEEE",
+    "abstract": "Thought analysis (sometimes referred to opinion extracting) is a specialty of NLP. It is applied to find out the sentiments in text information. The operations of classical machine knowledge are based on the manually constructed features and dictionary-based point space. Automated erudite analysis is more accessible via the then system, learn more about what is emotional, and obtain information that is potentially useful to get an anatomy of erudite factory and place that into training. The literary would be disposed to collect the fined heartstrings which would influence the interest and critical appreciation of the florilegium. The research process may be assisted by the methodology in objective erudite reading and pedagogic protocols to empower researchers to perform a superior analysis of the emotive writing and thematic compounding in the text through relating and trying identical emotive variables offered by NLP."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Duck Swarm Optimization-Enhanced Contextual Graph Attention Networks for Power-Optimized 10T2C Capacitive SRAM Near-Memory Computing Macros",
+    "authors": "Sudha P, G. LakshmiNarayanan",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11466147",
+    "source": "IEEE",
+    "abstract": "Current computing-in-memory (CIM) computer architecture designs based on conventional 6T and 8T SRAM technologies have been highly challenged to balance the storage density, power, and computational stability thus restricting their scaling to AI-driven near-memory computing. To address these shortcomings, this work suggests a 10T2C capacitive SRAM near-memory computing (NMC) macro with Duck Swarm Optimization (DSO)-based Contextual Graph Attention Networks (CGATs). The macro has been proposed using charge-sharing capacitors to enhance the stability of read/write and leakage and the DSO-CGAT framework to offer adaptive multiobjective optimization based on power, delay, and reliability measures. Circuit- and architecture- Level analysis indicates that the current approach provides a 34.7 % lower average power consumption, 27.5 % higher read/write stability margin and up to 22.1 % faster inference throughput than traditional PSO- and GA-assisted optimization frameworks. In addition, DSO-CGAT model has <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{1 9. 6 \\%}$</tex> reduced power-delay product (PDP) compared to the baseline graph-based optimizers, which emphasizes its applicability in edge-AI applications. These findings position the 10T2C capacitive SRAM macro as scalable, power-saving NMC solution to next-generation low-power computing systems."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "High Performance 3D Stacked Packaging of SiC Power Module Enabled by Direct Plated Copper Ceramic Interposer",
+    "authors": "Ben Tian, Xinyuan Wang, Ruijie Liu, Deyi Chen, Yiqian Huang, Siyu Chen, Heping Yu, Quan Jiang, Zelian Lai, Yun Mou",
+    "publish": "IEEE Transactions on Power Electronics",
+    "url": "https://doi.org/10.1109/tpel.2026.3680348",
+    "source": "IEEE",
+    "abstract": "Aiming to solve high parasitic inductance, uneven thermal stress, and excessive junction temperature of power module, a novel 3D stacked packaging architecture incorporating a direct plated copper (DPC) ceramic interposer has been proposed. Attributed to high thermal conductivity and suitable CTE of DPC interposer, The DPC-based 3D stacked SiC power module demonstrates an internal interconnection parasitic inductance as low as 4.74 nH, a maximum thermal stress reduction of 28.14 MPa, and a junction temperature decrease of 49.03°C compared to conventional PCB-based 3D stacked packaging. Moreover, the maximum stress difference between high-side and low-side SiC MOSFET chips decreases by 79.5%, the stress imbalance between SiC diode chips is improved by 84.3%, while the junction temperature difference is minimized to only 7.42°C. The fabricated 3D stacked SiC power module also exhibits robust static and dynamic performances, confirming its suitability for high power density and high frequency applications."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Modeling and Stability Assessment of Grid Forming Converters in Islanded AC Microgrids",
+    "authors": "Ravi Kumar Gaddala, Kaushik Rajashekara",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3681588",
+    "source": "IEEE",
+    "abstract": "In practical microgrid implementations, feeder impedance mismatches necessitate additional control mechanisms to achieve equal and proportional reactive power sharing among parallel converters. In addition, the literature review reveals the need for detailed model formulation and stability assessment of parallel grid-forming converters under practical deployment scenarios. To address this, droop control is employed for active and reactive power sharing, while virtual impedance and line impedance compensation loops are integrated to improve reactive power distribution. In this paper, a comprehensive small-signal state-space modeling for assessment of grid-forming converters in islanded AC microgrids is proposed. The proposed model includes droop control dynamics, virtual resistance and reactance loops, and line impedance compensation dynamics. Using the developed small-signal model, the influence of control and system parameters including active (<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">m<sub>p</sub></i>) and reactive power droop coefficients (<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">n<sub>q</sub></i>), virtual resistance (<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">r<sub>v</sub></i>) and reactance (<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">x<sub>v</sub></i>), line compensation filter cutoff frequencies (ω<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><sub>v</sub></i>), active and reactive proportional power-sharing coefficients, and filter inductances (<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">L<sub>f</sub></i>) on system stability is thoroughly analyzed. Based on Eigen-value analysis, the stability boundaries of critical control and system parameters are identified, providing valuable insights for the design of robust and stable control strategies, while simultaneously ensuring accurate equal and proportional sharing of both active and reactive power among parallel grid forming converters under practical impedance mismatch conditions. The proposed models and stability analysis are validated through the Typhoon hardware-in-the-loop (HIL) testbed."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "MixWT-Net: A MixStyle and Wavelet-Guided Transformer Network for Generalized Glaucoma Classification",
+    "authors": "Dipankar Das, Deepak Ranjan Nayak, Ram Bilas Pachori",
+    "publish": "IEEE Sensors Letters",
+    "url": "https://doi.org/10.1109/lsens.2026.3681687",
+    "source": "IEEE",
+    "abstract": "Early diagnosis of glaucoma is crucial to prevent permanent blindness. However, it remains challenging due to subtle structural changes in the lesion regions, overlapping features, and variation in imaging conditions. While convolutional neural networks (CNNs) achieve significant improvements for automated glaucoma screening through fundus images, they exhibit limited capability in extracting critical lesion features and correlations among them, leading to suboptimal generalization performance. To address these issues, in this paper, we propose a MixStyle and wavelet transform guided transformer network, MixWT-Net, for effective glaucoma classification. Specifically, we introduce a wavelet-based efficient self-attention module (W-ESAM) to capture relevant global contextual dependencies across the spatial and channel dimensions, thereby facilitating the capture of salient lesion cues. The W-ESAM leverages wavelet transform to obtain low-dimensional feature map while preserving contextual information and ensuring efficient attention computation. A MixStyle module is adopted to mix feature statistics and enhance adaptation and generalization ability. We perform extensive experiments on four benchmark datasets: LAG, Drishti-GS, REFUGE, and ORIGA, and the results demonstrate that our method achieves superior classification and generalization performance compared to other state-of-the-art approaches, making the MixWT-Net a method of choice for real-time glaucoma screening."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A PVDF-based Flexible Keyboard Device Exploiting the Piezoelectric Effect",
+    "authors": "Rui Shao, Yichun Peng, Ba Qin, Tao Lu, Zhong Li, Weiwei Zhu, Weimin Xia, Shaobo Tan, Zhicheng Zhang",
+    "publish": "IEEE Transactions on Dielectrics and Electrical Insulation",
+    "url": "https://doi.org/10.1109/tdei.2026.3681735",
+    "source": "IEEE",
+    "abstract": "Interconnected devices, characterized by intelligence, portability, and adaptability, have garnered substantial attention and are progressively being integrated into internet of things (IoT) technology to foster innovation and improve human-machine interaction interfaces. This study presents a polymer-based flexible keyboard that utilizes the piezoelectric effect of poly(vinylidene fluoride) (PVDF). The device is equipped with an array of flexible electrodes, with a thickness of merely 0.13 mm, enabling the press units to respond within 50 ms. Notably, it demonstrates exceptional flexibility and adhesiveness, allowing it to be attached to any desired surface without signal crosstalk. Moreover, the sensitivity and sensing performance of this keyboard device can be further enhanced through encapsulation techniques, rendering it highly suitable for low-frequency trigger scenarios such as device interaction."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Highly Dense Capacitor SRAM Computation-In-Memory With Dynamic Range Calibrated Column-by-Column ADCs",
+    "authors": "Yong-Jun Jo, Chufeng Yang, Sen Cao, Dong-Hyun Yoon, Yuanjin Zheng, Tony Tae-Hyoung Kim",
+    "publish": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "url": "https://doi.org/10.1109/tcsi.2026.3677534",
+    "source": "IEEE",
+    "abstract": "This paper presents a highly dense SRAM-based computation-in-memory (CIM) architecture designed for area-efficient AI acceleration. The proposed architecture leverages charge redistribution in a capacitor-based CIM design to enhance linearity, effectively mitigating the impact of variable parasitic capacitance inherent in FETs. To address the dynamic range mismatch between the CIM array and the ADC, a dynamic range calibration scheme is introduced. Recognizing the significant area overhead of ADCs in CIM, this work also proposes an area-efficient SR-latch-based cap-DAC driver. Furthermore, this work compares and analyzes various ADC comparator reference types, ultimately proposing individual reference columns with global drivers to achieve both ADC symmetry and improved area/power efficiency. Fabricated using a 65nm LP process, the prototype occupies a core area of 0.265 mm<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup>, comprising a 108kb (<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$432\\times 256$</tex-math> </inline-formula>) SRAM-CIM array and 256 column-by-column ADCs with peripherals. This design achieves a weight density of 415.4 kb/mm<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup>. By employing column-by-column ADCs, which avoid the throughput limitations of ADC sharing, the prototype achieves an energy efficiency of 95.4 TOPS/W and a throughput of 813.6 GOPS. The resulting area and energy-efficient architecture achieves a SWaP (space, watt, and performance) figure-of-merit of 39.63 TOPS/W <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\times $</tex-math> </inline-formula> Mb/mm<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup>."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Full-Waveform-Accurate 3D Inversion for Transient Electromagnetics via Parallel Spectral Methods",
+    "authors": "Yao Wang, Jianhui Li, Yinjia Zhu, Hongzhu Cai, Junjie Wu, Xingchun Wang",
+    "publish": "IEEE Transactions on Geoscience and Remote Sensing",
+    "url": "https://doi.org/10.1109/tgrs.2026.3681782",
+    "source": "IEEE",
+    "abstract": "Conventional three-dimensional (3D) inversion of transient electromagnetic (TEM) data predominantly employs time-stepping forward modeling, which suffers from inherent limitations in parallelization efficiency and high computational costs. These drawbacks become particularly pronounced when incorporating full transmitter current waveforms, especially those involving waveform repetitions. To address these challenges, this study proposes a 3D inversion method based on spectral forward modeling. By employing MPI+OpenMP hybrid parallel programming technology, efficient parallel computation of magnetic field responses and Jacobian matrices along the frequency dimension is achieved. Additionally, a convolution algorithm is incorporated to integrate the effects of waveform repetition into the forward modeling of full-waveform transmitting current. Validation with synthetic data examples demonstrates that, compared to traditional time-stepping methods, the spectral method exhibits significant advantages in both forward modeling and inversion efficiency. The study also reveals that full-waveform inversion can more accurately reconstruct subsurface electrical structures, with magnetic field (B-field) data inversion showing markedly higher sensitivity to identifying good conductors in low-resistivity environments compared to induced electromotive force (EMF) data. Furthermore, the inclusion of full-waveform information not only improves inversion accuracy but also significantly enhances overall computational efficiency by accelerating residual convergence and reducing iteration counts. In practical applications, inversion results from exploration data in the Qing-chengzi ore concentration area, Liaoning Province, indicate that while the overall geoelectric structures derived from EMF and B-field data inversion are consistent, the B-field data provide more accurate delineation of the vertical extent of deep good conductors. These findings align closely with previous research, fully demonstrating the unique advantages of magnetic field data in deep exploration."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A 220 GHz Filtering Slot Array Antenna Based on Micro-Metal Additive Manufacturing",
+    "authors": "Xianzhe Ma, Qinlong Li, Guanghua Shi, Sifan Wu, Cheng Guo, Zhen Wang, Zhou Chen, Xiaoming Chen",
+    "publish": "IEEE Transactions on Terahertz Science and Technology",
+    "url": "https://doi.org/10.1109/tthz.2026.3681628",
+    "source": "IEEE",
+    "abstract": "A 220 GHz slot array antenna with an integrated filtering response is proposed based on micro-metal additive manufacturing (M-MAM) technology. The bottom layer of the antenna structure is a seventh-order all-resonator 1-to-16 filtering power divider. This waveguide feed network can transfer energy to the cavity through coupling slots with the same amplitude and in phase. Then, each cavity excites a 2×2 radiation slot subarray at the top layer. The 2×2 slot subarray unit can be used to form a larger array, providing flexibility in the size of the array antenna. By using the proposed subarrays, an 8×8 slot array antenna is designed and fabricated in accordance with the fabrication process of M-MAM. The surface roughness using M-MAM is measured, and the effects of surface roughness on the feed network as well as array antenna have also been analyzed. Due to the low surface roughness and all metal structure, the array antenna achieves high gain, high aperture efficiency and good filtering response. The filtering array antenna using M-MAM technology is promising for sub-terahertz (sub-THz) applications."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Independent SAR System Calibration of Sentinel-1 C",
+    "authors": "Patrick Klenk, Kersten Schmidt, Jakob Giez, Andrea Pulella, Matteo Nannini, Pau Prats-Iraola, Marco Schwerdt",
+    "publish": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "url": "https://doi.org/10.1109/jstars.2026.3681108",
+    "source": "IEEE",
+    "abstract": "Sentinel-1 C is the third satellite of the Sentinel-1 mission. Launched in late 2024, it ensures seamless continuity of C-band SAR data for global monitoring of the Earth surface in the framework of the Copernicus program. In parallel to the commissioning of Sentinel-1 C by the European Space Agency (ESA), an independent verification of the system calibration has been performed by the German Aerospace Center (DLR) under an ESA contract. Based on an efficient calibration strategy, this paper describes the different activities performed and discusses in detail the results and main findings of DLR during the commissioning phase (CP) of Sentinel-1 C. The main goal is to provide a comprehensive compendium of the SAR calibration and performance status of S1C at the beginning of its operational mission: At the end of the commissioning phase we find that S1C achieves or even exceeds all SAR performance requirements put forth and is ready for its nominal mission operations."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Recovering Sewing Patterns from 3D Garment Surfaces via BoxMesh Bridging_supp1-3680930.mp4",
+    "authors": "Xiaoguang Han",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tvcg.2026.3680930/mm1",
+    "source": "IEEE",
+    "abstract": "Recovering sewing patterns from draped 3D garments is a challenging problem in human digitization research. Unlike draping from designed sewing pattern with mature physical simulation engines, the inverse process requires mapping complex garment surfaces back to parametric 2D patterns, which existing methods still struggle with. To this end, we propose a two-stage methodology that recovers sewing patterns from 3D garments via an intermediate representation, <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">BoxMesh</i>, which inherently encodes garment-level geometry and panel-level details in 3D space. In Stage I, a geometry-oriented auto-regressive model predicts <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">BoxMesh</i> from the input 3D garment. In Stage II, a semantic-aware auto-regressive model parses <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">BoxMesh</i> into parametric sewing patterns. This decomposition separately tackles geometric inversion and numerical reasoning, enabling more accurate recovery. Experiments have demonstrated that our method not only achieves state-of-the-art performance on the GarmentCodeData benchmark but also can be applied effectively to real scans and single-view images."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Corrigendum: Attribute Filtering in Approximate Nearest Neighbor Search: An In-depth Experimental Study: [Experiments &amp; Analysis]",
+    "authors": "Mocheng Li, Xiao Yan, Baotong Lu, Yue Zhang, James Cheng, Chenhao Ma",
+    "publish": "Proceedings of the ACM on Management of Data",
+    "url": "https://doi.org/10.1145/3803528",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-4-7",
+    "title": "On Efficient Approximate Aggregate Nearest Neighbor Queries over Learned Representations",
+    "authors": "Carrie Wang, Sihem Amer-Yahia, Laks V.S. Lakshmanan, Reynold Cheng",
+    "publish": "Proceedings of the ACM on Management of Data",
+    "url": "https://doi.org/10.1145/3786672",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A New Federated Learning Approach for Imbalanced Medical Image Datasets",
+    "authors": "Aniruddha Tiwari, Zhen Ni, Xiangnan Zhong, Ahmed Imteaj",
+    "publish": "2025 International Conference on Machine Learning and Applications (ICMLA)",
+    "url": "https://doi.org/10.1109/icmla66185.2025.00155",
+    "source": "IEEE",
+    "abstract": "Medical image classification plays a vital role in disease diagnosis, but often suffers from class imbalance and privacy concerns, particularly in rare disease categories. Such an imbalance can bias machine learning models toward majority classes, reducing the diagnostic accuracy for minority conditions across geographically diverse populations. To address these challenges, we propose integrating the synthetic minority oversampling technique (SMOTE) into the federated learning (FL) framework for 2D medical image analysis, enabling privacy-preserving and balanced learning. The SMOTE technique enhances neural networks’ generalization by generating informative synthetic samples, outperforming raw duplication, and reducing overfitting. In our approach, by operating on features obtained from deep models like VGG19, we avoid pixel-level interpolation artifacts and retain critical semantic information. The SMOTE technique is applied to the extracted features at the local client level, where it generates new samples for the minority class by interpolating between existing samples to achieve the local data balance. The proposed approach allows each client to balance its local data without compromising privacy, promoting fair learning across all classes in disease classification tasks. We evaluate our approach on two publicly available chest X-ray datasets for binary and multi-class classifications. Our method achieves 83% accuracy and 97% recall in binary classification and 50% accuracy in multiclass settings, highlighting its potential to contribute to diagnostic fairness and robustness in healthcare applications."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Comparative Analysis using Power-Aware Design of Traditional and Low-Power ALUs",
+    "authors": "Sai Mani Deepika S, Asritha Venkata Naga Hasini B, Saikeerthi Abburi, Swaminadhan Rajula, Kiranmai P",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459574",
+    "source": "IEEE",
+    "abstract": "This work presents a comparative study between a traditional Arithmetic Logic Unit (ALU) and a low-power ALU implementing operand isolation, approximate arithmetic, and power gating. Both designs were implemented in Verilog HDL and synthesized using Vivado 2023.1 targeting a Xilinx FPGA. SAIF-driven post place-and-route analysis shows that the proposed low-power ALU achieves 38.46% reduction in slice LUTs, 41.67% reduction in slices, and 58.01% reduction in total on-chip power compared to the traditional design. Dynamic power reduces by 58.42%, and junction temperature drops by 23.5 °C, indicating significant improvement in thermal efficiency. The design achieves these gains without compromising functional correctness for all tested operations, making it suitable for energy-sensitive digital systems."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Classification and Detection of Lung Cancer Using VGG-DeepCNN with GRAD-CAM Interpretability",
+    "authors": "Priyanka Rawat, Shilpi Harnal",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465627",
+    "source": "IEEE",
+    "abstract": "To identify and categorize lung cancer from CT scans into four classes, this research introduced the VGG-DCNN classification model. Loss functions weighted for classes have been utilized for handling class imbalance, and the model was trained using early stopping and adaptive learning rate adjustments. The proposed model employs a VGG as an extractor of features composed of 5 convolutional blocks to learn hierarchical features, and it has a <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$224 \\times 224$</tex> RGB image as an input. There are several convolutional layers in each block to extract image patterns. For efficient dimensionality reduction, a GAP layer transforms the last feature maps into a small 512-dimensional vector after feature extraction. The fourth dense layer of the fully connected layers of the classification head-Dense, Batch Normalization, Dropout Dense, and Dropout and Dense layer-outputs probabilities for four output classes. With a classification accuracy of 97 % and an AUC-ROC score of 100 %, our model showed exceptional ability to classify between cancer subtypes and normal lung tissue. Besides, Grad-CAM has been applied to provide visual interpretability, ensuring that the model appropriately targeted tumor areas for every type of cancer."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Progressive Information Flow Non-Linear Dark Image Restoration Method",
+    "authors": "Shatakshi Saxena, Shivam Taneja, Kriti Singhal, Arnav Sen, Naman Chaudhary, Kartik Koul, Taanisha Jain, Suresh Raikwar",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465829",
+    "source": "IEEE",
+    "abstract": "Dark image restoration presents a significant challenge due to its inherently ill-posed nature. Existing methods often yield results with insufficient brightness and loss of fine details, limiting their practical applicability. In response, we introduce a novel framework designed to enhance brightness while preserving critical image information. This is achieved through a progressive non-linear flow of information that maintains finegrained details and produces perceptually brighter outcomes compared to existing state-of-the-art techniques. The effectiveness of the proposed approach is validated through comprehensive evaluation on benchmark datasets."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Energy-Efficient Machine Learning Models for Real-Time Anomaly Detection in IoT Sensor Networks",
+    "authors": "K Sathish",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459699",
+    "source": "IEEE",
+    "abstract": "ML models used to detect anomalies in IoT sensor networks in real-time require more energy-efficient methods as such networks have seen full deployment and reduced power availability. In this study, a combination of methods of more sophisticated pre-processing combined with a Gated Recurrent Unit (GRU) model and optimized using Particle Swarm Optimization (PSO) was also proposed. An evaluation was done based on the popular and commonly known Numenta Anomaly Benchmark (NAB) dataset. Findings show that likelihood of accuracy, F1-score, recall and precision of the GRU+PSO model was 92%, 0.93, 0.92 and 0.94 respectively compared to the conventional models such as Random Forest (84%), K-Means (83%) that tend to perform poorly. The suggested framework was also highly energy-efficient with no more than 30% of the reduced energy consumption and 35 percent less data redundancy when compared to conventional approaches. This means that the optimized deep learning method is scalable and feasible to use to increase the level of IoT security and reliability and reduce resource utilization. Finally, the study provides strong and interpretable large-scale real-time anomaly detection in IoT sensor networks."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Evaluation of Deformable Medical Image Registration Techniques for Improved Analysis",
+    "authors": "Ashish Singh Ramola, Prabhjot Kaur",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11466033",
+    "source": "IEEE",
+    "abstract": "Deformable Medical Image Registration (DMIR) is a fundamental process for aligning medical images through nonrigid transformations. It plays a crucial role in applications such as multi-modal image fusion, longitudinal studies, tumor tracking, and image-guided interventions. This study presents a comprehensive comparative evaluation of six learning-based DMIR techniques: a generic convolutional neural network (CNN)-based registration pipeline, VoxelMorph, Multilevel Transformation Progressive Registration (MTPR), Fast Deformable Registration Network (FDRN), Affine and Deformable Medical Image Registration (ADMIR), and XMorpher. All methods were evaluated on Magnetic Resonance (MR) image slices from the OASIS benchmark dataset. Performance is assessed using Mean Absolute Error (MAE), Dice Coefficient (DC), Normalized CrossCorrelation (NCC), Mean Squared Error (MSE), and computational time. Experimental results demonstrate that ADMIR achieves the highest Dice score (0.9854), indicating superior structural alignment, while MTPR excels in intensity preservation and pixel-level accuracy, achieving the highest NCC (0.9524) and the lowest MSE (0.003557) and MAE (0.03123). Overall, the findings highlight trade-offs between accuracy and efficiency, suggesting ADMIR for precision-critical tasks, MTPR for intensity-sensitive alignment, and VoxelMorph for large-scale or real-time clinical workflows."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Performance Analysis of a Race Reduced Data Flip Flop Under Wide Thermal Variations for Future High-Speed Counters and Prescalers",
+    "authors": "Shilagani Shivaprasad, Daddanala Nagavarun, Janamanchi Rathna Koushal, J Ajayan, Ponnaboina Charan Sai, MD Badhesha",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465450",
+    "source": "IEEE",
+    "abstract": "The minimal building blocks of digital integrated circuits are flip-flops (FFs) although ensuring they are highly effective (as measured by performance), low power, and extremely reliable is a major challenge. The results of this paper consider the validity of high-speed, dynamic, D-flip-flop (DFF), which is another model of a flip-flop called the Race-Reduced Flip-Flop (RRFF). RRFF design assumes a master-slave kind of arrangement with dynamic pre-charge-evaluate logic to enhance speed with fixed keeper latches to enhance robustness and race conditions. The circuit was also tested in terms of its performance and reliability by simulation at the 16 nm technology node. Performance factors involved assessment of the transient characteristics of the circuit, Fault (Short Circuit) power, total power, delay, and the switching energy (PDP) and determination of the Delay-Power Ratio (DPR) at the range of temperatures 27° C and 107° C and intervals of <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$0.7 ~\\mathrm{V}, 0.8 ~\\mathrm{V}$</tex> and 0.9 V. The super-threshold performance of the circuit was established to be constant at 0.7 V and 0.8 V when subjected to the transient performance, as well as the conclusion was made that movement at 0.6 V was not consistent. The most alarming was that the propulsion delay is also increasing 0.395%, as the ambient temperature increases, more unexpectedly, the overall power dissipated decreases 14.19% at 0.7 V which previously was believed to be the most energy consuming. The temperature rise with this prompted an increase in temperature- power product (PDP) by 13.88% at 0.7 V. The motivation was mainly the Reduction of SC power 35.3% at 0.7 V within the temperature route examined. 0.7 V was found within the analysis as the most energy effective operating voltage and accurately represented the thermal power conventional and operational dependability."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Dynamic Sign Language Identification Using Mediapipe Landmarks and Random Forest Classifier",
+    "authors": "Shrivathsa TV, Amritha UR, Panchami Pai, Vishrutha, Ananya Amin",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465180",
+    "source": "IEEE",
+    "abstract": "Communication is an important tool for effective information exchange over people and it ensures messages are clear and as intended, which fosters relationships. Communication between hearing and non-hearing individuals remains limited due to the lack of efficient a utomated sign language recognition systems. The paper outlines a machine learning framework for real-time gesture and sign language detection based on custom dataset. The dataset used includes all 26 letters of the American Sign Language alphabet, each with around 300 samples for training, testing, and validation of the classifiers. <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$O$</tex> penCV and MediaPipe were used for annotation and accurate landmark feature extraction from the frames captured through the camera interface. These features are then used by a Random Forest Classifier to detect the gestures correctly. The combined approach of random forest along with the MediaPipe model provides a promising precision in the identification o fg estures and, in combination with OpenCV provides robustness in dynamic identification o ver a set of variations in gestures and conditions."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A Compact Frequency-Reconfigurable Monopole Antenna Using PIN-Diode-Controlled Parasitic Stubs for IoT Applications",
+    "authors": "Anvesh Pandey, Arun Kumar Saurabh",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465801",
+    "source": "IEEE",
+    "abstract": "This paper presents a frequency-reconfigurable compact monopole antenna designed for Internet of Things (IoT) and next-generation communication systems. The antenna is exceptionally low-profile <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(0.01 \\lambda \\mathrm{g})$</tex>, with a compact footprint of 16 <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\times 20 \\text{mm}^{2}\\left(0.21 \\lambda_{\\mathrm{g}} \\times 0.26 \\lambda_{\\mathrm{g}}\\right)$</tex>, where <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\lambda_{\\mathrm{g}}$</tex> corresponds to the guided wavelength at 3.28 GHz. The antenna integrates a PIN diode that connects a semi-circular monopole radiator to precisely tuned arc-shaped parasitic stubs, enabling multiple resonant modes and wide multi-band operation through an integrated biasing network. Full-wave simulations validate a reflection coefficient <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(\\left\\vert\\mathbf{S}_{\\mathbf{1 1}}\\right\\vert)$</tex> below −10 dB across multiple frequency bands: 3.18-3.37 GHz, 5.65-5.90 GHz, 6.387-7.78 GHz, and 8.88-11.48 GHz. The antenna maintains stable omnidirectional radiation characteristics and achieves a total radiation efficiency of up to 87.4% across its operating frequency range. The compact form factor, frequency reconfigurability, and stable radiation performance of the proposed antenna enables its use in IoT, 5G NR, and emerging wireless applications."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Spatio-Temporal Registration Method for Sea Surface Infrared and X-Band Radar Image",
+    "authors": "Qun Yang, Haipeng Yu, Xiaoliang Chu, Dabo Guo, Guang Yuan",
+    "publish": "2026 6th International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+    "url": "https://doi.org/10.1109/nnice68970.2026.11465676",
+    "source": "IEEE",
+    "abstract": "Radar systems and infrared cameras are commonly employed to observe nearshore ocean surface phenomena. Owing to their distinct viewing perspectives and spatial resolutions, the images acquired by these two sensors are typically analyzed independently. However, joint observations can provide more comprehensive information about sea-surface dynamics. In this study, radar–infrared image registration is achieved through combined spatial and temporal alignment. Radar data are transformed into images from the infrared camera perspective and associated with infrared imagery to accomplish spatial alignment, while temporal alignment is performed using timestamps recorded in the data files. The effectiveness of the proposed approach is validated using field data collected in a nearshore environment."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "PLER: A Novel Full-Reference Metric for Evaluating the Geometric Fidelity of 3D Assets",
+    "authors": "Gleb A. Voronkov, Andrei V. Balobanov",
+    "publish": "2026 Systems of Signals Generating and Processing in the Field of on Board Communications",
+    "url": "https://doi.org/10.1109/ieeeconf68869.2026.11461193",
+    "source": "IEEE",
+    "abstract": "This paper presents an enhancement of the previously proposed PLER (Peak Length to Error Ratio) metric for objective quality assessment of 3D models. The original PLER metric, which compares a reference and test 3D model by analyzing the distances of rays cast from a bounding sphere, suffered from non-uniform ray distribution. To overcome this limitation, a comprehensive study of methods for generating uniformly distributed points on a sphere was conducted. The Fibonacci (golden) spiral method was identified as optimal, leading to the development of PLER-2.0. The paper details the comparative analysis of point distribution methods, presents experimental results demonstrating the superiority of the Fibonacci spiral, and validates the improved metric on test 3D models, showing increased accuracy and stability."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A Novel Transformer-CNN Hybrid Framework for Early Alzheimer’s Diagnosis using Multimodal MRI and PET",
+    "authors": "Sowgandh Krishnaa Nandamuri, V.D.Ambethkumar",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459733",
+    "source": "IEEE",
+    "abstract": "Early proper diagnosis of Alzheimer's disease remains one of the biggest challenges in medical imaging. This study introduces a new hybrid neural network that blends Transformer architecture with Convolutional Neural Networks (CNN) to effectively integrate multimodal MRI and PET brain images. The model leverages the power of CNN's capturing local spatial information and the Transformer's ability to capture long-range dependencies, allowing for better fusion of structural and functional information. Established tests Alzheimer's imaging findings reveal that the hybrid method that significantly enhances feature representation and classification accuracy relative to benchmark single-modality and unimodal models. The results show that the hybrid architecture offers a promising avenue to the production computerized, preclinical diagnosis of Alzheimer's disease."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Interpretable Transfer Learning System for Multi-Class Lung Cancer Identification Using Enhanced CT Imaging",
+    "authors": "Savitha N J, Uday Raj, Sathvik T Soged, Sandeep Jadhav",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11466069",
+    "source": "IEEE",
+    "abstract": "Lung cancer continues to be the leading cause of cancer mortality worldwide, making early identification crucial for improving patient survival. We introduce a transparent deep learning system for categorizing lung cancer into multiple classes using CT scan imagery. Our approach employs transfer learning with ResNet-50 as its foundation, strengthened through extensive data enhancement and Grad-CAM visualization for improved model transparency. The system utilizes the publicly accessible IQ-OTHNCCD dataset containing three distinct categories: benign conditions, malignant tumors, and healthy lung scans. Our methodology achieves 92.8% validation accuracy, with precision at 91.5%, recall of 90.9%, and F1-score reaching <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{9 1. 2 \\%}$</tex>, demonstrating superior results compared to standard models. The inclusion of explainable AI methods offers clinical transparency, positioning this approach as suitable for computerassisted diagnosis in pulmonary radiology."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "DefenSys: An Integrated Platform for Malware Detection and Containerized Attack Simulation using Deep Learning",
+    "authors": "Elvis Vincent, Prabu Jayant, Mohana, Abhilash Chakkan",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459625",
+    "source": "IEEE",
+    "abstract": "The increased growth of cyber threats, with attacks happening every 11 seconds and global losses exceeding $6 trillion annually, creates a lot of challenges for enterprise security. Standard cybersecurity solutions remain costly and very complex for small enterprises, creating substantial security gaps. This paper presents DefenSys, a comprehensive cyber defense platform integrating intelligent malware detection with dynamic network attack simulation to help increase cybersecurity across organizations of all scales. DefenSys employs a containerized Docker architecture for attack simulation environments, enabling secure execution of real-world cyberattacks including DDoS attacks using Apache Benchmarking tools. The malware detection service uses deep learning techniques using Residual Neural Networks and Convolutional Neural Networks for binary classification. Malware files undergo binary-to-grayscale image conversion, achieving 98.7% binary classification accuracy and 76% multi-class classification accuracy across 25 malware categories including worms, trojans, ransomware, and botnets, with macro-averaged F1-score of 0.76 and weighted F1-score of 0.71. The system architecture incorporates Flask-based web services with Apache HTTP Server for maintaining reduced deployment overhead. Experimental testing demonstrates DefenSys's performance in real life threat simulation and detection with reduced computational resource utilization while also maintaining high accuracy and faster response capabilities through the dual stage classification approach. DefenSys addresses the cybersecurity gap by providing business level protection through a cost effective and intuitive platform that reduces technical barriers for small organizations with little to no cybersecurity expertise."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Joint Power and Subcarrier Allocation for SCMA-Assisted ISAC Systems",
+    "authors": "Zhuoshu Li",
+    "publish": "2026 6th International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+    "url": "https://doi.org/10.1109/nnice68970.2026.11466189",
+    "source": "IEEE",
+    "abstract": "Sparse code multiple access (SCMA), with its flexible non-orthogonal structure, is a promising candidate for integrated sensing and communication (ISAC) systems. In this paper, we study the joint power and subcarrier allocation in SCMA-assisted ISAC downlink systems, aiming to maximize the sum rate subject to sensing accuracy, user quality-of-service (QoS) constraints, and a total power budget. To tackle the nonconvex and combinatorial problem, a decoupled framework is developed. Specifically, the power allocation subproblem is handled via successive convex approximation (SCA) for a given subcarrier assignment, while dedicated subcarrier allocation strategies are developed for the fully-loaded and under-loaded scenarios, respectively. Numerical results show that the proposed scheme consistently outperforms orthogonal frequency-division multiple access (OFDMA) and random subcarrier allocation, with clearer performance gains observed in under-loaded systems."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "A Machine Learning-Based Traffic Prediction Framework for Smart Cities",
+    "authors": "Chetan Ghadi, Akanksha Hake, Sara Khare, Harshil Kanakia, Renuka Pawar",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11466152",
+    "source": "IEEE",
+    "abstract": "The rapid expansion of urban transportation systems has intensified the need for intelligent traffic prediction models that can operate reliably under dynamic real-world conditions. Traditional rules-based approaches often fail to account for fluctuating factors, such as weather variations, public events, infrastructure constraints, and transit disruptions, resulting in limited forecast accuracy and delayed decision-making. This research presents a machine learning–based traffic prediction framework that leverages historical traffic weather data along with real-time environmental inputs obtained from the OpenWeather API. A Random Forest regression model is trained to estimate vehicle volume and is improved through contextual modifiers, including road construction, transit outages, and event-driven surges. The system further evaluates congestion severity, estimates effective road capacity, and generates risk assessments to support proactive decision-making. Additionally, it provides actionable recommendations for traffic authorities and police departments through automated alerts and deployment strategies. The proposed framework is modular, scalable, and designed for real-time operational use, contributing towards safer, smarter, and more sustainable traffic management in modern urban environments."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Sustainable Hydrogen Through Biological Systems: Current Trends in Production and Storage Solutions",
+    "authors": "Sarbani Ganguly, Dhananjay Kr. Tripathi, Kamalika Banerjee, Sreyasree Basu, Indrajit Bhattacharjee, Mainak Debnath",
+    "publish": "2025 International Conference on Sustainable Technology in Energy and Power Systems (STEPCon)",
+    "url": "https://doi.org/10.1109/stepcon66008.2025.11473697",
+    "source": "IEEE",
+    "abstract": "Hydrogen is becoming popular globally as a clean energy source. Green hydrogen from renewable-powered electrolysis considered as the most sustainable option though it faces challenges of high energy demand, water purity requirements, and cost. Biomass-based biological routes particularly dark fermentation offer a sustainable for converting agro-waste biomass into hydrogen under mild conditions with lower energy input. Pretreatment of lignocellulosic residues like rice straw, bagasse, and corn straw is essential to enhance microbial accessibility. Hybrid approaches where dark fermentation techniques are combined with either photo fermentation, microbial electrolysis, or biorefinery platforms ensured improve hydrogen yields, reduce carbon footprints and generate valuable co-products. For large-scale adoption, effective hydrogen storage is essential. Developments in nanostructured metal hydrides, liquid organic hydrogen carriers, and porous nanomaterials are effectively addressing the limitations associated with physical and chemical storage."
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Intelligent Vehicle Damage Inspection: Detection, Multi-View Reasoning, and VLM-Based Report Generation",
+    "authors": "Andrei Sergeev, Sergei Gaponenko, Ksenia Polyantseva",
+    "publish": "2026 Systems of Signals Generating and Processing in the Field of on Board Communications",
+    "url": "https://doi.org/10.1109/ieeeconf68869.2026.11461093",
+    "source": "IEEE",
+    "abstract": "This paper presents a general framework for automated vehicle handover inspection based on multi-view image analysis and a staged machine-learning pipeline. The system concept combines a backend layer for request orchestration and lifecycle control, a dedicated inference service for vehicle-presence validation and initial damage detection, and a VLM component for context-aware defect interpretation with structured assessment output. The driver uses a mobile application to create the report by initializing a request, capturing four mandatory views, and submitting the images for processing. The architecture is designed for practical deployment and supports decision traceability, reprocessing workflows, and operator-assisted final verification. The main contribution is the formalization of an end-to-end pipeline from image upload to final resolution with a unified JSON representation suitable for auditing and integration into fleet-management operations. Target system properties include accuracy, interpretability, scalability, and acceptable response time, establishing a basis for subsequent comparative evaluation and further development."
+  }
+]
