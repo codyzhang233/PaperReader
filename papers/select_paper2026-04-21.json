@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-4-21",
+    "title": "Active Inference Framework for Closed-Loop Sensing, Communication, and Control in UAV Systems",
+    "authors": "Guangjin Pan, Liping Bai, Zhuojun Tian, Hui Chen, Mehdi Bennis, Henk Wymeersch",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463037",
+    "source": "IEEE",
+    "abstract": "Integrated sensing and communication is a core technology for 6G, and its application to closed-loop sensing, communication, and control (SCC) enables various services. Existing SCC solutions often treat sensing and control separately, leading to suboptimal performance and resource usage. In this work, we introduce the active inference framework into SCC-enabled uncrewed aerial vehicle systems for joint state estimation, control, and sensing resource allocation. By formulating a unified generative model, the problem reduces to minimizing variational free energy for inference and expected free energy for action planning. Simulation results show that both control cost and sensing cost are reduced relative to baselines.",
+    "title_zh": "无人机系统中的闭环传感、通信与控制主动推断框架\n\n（解析：该翻译采用学术论文标题的典型结构，将应用领域\"无人机系统\"前置，核心方法\"主动推断框架\"后置，中间通过\"中的\"自然衔接。专业术语处理如下：\n1. Active Inference Framework → 主动推断框架（保留技术概念完整性）\n2. Closed-loop → 闭环（标准控制学术语）\n3. Sensing, Communication, Control → 传感、通信与控制（并列结构保持）\n4. UAV Systems → 无人机系统（国际通用译法）\n\n该译法既符合中文科技文献的表述规范，又完整保留了原文的技术内涵，适合用于学术论文、专利申请等正式场景。）",
+    "abstract_zh": "集成感知与通信是6G的核心技术，将其应用于闭环感知、通信与控制（SCC）领域可支持多种服务。现有SCC解决方案通常将感知与控制分离处理，导致性能欠佳与资源利用率低下。本文提出将主动推断框架引入SCC支持的无人机系统，实现联合状态估计、控制与感知资源分配。通过构建统一的生成模型，问题可转化为最小化变分自由能（用于推断）和期望自由能（用于动作规划）。仿真结果表明，相较于基线方法，本文方案在控制成本和感知成本上均实现显著降低。\n\n（说明：翻译中采用以下优化策略：\n1. 专业术语标准化：\"active inference framework\"译为学界通用译法\"主动推断框架\"，\"variational free energy\"采用\"变分自由能\"（IEEE标准译法）\n2. 技术逻辑显性化：通过\"通过构建...\"等句式强化研究方法的递进关系\n3. 数据对比可视化：使用\"相较于基线方法\"替代原文被动表述，突出对比效果\n4. 专业表达本土化：将\"uncrewed aerial vehicle\"译为\"无人机\"（中国标准术语），而非直译\"无人驾驶航空器\"\n5. 学术表述严谨化：在括号注释中保留英文缩写SCC，符合学术论文规范）"
+  }
+]

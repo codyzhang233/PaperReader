@@ -1,0 +1,902 @@
+[
+  {
+    "date": "2026-4-21",
+    "title": "Towards Reliable Generation of Executable Workflows by Foundation Models",
+    "authors": "Sogol Masoumzadeh, Keheliya Gallaba, Dayi Lin, Ahmed E. Hassan",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3809500",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Fragmented Infrastructures, Fragmented Learners: The Case for Integrated, Longitudinal Learning Ecosystems in Computing Education",
+    "authors": "Hasan M Jamil",
+    "publish": "ACM Transactions on Computing Education",
+    "url": "https://doi.org/10.1145/3811544",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-4-21",
+    "title": "EvoGraphCoder: An Evolutionary Graph-Reasoning Framework for Self-Adaptive Software Engineering",
+    "authors": "Karthik Ramamurthy, Rahul Kumar Konduru, Nurmyrat Amanmadov",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3686019",
+    "source": "IEEE",
+    "abstract": "Modern software evolves rapidly, accumulates architectural debt, and develops cross-module dependencies that complicate reliable maintenance. We present <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">EvoGraphCoder</i>, an evolutionary graph-reasoning framework for self-adaptive software engineering. EvoGraphCoder represents source code, tests, commit history, dependencies, performance signals, and review feedback as a relational software graph. It combines <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Adaptive Evolutionary Code Reasoning</i> (AECR) with a multi-agent design consisting of the <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Innovator, Critic</i>, and <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Historian</i> to generate, evaluate, and refine candidate repairs over multiple cycles rather than emitting a single patch. The framework further introduces <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">EvoGraph Memory</i> for persistent cross-release learning and <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Self-Reflexive Validation</i> for explainable pre-merge verification. Experiments on repository-level repair benchmarks show that EvoGraphCoder improves patch quality and robustness over strong baselines, while maintaining positive improvement across repeated repair cycles. These results suggest that graph-driven evolutionary reasoning with persistent memory offers a practical path toward reliable and explainable AI-assisted software maintenance."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Front Cover",
+    "authors": "N/A",
+    "publish": "IT Professional",
+    "url": "https://doi.org/10.1109/mitp.2026.3673826",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-4-21",
+    "title": "GQL Rules: Deterministic and Safe Rule-Based Materialization for Property Graphs",
+    "authors": "Dominik Tomaszuk",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3686122",
+    "source": "IEEE",
+    "abstract": "Property-graph query languages have matured, but controlled materialization of reusable derived graph knowledge has remained comparatively under-specified. In many practical workloads, transient query answers are not enough: applications need persistent derived relationships, defaults, alerts, and provenance that can be reused and audited across downstream queries and services. We addressed this gap by presenting GQL Rules, a restricted rule layer for property graphs that combined a Cypher/GQL-style MATCH/WHERE body with an inflationary head based on MERGE and additive ENRICH. The framework targeted static finite graphs, preserved first-class edge identity, exposed explicit diagnostics and per-rule policies for imperfect inputs, and limited negation to stratified NOT EXISTS. We formalized a stratified fixpoint semantics and gave sufficient conditions for safety, finite generation, and deterministic saturated outcomes, together with a semi-naive evaluation strategy for recursive strata as part of the formal proposal. We also implemented a Neo4j/APOC wrapper-based proof of concept and reported preliminary results on representative workloads; these showed correct saturation behavior, deterministic final states under the stated conditions, and naive-fixpoint recursive-scaling trends that motivate the proposed semi-naive strategy."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Complete Autonomous Robotic Nasopharyngeal Swab System with Evaluation on a Stochastically Moving Phantom Head",
+    "authors": "Peter Q. Lee, John S. Zelek, Katja Mombaur",
+    "publish": "IEEE Transactions on Robotics",
+    "url": "https://doi.org/10.1109/tro.2026.3686278",
+    "source": "IEEE",
+    "abstract": "The application of autonomous robotics to close-contact healthcare tasks, such as the nasopharyngeal (NP) swab test, has clear potential for reducing infection risks to staff and improving efficiency. We propose a control system that performs the NP swab test with a collaborative manipulator arm, guided by an instrumented end-effector that measures force and visual information. We assume a scenario where the patient is unrestrained, with hardware general enough for other types of close contact tasks. The system employs visual servo control to align the swab with the nostrils. A compliant joint velocity controller inserts the swab into the nasal cavity, following a planned trajectory adjusted with force-feedback. Fuzzy logic systems are designed to detect when the swab reaches the nasopharynx and enforce safety criteria. We validate the system using a second robotic arm that holds a nasal cavity phantom and simulates natural head motions. Extensive experiments identify controller configurations capable of effectively performing the NP swab test even with significant head motion."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Machine Learning-Assisted THz Technology for Nondestructive Testing in the Tobacco Industry_supp1-3685500.docx",
+    "authors": "Xiaojun Wu",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tthz.2026.3685500/mm1",
+    "source": "IEEE",
+    "abstract": "Abnormal moisture content and impurity contamination are core threats to product quality in the tobacco industry. Rapid, accurate, and non-destructive detection is therefore essential for product optimization. Terahertz time-domain spectroscopy (THz-TDS) holds great potential for tobacco detection owing to its non-invasiveness and high penetration capability. However, the effect of laser pulse width on THz radiation characteristics remains to be verified and the challenge of rapid signal analysis remains unsolved. In this work, a free-space THz-TDS system was constructed, which is driven by two compact Ti:sapphire lasers (with pulse widths of 20 fs and 45 fs, respectively) and enables rapid switching of laser sources. Experimental results indicate that the THz wave generated by the 20 fs laser achieves a broader bandwidth (2.5 THz) and a higher center frequency (0.45 THz). Further analysis reveals a strong linear correlation between the THz signal amplitude and the moisture content of tobacco leaves, while distinct waveform differences are observed between tobacco leaves and impurities. By integrating machine learning algorithms, high-precision impurity classification (with an accuracy of 99.9%) and rapid moisture prediction (with a mean absolute error of 0.28%) are realized. The entire signal measurement and analysis process can be completed within 2 seconds. This work provides technical verification for the intelligent upgrading of tobacco detection systems and demonstrates the enormous potential of THz technology in the tobacco industry and even the broader agricultural sector."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Scalable and Efficient Deep Reinforcement Learning-Based Model Checker for Computation Tree Logic",
+    "authors": "Ghalya Alwhishi, Jamal Bentahar, Amine Andam, Ahmed Elwhishi, Mustapha Hedabou",
+    "publish": "IEEE Transactions on Neural Networks and Learning Systems",
+    "url": "https://doi.org/10.1109/tnnls.2026.3683573",
+    "source": "IEEE",
+    "abstract": "Formal verification using temporal logics such as computation tree logic (CTL) is essential for validating safety and correctness in complex systems. However, traditional model-checking techniques face severe scalability limitations due to the state explosion problem and their reliance on exhaustive symbolic traversal. Moreover, existing learning-based verification methods often lack formal guarantees and interpretability. These challenges create a pressing need for scalable, learning-based verification methods that preserve verification reliability while improving computational efficiency. This article introduces a novel deep reinforcement learning (DRL)-based model checking framework that learns to verify CTL formulas directly through interaction with system models. Unlike traditional symbolic model checkers such as NuSMV, the proposed DRL-CTL checker trained using proximal policy optimization (PPO) interprets CTL semantics over system models represented as Kripke structures without performing symbolic state-space traversal at inference time. Reward functions are designed for individual CTL operators, and fixed-point reasoning is incorporated to handle global temporal properties such as <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$AG(\\phi)$</tex-math> </inline-formula> and <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$EG(\\phi)$</tex-math> </inline-formula>. Experimental results show that the proposed method achieves near-constant inference time of approximately 2 ms per formula on an Intel Core i9-13900K CPU (24 cores, 3.0 GHz), 64 GB RAM, NVIDIA RTX 4090 GPU (24 GB VRAM), reduces verification time by up to 90% compared with traditional model checkers, and scales to models with more than <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$10^{1192}$</tex-math> </inline-formula> reachable states. The framework also produces witnesses and counterexamples and yields verification outcomes identical to those of symbolic checkers in our experiments. These results highlight the potential of DRL to serve as a scalable, efficient, and explainable alternative to classical CTL model checking."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Trajectory Prediction-Based Adaptive Takeover Method for Mobile Robot Teleoperation Systems with Communication Delays",
+    "authors": "Ruoshan Wang, Pengfei Li, Yun-Sheng Zhao, Yun-Bo Zhao, Yu Kang",
+    "publish": "IEEE Internet of Things Journal",
+    "url": "https://doi.org/10.1109/jiot.2026.3686125",
+    "source": "IEEE",
+    "abstract": "As a typical application of the Internet of Things, mobile robot teleoperation systems play a crucial role in dangerous tasks or special scenarios. The passive takeover mechanism provides effective safety assurance for such systems, relying on a takeover request (TOR) generator to issue warnings and an authority transfer controller to manage control handover. However, variable communication delays can degrade the safety and smoothness of the passive takeover process. To address this issue, we propose a trajectory prediction-based adaptive takeover method that redesigns both the TOR generator and the authority transfer controller. The TOR generator issues early warnings based on the predicted robot trajectory in autonomous control mode. The authority transfer controller uses the control input that tracks the predicted human-intended trajectory as a reconstruction of the delayed human input, and adaptively adjusts the weights between the autonomous input and the reconstructed human input based on the risk indicator and the delay impact level. The effectiveness of the proposed method is validated through the human-in-the-loop simulation. The results show that our method ensures better safety and smoothness in the takeover process compared to other methods."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Semantic-Aware Behavior Optimization With Safety Reinforcement Feedback for Language-Conditioned Manipulation_supp1-3685452.mp4",
+    "authors": "Hongpeng Wang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/lra.2026.3685452/mm1",
+    "source": "IEEE",
+    "abstract": "Language-conditioned manipulation (LCM) couples vision, language, and control to enable natural instruction following, making it a promising direction in embodied AI research. Researchers have combined imitation learning (IL) with reinforcement learning (RL), where IL provides sample-efficient initialization and RL refines the policy through feedback to maximize long-term returns. Despite progress, safe LCM execution faces two challenges: (1) a modality gap that disrupts semantic-spatial correspondence, degrading action quality, and (2) sparse safety costs in high-dimensional states that make constraint estimation and semantic–safety alignment difficult. In this paper, we present Semantic-Aware Behavior Optimization with Safety Reinforcement Feedback, a novel framework that mitigates multimodal misalignment through context-aware initialization and enforces semantic–safety consistency during execution. We introduce spatial–semantic priors to align language goals with spatial observations and embed safety cues. Specifically, a goal prior aligns modalities for context-aware initialization during behavioral cloning, while a constraint prior combined with a feasibility metric provides learnable supervision for safety reinforcement fine-tuning. Evaluations show our framework achieves a 6.7% relative improvement in simulation and effectively reduces safety violations in real-world tasks across diverse scenarios."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "LCCST: Loosely Coupled Closed-loop Student-Teacher Framework for Semi-supervised Medical Image Segmentation",
+    "authors": "Yajun Liu, Zenghui Zhang, Jiang Yue, Dongying Li, Wenxian Yu",
+    "publish": "IEEE Transactions on Radiation and Plasma Medical Sciences",
+    "url": "https://doi.org/10.1109/trpms.2026.3686210",
+    "source": "IEEE",
+    "abstract": "Semi-supervised learning methods based on the Mean Teacher paradigm have shown strong performance in medical image segmentation, yet they still suffer from representation homogenization: as training progresses, the teacher and student models become tightly coupled, limiting the student’s ability to learn diverse and complementary features. To alleviate this issue, we propose a Loosely Coupled Closed-loop Student-Teacher (LCCST) framework. It consists of one teacher network (T) and two student networks (S1 and S2). The teacher is updated as the exponential moving average of S1, as in conventional Mean Teacher schemes, but its predictions on unlabeled data are not used directly. Instead, they are passed through a Semantic-Support Rectification Module (SSRM), which leverages labeled-support features to produce reliability-weighted pseudo-labels that supervise the independent student S2. In parallel, S1 and S2 interact via a Double Mutual Learning Mechanism (DMLM) that blends pixel-wise probability alignment with global, image-conditioned structural regularization. This closed-loop routing establishes a loosely coupled relation between S1 and T while enabling rich information exchange between S1 and S2 at both local and global levels, thereby improving segmentation accuracy and robustness. Experiments on three public benchmarks demonstrate that LCCST consistently outperforms existing state-of-the-art methods. Code is available at https://github.com/PHPJava666/ LCCST."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Star-shaped Multi-person Interaction Graph Model for Group Skeleton-based Action Recognition",
+    "authors": "Hongjun Li, Yuehan Jiang, Liping Teng",
+    "publish": "IEEE Transactions on Image Processing",
+    "url": "https://doi.org/10.1109/tip.2026.3684390",
+    "source": "IEEE",
+    "abstract": "Skeleton-based human action recognition has attracted increasing attention in recent years. However, most existing methods focus on single-person scenarios and struggle with complex behaviors in multi-person groups. In particular, they lack the capability to automatically identify and model core person. To address these challenges, this paper proposes a star-shaped group interaction model for skeleton-based action recognition. Firstly, the character importance scoring system analyzes both individual and group aspects: it evaluates each person’s individual importance based on motion intensity and motion complexity, and assesses their significance within the group using centrality and interactivity. This process enables accurate identification of the core person in the video. Secondly, a core-star interaction graph is constructed with the core person as the center node and other individuals as peripheral nodes. The relationships among individuals are categorized into self-connections, centripetal connections, and centrifugal connections. For each type of connection, we design differentiated data augmentation strategies to fully exploit diverse action and interaction features. Finally, the structured skeleton data is fed into the star-shaped spatio-temporal graph convolutional network for efficient feature extraction and action classification. Experiments on several public benchmark datasets demonstrate that our method achieves state-of-the-art performance, achieving accuracies of 79.1%, 96.1%, and 93.1% on the NBA, Volleyball, and Volleyball-weak datasets, respectively."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Dual-timescale Joint Optimization for Dynamic Edge Service Deployment and Task Scheduling in Space-air-ground Integrated Networks_supp1-3685292.pdf",
+    "authors": "Wenfeng Li",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tnsm.2026.3685292/mm1",
+    "source": "IEEE",
+    "abstract": "This paper investigates dual-timescale joint optimization for dynamic edge service deployment and task scheduling in space-air-ground integrated networks (SAGINs) with mobile edge computing (MEC). We decompose the original problem into a long-term (LT) service deployment subproblem and a short-term (ST) task scheduling subproblem to address the timescale disparity and coupling constraints. For the LT subproblem, an improved whale optimization algorithm (IWOA) is developed with a cosine-based nonlinear convergence factor, vertical-horizontal crossover, and elite opposition-based learning to enhance exploration and convergence. For the ST subproblem, we model task scheduling as a decentralized partially observable Markov decision process (Dec-POMDP) and adopt multi-agent proximal policy optimization (MAPPO) with KL regularization and clipping for stable policy updates. A hierarchical alternating framework (with a self-attention module for traffic-feature extraction) is designed to coordinate the two timescales iteratively. Simulation results demonstrate that, compared with the baseline WOA-PPO algorithm, the proposed method increases service deployment benefits by 27.2% and reduces task scheduling costs by 38.5%."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Privacy-Preserving and Verifiable Federated Learning Framework for Biometric Authentication at the Edge",
+    "authors": "Hao Zhou, Lin Li, Hua Dai, Geng Yang, Fusen Guo, Chao Chen",
+    "publish": "IEEE Transactions on Services Computing",
+    "url": "https://doi.org/10.1109/tsc.2026.3686112",
+    "source": "IEEE",
+    "abstract": "Federated learning (FL) has emerged as a pivotal privacy-preserving paradigm for training models across decentralized biometric datasets. However, integrating secure biometric verification and data integrity in FL remains challenging, especially under non-IID distributions and resource constraints in edge environments. This paper introduces BPVFL, a novel Biometric Privacy-preserving and Verifiable Federated Learning framework, which synergizes differential privacy, cryptographic signatures, and photoplethysmogram (PPG)-based biometric recognition. Distinct from prior works, BPVFL supports both verifiable model updates and privacy-preserving identity authentication through a dual-layer protection scheme. We propose a customized privacy noise mechanism tailored for biometric features and a lightweight signature protocol to trace and validate local contributions. Experimental evaluations on three biometric datasets (SigD, BIDMC, TBME) demonstrate that BPVFL achieves over 92.7% accuracy under strong privacy guarantees, while reducing communication costs via deep network modularization. To substantiate verifiability beyond provenance, we further integrate an optional Correctness Verification Layer (CVL) based on remote attestation, which makes accepted updates protocol-correctness verifiable (i.e., generated by an approved clipping/noising/training pipeline) at a small constant overhead. We provide an empirical comparison to representative verifiable FL designs along the axes of client cryptographic time, extra uplink, and end-to-end round latency, clarifying the engineering trade-offs for edge biometric services."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "A Comprehensive Ecosystem for Open-Domain Customized Video Generation",
+    "authors": "Jingxu Zhang, Yuqian Hong, Daneul Kim, Kai Qiu, Qi Dai, Jianmin Bao, Yifan Yang, Xiaoyan Sun, Chong Luo",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461584",
+    "source": "IEEE",
+    "abstract": "Recent progress in video generation has shown impressive visual synthesis capabilities. However, open-domain customized video generation remains limited by the lack of large-scale, annotated datasets capturing diverse identity-specific attributes. To address this, we introduce PexelsCustom-1M, the first publicly available million-scale dataset for identity-preserving video generation, containing one million curated ⟨identity, text, video⟩ triplets across 8,000+ categories. Leveraging this, we propose CustoMDiT, a parameter-efficient framework that adapts a pretrained multimodal Diffusion Transformer into a customized video generator with only 8% additional learnable parameters. Our method surpasses prior state-of-the-art. However, benchmarks such as DreamBooth cover only 100 classes, which is insufficient for real-world applications. To overcome this, we construct OpenCustom, a new benchmark with 1,000+ categories, created via cross-dataset knowledge fusion from ImageNet and MS-COCO. Extensive experiments confirm the advantages of both our dataset and model. We will open-source the entire ecosystem—including dataset, pipeline, benchmark, and implementations—to support further research."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Beat and Downbeat Detection: A Reformulated Approach",
+    "authors": "James Bolt, Johan Pauwels, George Fazekas",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461608",
+    "source": "IEEE",
+    "abstract": "We propose a novel beat and downbeat detection model that departs from standard classification-based approaches, addressing their limitations and encouraging exploration of alternatives. Our approach leverages beat and downbeat phase information by computing phase differences between all time frames of a song, forming a Phase Difference Matrix (PDM) that couples frames globally and induces periodicity. We predict the PDM using a Kolmogorov-Arnold Temporal Convolutional Network (TCN) with mean absolute error loss. We introduce this model as the Kolmogorov-Arnold Phase TCN with Regression Estimation, KAPTURE. Unlike previous approaches that modify the classification loss to address class imbalance, our method requires no such adaptation, simplifying training and improving generality. Experimental results show that KAPTURE achieves performance comparable to state-of-the-art systems whilst reducing model parameters. We highlight the model’s potential through an oracle peak-picking experiment, indicating scope for refinement. This work aims to inspire new directions in beat and downbeat detection beyond classification frameworks."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Design and Evaluation of an Immersive VR-Based Basketball Teaching System: Enhancing Student Engagement in College Physical Education Courses",
+    "authors": "Jinkui Ren",
+    "publish": "2026 International Conference on Innovative Computing, Intelligent Communication and Smart Electrical Systems (ICSES)",
+    "url": "https://doi.org/10.1109/icses66558.2026.11478958",
+    "source": "IEEE",
+    "abstract": "The problem of improving student interest in college physical education classes is still a dilemma especially in skill related aspect like basketball. In this paper, the design and analysis of a Virtual Reality (VR)-based teaching system of basketball is provided and combines interactive VR simulations with realtime performance feedback to enhance the learning process and student motivation. The system provides a VR environment that runs on Unity3D with motion tracking sensors to record the movement of the students and give them real time biomechanical and tactical feedback. The instructional model involves adaptive difficulty modification, instructive tutorials, and gamification activities to sustain the interest and promote development of the skills. Mixed-method assessment was undertaken that involved college learners taking basketball classes, and the assessment was done in terms of engagement levels, learning performance, and perceived usability. The evidence of the experiment suggests that the students, who worked with the VR-based system, were more engaged, their shooting accuracy was better, and their knowledge of the tactical movements was better than the students who studied the same matter with the help of regular teaching techniques. The paper also emphasizes the opportunity presented by the system to deliver individualized learning experiences, lower the workload of an instructor and create a safe and immersive atmosphere to acquire certain skills. These results imply that physical education classes at colleges can be improved by immersive VR technologies along with real-time feedback systems that can greatly improve student engagement and learning outcomes."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Disentangled Structure Prior Propagation for Guided Depth Super-Resolution",
+    "authors": "Xin Sun, Haojie Li, Xinchen Ye, Rui Xu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463368",
+    "source": "IEEE",
+    "abstract": "Guided depth super-resolution (GDSR) methods utilize color images to enhance depth map quality by leveraging their strong structural similarity to depth maps. However, the redundant texture details in color images often interfere with the super-resolution process. To address this challenge, we propose the Disentangled Structure Prior Propagation Network (DSPPNet), which includes the Structure-Texture Disentangler (STD) module that isolates and purifies structure-specific features, and the Structure Prior Propagation (SPP) module that propagates purified structural priors across the network to guide depth reconstruction. The proposed method effectively suppresses texture-related artifacts while enhancing the depth reconstruction fidelity. Extensive experiments on various datasets demonstrate the effectiveness of our proposed method."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Digital Herd Twin as a Tool to Increase the Efficiency of Cattle Accounting in the Agricultural Sector",
+    "authors": "Sergei Kurashkin, Yesenia Khrapunova, Kirill Belous, Zakhar Pechenkin, Muhammad Khamraev",
+    "publish": "2026 25th International Symposium INFOTEH-JAHORINA (INFOTEH)",
+    "url": "https://doi.org/10.1109/infoteh68759.2026.11477624",
+    "source": "IEEE",
+    "abstract": "The article focuses on the digital transformation of livestock management through the implementation of a herd digital twin. The main objective of the study is to evaluate the effectiveness of the CIS-Cattle information system, designed to unify accounting processes, improve animal health monitoring, and optimize resource use. The research tasks included analyzing existing paper-based workflows, developing a digital architecture integrating IoT sensors, RFID identification, and machine learning algorithms, and validating the system in real farm conditions. A nine-month field experiment was conducted on a dairy farm with 236 cows. Methods involved real-time data collection, predictive analytics, and comparative analysis of key performance indicators. The results demonstrated an 80 % reduction in manual data entry, a 30 % decrease in disease incidence, 25 % savings in feed costs, and a 17 % increase in calf weight gain, confirming the system's practical efficiency."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "P-SAM: Parallel Semantic Decoding of SAM for Domain-Driven Prompt Generation in Pore Segmentation",
+    "authors": "Dongsheng Li, Huijie Zhang, Qiushi Xia",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464358",
+    "source": "IEEE",
+    "abstract": "Precise characterization of pore structures in tight sandstone reservoirs is essential for optimizing unconventional hydrocarbon recovery. However, the microscopic complexity and scarcity of samples pose challenges to the accuracy and generalizability of traditional segmentation methods. While the Segment Anything Model (SAM) demonstrates powerful general segmentation capabilities, its reliance on domain-specific prompts limits its automated application in specialized scenarios. To address these challenges, we propose a Parallel-decoding SAM framework (P-SAM). Unlike existing methods that rely on external models for prompt generation, P-SAM introduces a lightweight prompt decoder that directly produces task-relevant prompts from SAM’s image features while keeping all SAM parameters frozen. Through feature sharing and loss alignment, P-SAM jointly optimizes prompt generation and mask prediction under a unified training goal. Experiments demonstrate that P-SAM surpasses state-of-the-art methods with only 0.16M additional parameters and exhibits strong cross-domain adaptability in tasks such as urban village identification. Our code is available at https://github.com/wudi-ldd/ Parallel-Decoding-SAM."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Multi-Domain Audio Question Answering Benchmark toward Acoustic Content Reasoning",
+    "authors": "Chao-Han Huck Yang, Sreyan Ghosh, Qing Wang, Jaeyeon Kim, Hengyi Hong, Sonal Kumar, Guirui Zhong, Zhifeng Kong, S Sakshi, Vaibhavi Lokegaonkar, Oriol Nieto, Ramani Duraiswami, Dinesh Manocha, Gunhee Kim, Jun Du, Rafael Valle, Bryan Catanzaro",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464798",
+    "source": "IEEE",
+    "abstract": "We introduce a multi-domain Audio Question Answering (MD-Audio) benchmark designed to advance research in multi-domain sound understanding. The task is organized into three subsets (Bioacoustics, Temporal Soundscapes, and Complex QA), each targeting distinct aspects of interactive question answering over diverse acoustic environments. The benchmark encompasses a broad range of auditory material, including marine mammal vocalizations, environmental soundscapes, and complex real-world audio recordings. We further detail the evaluation protocol, which employs top-1 accuracy alongside an answer-shuffling robustness criterion, and provide baseline results using state-of-the-art audio-language models (Qwen2-Audio-7B, AudioFlamingo 2, and Gemini-2-Flash). The non-archrival benchmark is released as an open-source resource and used for the DCASE 2025 AQA Challenge. Preliminary analyses on the development set reveal substantial variability in model performance across both tasks and domains. Ultimately, this benchmark is intended to foster progress in the auditory comprehension and reasoning abilities of audio-language models, capabilities that are critical for enabling systems to perceive, interpret, and interact with the acoustic world in a manner approaching human-level acuity."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "A Practical Framework for Simulating the Integration of QKD in TLS Protocol Towards Quantum Secure Communication",
+    "authors": "Radhika Jamwal, Sarada Prasad Gochhayat, Anshuman Kalla",
+    "publish": "2026 National Conference on Communications (NCC)",
+    "url": "https://doi.org/10.1109/ncc68160.2026.11478911",
+    "source": "IEEE",
+    "abstract": "With the advent of quantum computing, classical cryptographic techniques—such as those underpinning Transport Layer Security (TLS)—are becoming increasingly vulnerable. Although post-quantum cryptographic algorithms are being developed, their long-term security remains uncertain. Quantum Key Distribution (QKD) offers a fundamentally different approach to key exchange and secure communication, as it bases security on the physics of quantum information rather than computational difficulty. This paper presents a practical simulation framework that integrates QKD-derived keys into the TLS protocol using the Pre-Shared Key (PSK) mode. The system employs a layered QKD architecture, implemented using QuNetSim, to generate and manage quantum keys, which are then distributed through a centralized Key Management Server (KMS). The proposed approach demonstrates how quantum-generated keys can be seamlessly integrated into the TLS protocol to enhance resilience against quantum attacks, providing a viable pathway toward post-quantum-secure communication."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Concept Activation Vectors: A Unifying View and Adversarial Attacks",
+    "authors": "Ekkehard Schnoor, Malik Tiomoko, Jawher Said, Alex Jung, Wojciech Samek",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464861",
+    "source": "IEEE",
+    "abstract": "Concept Activation Vectors (CAVs) are a tool from explainable AI, offering a promising approach for understanding how human-understandable concepts are encoded in a model’s latent spaces. They are computed from hidden-layer activations of inputs belonging either to a concept class or to non-concept examples. Adopting a probabilistic perspective, the distribution of the (non-)concept inputs induces a distribution over the CAV, making it a random vector in the latent space. This enables us to derive mean and covariance for different types of CAVs, leading to a unified theoretical view. This probabilistic perspective also reveals a potential vulnerability: CAVs can strongly depend on the rather arbitrary non-concept distribution, a factor largely overlooked in prior work. We illustrate this with a simple yet effective adversarial attack, underscoring the need for a more systematic study."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Unpaired Incremental Hashing for Cross-Modal Retrieval In Non-Stationary Environments",
+    "authors": "Xing Tian, Zhuojun Song, Yuanzhi Chen, Yile Huang, Wing W. Y. Ng",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463664",
+    "source": "IEEE",
+    "abstract": "Cross-modal hashing enables efficient similarity search across different modalities. However, most existing methods rely on stationary and paired data for training, while real world data environments are generally non-stationary with unpaired data dominate. It limits the applicability of existing methods in real world environments. Therefore, an Unpaired Incremental Hashing (UIH) method is proposed for cross-modal retrieval in non-stationary environments. UIH employs kernel mapping and projection optimization to learn modality-independent latent representations, avoiding shared-space rigidity. An individual–global collaborative mechanism dynamically balances sample-level and modality-level semantics. Meanwhile, an adaptive label similarity matrix is employed for rapid incremental updating with new samples and labels. Experiments on two benchmark datasets show that UIH yields significantly better retrieval performance comparing to existing methods in non-stationary and unpaired data environments."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Aligning Language Models for Lyric-to-Melody Generation with Rule-Based Musical Constraints",
+    "authors": "Hao Meng, Siyuan Zheng, Shuran Zhou, Qiangqiang Wang, Yang Song",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462728",
+    "source": "IEEE",
+    "abstract": "Large Language Models (LLMs) show promise in lyric-to-melody generation, but models trained with Supervised Fine-Tuning (SFT) often produce musically implausible melodies with issues like poor rhythm and unsuitable vocal ranges, a phenomenon we term \"constraint violation\". To address this, we propose a novel alignment framework that instills musical knowledge without human annotation. We define rule-based musical constraints to automatically generate a preference dataset from an SFT model’s outputs. The model is then aligned through a sequential process, first using Direct Preference Optimization (DPO) on paired preference data, followed by Kahneman-Tversky Optimization (KTO) on unpaired negative samples. Experimental results demonstrate that our aligned model substantially reduces rule violations and outperforms strong baselines in both objective and subjective evaluations, generating melodies with substantially improved musicality and coherence. An interactive demo with audio comparisons is available at https: //arain233.github.io/AligningMelody-demo."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "The Risk Operations Center (RoC): A Unified Framework for Proactive, Business-Aligned Cyber Risk Management",
+    "authors": "Jatinder Pal Singh, Sukriti Das, Nikhil Verma, Sockey Katheria, Shristi Joshi",
+    "publish": "2026 International Conference on Innovative Computing, Intelligent Communication and Smart Electrical Systems (ICSES)",
+    "url": "https://doi.org/10.1109/icses66558.2026.11478902",
+    "source": "IEEE",
+    "abstract": "As cybersecurity threats continue to grow in complexity, dynamism and business impact, the demand for advanced intelligence systems that move beyond reactive detection methods grows. Traditional Security Operations Centers (SOCs) are typically not predictive, aligned with the business and agile enough to adapt to changing threats with delayed responses, operational inefficiencies and residual enterprise risk. This study plans to design and assess an AI-driven Risk Operations Center (RoC) based on multi-source data aggregation, cognitive threat modeling, predictive and prescriptive analytics, business context alignment, and explainable reinforcement learning to improve proactive cyber risk management. The framework is based on Deep Representation Learning, Graph Neural Network; Transformer based models, Bayesian Inference and DRL Agents, coupled with Enterprise Knowledge Graphs for Risk Contextual Alignment. Policies and models are continually and federatedly refined over time. Comparative analysis shows the superior performance of the proposed RoC with 96.8 % threat detection accuracy, 2.4 % false positive rate, 94.6 % risk forecasting accuracy, 7.8 s incident response time, and 0.93 business impact alignment and 95 adaptability index outperforming the existing frameworks. The RoC is a business-oriented, self-optimizing and adaptive cybersecurity ecosystem to improve decision transparency, operation efficiency and strategic risk mitigation, which is a huge advancement in the field of AI-powered cyber defense."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "EDPOTrans: Enhanced Direct Preference Optimization for Machine Translation Between Low-Resource Language and Chinese with Limited Monolingual Data",
+    "authors": "Lianxi Wang, Xuming Li, Yuting Su, Songxi Xu, Jiahuan Yang, Nankai Lin, Shengyi Jiang",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462914",
+    "source": "IEEE",
+    "abstract": "Large Language Models (LLMs) have demonstrated superior performance across various machine translation tasks by integrating techniques such as model fine-tuning and reinforcement learning methods like Direct Preference Optimization (DPO), while still facing significant challenges in low-resource languages due to the scarcity of bilingual data. To address this issue, we propose EDPOTrans, a new self-supervised fine-tuning framework for LLMs. Aimed at mitigating the lack of bilingual data, EDPOTrans performs sampling on monolingual data and utilizes Minimum Bayes Risk (MBR) decoding to generate candidate translations and construct preference data. Furthermore, to tackle the potential reward instability in DPO, we introduce Enhanced DPO (EDPO). By incorporating penalty terms into the loss function, EDPO modifies DPO without violating its principles. Experimental results show that EDPOTrans, using extremely limited monolingual data and less computation than MBR decoding, achieves an average improvement of +2.5 BLEU, +1.4 BLEURT, and +4.4 COMET scores over all baselines in machine translation between Chinese and six low-resource languages."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Gaussian Splatting with Hybrid Deformation and Multi-Scale Depth Regularization for Dynamic Single-View Video Reconstruction",
+    "authors": "Ying Ye, Xian Wu, Jintian Li, Junfeng Yao, Shaoqi Wu, Weixing Xie",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463565",
+    "source": "IEEE",
+    "abstract": "With the advent of 3D Gaussian Splatting (3DGS) and foundation models, high-fidelity dynamic scene reconstruction from single-view videos has become feasible. However, existing 3DGS-based methods primarily focus on fast reconstruction, often neglecting motion interactions between Gaussians and accurate depth generation, leading to suboptimal reconstruction. To address these challenges, we introduce GS-HDM, a novel dynamic reconstruction framework. First, we design a hybrid deformable representation to capture complex motion interactions, combining Fourier functions and shared hash grids to model individual Gaussian motion and spatiotemporal interactions among Gaussians, respectively. In addition, to achieve accurate and sharp depth, we propose a multi-scale depth regularization strategy that guides the network to learn depth priors at different scales, while leveraging confidence weights to mitigate depth noise from foundation models. Finally, we develop an efficient Gaussian initialization strategy to generate dense geometric priors, further enhancing the performance of GS-HDM. Extensive experiments demonstrate that our method outperforms existing approaches in both photorealistic rendering and accurate depth reconstruction."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "AHM-Net: An Asymmetric Hierarchical Multi-Modal Fusion Network for Robust UAV Detection Using RGB and Event Data",
+    "authors": "Daohong Niu, Wenhan Yang, Wen Yang, Dexin Bi, Shuai Ma, Jinjian Wu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464096",
+    "source": "IEEE",
+    "abstract": "Detecting unmanned aerial vehicles (UAVs) robustly is challenging for single-modality sensors: RGB cameras often fail under poor lighting, while event cameras lack sufficient texture information for reliable detection. To address these limitations, we propose AHM-Net, an Asymmetric Hierarchical Multi-modal Fusion Network that effectively integrates RGB and event data for enhanced UAV detection. The core of our approach is an asymmetric hierarchical fusion encoder that incorporates cross-modal interaction modules, enabling adaptive fusion of complementary features from both modalities at different levels. Additionally, we introduce two novel event-aware enhancements: Stochastic Background Suppression (SBS) for motion-salient feature refinement and Event-Aware Query Selection (EAQS) for texture-compensated query guidance. Experiments on the large-scale FRED benchmark demonstrate that AHM-Net outperforms existing methods, while ablation studies confirm the contribution of each component. These results highlight the promise of event-driven fusion for advancing reliable UAV detection."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Make a Game: A Novel Paradigm for Interactive Game Rendering",
+    "authors": "Zijie Meng, Jinming Che, Bingcai Wei, Xixin Cao",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461927",
+    "source": "IEEE",
+    "abstract": "Driven by the growing demand for immersive and personalized gaming experiences, existing game video generation models often lack robust multi-modal control and suffer from spatial misalignment or autoregressive drift, thereby necessitating a more advanced real-time interactive solution.To this end, we propose Make-A-Game(MAG), the first DiT-based interactive game video generation model that unifies spatial and non-spatial alignment control signals within the UC-3DMMAttn module and employs Action Prompt Blocks(APBs) for precise, real-time manipulation of in-game entities. MAG follows a three-stage training approach, enabling it to produce high-resolution, drift-free, and temporally coherent content by dynamically modulating character actions while preserving detailed environments. Extensive experiments demonstrate MAG’s superiority in controllability, video fidelity, and stability, providing new avenues for industrial-scale game development and broader interactive media systems. Thus, MAG represents a transformative step in video generation, leveraging the DiT architecture to integrate multi-modal controls seamlessly. The project will be available at https://github.com/YMlinfeng/MAG."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Robust Deepfake Audio Detection via Multi-Level Intermediate Feature Fusion",
+    "authors": "Jinpeng Zhao, Jian Zhao, Yufei Zhou, Peijia Zheng, Yusong Du",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462275",
+    "source": "IEEE",
+    "abstract": "Existing deepfake audio detectors, such as the XLSR-Mamba, primarily rely on final-layer features, a paradigm where discriminative details from intermediate layers can be progressively diluted during feature propagation. To alleviate this limitation, we propose a Multi-level Intermediate Feature Fusion (MIFF) module, which explicitly aggregates representations from all Mamba layers. MIFF employs an adaptive recalibration mechanism to dynamically estimate the contribution of each intermediate feature, producing a context-aware weighted fusion. This design preserves discriminative high-level semantics while enriching them with complementary multi-level details, leading to more comprehensive representations. On ASVspoof 2021 DF and In-The-Wild, our system achieves EER of 1.68% and 5.66%, corresponding to relative error reductions of 10.6% and 15.6% over XLSR-Mamba (1.88% and 6.71%), respectively, and demonstrating strong robustness to diverse spoofing attacks."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Dual-Domain 3D Mesh Watermarking with Adaptive Vertex Grouping",
+    "authors": "Shuai Ren, Wenhui Deng, Mo Liu, Tianyu Cong, Shaoming Wu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11460892",
+    "source": "IEEE",
+    "abstract": "This paper proposes a dual-domain 3D mesh watermarking algorithm using adaptive vertex grouping to tackle challenges in topological sensitivity, geometric invariance, and perceptual balance. In contrast to spatial-domain methods vulnerable to vertex reordering and frequency-domain approaches limited by basis mismatch under geometric transformations, our solution introduces a topology-driven grouping strategy based on the cumulative distribution of vertex degree centrality. This method partitions vertices into DCT anchor groups and reordered spherical wavelet groups, facilitating collaborative dual-domain embedding. Quantization modulation in the DCT domain ensures global robustness, while a spherical Daubechies-4 wavelet transform with vertex reordering enables blind extraction and geometric invariance. Experiments demonstrate that the algorithm achieves high imperceptibility and strong robustness against geometric attacks."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "ReaMap: A Graph-Constrained SPD Change Operator for EEG Reactivity with Cross-Session and Cross-Dataset Transfer",
+    "authors": "Ekta Srivastava, Siddhant Ujjain, Vaibhav Kagathara, Tapan Kumar Gandhi, Sandeep Kumar",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461703",
+    "source": "IEEE",
+    "abstract": "We study EEG reactivity, systematic changes between eyes-open/eyes-closed (EO/EC) and pre/post cognitive load via a geometry-aware operator on symmetric positive-definite (SPD) covariances. We propose ReaMap, a graph-constrained congruent map that, per band, predicts post-condition covariances from pre-condition inputs in Log–Euclidean space, yielding an interpretable change embedding. An electrode-graph Laplacian enforces spatial plausibility, spectral constraints stabilize the transform, and a pairing loss aligns true pre/post (or EO/EC) observations while separating mismatches. Across two public BIDS EEG corpora, a large adult lifespan study with 5-year follow-up and a high-density 128-channel cohort, ReaMap improves EO/EC and pre/post discrimination, brain-age error, and SPD geodesic error over strong baselines (bandpower, microstates, Riemannian MDM, tangent, re-centering/whitening, LEML, TSA), with the clearest gains under cross-session and cross-dataset shift. Topographies recover canonical patterns (occipital α rebound; frontal-midline θ), and the embedding highlights condition structure, supporting interpretability. Under cross-session and cross-dataset transfer and channel dropout, performance degrades more gracefully than alignment baselines. We frame pre→post effects as reactivity biomarkers rather than diagnostic labels."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Discrete-Time Periodic State-Feedback Control via a Variant of Extended LMI with Static Multiplier",
+    "authors": "Masayuki Sato, Noboru Sebe",
+    "publish": "2026 12th International Conference on Automation, Robotics and Applications (ICARA)",
+    "url": "https://doi.org/10.1109/icara69401.2026.11480405",
+    "source": "IEEE",
+    "abstract": "This paper addresses the design problem of periodic state-feedback controllers for Discrete-Time (DT) linear uncertain systems with static multiplier incorporated. For this problem, we use a variant of Extended LMI formulation, which has been derived through very simple algebraic manipulations with the aid of Elimination lemma, for time-lifted DT linear systems. Although the variant of Extended LMI formulation introduces additional auxiliary matrices and consequently increases the sizes of LMIs in exchange for its simple derivation, their roles have not yet been clarified. We clarify their roles through the design problem of periodic state-feedback controllers for DT linear uncertain systems with static multiplier incorporated, and then examine the conservatism of the proposed method compared with previously proposed methods."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Bayesian Uncertainty-Aware MRI Reconstruction",
+    "authors": "Ahmed Karam Eldaly, Matteo Figini, Daniel C. Alexander",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11460398",
+    "source": "IEEE",
+    "abstract": "We propose a novel framework for joint magnetic resonance image reconstruction and uncertainty quantification using under-sampled k-space measurements. The problem is formulated as a Bayesian linear inverse problem, where prior distributions are assigned to the unknown model parameters. Specifically, we assume the target image is sparse in its spatial gradient and impose a total variation prior model. A Markov chain Monte Carlo (MCMC) method, based on a split-and-augmented Gibbs sampler, is then used to sample from the resulting joint posterior distribution of the unknown parameters. Experiments conducted using single- and multi-coil datasets demonstrate the superior performance of the proposed framework over optimisation-based compressed sensing algorithms. Additionally, our framework effectively quantifies uncertainty, showing strong correlation with error maps computed from reconstructed and ground-truth images."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Domain-Invariant Mixed-Domain Semi-Supervised Medical Image Segmentation with Clustered Maximum Mean Discrepancy Alignment",
+    "authors": "Ba-Thinh Lam, Thanh-Huy Nguyen, Hoang-Thien Nguyen, Quang-Khai Bui-Tran, Nguyen Lan Vi Vu, Phat K. Huynh, Ulas Bagci, Min Xu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464345",
+    "source": "IEEE",
+    "abstract": "Deep learning has shown remarkable progress in medical image semantic segmentation, yet its success heavily depends on large-scale expert annotations and consistent data distributions. In practice, annotations are scarce and images are collected from multiple scanners or centers, leading to mixed-domain settings with unknown domain labels and severe domain gaps. Existing semi-supervised or domain adaptation approaches typically assume either a single domain shift or access to explicit domain indices, which rarely hold in real-world deployment. In this paper, we propose a domain-invariant mixed-domain semi-supervised segmentation framework that jointly enhances data diversity and mitigates domain bias. A Copy-Paste Mechanism (CPM) augments the training set by transferring informative regions across domains, while a Cluster Maximum Mean Discrepancy (CMMD) block clusters unlabeled features and aligns them with labeled anchors via an MMD objective, encouraging domain-invariant representations. Integrated within a teacher–student framework, our method achieves robust and precise segmentation even with very few labeled examples and multiple unknown domain discrepancies. Experiments on Fundus and M&Ms benchmarks demonstrate that our approach consistently surpasses semi-supervised and domain adaptation methods, establishing a potential solution for mixed-domain semi-supervised medical image segmentation."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "PI-GNN: A Physics-Informed Graph Neural Network for Spatio-Temporal Diffusion Prediction",
+    "authors": "Zimo Wen, Cheng Zeng, Hanwen Hu, Shiyou Qian, Jian Cao",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463286",
+    "source": "IEEE",
+    "abstract": "Spatio-temporal diffusion processes (STDPs) are widely observed in natural and social phenomena, such as environmental pollution and biological diffusion. While traditional mechanistic models based on partial differential equations are parameter-heavy and computationally intensive, non-mechanistic methods like neural networks often suffer from limited interpretability and generalization due to their lack of explicit physical constraints. To address these issues, we introduce a physics-informed graph neural network (PI-GNN) modeling for STDP. The basic idea of PI-GNN is to incorporate physical knowledge into the node-update mechanisms of GNNs, embedding constraints from diffusion equations into the neural architecture to effectively capture STDP dynamics. The design of PI-GNN involves three essential aspects. First, based on the limited collected data, we construct a system of linear equations to solve the parameters of the advection-diffusion equation, thereby compensating for the scarcity of the data set. Second, we derive graph-based discretizations of diffusion processes from the diffusion equation to build physically meaningful message-passing modules. Third, we integrate timestamp and spatial-site encodings into PI-GNN to effectively fuse spatio-temporal features, enhancing its generalization capability and prediction accuracy. We conduct experiments on three water and air datasets to evaluate the effectiveness of PI-GNN. Results show that PI-GNN outperforms seven SOTA algorithms. Additionally, the spatiotemporal fusion method also enhances PI-GNN’s scalability, showing potential for real-world environmental applications."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Parallax-Aware Spatial Transformer: Fusing Physics and Learning for Terahertz Near-Field Localization",
+    "authors": "Zhi Zeng, Chong Han",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463472",
+    "source": "IEEE",
+    "abstract": "As a key 6G enabler, Terahertz (THz) ultra-massive multiple-input multiple-output (MIMO) introduces a critical localization challenge. The large aperture expands the near-field range, invalidating far-field models and creating a prohibitive search space. This leads to a dilemma that physics-based near-field codebooks require excessive overhead, while generic deep learning models lack physical consistency or interpretability. Challenging the notion that near-field training is necessary, a Parallax-Aware Spatial Transformer (PAST) is proposed to resolve this dilemma by leveraging near-field parallax effects from the lightweight far-field codebook. This introduces a physics-informed attention bias to focus on the most crucial subarray pairs, while maintaining physics consistency. Simulation results demonstrate PAST achieves millimeter-level and 0.06-degree accuracy, defining a new and highly efficient approach for THz near-field localization."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "SFN-Net: Integrating Spatial-Frequency Feature Fusion into Deep Unfolding Network with NESTA for Compressive Sensing",
+    "authors": "Tianyi Lu, Hengrui Li, Xiangming Yan, Yanfeng Wu, Lennox Wei, Shaohui Liu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462141",
+    "source": "IEEE",
+    "abstract": "Deep unfolding networks (DUNs), as an effective approach to combine optimization models and data-driven methods, have gained wide application in the field of compressed sensing (CS) due to their strong performance and interpretability. However, traditional CS methods heavily rely on manual parameter tuning and often focus solely on spatial domain feature extraction, leading to potential information loss. To address these issues, we propose SFN-Net, a deep unfolding network based on NESTA with integrated spatial-frequency features. By unfolding the NESTA into a deep network, SFN-Net iteratively optimizes a general L1 norm CS reconstruction model and enhances feature representation by integrating spatial and frequency domain information, which enables the network to better capture complex image structures. To further enhance performance, we incorporate the Kolmogorov-arnold networks (KAN) module, boosting the network’s ability to model nonlinear features. Experimental results show that SFN-Net achieves superior image reconstruction quality across multiple benchmark datasets."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Dynamic Spectrogram Analysis with Local-Aware Graph Networks for Audio Anti-Spoofing",
+    "authors": "Yingdong Li, Chengxin Chen, Dong Chen, Nanli Zeng, Kun Zeng",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464633",
+    "source": "IEEE",
+    "abstract": "The rapid proliferation of deepfake techniques has introduced diverse forgery artifacts, posing substantial challenges to audio anti-spoofing. This paper proposes a model that adaptively tailors feature extraction to the specific nature of these artifacts. The approach comprises three key contributions: (i) a context-aware dynamic convolution that selects and weights kernels of multiple sizes conditioned on spectral context; (ii) a streamlined front-end/back-end integration that uses a residual-style shortcut to the AASIST back end, thereby obviating a dedicated feature-fusion module; and (iii) an augmented AASIST framework with two new node types designed to capture fine-grained local patterns. Evaluated on the ASVspoof 2019 LA and the Chinese Fake Speech Dataset (CFSD), our proposed model achieves state-of-the-art performance, attaining Equal Error Rates (EERs) of 0.08% and 0.10%, respectively."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Attention2Probability: Attention-Driven Terminology Probability Estimation for Robust Speech-to-text System",
+    "authors": "Yangfan Du, Jun Zhang, Bin Wang, Jin Qiu, Lu Huang, Yuan Ge, Xiaoqian Liu, Tong Xiao, Jingbo Zhu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464611",
+    "source": "IEEE",
+    "abstract": "Recent advances in speech large language models (SLMs) have improved speech recognition and translation in general domains, but accurately generating domain-specific terms or neologisms remains challenging. To address this, we propose Attention2Probability: attention-driven terminology probability estimation for robust speech-to-text system, which is lightweight, flexible, and accurate. Attention2Probability converts cross-attention weights between speech and terminology into presence probabilities, and it further employs curriculum learning to enhance retrieval accuracy. Furthermore, to tackle the lack of data for speech-to-text tasks with terminology intervention, we create and release a new speech dataset with terminology to support future research in this area. Experimental results show that Attention2Probability significantly outperforms the VectorDB method on our test set. Specifically, its maximum recall rates reach 92.57% for Chinese and 86.83% for English. Intervening in SLMs’ recognition and translation tasks using Attention2Probability-retrieved terms improves terminology accuracy by 6–17%, while revealing that the current utilization of terminology by SLMs has limitations."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Directed Hypergraph Framelet Neural Network",
+    "authors": "Zhen Wang, Xiaoyu Tang, Xinyu Qi, Yongheng Wang, Yan Pang, Ji Zhang",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462712",
+    "source": "IEEE",
+    "abstract": "Hypergraphs model multi-way directional interactions, yet most Hypergraph Neural Networks ignore direction and collapse higher-order structure. We propose Di-HFNN, which combines a complex-valued incidence encoding yielding a Hermitian Laplacian with multiresolution wavelet frames for spectral filtering. This framework captures directional asymmetries across multiple scales. Di-HFNN achieves state-of-the-art performance on eight benchmarks and demonstrates superior directional modeling on synthetic tasks."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Expanding the Horizon of Provenance Domains for Smart Contract-Based Workflows",
+    "authors": "Choonhwa Lee, Yibo Zhang, Dani Mertens, Eunsam Kim",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3683717",
+    "source": "IEEE",
+    "abstract": "Decentralized workflows supported by provenance data aim to combine into a platform with high trustworthiness, transparency, and accountability. Despite the huge potential of the approach, one limitation of the system architecture is that it lacks access to external data, limiting the functionality and potential use cases of the workflow. To address this limitation, we extend an existing decentralized workflow with a provenance bridge, enabling the workflow to access external provenance-supported data without damaging the trustworthiness of the system. The introduction of this bridge effectively broadens the range of use cases for the decentralized workflow by opening it to various external provenance-supported data sources. This article presents the architectural design of the provenance bridge-enabled workflow system, and discusses our prototype implementation effort along with evaluation results. Specifically, we have designed and implemented the architectural framework of the provenance bridge that expands the provenance domain boundary by incorporating support for provenance model translation and oracle-based external data access. The proposed approach lays a solid foundation for a wider adoption of smart contract-based workflow systems by effectively bridging the gap between different provenance domains."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Tass: Task Aligned Subspace Selection for Knowledge Preserving Fine-Tuning",
+    "authors": "Qi Jing, Peng Qiao, Rongchun Li",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462073",
+    "source": "IEEE",
+    "abstract": "Parameter-efficient fine-tuning (PEFT) has become a prominent approach for supervised fine-tuning of large language models (LLMs). Low-Rank Adaptation (LoRA) is among the most widely adopted PEFT methods due to its computational and storage efficiency. However, the low-rank update matrices in LoRA often contain task-irrelevant directions, introducing redundant information that can impair downstream performance and reduce parameter efficiency. To this end, we propose Task Aligned Subspace Selection (TASS), a novel method that bridges pre-trained weights and downstream tasks. Specifically, we compute the principal angles between the pre-training weight matrix W<inf xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">0</inf> and the low-rank update matrix ΔW to identify the subspace of W<inf xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">0</inf> that is most relevant to the task. This subspace then guides an adaptive rank reduction of the trained LoRA matrices A and B, effectively removing redundant information while preserving task-relevant knowledge. Experiments demonstrate that TASS consistently outperforms vanilla LoRA and other competitive PEFT methods across diverse tasks, with average gains of +4.76 over LoRA and +1.84 over the best PEFT method."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Reason to Retrieve: Structured Chain-of-Thought for Text-Video Retrieval",
+    "authors": "Yuhao Chen, Shubin Chen, Qiuming Huang, Guangrun Wang",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463500",
+    "source": "IEEE",
+    "abstract": "Text-Video Retrieval (TVR) faces the challenge of aligning sparse textual queries with rich visual-temporal content. Current methods based on large vision-language models often overlook compositional semantics, while standard datasets lack detailed annotations, limiting generalization. To address this, we propose R<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup> (Reasoning to Retrieve), a framework incorporating structured chain-of-thought reasoning to decompose queries into semantic components (e.g., subject, action, environment) for fine-grained alignment. We also introduce a multi-component scoring mechanism to enhance retrieval accuracy. Furthermore, we construct YouTube CoT 2M (YC2M), the largest reasoning-aware TVR dataset, with 50K videos and 2M structured captions. Experiments demonstrate that R<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup> consistently improves performance while maintaining efficiency, offering a practical solution for semantic video retrieval."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Kalman Filter Based Linear Deformable for Retinal Vessel Segmentation",
+    "authors": "Zhihao Zhao, Yinzheng Zhao, Junjie Yang, Quanmin Liang, Daniel Zapp, Kai Huang, M.Ali Nasseri",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462647",
+    "source": "IEEE",
+    "abstract": "In the realm of ophthalmic imaging, accurate vascular segmentation is paramount for diagnosing and managing various eye diseases. Contemporary deep learning-based vascular segmentation models rival human accuracy but still face substantial challenges in accurately segmenting minuscule blood vessels in neural network applications. In this paper, we propose a novel network (KaLDeX) for vascular segmentation leveraging a Kalman filter based linear deformable cross attention (LDCA) module integrated within a UNet++ framework. Our approach is based on two key components: Kalman filter (KF) based linear deformable convolution (LD) and cross-attention (CA) modules. The LD module is designed to adaptively adjust the focus on thin vessels that might be overlooked in standard convolution. The CA module improves the global understanding of vascular structures by aggregating the detailed features from the LD module with the high-level features from the UNet++ architecture. Finally, we adopt a topological loss function based on persistent homology to constrain the topological continuity of the segmentation. The proposed method is evaluated on retinal fundus image datasets (DRIVE, CHASE BD1, and STARE) as well as the 3 mm and 6 mm of the OCTA-500 dataset, achieving an average accuracy (ACC) of 97.25%, 97.77%, 97.85%, 98.89%, and 98.21%, respectively."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "SAM-Driven Multi-Scale Gated Network for Multimodal Remote Sensing Image Segmentation",
+    "authors": "Wei Wang, Keqi Hou, Xin Wang",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461830",
+    "source": "IEEE",
+    "abstract": "Low feature fusion efficiency and inadequate modal representations are two major problems with current approaches, despite the fact that multimodal remote sensing data fusion offers abundant information for accurate semantic segmentation. This study proposes an adaptive multi-modal multi-scale gated network based on SAM— SAM-AM3GNet. This network utilizes the Segment Anything Model(SAM) and markedly enhances the efficacy of multimodal remote sensing image segmentation through the incorporation of three pivotal modules: Multi-Modal Multi-Scale Adapter(M3Adapter), Adaptive Gated Modal Fusion Module (AGMFM), Refined Attention Enhancement Block(RAEB). The mean Intersection over Union(mIoU) for the ISPRS Vaihingen and Potsdam datasets were 84.66% and 86.49%, respectively. A substantial body of experimental evidence suggests that our proposed SAM-AM3GNet outperforms currently prevalent methods. The implementation of our method is publicly accessible at: https://anonymous.4open.science/r/SAMSegmentation"
+  },
+  {
+    "date": "2026-4-21",
+    "title": "A Novel Self-Aligning Socket Tool with Torque Feedback for Robotic Maintenance: Design, Calibration, and Experimental Validation",
+    "authors": "Hamidreza Fahham, Gareth Tucker, Reza Saboori, Soran Parsa",
+    "publish": "2026 12th International Conference on Automation, Robotics and Applications (ICARA)",
+    "url": "https://doi.org/10.1109/icara69401.2026.11480401",
+    "source": "IEEE",
+    "abstract": "Robotic maintenance tasks frequently require reliable engagement with fasteners such as caps, bolts, and locks. However, small angular misalignments between the robot and the fastener often led to unreliable engagement, creating potential safety risks, while also causing increased wear on components and excessive contact forces during operation. This paper presents the design and experimental validation of a flexible self-aligning socket tool capable of compensating for rotational misalignments through a passive mechanical mechanism while providing realtime torque feedback. The tool incorporates a slope-based selfalignment interface, a mechanically compliant socket assembly, and a current-sensor-based torque estimation model calibrated using a custom test rig. The complete system is integrated with both collaborative and industrial robot platforms. Experimental evaluations demonstrate reliable cap engagement, accurate torque estimation, and a significant reduction in normal forces compared with conventional engagement methods. The findings indicate that the proposed tool enhances robustness, safety, and adaptability in robotic maintenance applications."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "PEAG-Det: A Dual-Stream Phase- and Edge-Aware Framework with Adaptive Gating for Cross-Phase Tumor Detection",
+    "authors": "Zhiqiang Yang, Qiu Guan, Xueliang Zhang, Chenyan Wu, Xinli Xu, Huafeng Liu, Ying Tang",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11465124",
+    "source": "IEEE",
+    "abstract": "Early tumor detection in CT is essential for improving patient outcomes, but current detectors struggle with subtle pathological features and poor use of multi-phase imaging, creating a gap with radiological workflows. This challenge is particularly pronounced in pancreatic cystic neoplasms (PCN), where benign and malignant lesions are easily confused and multi-phase analysis is often required. Motivated by this, we propose PEAG-Det, a dual-stream framework that leverages prior knowledge to learn temporal-phase feature importance through primary and auxiliary branches, integrating three core innovations. First, the Re-parameterized Heterogeneous Edge-Aware (RepHEA) module employs multi-scale axial convolutions and large-kernel attention to enhance sensitivity to tumor boundary gradients and calcification structures. Second, the Phase-Aware Cross-Attention Fusion (PCAF) module enables implicit registration and robust cross-phase interaction to enhance complementary feature integration between non-contrast and contrast-enhanced CT. Finally, the Dual-Path Adaptive Gating (DPAG) module adopts a dual-branch gating attention mechanism that adaptively reinforces cross-phase consensus activations while recovering phase-specific cues. Ultimately, PEAG-Det achieves superior performance on both pancreatic CT and brain MRI datasets, surpassing the dual-stream YOLOv12s by 8.7% and 2.2% AP while using less than half the parameters, demonstrating both robust task-level performance and strong cross-organ generalization. The code is available at https://github.com/yang-0201/PEAGDet."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "2025 Urgent Speech Enhancement Challenge Multilingual P.808 Listening Tests: Approach and Results",
+    "authors": "Marvin Sach, Yihui Fu, Kohei Saijo, Wangyou Zhang, Samuele Cornell, Robin Scheibler, Chenda Li, Zhaoheng Ni, Anurag Kumar, Wei Wang, Yanmin Qian, Shinji Watanabe, Tim Fingscheidt",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11465025",
+    "source": "IEEE",
+    "abstract": "In speech quality estimation for speech enhancement (SE) systems, subjective listening tests so far are considered as the gold standard. This should be even more true considering the large influx of new generative or hybrid methods into the field, revealing issues of some objective metrics. Efforts such as the Interspeech 2025 URGENT Speech Enhancement Challenge also involving non-English datasets add the aspect of multilinguality to the testing procedure. In this paper, we provide updated challenge results on the full multilingual test set and surprising insights into URGENT Challenge results, questioning the reliability of (P.808) absolute category rating (ACR) subjective testing as gold standard in the age of generative AI. Particularly, it seems that for generative SE methods, subjective (ACR MOS) and objective (DNSMOS, NISQA) reference-free metrics should be accompanied by objective phone fidelity metrics to reliably detect hallucinations. We briefly recap the ITU-T P.808 crowdsourced listening test method and detail our proposed and employed localization protocol for text and audio in subjective ACR tests, that we open-source, enabling reproducible evaluation of multilingual speech processing tasks."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "3DifFusionDet: Diffusion Model for 3D Object Detection with Robust Lidar-Camera Fusion",
+    "authors": "Xinhao Xiang, Simon Dräger, Jiawei Zhang",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463767",
+    "source": "IEEE",
+    "abstract": "LiDAR-camera fusion has proven effective for 3D object detection by leveraging the complementary strengths of each modality, improving robustness and accuracy. Meanwhile, diffusion models—originally designed for image generation—have shown promising properties such as flexibility, dynamic evaluation, and iterative refinement, and have recently been explored in 2D object detection [1]. However, their potential in 3D object detection remains underexplored. In this work, we propose 3DifFusionDet, a novel framework that formulates 3D object detection as a denoising diffusion process. The model learns to iteratively refine a set of randomly initialized 3D bounding boxes into accurate predictions. Built under a LiDAR-camera fusion pipeline, 3DifFusionDet incorporates a two-branch feature alignment module that employs cross-attention to effectively integrate image and point cloud features. Extensive experiments on KITTI and Waymo Open demonstrate that our method achieves competitive performance compared to state-of-the-art approaches, with the added benefit of adjustable inference steps to trade off accuracy and speed. Our findings highlight the feasibility and advantages of applying diffusion models to 3D object detection, especially in multi-modal settings."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "CE-GOCD: Central Entity-Guided Graph Optimization for Community Detection to Augment LLM Scientific Question Answering",
+    "authors": "Jiayin Lan, Jiaqi Li, Baoxin Wang, Ming Liu, Dayong Wu, Shijin Wang, Bing Qin, Guoping Hu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462811",
+    "source": "IEEE",
+    "abstract": "Large Language Models (LLMs) are increasingly used for question answering over scientific research papers. Existing retrieval augmentation methods often rely on isolated text chunks or concepts, but overlook deeper semantic connections between papers. This impairs the LLM’s comprehension of scientific literature, hindering the comprehensiveness and specificity of its responses. To address this, we propose Central Entity-Guided Graph Optimization for Community Detection (CE-GOCD), a method that augments LLMs’ scientific question answering by explicitly modeling and leveraging semantic substructures within academic knowledge graphs. Our approach operates by: (1) leveraging paper titles as central entities for targeted subgraph retrieval, (2) enhancing implicit semantic discovery via subgraph pruning and completion, and (3) applying community detection to distill coherent paper groups with shared themes. We evaluated the proposed method on three NLP literature-based question-answering datasets, and the results demonstrate its superiority over other retrieval-augmented baseline approaches, confirming the effectiveness of our framework."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "SimToken: A Simple Baseline for Referring Audio-Visual Segmentation",
+    "authors": "Dian Jin, Yanghao Zhou, Jinxing Zhou, Jiaqi Ma, Ruohao Guo, Dan Guo",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461803",
+    "source": "IEEE",
+    "abstract": "Referring Audio-Visual Segmentation (Ref-AVS) aims to segment specific objects in videos based on natural language expressions involving audio, vision, and text information. This task poses significant challenges in cross-modal reasoning and fine-grained object localization. In this paper, we propose a simple framework, SimToken, that integrates a multimodal large language model (MLLM) with the Segment Anything Model (SAM). The MLLM is guided to generate a special semantic token representing the referred object. This compact token, enriched with contextual information from all modalities, acts as a prompt to guide SAM to segment objects across video frames. To further improve semantic learning, we introduce a novel target-consistent semantic alignment loss that aligns token embeddings from different expressions but referring to the same object. Experiments on the Ref-AVS benchmark demonstrate that our approach achieves superior performance compared to existing methods. Code is here."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "CG-DMER: Hybrid Contrastive-Generative Framework for Disentangled Multimodal ECG Representation Learning",
+    "authors": "Ziwei Niu, Hao Sun, Shujun Bian, Xihong Yang, Lanfen Lin, Yuxin Liu, Yueming Jin",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461612",
+    "source": "IEEE",
+    "abstract": "Accurate interpretation of electrocardiogram (ECG) signals is crucial for diagnosing cardiovascular diseases. Recent multimodal approaches that integrate ECGs with accompanying clinical reports show strong potential, but they still face two main concerns from a modality perspective: (1) intra-modality: existing models process ECGs in a lead-agnostic manner, overlooking spatial–temporal dependencies across leads, which restricts their effectiveness in modeling fine-grained diagnostic patterns; (2) inter-modality: the existing methods directly align ECG signals with clinical reports, introducing modality-specific biases due to the free-text nature of the reports. In light of these two issues, we propose CG-DMER, a contrastive-generative framework for disentangled multimodal ECG representation learning, powered by two appealing designs: (1) Spatial-temporal masked modeling is designed to better capture fine-grained temporal dynamics and inter-lead spatial dependencies by applying masking across both spatial and temporal dimensions and reconstructing the missing information. (2) Representation disentanglement and alignment strategy is designed to further mitigate unnecessary noise and modality-specific biases by designing modality-specific and modality-shared encoders, which ensures a clearer separation between modality-invariant and modality-specific representations. Experiments on three public datasets demonstrate that CG-DMER achieves state-of-the-art performance across diverse downstream tasks."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Reinforcement Learning for Optimized Adaptive Sampling",
+    "authors": "Ryan Pai, John Lipor, Peter Gerstoft",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461931",
+    "source": "IEEE",
+    "abstract": "Level set estimation (LSE)–––finding all points in a domain whose function value lies above or below a known threshold–––is an effective and demonstrated approach to understand the spatial variability of the geoacoustic properties of the ocean floor. The vast scales involved with estimating seabed properties using autonomous underwater vehicles make naïve approaches to spatial sampling expensive or infeasible. Modeling the seabed variation as a Gaussian process (GP) enables an efficient framework that informs adaptive sampling policies. Existing approaches to adaptive sampling utilize heuristics aimed at reducing various forms of uncertainty. We train a reinforcement learning agent using the Soft Actor-Critic (SAC) method, learning a policy that considers the entire the sampling trajectory. Instead of using the GP to determine subsequent samples, we use it as observational input for the SAC agent. Results on synthetic GP fields and realistic seabed data show that our approach obtains superior accuracy, uncertainty reduction, and a lower computational cost than existing approaches."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Semanticshield: LLM-Powered Audits Expose Shilling Attacks in Recommender Systems",
+    "authors": "Kaihong Li, Huichi Zhou, Bin Ma, Fangjun Huang",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463212",
+    "source": "IEEE",
+    "abstract": "Recommender systems (RS) are widely used in e-commerce for personalized suggestions, yet their openness makes them susceptible to shilling attacks, where adversaries inject fake behaviors to manipulate recommendations. Most existing defenses emphasize user-side behaviors while overlooking item-side features such as titles and descriptions that can expose malicious intent. To address this gap, we propose a two-stage detection framework that integrates item-side semantics via large language models (LLMs). The first stage pre-screens suspicious users using low-cost behavioral criteria, and the second stage employs LLM-based auditing to evaluate semantic consistency. Furthermore, we enhance the auditing model through reinforcement fine-tuning on a lightweight LLM with carefully designed reward functions, yielding a specialized detector called Semantic-Shield. Experiments on six representative attack strategies demonstrate the effectiveness of SemanticShield against shilling attacks, and further evaluation on previously unseen attack methods shows its strong generalization capability. Code is available at https://github.com/FrankenstLee/SemanticShield."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "A Decomposition-Based State Space Model for Multivariate Time-Series Forecasting",
+    "authors": "Shunya Nagashima, Shuntaro Suzuki, Shuitsu Koyama, Shinnosuke Hirano",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462651",
+    "source": "IEEE",
+    "abstract": "Multivariate time series (MTS) forecasting is crucial for decision-making in domains such as weather, energy, and finance. It remains challenging because real-world sequences intertwine slow trends, multi-rate seasonalities, and irregular residuals. Existing methods often rely on rigid, hand-crafted decompositions or generic end-to-end architectures that entangle components and underuse structure shared across variables. To address these limitations, we propose DecompSSM, an end-to-end decomposition framework using three parallel deep state space model branches to capture trend, seasonal, and residual components. The model features adaptive temporal scales via an input-dependent predictor, a refinement module for shared cross-variable context, and an auxiliary loss that enforces reconstruction and orthogonality. Across standard benchmarks (ECL, Weather, ETTm2, and PEMS04), DecompSSM outperformed strong baselines, indicating the effectiveness of combining component-wise deep state space models and global context refinement."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Robust Federated Fine-Tuning Over Heterogeneous and Unreliable Communication Networks",
+    "authors": "Yanmeng Wang, Zhiwen Dai, Jian Zhou, Fu Xiao, Tsung-Hui Chang",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461620",
+    "source": "IEEE",
+    "abstract": "Federated fine-tuning (FFT) has attracted growing attention as it leverages both server- and client-side data resources to improve global model generalization while preserving privacy. However, its performance is often hindered by unreliable server-client connections and heterogeneous client data. Existing strategies typically assume uniform network conditions or require prior knowledge of connection failures, which is impractical in real-world networks with diverse network standards and heterogeneous failure types. To address this, we propose FedAuto, a novel FFT scheme that mitigates the impact of connection failures through adaptive aggregation, without requiring prior knowledge of network conditions or infrastructure modifications, enabling seamless plug-and-play deployment. We also establish rigorous convergence guarantees for FedAuto. Extensive experiments demonstrate that FedAuto consistently outperforms state-of-the-art baselines under diverse connection failure scenarios and even surpasses strategies that rely on complex resource optimization."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Decision Fusedconv: Efficient Offline Reinforcement Learning Via Fused State-Reward Encoding and Hybrid Temporal Convolution",
+    "authors": "Zhuojing Tian, Yushu Chen, Haoyu Ma, Wenlai Zhao, Zhao Liu, Hongkun Yu, Wusheng Zhang, Shiming Song, Dianxi Shi",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463063",
+    "source": "IEEE",
+    "abstract": "Decision Transformer (DT) represents return-to-go, state, and action as independent tokens, resulting in inflated sequence length and quadratic attention cost. To address this inefficiency, we propose Decision FusedConv (DFC), which jointly encodes return and state to shorten sequences and employs a gated hybrid convolutional module that integrates global uniform and local heterogeneous convolutions. This design effectively captures both long-range and modality-specific temporal dependencies while avoiding the overhead of self-attention. Experiments on MuJoCo and navigation benchmarks show that DFC consistently outperforms DT and recent variants, achieving up to a 64.9% reduction in FLOPs compared to DT, making it particularly suitable for resource-constrained settings. Our code is available at: https://github.com/Drama1234/Decision-FusedConv"
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Experimental Evaluation of Synthetic GAN based Data Augmentation Scheme to Predict Improved Rare Diseases from Medical Imaging",
+    "authors": "L Pattathurani, Shanthashalini, Yashashwini S, S Priya, Soumya T R, M Arun",
+    "publish": "2026 International Conference on Innovative Computing, Intelligent Communication and Smart Electrical Systems (ICSES)",
+    "url": "https://doi.org/10.1109/icses66558.2026.11479044",
+    "source": "IEEE",
+    "abstract": "Medical imaging can pose a vital challenge to rare disease detection because of the scarcity of medical imaging data and imbalance in the classes. This paper presents a synthetic augmentation framework, Conditional Generative Adversarial Network (cGAN), which can be used to solve these problems and enhance the work of diagnostic systems in various categories of rare diseases. Open datasets of MRI, CT, and X-ray modalities that were obtained and published in Kaggle were curated, and annotated classes of muscular dystrophies, rare brain lesions, and pediatric skeletal anomalies. It implemented a piping system that consists of preprocessing, synthetic image generation via GANs and the downstream CNN classifier (ResNet50, DenseNet121, EfficientNet). The outcomes prove that GAN-enhanced datasets outperform in classification and recall significantly. In particular, the ResNet50 has an accuracy of 91.4 that is higher compared to real-only (84.1) and classical augmented (86.9) models. Optimal performance was also observed at a synthetic to real ratio of 5: 1 as found out in ablation studies. The FID (36.3), Inception Score (3.78), and SSIM (0.76) quantitative quality measurements were used to determine the realism and diversity of synthetic samples. The article demonstrates the potential of synthetic augmentation to enhance the ability to detect underrepresented pathologies and offers a repeatable design of improving rare disease classifiers. The approach can be applied in the medical fields with limited labeled data but early diagnosis is a critical factor."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "CorrEctor: An Execute-to-Correct Paradigm for Efficient LLM Secure Inference",
+    "authors": "Dong Liu, Bingzheng Wang, Yifan Zeng, Minghui Pan, Jiang Zhou, Xiaoyan Gu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462929",
+    "source": "IEEE",
+    "abstract": "Trusted Execution Environments (TEEs) provide hardware-level isolation that protects sensitive user data during Large Language Model (LLM) inference. However, mainstream CPU-based TEEs lack the capability to perform largescale matrix operations efficiently. To mitigate this, many approaches offload computations to untrusted GPUs via parameter encryption or differential privacy, but these typically introduce substantial communication overhead or accuracy degradation. To achieve efficient LLM inference while protecting user request privacy without compromising accuracy, we propose an execute-to-correct paradigm for efficient LLM secure inference, namely CorrEctor. The core mechanism of CorrEctor involves generating a sequence of candidate tokens from user inputs protected by differential privacy on untrusted GPUs, followed by verification and correction within a TEE. Experimental results on mainstream LLMs show that CorrEctor outperforms CPU-based TEE baselines by 1.36× to 3.55× in inference acceleration."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Alignment-Aware Unrolling Network for Multimodal MRI Reconstruction",
+    "authors": "Yi Du, Tingting Wang, Ziyi Wang, Sunzhe Yang, Faming Fang, Guixu Zhang",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462916",
+    "source": "IEEE",
+    "abstract": "Deep unrolling networks are effective for multimodal MRI reconstruction but struggle to capture cross-modal relationships, limiting reference modality utilization. Moreover, patient motion may induce spatial misalignments, exacerbating the reconstruction difficulty. To address these challenges, we propose an Alignment-aware Unrolling Network (AUNet) that employs semi-implicit cross-modal modeling to capture structural correlations between target and reference images. Specifically, we utilize convolutional sparse coding (CSC) with a shared dictionary to jointly represent structural features of both modalities in the aligned latent space. Furthermore, we introduce a Bidirectional Deformable Sampler (BDS) within the unrolling stages to accurately estimate cross-modal displacement, thereby mitigating spatial misalignment and enhancing reference feature extraction. Our experimental results show that AUNet outperforms existing methods, effectively handling misalignment and improving reconstruction quality. The complete code has been made publicly available at: https://github.com/Corsilent/AUNet."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Place Anywhere: Learning Spatial Reasoning for Occlusion-Aware Image Composition",
+    "authors": "Zan Li, Bingnan Wang, Wencheng Wang, Fei Hou",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463305",
+    "source": "IEEE",
+    "abstract": "Image composition aims to seamlessly blend objects into new environments, which is a fundamental task in computer vision and graphics. Existing methods often cannot fully understand the 3D contents. They only allow to insert an object into part of the image, where there are no occlusion issues. To address this limitation, occlusions between foreground and background objects must be carefully identified to freely generate a reasonable composited image. We propose Place Anywhere, a framework with strong spatial reasoning capability that learns to resolve occlusion relationships in arbitrary compositions. Given a foreground object and a background scene, our model predicts a visibility mask for the foreground, indicating which regions should remain visible after considering occlusion. This is achieved through our carefully designed feature extraction, fusion, and depth-guided modules, along with a novel method for constructing training data that incorporates spatial relationships. Experimental results show that Place Anywhere can generalize well, learn robust 3D spatial reasoning, and produce realistic compositions without explicit placement constraints. The source code will be made publicly available at https://github.com/Zannnn/autoComposition."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "PMW-Dehaze: Multi-Scale Wavelet Fusion for Image Dehazing via Mamba Framework",
+    "authors": "Jiayi Chen, Zhuang Zhou, Xin Zhang, Wenyao Qiu, Haijun Xie, Binghua Su, Ran Tao",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462699",
+    "source": "IEEE",
+    "abstract": "Single image dehazing remains highly challenging due to the ill-posed nature of the atmospheric scattering model and the limited capability of existing methods to capture long-range dependencies. To address these issues, we propose a novel lightweight framework, termed PMW-Dehaze. Specifically, we design an atmospheric scattering network (ASN) to explicitly model the haze formation process, followed by progressive refinement within the PMW-Dehaze pipeline to achieve stepwise dehazing. Furthermore, we introduce a U-shaped Wavelet-UMamba Block that integrates multi-scale wavelet decomposition with a multi-view Mamba module: the former enhances feature representation through decomposition and multi-scale fusion, while the latter strengthens long-range dependency modeling via an efficient state space mechanism and effectively alleviates the blocking artifact problem that is easily caused by conventional single-patch partitioning through multi-view tokens. Extensive experiments demonstrate that PMW-Dehaze achieves superior generalization across diverse hazy scenarios while significantly reducing computational cost."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Boot-and-Feedback Framework for Generalist-Expert Model Collaboration in Breast Ultrasound Diagnosis",
+    "authors": "Ming Cheng, Hongyu Sun, Zhaolin Chen, Jun Liu, Hossein Rahmani, Qiuhong Ke",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11460659",
+    "source": "IEEE",
+    "abstract": "Breast ultrasound (BUS) is widely used for breast cancer diagnosis yet remains operator-dependent. While deep learning shows promise, ensuring diagnostic reliability and interpretability is challenging. Recent Multimodal Large Language Models (MLLMs) often generate spurious descriptions due to limited domain knowledge, which mislead downstream expert models and compromise clinical validity. To address these challenges, we propose the Boot-and-Feedback (BooF) model collaboration framework for synergistic MLLM-expert interaction. Specifically, in the Boot Stage, the MLLM is guided by the BI-RADS lexicon and preliminary benign-malignant vision-expert predictions, enabling it to transfer general reasoning to BUS analysis while avoiding hallucinations. Subsequently, the Feedback Stage integrates these descriptions with visual features via a lightweight Attention-Gated Cross-Modality Fusion Module. This allows the expert to leverage textual feedback while adaptively filtering noise. Extensive experiments on multiple BUS datasets demonstrate that BooF substantially outperforms state-of-the-art methods in terms of diagnostic accuracy and interpretability."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "EDN-Gaussian: Edge-Directed Densification with Covariance Narrowing For Blur-Robust 3d Gaussian Splatting",
+    "authors": "Tianzhen Dong, Junjie Wang, Wei He, Cong Lin, Youkang Tu, Chenyang Xu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463701",
+    "source": "IEEE",
+    "abstract": "3D Gaussian Splatting (3DGS) can achieve efficient novel view synthesis but relies on point cloud initialization using Structure-from-Motion (SfM) or Multi-View Stereo (MVS). Due to motion blur, de-focus, or poor illumination, the reconstructed clouds are often sparse and noisy, leading to limited coverage and unstable convergence. In light of these observations, we propose the EDN-Gaussian method, which enhances visibility via joint covariance–opacity adjustment. It employs edge-directed adaptive densification with anisotropic narrowing and growth-rate control, and introduces a split regularizer to constrain the newborn Gaussians by their parent Gaussians.Vast experiments on the GS-Blur and Deblur-NeRF datasets demonstrate significant improvements in geometric accuracy and rendering quality with degraded inputs."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "LumiDiff: Luminance-Prior Guided Diffusion for Perceptually Balanced Low-Light Image Signal Recovery",
+    "authors": "Wenwei Luo, Xiangxu Zhao, Zhikun Zheng, Mengmeng Jing, Lin Zuo",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11460532",
+    "source": "IEEE",
+    "abstract": "Low-light image recovery can be formulated as a two-dimensional signal restoration problem corrupted by non-stationary degradation factors. To recover the image signal, a critical challenge is the non-uniform illumination caused by non-stationary lighting conditions. Traditional signal processing methods often introduce artifacts during recovery. In this paper, we propose Luminance-Prior Guided Diffusion (LumiDiff) to alleviate this problem. Specifically, we construct a luminance distribution map as luminance prior to capture the light distribution in degraded images, ensuring accurate representation of illumination variances. Subsequently, we utilize the luminance distribution map to guide the global-local information aggregation, effectively restoring areas of extreme darkness and reducing the uneven illumination effects. Finally, we utilize the inherent noise modeling capability of diffusion models to perform overall luminance correction while simultaneously removing the amplified noise from the enhancement process. Experimental results demonstrate that our framework achieves superior balance of quantitative metrics and visual quality compared to existing methods."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "SIREN: Spatially-Informed Reconstruction of Binaural Audio with Vision",
+    "authors": "Mingyeong Song, Seoyeon Ko, Junhyug Noh",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463168",
+    "source": "IEEE",
+    "abstract": "Binaural audio delivers spatial cues essential for immersion, yet most consumer videos are monaural due to capture constraints. We introduce SIREN, a visually guided mono→binaural framework that explicitly predicts left and right channels. A ViT-based encoder learns dual-head self-attention to produce a shared scene map and end-to-end L/R attention – replacing hand-crafted masks. A soft, annealed spatial prior gently biases early L/R grounding, and a two-stage, confidence-weighted waveform-domain fusion (guided by mono reconstruction and interaural phase consistency) suppresses crosstalk when aggregating multi-crop and overlapping windows. Evaluated on FAIR-Play and MUSIC-Stereo, SIREN yields consistent gains on time–frequency and phase-sensitive metrics with competitive SNR. The design is modular and generic, requires no task-specific annotations, and integrates with standard audio-visual pipelines."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Improving Continuous Sign Language Recognition via Lightweight Adaptive Temporal Mixing",
+    "authors": "Yining Jiang, Sheng Liu, Yuan Feng, Min Xu, Yiheng Yu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462513",
+    "source": "IEEE",
+    "abstract": "Current continuous sign language recognition (CSLR) methods either overlook the dynamics of cross-frame motions or rely on hand-crafted and complex strategies, leading to computational overhead and limited adaptability. To address these issues, we propose DMSign, which integrates two complementary modules: Dynamic Patch Mixing (DPM) and Dynamic Channel Mixing (DCM). DPM reorganizes local spatial patches across frames to flexibly model subtle sign variations, while DCM applies a learnable per-channel temporal filter that dynamically allocates information across frames, thereby promoting complementary feature fusion. Both modules are lightweight and adaptive, balancing efficiency and computational cost. DMSign achieves a new state-of-the-art on three large-scale datasets, i.e., PHOENIX14, PHOENIX14-T, and CSL-Daily."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "RTNLW: Reversible and Tamper-Aware Natural Language Watermarking Scheme for Multi-Stage Transmission",
+    "authors": "Tianyi Chen, Bin Liu, Weihai Li, Zikai Xu, Wanying Xu, Xiang Zhang, Nenghai Yu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462563",
+    "source": "IEEE",
+    "abstract": "In multi-stage data transmission scenarios, watermarking plays a crucial role in data traceability. However, highly sensitive applications also impose strict requirements on textual integrity. Existing natural language watermarking schemes often disrupt semantic coherence, resulting in irreversible distortion and preventing effective integrity verification. To address these limitations, we propose a Reversible and Tamper-aware Natural Language Watermarking (RTNLW) scheme that leverages a masked language model and Prediction Error Expansion (PEE). The scheme enables watermark extraction while restoring the original text. In addition, the expansion values of PEE enable tampering detection prior to text integrity verification. Extensive experiments demonstrate that RTNLW achieves a high watermark embedding capacity while preserving semantics effectively. Moreover, the proposed scheme is robust against text tampering attacks, maintaining a bit recognition rate above 85% under a modification rate of 5%."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Active Inference Framework for Closed-Loop Sensing, Communication, and Control in UAV Systems",
+    "authors": "Guangjin Pan, Liping Bai, Zhuojun Tian, Hui Chen, Mehdi Bennis, Henk Wymeersch",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463037",
+    "source": "IEEE",
+    "abstract": "Integrated sensing and communication is a core technology for 6G, and its application to closed-loop sensing, communication, and control (SCC) enables various services. Existing SCC solutions often treat sensing and control separately, leading to suboptimal performance and resource usage. In this work, we introduce the active inference framework into SCC-enabled uncrewed aerial vehicle systems for joint state estimation, control, and sensing resource allocation. By formulating a unified generative model, the problem reduces to minimizing variational free energy for inference and expected free energy for action planning. Simulation results show that both control cost and sensing cost are reduced relative to baselines."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Learning Dual Mixture-of-Experts Models for Unified Image Deraining",
+    "authors": "Tianyi Yang, Mengke Zhang, Tianshuo Chen",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464437",
+    "source": "IEEE",
+    "abstract": "Despite the remarkable progress achieved in image deraining, most existing approaches remain constrained to handling a single type of rain degradation or a specific rain pattern. In practice, however, rain manifests in diverse forms, which severely limits the applicability of current methods under real-world conditions. To overcome this limitation, we first construct a high-quality benchmark named Hybrid-Rain10K, which integrates three representative rain degradation patterns, including rain streaks, raindrops and rain accumulation. Building upon this benchmark, we propose a dual mixture-of-experts (MoE) model for unified image deraining, which adaptively handles various rain degradations and restores clean images. Where the encoder employs a Soft-MoE to assign collaborative weights across all experts, ensuring comprehensive degradation modeling, while the decoder adopts a Hard-MoE with top-k routing guided by high-frequency priors to enhance reconstruction quality. Extensive experiments demonstrate the effectiveness of our dataset and model."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "BHSFlow: Low-Latency Flow Estimation with Block-Wise Huber Loss and Simplified Structure",
+    "authors": "Tianyi Sun, Yanze Wang, Runkai Chen, Yuedi Chen, Jun Sun",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11460792",
+    "source": "IEEE",
+    "abstract": "Optical flow estimation provides motion information between two frames, acting as a key component in many visual tasks. Current methods either come with large computational complexity or suffer a severe accuracy drop to achieve real-time performance, especially when dealing with high-resolution frames. To address this trade-off, this paper proposes a low-latency recurrent pyramid network structure and a novel block-wise Huber loss applicable to all pyramid optical flow networks. By characterizing latency and FLOPs of various convolutional kernels, a fast yet effective pyramid structure is designed accordingly. Standard Huber loss mitigates the impact of small errors but risks allowing large errors to disproportionately influence the loss within a block in certain scenarios. Instead, our block-wise Huber loss first balances opposing errors within each block and selectively applies Huber loss only to the residual errors, ensuring stable optimization. Experiments show that our method achieves the best result among existing lightweight methods and demonstrates strong adaptability to frames in high resolution. Our code is available in https://github.com/cppppp/BHSFlow."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Enhancing Dialogue-Related Speech Tasks with Generated Spoken Dialogues",
+    "authors": "Haitian Lu, Zhihao Bai, Yukun Liu, Xuyang Wang, Gaofeng Cheng, Yonghong Yan",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461980",
+    "source": "IEEE",
+    "abstract": "With the rapid advancement of large language models (LLMs), speech language models (SLMs) have enabled more natural spoken dialogue generation. However, to make generated dialogues useful for downstream tasks, key challenges remain in ensuring consistency between text and speech as well as providing accurate utterance timestamps. Building upon the SLIDE framework, this work introduces a method for generating dual-channel spoken dialogues with aligned transcriptions and utterance timestamps, and systematically investigates their effectiveness as augmentation data. In particular, we explore how such generated dialogues can be leveraged for downstream training in a task-specific manner—either alone or in combination with real data—across automatic speech recognition, end-to-end neural diarization, voice activity detection, and overlap speech detection. Extensive experiments on the Fisher and CALLHOME corpora demonstrate that our approach yields substantial performance gains across tasks, highlighting its effectiveness and practical value for speech processing applications."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "MoRE: Multimodal Relationship Enhancement for Unbiased Scene Graph Generation",
+    "authors": "Ruiqi Hu, Lida Huang, Bin Jiang, Chao Yang, Jianbo Zheng",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464206",
+    "source": "IEEE",
+    "abstract": "Scene Graph Generation (SGG) extracts relational triplets 〈subject, predicate, object〉 from images, yet current benchmarks suffer from long-tailed distributions and semantic ambiguity, causing biased predictions toward generic relations (e.g., \"on\") and neglecting fine-grained ones (e.g., \"parked on\"). Existing balancing strategies reallocate predicates but largely ignore contextual semantics and underexploit missing relations. We propose Multimodal Relationship Enhancement (MoRE), a framework that improves relation prediction by addressing contextual inconsistency and annotation sparsity. MoRE introduces a Context-relation Bank to dynamically retrieve candidate predicates, and employs Multimodal Large Language Models (MLLMs) with context-driven prompts for semantically consistent relation selection. Experiments on VG and GQA demonstrate that MoRE achieves state-of-the-art performance on unbiased metrics, enhancing predicate diversity and prediction balance for SGG."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Large Vision Models can Solve Mental Rotation Problems",
+    "authors": "Sebastian Ray Mason, Anders Gjølbye, Phillip Chavarria Højbjerg, Lenka Tětková, Lars Kai Hansen",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11460589",
+    "source": "IEEE",
+    "abstract": "Mental rotation is a key test of spatial reasoning in humans and has been central to understanding how perception supports cognition. Despite the success of modern vision transformers, it is still unclear how well these models develop similar abilities. In this work, we present a systematic evaluation of ViT, CLIP, DINOv2, and DINOv3 across a range of mental-rotation tasks, from simple block structures similar to those used by Shepard and Metzler to study human cognition, to more complex block figures, three types of text, and photo-realistic objects. By probing model representations layer by layer, we examine where and how these networks succeed. We find that i) self-supervised ViTs capture geometric structure better than supervised ViTs; ii) intermediate layers perform better than final layers; iii) task difficulty increases with rotation complexity and occlusion, mirroring human reaction times and suggesting similar constraints in embedding space representations."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "ViTex: Visual Texture Control for Multi-Track Symbolic Music Generation via Discrete Diffusion Models",
+    "authors": "Xiaoyu Yi, Qi He, Gus Xia, Ziyu Wang",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463443",
+    "source": "IEEE",
+    "abstract": "In automatic music generation, a central challenge is to design controls that enable meaningful human-machine interaction. Existing systems often rely on extrinsic inputs such as text prompts or metadata, which do not allow humans to directly shape the composition. While prior work has explored intrinsic controls such as chords or hierarchical structure, these approaches mainly address piano or vocal-accompaniment settings, leaving multitrack symbolic music largely underexplored. We identify instrumentation, the choice of instruments and their roles, as a natural dimension of control in multi-track composition, and propose ViTex, a visual representation of instrumental texture. In ViTex, color encodes instrument choice, spatial position represents pitch and time, and stroke properties capture local textures. Building on this representation, we develop a discrete diffusion model conditioned on ViTex and chord progressions to generate 8-measure multi-track symbolic music, enabling explicit texture-level control while maintaining strong unconditional generation quality. The demo page and code are avaliable at https://vitex2025.github.io/."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Deep Spatial Clue Informed Ambisonic Encoding for Irregular Microphone Arrays",
+    "authors": "Chaoqun Zhuang, Xue Wen, Lin Ma, Lizhong Wang, Liang Wen, Jaehyun Kim, Gangyoul Kim",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464101",
+    "source": "IEEE",
+    "abstract": "Ambisonic encoding from irregular microphone arrays is challenging due to spatial aliasing and limited coverage of the sound field. Existing deep learning approaches typically operate on fixed time–frequency representations (e.g., STFT), which restricts the network’s ability to fully exploit high level spatial correlations. In this work, we propose a Deep Spatial Clue Informed Ambisonic Encoder, a fully end-to-end deep neural network (DNN) that estimates a nonlinear transformation in a learned latent space. Explicit spatial clues (IPD, ILD) are fused with deep spectral features to guide the model toward physically consistent mappings. Unlike prior work, the transformation is applied to latent feature maps instead of shallow spectra, enabling adaptive representation learning and more accurate reconstruction. Experiments on real commercial mobile phone microphone arrays in multi-source reverberant scenes demonstrate that the proposed method consistently outperforms least squares and recent neural ambisonic encoders across spatial similarity, spectral error, and SI-SDR metrics, while requiring fewer parameters than competing neural methods."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Hierarchical Sparse Vector Transmission for Ultra Reliable and Low Latency Communications",
+    "authors": "Yanfeng Zhang, Xi’An Fan, Jinkai Zheng, Xiaoye Jing, Weiwei Yang, Xu Zhu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464426",
+    "source": "IEEE",
+    "abstract": "Sparse vector transmission (SVT) is a promising candidate technology for achieving ultra-reliable low-latency communication (URLLC). In this paper, a hierarchical SVT scheme is proposed for multi-user URLLC scenarios. The hierarchical SVT scheme partitions the transmitted bits into common and private parts. The common information is conveyed by the indices of non-zero sections in a sparse vector, while each user’s private information is embedded into non-zero blocks with specific block lengths. At the receiver, the common bits are first recovered from the detected non-zero sections, followed by user-specific private bits decoding based on the corresponding non-zero block indices. Simulation results show the proposed scheme outperforms state-of-the-art SVT schemes in terms of block error rate."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Dissecting Performance Degradation in Audio Source Separation under Sampling Frequency Mismatch",
+    "authors": "Kanami Imamura, Tomohiko Nakamura, Kohei Yatabe, Hiroshi Saruwatari",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461313",
+    "source": "IEEE",
+    "abstract": "Audio processing methods based on deep neural networks are typically trained at a single sampling frequency (SF). To handle untrained SFs, signal resampling of the input signal is commonly employed, but it can degrade performance, particularly when the input SF is lower than the trained SF. This paper investigates the causes of this degradation through two hypotheses: (i) the lack of high-frequency components introduced by up-sampling, and (ii) the greater importance of their presence than their spectral contents. To examine these hypotheses, we compare conventional resampling with three alternatives: post-resampling noise addition, which adds Gaussian noise to the resampled signal; noisy-kernel resampling, which perturbs the kernel with Gaussian noise to enrich high-frequency components; and trainable-kernel resampling, which adapts the interpolation kernel through training. Experiments on music source separation show that noisy-kernel and trainable-kernel resampling alleviate the degradation observed with conventional resampling. We further demonstrate that noisy-kernel resampling is effective across diverse models, highlighting it as a simple yet practical option to alleviate the performance degradation."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "AIMRec: Aligning both Individuals and Modalities for Multimodal Recommendation",
+    "authors": "Yihan Zhang, Ercan E. Kuruoglu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461862",
+    "source": "IEEE",
+    "abstract": "Multimodal recommendation requires learning expressive representations of users and items by integrating multimodal features such as text and images. While prior studies have extensively explored graph convolution-based frameworks and modality fusion strategies, a critical issue that remains underexplored is the alignment of representations across embedding spaces. In this work, we propose a simple yet effective model, AIMRec, which performs graph convolution separately on ID and feature embeddings before combining them into unified user and item representations. To enhance consistency between different representations, we introduce two auxiliary alignment losses: an ID–Feature Alignment loss that enforces coherence between ID and feature embeddings of individuals, and a Cross-Modal Alignment loss that aligns item representations across modalities from both local and global perspectives. Extensive experiments on three real-world datasets demonstrate the superiority of AIMRec over baselines. Further ablation studies confirm the effectiveness of each proposed component."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "MHAN: A Multi-Module Hybrid Attention Network for Robust Classification of Appendiceal Cancer and Appendicitis",
+    "authors": "Rengmin Wu, Dan Liang, Jiaqiang Li, Yongtao Zhang, Wenzheng Hu, Hui Zhou, Guangming Li, Xinhua Wei, Tianfu Wang, Baiying Lei",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463620",
+    "source": "IEEE",
+    "abstract": "Appendicitis is a common gastrointestinal disease, but appendiceal cancer is a rare malignancy. The similarities between the two diseases often lead to missed diagnosis in clinical practice, resulting in serious consequences. To address this problem, we propose a multi-module hybrid attention network (MHAN) to tackle the challenge of classifying appendiceal cancer and appendicitis in CT images. Our framework comprises four innovative modules. The multi-level feature extraction (MFE) enhances the multi-scale representation of small lesions. The hypergraph-based feature interaction (HFI) captures high-order cross-layer dependencies. The agent attention fusion (AAF) supports cross-layer recursive semantically guided enhancement. Finally, a reinforcement learning-based Dynamic loss optimization (RDLO) improves robustness in imbalanced data problem. We validate the proposed model on both internal and external datasets, and the results demonstrate significant improvements in lesion representation and diagnostic performance."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Precision Matters: Comparing Deep Models for Visual Marker Detection on Eyewear-Mounted Calibration Objects",
+    "authors": "Adrian-Pavel Măduța",
+    "publish": "2025 27th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC)",
+    "url": "https://doi.org/10.1109/synasc69064.2025.00052",
+    "source": "IEEE",
+    "abstract": "This paper addresses the problem of localizing hazard-shaped calibration markers mounted on eyeglass frames, a task relevant to augmented reality, head pose estimation and optical distance calculations. The goal is to accurately detect these markers, which lie in the upper portion of the face, within a rectangular region provided by a face detector. We revisit this problem and ask: how much precision can be reliably extracted, and at what computational cost? Beyond a controlled comparison of heatmap-based segmentation models (HRNet modified for multiscale outputs, MobileNetV3) and object detection with YOLOv8 variants, we introduce two contributions that improve accuracy while retaining real-time performance: (i) a temperature-scaled soft-argmax readout for subpixel localization with calibrated spatial confidence, and (ii) a lightweight Detection → Refinement cascade that couples YOLO proposals with a 7-layer heatmap refiner operating on <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$64 \\times 64$</tex> crops. Experiments are conducted on both synthetic and real datasets spanning diverse capture distances. Our cascade reduces mean pixel error by 17 % over YOLOv8-n while running at <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{7 8 ~ m s}$</tex> per frame (includes additional latency such as image loading, resizing, and patch extraction, inference time alone is 75 ms per frame), and outperforms HRNet by 4.7% AUC@2px at a fraction of its latency. Evaluation includes distance-based error metrics, uncertainty calibration (ECE), and both quantitative and qualitative analyses. Results show a strong correlation between confidence and localization error, enabling practical deployment."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "ActiveParam: Selective Parameterization for Efficient and Robust Retrieval-Augmented Generation",
+    "authors": "Siqiang Li, Xifan Liu, Peng Peng, Shouqiang Liu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463531",
+    "source": "IEEE",
+    "abstract": "Retrieval-Augmented Generation (RAG) enhances Large Language Models (LLMs) by incorporating external knowledge. However, parametric RAG (PRAG) methods often suffer from redundancy and noise sensitivity, leading to inefficiency and degraded robustness. We propose ActiveParam, a framework for selective knowledge parameterization. ActiveParam introduces a Knowledge Probing stage, where the LLM computes an ignorance score to identify knowledge gaps for each document. Only documents with high scores, indicating novel information, are parameterized through lightweight adapters. Experiments on four question-answering benchmarks and three LLMs show that ActiveParam consistently improves F1 scores by 2-5 points over baselines like Naive Combine, while simultaneously reducing the number of required parameter adapters. This work thus establishes that selective parameterization, guided by our novel ignorance score, offers a more efficient and robust path for knowledge augmentation."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Research on Collaborative Interference Resource Allocation Based on Improved Genetic Algorithm",
+    "authors": "Pengjiao Li, Haoran Gong, Yinshuai Meng, Yumeng Liang, Keding Yan",
+    "publish": "2026 12th International Conference on Automation, Robotics and Applications (ICARA)",
+    "url": "https://doi.org/10.1109/icara69401.2026.11480413",
+    "source": "IEEE",
+    "abstract": "In the process of unmanned aerial vehicle (UAV) formation penetration, when multiple interference aircraft jointly suppress multiple radars, there are problems such as limited resources, high decision-making dimensions, and low optimization efficiency. This paper constructs a collaborative interference resource allocation model with the goal of maximizing interference effectiveness, comprehensively considering the power and time coordination mechanism as well as the constraints of interference targets and styles. On this basis, an improved genetic algorithm is proposed. By introducing sorting selection, small habitat elimination, and elite retention strategies, the algorithm's global search ability is enhanced and the convergence speed is accelerated. The results show that the proposed algorithm can converge to a better solution within approximately 60% of the iterations, significantly reducing the probability of enemy radar detection, increasing the positioning and tracking errors by 2 to 3 times, effectively compressing the radar exposure area, and providing a relatively safe flight corridor for UAV penetration."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "BDRNet:Bidirectional Decomposed and Recalibrated Lightweight Network for Human Pose Estimation",
+    "authors": "Jing Luo, Yanxia Wang, Xuping Liang, Wenwen Li",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11461405",
+    "source": "IEEE",
+    "abstract": "Lightweight human pose estimation models often struggle to balance accuracy and efficiency in complex scenarios. Their limited receptive fields and feature representation capabilities lead to significant performance degradation under occlusions, crowded environments, etc. Existing methods typically address this issue by introducing multi-scale modules or global attention mechanisms, which often incur substantial computational costs or fail to effectively model the balance between long-range dependencies and local details. To alleviate this problem, this study proposes a lightweight cross-scale attention fusion network named BDRNet. The network innovatively integrates two key modules: the Bidirectional Decomposed Spatial Attention (BDSA) and the Multi-Scale Recalibrated Attention (MSRA). BDSA captures directional local details with minimal computational cost, while MSRA further efficiently models global contextual relationships and integrates local details through the Recalibrated Hybrid Attention (RHA) and Pointwise Shuffle Block (PWSB). Experimental results on the MSCOCO and MPII datasets demonstrate that BDRNet achieves competitive overall performance, excels in complex scenarios, approaches the performance of large-scale network models on average precision (AP), and outperforms most other lightweight models, striking a favorable balance between accuracy and efficiency."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Unsupervised Landslide Detection from InSAR-Derived Time Series Using Change Point Analysis",
+    "authors": "Ioana-Cristina Igret, Gabriel Iuhasz, Delia Teleagă, Valentin Poncos",
+    "publish": "2025 27th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC)",
+    "url": "https://doi.org/10.1109/synasc69064.2025.00069",
+    "source": "IEEE",
+    "abstract": "Landslides pose dangerous risks to human safety and to infrastructure, especially in densely populated or geologically unpredictable regions. Interferometric Synthetic Aperture Radar (InSAR) technology, along with time series analysis has significantly improved the ability to monitor ground deformations associated with such hazards. This study explores the detection of change points in InSAR-derived ground motion time series from the Praid region in Romania, based on Sentinel-1 data collected over a period of five years. The methodology starts with clustering Persistent Scatterers (PS) with similar deformation patterns using the HDBSCAN algorithm, followed by the application of several detrending methods to enhance change point detection accuracy. Four algorithms, Pruned Exact Linear Time (PELT), Binary Segmentation (BS), Window Sliding and Bottom-Up Segmentation, are implemented to identify abrupt fluctuations in ground motion. The absence of ground truth data motivated the selection of a consensus-based on majority voting as evaluation system. More specifically, the validation of a detected change point was correlated with the number of algorithms that identified it independently, with a minimum of two algorithms out of the four implemented. The findings offer insights into deformation activity and highlight the value of change point analysis in landslide detection. Future work will include a more comprehensive analysis of data particularities, the integration of contextual environmental factors and finally, the application of advanced time series techniques, to further enhance detection accuracy and improve early warning and risk management. Our code is available at https://github.com/ioanaigret/unsupervised-change-point-analysis-based-on-InSAR-derived-time-series.git"
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Gen3d:Generating Domain-Free 3D Scenes From a Single Image",
+    "authors": "Yuxin Zhang, Ziyu Lu, Hongbo Duan, Keyu Fan, Pengting Luo, Peiyu Zhuang, Mengyu Yang, Houde Liu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463856",
+    "source": "IEEE",
+    "abstract": "Despite recent advancements in neural 3D reconstruction, the dependence on dense multi-view captures restricts their broader applicability.Additionally, 3D scene generation is vital for advancing embodied AI and world models, which depend on diverse, high-quality scenes for learning and evaluation.In this work, we propose Gen3d, a novel method for generation of high-quality, wide-scope, and generic 3D scenes from a single image. After the initial point cloud is created by lifting the RGBD image, Gen3d maintains and expands its world model.The 3D scene is finalized through optimizing a Gaussian splatting representation. Extensive experiments on diverse datasets demonstrate the strong generalization capability and superior performance of our method in generating a world model and Synthesizing high-fidelity and consistent novel views."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Enhance Balance between Generalization and Personalization for Vision-Language Models in Federated Learning",
+    "authors": "Ziyun Cai, Yizhou Lu, Yawen Huang, Jie Song, Ye Liu, Xiao-Yuan Jing",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464153",
+    "source": "IEEE",
+    "abstract": "We propose FLORA, a novel Federated Parameter-Efficient Fine-Tuning framework that combines orthogonal low-rank adaptation for global prompt with attention-guided visual adapter to address the balance between generalization and personalization under data heterogeneity. Specifically, each client personalizes the global prompt through orthogonal low-rank adaptation term with an additional orthogonal loss, thereby achieving efficient local adaptation while maintaining the generalization of the global prompt. Furthermore, we design a lightweight attention-guided visual adapter for the image encoder to enhance cross-modal alignment, further balancing generalization and personalization. Extensive experiments on multiple datasets demonstrate that our FLORA achieves superior performance in balancing generalization and personalization over state-of-the-art methods."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Inverse Rendering for High-Genus 3D Surface Meshes from Multi-View Images with Persistent Homology Priors",
+    "authors": "Xiang Gao, Xinmu Wang, Yuanpeng Liu, Yue Wang, Junqi Huang, Wei Chen, Xianfeng Gu",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462478",
+    "source": "IEEE",
+    "abstract": "Reconstructing 3D objects from images is inherently an ill-posed problem due to ambiguities in geometry, appearance, and topology. This paper introduces collaborative inverse rendering with persistent homology priors, a novel strategy that leverages topological constraints to resolve these ambiguities. By incorporating priors that capture critical features such as tunnel loops and handle loops, our approach directly addresses the difficulty of reconstructing high-genus surfaces. The collaboration between photometric consistency from multi-view images and homology-based guidance enables recovery of complex high-genus geometry while circumventing catastrophic failures such as collapsing tunnels or losing high-genus structure. Instead of neural networks, our method relies on gradient-based optimization within a mesh-based inverse rendering framework to highlight the role of topological priors. Experimental results show that incorporating persistent homology priors leads to lower Chamfer Distance (CD) and higher Volume IoU compared to state-of-the-art mesh-based methods, demonstrating improved geometric accuracy and robustness against topological failure."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "A Benchmark Dataset and Baseline Framework for Action Recognition in Power Construction Safety",
+    "authors": "Shuo Zhang, Xiaoqing Zheng, Weibin Zhang, Yaguang Kong",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464683",
+    "source": "IEEE",
+    "abstract": "Unsafe behaviors of workers are a major cause of accidents in power engineering, while traditional manual inspections struggle to monitor complex, dynamic construction sites. Although video understanding has been widely applied to action recognition, power construction faces challenges such as large target scale variations, complex occlusions, and imbalanced class distributions. To address this, we introduce PCVA, a benchmark dataset for action recognition in power construction safety, and propose MSHCNet, a multi-scale spatio-temporal hierarchical collaborative network with an Adaptive Spatio-Temporal Hierarchical Module (ASHM) as a strong baseline. MSHCNet captures temporal dynamics and adaptively fuses multi-scale features for hierarchical action modeling. Experiments on PCVA show MSHCNet achieves 38.16 mAP, outperforming the previous best method by 7.54%, effectively supporting safety monitoring and accident prevention. The dataset and code are available at https://github.com/ys-sy/MSHCNet."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Syllable-Level Acoustic Modeling with a Stage-Aware Transformer for ALS Dysarthria Severity Estimation - ICASSP-2026 Sand Challenge",
+    "authors": "Yuho Tamura, Mondher Bouazizi, Tomoaki Ohtsuki",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464952",
+    "source": "IEEE",
+    "abstract": "This paper presents a syllable-level Transformer-based model for estimating dysarthria severity in patients with Amyotrophic Lateral Sclerosis (ALS) as part of the ICASSP-2026 SAND Challenge [1]. Our approach segments speech recordings into syllable-level acoustic units using Sylber and extracts eGeMAPS Low-Level Descriptors (LLDs). We then compute feature-level mutual information scores to rank and select the most discriminative features. After integrating features extracted from three distinct syllable recordings (/pa/, /ka/, and /ta/), we employ a stage-aware Transformer framework with separate models trained for each ALSFRS-R starting severity. Experimental results demonstrate that this syllable-level, stage-wise modeling improves the prediction of future ALS dysarthria severity."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Frontend Token Enhancement for Token-Based Speech Recognition",
+    "authors": "Takanori Ashihara, Shota Horiguchi, Kohei Matsuura, Tsubasa Ochiai, Marc Delcroix",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462694",
+    "source": "IEEE",
+    "abstract": "Discretized representations of speech signals are efficient alternatives to continuous features for various speech applications, including automatic speech recognition (ASR) and speech language models. However, these representations, such as semantic or phonetic tokens derived from clustering outputs of self-supervised learning (SSL) speech models, are susceptible to environmental noise, which can degrade backend task performance. In this work, we introduce a frontend system that estimates clean speech tokens from noisy speech and evaluate it on an ASR backend using semantic tokens. We consider four types of enhancement models based on their input/output domains: wave-to-wave, token-to-token, continuous SSL features-to-token, and wave-to-token. These models are trained independently of ASR backends. Experiments on the CHiME-4 dataset demonstrate that wave-to-token enhancement achieves the best performance among the frontends. Moreover, it mostly outperforms the ASR system based on continuous SSL features."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "LLM4RIM: Leveraging Large Language Model for Radar-Based in-Vehicle Monitoring",
+    "authors": "Chong Rao, Jiahang Guo, Xikang Jiang, Lei Li, Lin Zhang",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11463158",
+    "source": "IEEE",
+    "abstract": "The growing need for non-invasive in-vehicle monitoring in the intelligent cabin underscores the potential of radar sensing. However, existing radar-based solutions often rely on task-specific approaches, lacking a unified framework across multiple downstream tasks. In this work, LLM4RIM, a large language model (LLM) multi-task fine-tuning framework is proposed for radar-based in-vehicle monitoring (RIM) tasks, including occupancy detection, drowsiness detection, gesture recognition, and vital sign monitoring. By utilizing the Mixture of Experts with Low-Rank Adaptation (MoE-LoRA) approach for fine-tuning, the framework leverages the cross-modal learning capabilities of LLMs to enable efficient multitask learning. Experiments conducted on four task-specific datasets demonstrate an average accuracy of 93.20%, outperforming the state-of-the-art (SOTA) methods by 13.48%. Our code is released at https://github.com/bupt-uwb/LLM4RIM."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Diversity is All You Need: Self-Supervised Hypergraph Learning for Mitigating Popularity Bias in Conversational Recommender System",
+    "authors": "Yongsen Zheng, Ruilin Xu, Ye Ma, Guohua Wang, Liang Lin, Kwok-Yan Lam",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11462683",
+    "source": "IEEE",
+    "abstract": "Popularity bias is the tendency of recommender systems (RSs) to favor popular items over personalized or niche options, reinforcing the popularity of well-liked items. Most existing methods aim to alleviate popularity bias in offline static environments, but this bias tends to intensify over time in online recommendations. To address these issues, we propose a novel framework, Self-Supervised Hypergraph Learning for Mitigating Popularity Bias in Conversational Recommender System (SHLCRS), which aims to reduce popularity bias in the dynamic user-system feedback loop by capturing diverse user preferences through hypergraphs. SHLCRS establishes a self-supervised learning paradigm to create paired hypergraphs and line graphs for exploring varied preferences. It then employs a Multi-Hypergraph-Oriented CRS to leverage these preferences for accurate item predictions and effective conversational responses. Extensive experiments on two public CRS benchmarks demonstrate the effectiveness of SHLCRS in mitigating popularity bias."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Radiance Field Rendering with Adaptive Compact Kernel for Novel View Synthesis",
+    "authors": "Binghao Wu, Haiyang Zhang",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11464409",
+    "source": "IEEE",
+    "abstract": "3D Gaussian Splatting (3DGS) has emerged as a powerful explicit representation for novel view synthesis. However, its fixed Gaussian kernels introduce two key limitations: over-smoothed reconstructions due to limited adaptability, and truncation artifacts stemming from the kernel’s long-tailed and unbounded nature. To address these challenges, we present the Adaptive Compact Kernel (ACK), a shape-adaptive and boundary-aware representation that dynamically adjusts its spatial profile to capture both low-frequency structures and fine-grained details, while inherently eliminating truncation artifacts. In addition, we introduce a parameter compression scheme that reorganizes and quantizes primitives into compact PNG-based representations, achieving up to 82% storage reduction and 13% improvement in loading efficiency, with negligible degradation in rendering quality. Extensive experiments on four widely used benchmark datasets, including Mip-NeRF 360, Tanks and Temples, Deep Blending, and NeRF Synthetic, demonstrate that our method achieves superior efficiency and fidelity over prior state-of-the-art approaches."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Toward Embodied Intelligence: An Architecture for Natural Dialogue and Action Execution in Assistive Robots",
+    "authors": "Karameldeen Omer, Andrea Monteriù",
+    "publish": "2026 12th International Conference on Automation, Robotics and Applications (ICARA)",
+    "url": "https://doi.org/10.1109/icara69401.2026.11480310",
+    "source": "IEEE",
+    "abstract": "This work presents a new architecture for an assistive mobile robot designed to support the elderly and individuals with disabilities in performing daily indoor tasks. The proposed framework integrates multimodal perception, language-based reasoning, and safety-aware action planning to enable natural and effective two-way communication between humans and robots. At its core, the system utilizes large language models (LLMs) for dialogue management, contextual understanding, and reasoning over fused sensory inputs, including vision, speech, and proprioceptive data. By combining speech recognition, object detection, and local memory modules, the robot not only interprets explicit user commands but also infers implicit intentions, predicts missing information, and requests clarifications when necessary. A dedicated safety layer filters and validates action sequences before execution, ensuring reliability and user safety. The architecture further incorporates short- and long-term memory structures, enabling the robot to maintain a dialogue history and semantic knowledge of the environment. This bidirectional interaction model allows the robot to generate both natural conversational responses and executable action plans in a context-aware manner. Preliminary implementation and testing demonstrate promising performance, bridging the gap between conversational AI and embodied robotic action in real-life assistive scenarios."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "From PowerSGD to PowerSGD+: Low-Rank Gradient Compression For Distributed Optimization With Convergence Guarantees",
+    "authors": "Shengping Xie, Chuyan Chen, Kun Yuan",
+    "publish": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "url": "https://doi.org/10.1109/icassp55912.2026.11465020",
+    "source": "IEEE",
+    "abstract": "Low-rank gradient compression methods, such as PowerSGD, have gained attention in communication-efficient distributed optimization. However, the convergence guarantees of PowerSGD remain unclear, particularly in stochastic settings. In this paper, we show that PowerSGD does not always converge to the optimal solution and provide a clear counter-example to support this finding. To address this, we introduce PowerSGD+, which periodically updates the projection subspace via singular value decomposition, ensuring that it remains aligned with the optimal subspace. We prove that PowerSGD+ converges under standard assumptions and validate its effectiveness through empirical evaluation on large language model tasks."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "Current-Tracking Technique Improves RF Amplifier Efficiency in Lower HF Frequency Band",
+    "authors": "Aleksandar Kiričenko, Vedran Kos",
+    "publish": "2026 25th International Symposium INFOTEH-JAHORINA (INFOTEH)",
+    "url": "https://doi.org/10.1109/infoteh68759.2026.11477618",
+    "source": "IEEE",
+    "abstract": "Over the past decade, a prominent trend in mobile radio communications has been the increasing adoption of envelope-tracking techniques to enhance the efficiency of radio frequency (RF) power amplifiers. An envelope-tracking amplifier is a hybrid linear/non-linear circuit where the supply voltage to the linear amplifier is dynamically adjusted by a nonlinear (switched-mode) power supply circuit to match the instantaneous amplitude (envelope) of the input signal. Inspired by this principle of operation, the presented research investigates a more straightforward approach: feeding the antenna directly with current generated by a highly efficient switched-mode source. The viability of the principle has been verified by simulations and measurement results on a demonstrator in the lower HF frequency range. The results have confirmed the substantial efficiency increase, in the operating frequency range of non-linear circuit."
+  },
+  {
+    "date": "2026-4-21",
+    "title": "A Trustworthy Data-Driven Governance Framework for Ethical Decision Automation and Regulatory Compliance Management in Organizations",
+    "authors": "Maha Lakshmi S, Nandini D, Priya R, Hubin Bens L, Thuseenth M, Vimalyabesh A",
+    "publish": "2026 International Conference on Innovative Computing, Intelligent Communication and Smart Electrical Systems (ICSES)",
+    "url": "https://doi.org/10.1109/icses66558.2026.11479076",
+    "source": "IEEE",
+    "abstract": "With the advent of smart automation, organizational governance systems are being under more pressure to make morally upright and legally correct decisions within dynamic environments. This paper gives a new Trustworthy Data-Driven Governance Framework that incorporates structural causal modeling (SCM), counterfactual reasoning, digital twin simulation, explainable reinforcement learning (XRL), Bayesian trust scoring, and federated auditable ledgers (FAL) in order to achieve transparency, accountability, and regulatory alignment. The model represents the policy effects on virtual simulations, selects the optimal decision paths through XRL, and automatically revises the trust scores of the data sources and service constituents. These experimental findings show a 97.5 prediction accuracy in the Ethics, convergence of the trust score in 6 iterations and 94 % compliance fidelity in the case of simulated governance. Also, the counterfactual engine successfully identified 60 % of ethically suboptimal decisions prior to implementation. The proposed model beats the traditional rule-based compliance engines in terms of ethical foresight, interpretability, and adaptiveness. The article provides a regulatory-conscious, scaled, and explainable governance infrastructure that can be used in areas like finance, healthcare, and government. The future work will introduce and include multi-jurisdictional alignment of regulatory ontology and real-time feedback of human stakeholders to further improve ethical negotiation in conflicting governance situations and assist in hybrid human-AI regulatory symbiosis."
+  }
+]
