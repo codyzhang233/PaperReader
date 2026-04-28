@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-4-27",
+    "title": "Neural Network-Assisted NLoS Channel Identification in Near-Field Environments: A Linear Fractionalization Approach",
+    "authors": "Dong-Hwan Kim, Jung-Hwan Kim, Hye-Jin Cho, Jong-Ho Lee, Woong-Hee Lee",
+    "publish": "IEEE Communications Letters",
+    "url": "https://doi.org/10.1109/lcomm.2026.3687873",
+    "source": "IEEE",
+    "abstract": "This letter introduces a neural network (NN)-assisted non-line-of-sight (NLoS) identification method for near-field environments. Unlike prior methods that depend on raw channel measurements and require high computational complexity, our method introduces a novel channel re-representation that maximizes the learning capability of the NN, referred to as the linear fractional channel, leading to more efficient NLoS identification. The proposed method exploits the fact that the Hankelized matrix of a linear fractional channel becomes rank-1 as both the K-factor and SNR tend to infinity. In a nutshell, we set the input and output of the NN to the singular values of the Hankelized matrix of the linear fractional channel and the one-hot encoding vector, respectively. Numerical results show that the performance of the proposed method has remarkable accuracy compared with existing baseline schemes.",
+    "title_zh": "神经网络辅助近场非视距信道识别的一种线性分数化方法。",
+    "abstract_zh": "这封信提出了一种基于神经网络的近场非视距（NLoS）识别方法。与依赖原始信道测量且计算复杂度高的现有方法不同，该方法通过引入一种新型信道表示方式——线性分数信道（Linear Fractional Channel），显著提升了神经网络的学习效率。具体而言，当K因子和信噪比（SNR）趋于无穷大时，该信道经Hankel化处理后的矩阵具有秩1特性。我们设计神经网络时，将输入设为线性分数信道Hankel化矩阵的奇异值，输出设为对应的独热编码向量。数值实验表明，该方法在识别精度上较现有基准方案具有显著优势。"
+  },
+  {
+    "date": "2026-4-27",
+    "title": "Enabling Deterministic 6G Ultra-Reliable Low-Latency Through Predictive and Semantic O-RAN Intelligence",
+    "authors": "Antoine Hitayezu, Jui-Tang Wang",
+    "publish": "2026 29th Conference on Innovation in Clouds, Internet and Networks (ICIN)",
+    "url": "https://doi.org/10.1109/icin69025.2026.11481842",
+    "source": "IEEE",
+    "abstract": "The emergence of 6 G networks introduces unprecedented demands for deterministic, ultra-reliable, and low-latency communication (URLLC) across diverse service domains such as autonomous mobility, industrial automation, and immersive applications. Achieving these requirements within the disaggregated and multi-vendor Open Radio Access Network (O-RAN) architecture remains a major challenge, particularly due to the dynamic nature of radio conditions and transport-layer variability. This paper proposes a proactive, AI-native latency control framework for O-RAN-based 5G/6G networks, targeting deterministic ultrareliable low-latency communication (URLLC) under heterogeneous traffic conditions. Unlike prior reactive or slice-static approaches, the proposed architecture embeds predictive latency modeling and semantic policy reasoning directly within the near-real-time RAN Intelligent Controller (RIC), enabling anticipation and mitigation of end-to-end delay violations before they occur. Through an experimental testbed based on the O-RAN Software Community (OSC) stack, srsRAN, and an open 5G core, the proposed approach demonstrates a consistent reduction in tail latency and hybrid automatic repeat request (HARQ) deadline violations compared to conventional O-RAN scheduling. The results confirm that embedding network intelligence and semantic control within the O-RAN control loop can achieve reliable sub-5 ms communication performance, offering a practical pathway toward AI-native, latency-deterministic 6 G systems.",
+    "title_zh": "通过预测和语义开放无线接入网智能实现确定性6G超可靠低延迟。",
+    "abstract_zh": "第六代移动通信（6G）网络的兴起对确定性、超可靠、超低时延通信（URLLC）提出了前所未有的需求，这一需求在自动驾驶、工业自动化和沉浸式应用等多样化服务场景中尤为突出。然而，在解耦式且多供应商的开放无线接入网（O-RAN）架构中实现这些要求仍面临重大挑战，主要源于无线条件动态特性和传输层可变性带来的不确定性。本文提出了一种面向O-RAN架构的5G/6G网络主动式AI原生时延控制框架，旨在通过语义策略推理和预测性时延建模，在异构流量条件下实现URLLC的确定性保障。与传统的被动式或切片静态方法不同，该架构将预测性时延建模和语义策略推理直接嵌入接近实时运行的无线接入网智能控制器（RIC），从而在端到端时延违规发生前实现主动预测与干预。通过基于O-RAN软件社区（OSC）栈、srsRAN开源平台和开放5G核心网的实验测试床验证，该方法在尾时延和混合自动重传请求（HARQ）截止违规方面较传统O-RAN调度方案实现了持续优化。实验结果表明，将网络智能与语义控制深度集成于O-RAN控制环中，可有效保障亚5毫秒级通信性能，为构建AI原生、时延确定性6G系统提供了可落地的技术路径。\n\n（说明：翻译在保持技术严谨性的同时，通过以下优化提升可读性：\n1. 专业术语标准化：如\"URLLC\"首次出现时标注中文全称，后续使用英文缩写\n2. 逻辑显性化：使用\"然而\"\"与...不同\"等连接词强化论证链条\n3. 技术细节具象化：\"语义策略推理\"替代直译，更符合中文技术语境\n4. 数据呈现方式：将\"sub-5ms\"转化为\"亚5毫秒级\"符合中文计量表达习惯\n5. 结论强化：末句通过\"构建...提供了...路径\"的递进结构突出研究价值）"
+  },
+  {
+    "date": "2026-4-27",
+    "title": "Security–Spectral Efficiency Tradeoff in STAR-RIS RSMA: A Max–Min Fairness Framework",
+    "authors": "Huiyun Xia, Yijie Mao, Sai Xu, Shuai Han, Hongbo Zhu",
+    "publish": "IEEE Communications Letters",
+    "url": "https://doi.org/10.1109/lcomm.2026.3687200",
+    "source": "IEEE",
+    "abstract": "Simultaneously transmitting and reflecting reconfigurable intelligent surfaces (STAR-RISs) enable full-space coverage but also expose wireless transmissions to security from multiple spatial directions. This paper investigates a STAR-RIS-assisted secure RSMA system where both internal and external eavesdroppers may coexist in the transmission and reflection regions. In such a scenario, the RSMA common stream simultaneously serves legitimate users, impairs external eavesdroppers, and avoids assisting internal eavesdroppers, leading to a challenging trade-off between spectral efficiency and confidentiality. To address this issue, we formulate a max–min fairness problem under secrecy constraints and develop an iterative algorithm to jointly optimize transmit beamforming and STAR-RIS phase shifts. Simulation results demonstrate that the proposed scheme improves spectral efficiency while maintaining confidentiality.",
+    "title_zh": "STAR-RIS RSMA中安全与频谱效率的权衡：一种最大最小公平性框架  \n\n**解析：**  \n1. **术语处理**  \n   - **STAR-RIS RSMA**：保留英文缩写（学术领域常见做法），直接音译为“STAR-RIS RSMA”。  \n   - **Max-Min Fairness**：译为“最大最小公平性”，符合通信领域标准术语（如IEEE文献）。  \n\n2. **结构优化**  \n   - 中文标题习惯将核心概念前置，因此将“安全与频谱效率的权衡”作为主标题，后接框架描述。  \n   - 使用冒号（：）分隔主副标题，与英文格式一致。  \n\n3. **技术准确性**  \n   - **权衡（Tradeoff）**：强调安全与频谱效率的冲突与协调，译为“权衡”精准。  \n   - **框架（Framework）**：译为“框架”符合学术语境，如“资源分配框架”。  \n\n4. **格式规范**  \n   - 专业术语首字母大写（如STAR-RIS RSMA），中文标题无需大写。  \n   - 确保技术缩写与原文一致，避免歧义。  \n\n**适用场景**：学术论文标题、技术报告、专利申请等需精准传递技术内涵的场景。",
+    "abstract_zh": "同时传输与反射的智能可重构表面（STAR-RIS）能够实现全空间覆盖，但也使无线传输面临多方向空间维度的安全威胁。本文研究了一种基于STAR-RIS的增强型安全资源分割多址接入（RSMA）系统，其中传输与反射区域可能同时存在内部和外部监听者。在此场景下，RSMA公共流需同时服务合法用户、干扰外部监听者并避免辅助内部监听者，导致频谱效率与机密性之间的复杂权衡。为解决这一问题，我们提出了一种满足保密约束的最小最大公平性建模方法，并设计了一种联合优化传输波束成形与STAR-RIS相位偏移的迭代算法。仿真结果表明，所提方案在提升频谱效率的同时，仍能有效保障系统机密性。\n\n（说明：翻译过程中对专业术语进行了标准化处理，如：\n1. \"Reconfigurable Intelligent Surfaces\" 译为\"智能可重构表面\"（国内常用译法）\n2. \"eavesdroppers\" 译为\"监听者\"（更符合通信领域术语）\n3. \"max–min fairness\" 译为\"最小最大公平性\"（标准学术译法）\n4. 保留了STAR-RIS的英文缩写，符合学术论文惯例\n5. 补充了中文语境下必要的术语解释，如\"资源分割多址接入（RSMA）\"）"
+  }
+]
