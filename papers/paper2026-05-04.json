@@ -1,0 +1,902 @@
+[
+  {
+    "date": "2026-5-4",
+    "title": "Bridging the Trust-Latency Gap in 6G NTN V2X: An Edge-Native Architecture and Standardisation Perspective",
+    "authors": "Muhammad Toaha Raza Khan, Enver Ever, Omer Chughtai, Yoney Kirsal Ever",
+    "publish": "IEEE Communications Standards Magazine",
+    "url": "https://doi.org/10.1109/mcomstd.2026.3684793",
+    "source": "IEEE",
+    "abstract": "The integration of non-terrestrial networks (NTNs) into sixth-generation (6G) vehicle-to-everything (V2X) systems promises ubiquitous connectivity. However, the high latency of satellite links is incompatible with the real-time requirements of centralised security verification. This article proposes an edge-native trust architecture to resolve this latency-trust trade-off by relocating critical misbehaviour detection to the vehicle. In the proposed architecture, vehicles perform local trust assessment and trust scoring on received V2X messages, enabling real-time safety decisions independent of high-latency remote verification. We explore the standardisation implications of this shift and validate its feasibility through a practical implementation on an NVIDIA Jetson Orin Nano platform. Experimental results demonstrate that a complete end-to-end trust assessment, including cryptographic verification and parsing, can be performed in approximately 7.14 ms. Furthermore, by utilising optimised power profiles, energy consumption is reduced by up to 68% (to 50 mJ/inference) in Eco-mode, achieving response times an order of magnitude faster than centralised NTN architectures. These findings underscore the need to incorporate distributed edge intelligence into future 3GPP and ETSI standards to ensure resilient, energy-efficient 6G V2X operations."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Wearable Textile Microwave Sensor for Wrist Pulse Wave and Heart Rate Monitoring",
+    "authors": "Amirhossein Karami-Horestani, Bahareh Moradi, Ferran Paredes, Ferran Martín",
+    "publish": "IEEE Sensors Journal",
+    "url": "https://doi.org/10.1109/jsen.2026.3687955",
+    "source": "IEEE",
+    "abstract": "This paper presents a contact bracelet-type microwave sensor, implemented on fabric, able to monitor the wrist pulse wave (WPW) and, consequently, the heart rate of the individual under analysis. The device operates in transmission, and the working principle is the variation of the frequency response as consequence of pressure changes exerted on a diaphragm caused by blood pumping in the radial artery. The associated electronics to implement a stand-alone device (avoiding the use of a vector network analyzer) are also included. Specifically, by using a phase or an envelope detector, the system provides either the phase or the magnitude of the output signal at a specific frequency, namely, the WPW. The main relevant contribution of the paper is the implementation and validation of the sensor in a textile (and hence flexible and conformal) substrate, using also textile conductors. By this means, the device features a low cost, profile, and weight, making it ergonomic and user-friendly for real usage. Comparison of the recorded signal of the sensor on multiple individuals (at rest, under motion, and by wetting their wrist skin) with Photoplethysmography (PPG) further validates the approach."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "FANE: FPGA-Based FP8 Approximate Neural Network Engine",
+    "authors": "Han Bao, Shidi Tang, Jingdong Li, Ahmed Sadaqa, Ruiqi Chen, Ming Ling, Bruno da Silva",
+    "publish": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "url": "https://doi.org/10.1109/tvlsi.2026.3677683",
+    "source": "IEEE",
+    "abstract": "The 8-bit floating-point (FP8) format has gained growing interest in neural networks (NNs) for its superior dynamic range over traditional INT8. However, multiply-accumulate (MAC) operations remain a major source of power consumption during inference of NNs, which makes DSP-free design important, especially for edge FPGAs with few or no DSPs. Therefore, this brief presents FPGA-based FP8 approximate neural network engine (FANE), an FPGA-based approximate NN engine for FP8. We first introduce a novel approximation method that replaces the multiplications by linear additions. This approximate method reduces power consumption while maintaining high accuracy, outperforming the latest FP8 approximate multiplier by 53.15%. Based on this design, we construct an FP8 MAC unit and integrate it into both a convolution engine and a matrix–vector multiplication (MVM) unit. Finally, we integrate our design into a large language model (LLM). The result shows 61.5% higher efficiency (TOPS/W) than the previous design, demonstrating the superiority of FANE in terms of performance and power efficiency. The code of FANE is available on our <uri xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">https://github.com/hanbao04/FANE-FPGA-based-FP8-Approximate-Neural-Network-Engine.git</uri>"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "DMSA: A Decentralized Microservice Architecture for Edge Networks",
+    "authors": "Yuang Chen, Chengdi Lu, Yongsheng Huang, Chang Wu, Fengqian Guo, Hancheng Lu, Chang Wen Chen",
+    "publish": "IEEE Transactions on Mobile Computing",
+    "url": "https://doi.org/10.1109/tmc.2026.3690308",
+    "source": "IEEE",
+    "abstract": "The dispersed node locations and complex topologies of edge networks, combined with intricate dynamic microservice dependencies, render traditional centralized microservice architectures (MSAs) unsuitable. In this paper, we propose a decentralized microservice architecture (DMSA), which delegates scheduling functions from the control plane to edge nodes. DMSA redesigns and implements three core modules of microservice discovery, monitoring, and scheduling for edge networks to achieve precise awareness of instance deployments, low monitoring overhead and measurement errors, and accurate dynamic scheduling, respectively. Particularly, DMSA has customized a microservice scheduling scheme that leverages multi-port listening and zero-copy forwarding to guarantee high data forwarding efficiency. Moreover, a dynamic weighted multi-level load balancing algorithm is proposed to adjust scheduling dynamically with consideration of reliability, priority, and response delay. Finally, we have implemented a physical verification platform for DMSA. Extensive empirical results demonstrate that compared to state-of-the-art and traditional scheduling schemes, DMSA effectively counteracts link failures and network fluctuations, improving the service response delay and execution success rate by approximately <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$60\\% \\sim 75\\%$</tex-math></inline-formula> and <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$10\\%\\sim 15\\%$</tex-math></inline-formula>, respectively."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Attitude Estimation on SO(3) Under Biased, Scaled and Misaligned Rate Gyro Measurements",
+    "authors": "Joel Reis, Carlos Silvestre",
+    "publish": "IEEE Transactions on Automatic Control",
+    "url": "https://doi.org/10.1109/tac.2026.3690053",
+    "source": "IEEE",
+    "abstract": "This technical note presents a nonlinear attitude observer formulated directly on the special orthogonal group (SO(3)). The observer uses body-fixed measurements from at least two non-collinear inertial reference directions, along with readings from a triaxial rate gyro. The rate gyro outputs are subject to nonidealities modeled as an affine transformation of the input. Under standard and mild assumptions, such as the requirement for persistent excitation of the true angular velocity and its derivative, the proposed estimator ensures almost global asymptotic stability while simultaneously estimating attitude and intrinsic parameters of the rate gyro, including scaling factors, installation misalignment, and offset. The observer's performance and effectiveness are demonstrated through extensive and realistic numerical simulations."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "A Digital Slope Modulation Technique for a PFM-based Series Resonant LED Driver",
+    "authors": "Arnab Kumar Pal, Amit Kumar Singha",
+    "publish": "IEEE Journal of Emerging and Selected Topics in Industrial Electronics",
+    "url": "https://doi.org/10.1109/jestie.2026.3689772",
+    "source": "IEEE",
+    "abstract": "The envelope slope-controlled hysteretic pulse frequency modulation (HPFM) scheme can be an efficient and low-cost alternative over the traditional PI-controller based single-loop/multi-loop resonant LED drivers. With the help of two slopes, the current mode HPFM scheme can regulate a wide range of output loads. However, the flickering issues and large output ripples under light load conditions remain major limitations of this scheme. To address these issues, this paper proposes a load-dependent slope reference to precisely control the rising and falling slopes of the main envelope. The impact of the envelope reference slope on frequency deviations is thoroughly analyzed and analytical expressions for different control slopes are derived. Furthermore, a C-L filter is proposed to alleviate the impact of LED dynamic resistance variation due to thermal effects. The proposed scheme is implemented using a field-programmable gate array (FPGA) based digital platform and the experimental results are obtained using a 170 W rated in-house series resonant converter (SRC)-based LED driver prototype. Results show that the proposed scheme is capable of reducing the LED current ripple and output flicker significantly with improved line regulation and load transient performances compared to the reported schemes."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "RAID-Crypt: Rounding Alignment of Intermediate Differentials for Cryptanalysis of Lightweight Encryption",
+    "authors": "Jonathan Cook, Sabih Ur Rehman, M. Arif Khan",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3689918",
+    "source": "IEEE",
+    "abstract": "The first lightweight encryption algorithms suitable for the Internet of Things (IoT), SIMON and SPECK, were introduced in 2013 and were immediately subjected to security evaluations utilising cryptanalysis techniques. However, cryptanalysis is inefficient, and while heuristic and sampling methods have improved efficiency, the random nature of heuristics hinders reproducibility and impedes further advances. While Machine Learning (ML) techniques, such as Deep Neural Networks (DNN), have had limited success against SPECK by creating an effective Difference Distribution Table (DDT), they remain less efficient than heuristic strategies. Furthermore, DDT and partial DDTs (pDDTs), which are often utilised in differential cryptanalysis, contain limited information, which hinders the ability of ML models to predict high-probability differentials accurately. To improve model accuracy, researchers often utilise feature engineering techniques to enhance data quality and extract additional features. However, additional features, such as Boolean data, can introduce a floating-point centroid with ML models such as k-means. Identifying these limitations, we introduce a technique utilising Rounding Alignment of Intermediate Differentials, which we have called RAID-Crypt. We begin by enriching the information in a pDDT by leveraging the elegant, intricate, and predictable nature of powers of two to feature engineer additional differential features. Utilising the additional features enables us to introduce a method for centroid rounding in k-means clustering, which increases the number of rounds to 20 while reducing time by up to 65%, producing state-of-the-art results. Through a process of analysing and comparing the performance of several ML models, we identify five key features crucial for selecting an ML model, which is further validated through Bayesian Optimisation. Our technique presents robust and reproducible results, demonstrating the effectiveness of feature engineering differentials and centroid rounding. The code utilised in this research will be available at: https://github.com/johncook1979/simon-kmeans-cryptanalysis once published."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Risk-Augmented Loss With Attention Mechanisms: Enhancing Proximal Policy Optimization for Safer Autonomous Driving",
+    "authors": "Safae Belkhyr, Jaouad Boumhidi, Nikola S. Nikolov",
+    "publish": "IEEE Transactions on Intelligent Transportation Systems",
+    "url": "https://doi.org/10.1109/tits.2026.3687399",
+    "source": "IEEE",
+    "abstract": "Autonomous driving (AD) on highways presents significant challenges due to dynamic environments, high speeds, and uncertainties arising from sensor noise or abrupt vehicle behavior. This paper explores enhancing decision-making for autonomous vehicles (AVs) using an improved Proximal Policy Optimization (PPO) based on Deep Reinforcement Learning (DRL). The improvement is achieved through a novel risk-augmented loss function. Additionally, attention mechanisms are integrated to enhance performance. Unlike traditional approaches embedding risk in reward functions, our method integrates probabilistic risk assessment directly into the Proximal Policy Optimization (PPO) algorithm’s loss function, ensuring a clear separation between safety and performance objectives. Adaptive and robust decision-making are realized by paying more attention to important driving characteristics and punishing unsafe actions with risk-augmented loss. The experimental results show successes in safety, efficiency, and stability, proving that the proposed approach is effective in realistic highway driving scenarios. This system allows us to develop AV technology and address some of its major hurdles like dynamic environments, reliability and safety."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "SpecAug-DM: Few-Shot Radar Spectrogram Augmentation via Diffusion Model for Human Motion Recognition",
+    "authors": "Yue Lang, Wenjie Xia, Yuqi Fang, Yajie Fu, Shuang Li, Yang Yang",
+    "publish": "IEEE Sensors Journal",
+    "url": "https://doi.org/10.1109/jsen.2026.3688477",
+    "source": "IEEE",
+    "abstract": "Radar-based human motion recognition provides a nonintrusive and reliable solution for a wide range of applications, such as smart living environments, health monitoring, and human–machine interaction. However, the scarcity of radar measurements and the limited diversity of available spectrograms often hinder the performance of data-driven models. Existing augmentation strategies, especially those based on generative adversarial networks (GANs), suffer from instability and insufficient diversity, which restrict their applicability in few-shot scenarios. To overcome these challenges, this paper proposes SpecAug-DM, a diffusion-based framework for few-shot radar spectrogram augmentation. The framework incorporates a progressive sample regularization module to enhance intra-class diversity and a local-alignment mechanism to mitigate regional distribution discrepancies, thereby generating high-fidelity and semantically consistent spectrograms from limited data. Experimental validations are conducted on a measured ultra-wide bandwidth (UWB) radar dataset as well as a public frequency modulated continuous wave (FMCW) radar dataset. Extensive results demonstrate that SpecAug-DM outperforms several state-of-the-art comparative algorithms, and substantially improves motion recognition performance, highlighting its potential for reliable radar-based human motion perception."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Joint Magnetometer-IMU Calibration via Maximum A Posteriori Estimation",
+    "authors": "Chuan Huang, Gustaf Hendeby, Isaac Skog",
+    "publish": "IEEE Sensors Journal",
+    "url": "https://doi.org/10.1109/jsen.2026.3688575",
+    "source": "IEEE",
+    "abstract": "This paper presents a new method for jointly calibrating a magnetometer and inertial measurement unit (IMU), focusing on balancing calibration accuracy and computational efficiency. The proposed method is based on a maximum a posteriori estimation framework, treating both the calibration parameters and orientation trajectory of the sensors as unknowns. This method enables efficient optimization of the calibration parameters using analytically derived derivatives. The performance of the proposed method is compared against that of two state-of-the-art methods. Simulation results demonstrate that the proposed method achieves the lowest root mean square error in calibration parameters, increasing the calibration accuracy by 20–30%, while maintaining competitive computational efficiency. Further validation through real-world experiments confirms the practical benefits of the proposed method. The proposed method calibrated 30 magnetometer-IMU pairs in under two minutes on a consumer-grade laptop, which is one order of magnitude faster than the most accurate state-of-the-art algorithm as implemented in this work. Moreover, when calibrated using the proposed method, a magnetic-field-aided inertial navigation system achieved positioning performance comparable to when it is calibrated with the state-of-the-art method. These results demonstrate that the proposed method is a reliable and effective choice for jointly calibrating magnetometer-IMU pairs."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "AGI-CTFormer: An efficient architecture with attention-based ghost inception ResNet and a convolutional transformer for the detection of Exons in eukaryotic DNA",
+    "authors": "K. Jayasree, Malaya Kumar Hota",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3689902",
+    "source": "IEEE",
+    "abstract": "In bioinformatics, accurately detecting exons in eukaryotic DNA is a challenging task. In this work, an efficient inception and transformer-based deep learning model, namely AGI-CTFormer, is introduced for the enhanced detection of exons. Here, a new Attention-based Ghost Inception ResNet (AGIR) module is proposed that incorporates the attention module with Ghost Inception ResNet to generate multi-scale local features. Further, a Convolutional Transformer block is proposed to capture the global features. In Convolutional Transformer, the Depth-wise Multi-Head Self-Attention module extracts more salient features and provides high-level information, while a new Gated Feed Forward Network effectively enhances the model’s capability by extracting deeper and richer information. The proposed AGI-CTFormer model integrates the AGIR module with the Convolutional Transformer block to enhance feature extraction capability. Furthermore, the SVM classifier is employed by optimizing its parameters using a Bayesian optimization algorithm to enhance the overall classification performance. The efficacy of the proposed model is evaluated in comparison with a few pretrained networks using two benchmark datasets. In the 10-fold cross-validation experiment, the proposed model achieves a superior performance, obtaining an accuracy of 96.58% for the HMR 195 dataset and 98.27% for the Genscan training set."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "A Multi-modal Iterative Guided Framework for Fake News Detection",
+    "authors": "Shouxin Liu, Junfeng Guo, Hongran Zeng, Chongyang Zhang, In-Kwon Lee, Yushu Zhang, Xiaowei Li",
+    "publish": "IEEE Transactions on Consumer Electronics",
+    "url": "https://doi.org/10.1109/tce.2026.3689869",
+    "source": "IEEE",
+    "abstract": "In recent years, multi-modal fake news detection methods have been widely used and have shown good detection performance in identifying common fake news scenarios, i.e., different tweets are accompanied by different images. However, many fake news stories involve multiple tweets using the same image. Existing detection methods do not fully consider this feature, resulting in unsatisfactory performance in this case. To address this omission problem, we proposed a Multi-modal Iterative Guided Framework (MIGF), where the entire detection process is completed in the latent space. Specifically, first, we construct a latent space at the feature level to alleviate the problem of inconsistent multi-modal feature space and distribution. Then, at the multi-feature interaction level, a multi-modal cross-guided attention mechanism is designed for the interaction of text and visual features. Finally, in terms of multi-view feature extraction and learning, an iterative guided mixture-of-expert system is used to guide the extraction of multi-modal features. Comparative experiments show that the comprehensive performance of MIGF surpasses the baseline models, verifying its effectiveness and superiority. Ablation experiments further quantify the contribution of each module, proving that the overall architecture is indispensable."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Cross-Domain Self-Training Network with Prototype Rectification for Few-Shot Hyperspectral Image Classification",
+    "authors": "Qingyan Wang, Peng Luo, Junping Zhang, Zhenhang Yao, Yujing Wang",
+    "publish": "IEEE Transactions on Geoscience and Remote Sensing",
+    "url": "https://doi.org/10.1109/tgrs.2026.3689914",
+    "source": "IEEE",
+    "abstract": "In recent years, the classification research of hyperspectral image (HSI) with scarce labeled samples has made significant progress, demonstrating strong performance when labeled samples are limited. However, current methods often overlook the importance of class prototypes. Additionally, while Conditional Domain Adversarial Adaptation (CDAA) is employed to mitigate domain shift, it fails to account for the varying degrees of data distribution discrepancies across different classes, leading to suboptimal alignment. To address these issues, a Cross-domain Self-Training Network with Prototype Rectification (CSNPR) for few-shot HSI classification is proposed. First, a Three-dimensional Ghost Attention Network with Brownian distance covariance (TGAN-B) is introduced to improve the representation learning of HSI, generating more effective class prototypes. Next, an adaptive weighted conditional domain adversarial adaptation (ACDAA) strategy is proposed, which assigns weights based on the domain discrepancy for better alignment. Finally, a Pseudo Label Selection (PLS) module is developed to select the most confident pseudo-labeled samples from each class in the target domain, thereby enriching the training set. The experimental findings derived from the analysis of three publicly available HSI datasets, prove that the CSNPR method outperforms existing state-of-the-art (SOTA) methods, achieving superior and stable performance even with sparse labeled samples. Our source code is available at https://github.com/Yzh190-hue/CSNPR."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "A Multi-groove Ceramic-packaged Sapphire-Diaphragm Fiber Sensor for High-temperature Vibration",
+    "authors": "Zhifeng Wang, Guangze Yao, Xingkui Pang, Xuecheng Liu, Heming Wei, Mengshi Zhu, Liang Zhang, Fufei Pang",
+    "publish": "IEEE Photonics Journal",
+    "url": "https://doi.org/10.1109/jphot.2026.3689953",
+    "source": "IEEE",
+    "abstract": "A sapphire-diaphragm fiber-optic vibration sensor for high-temperature applications is proposed and experimentally demonstrated. Its sensing unit consists solely of a monolithic sapphire sensitive diaphragm encapsulated in a multi-groove ceramic housing, forming a stable Fabry-Pérot interferometer. Experimental shows that the sensor achieves reliable vibration measurements up to 10 g across a temperature range of 17°C to 800°C, with a room-temperature sensitivity of 5.18 nm/g and a resonant frequency of 9.65 kHz. After being subjected to a 237 g impact at room temperature, the amplitude–frequency response error within the 20-3000 Hz band remains approximately 6.2%. Experimental results demonstrate that the sensor features a compact structure and robust performance, offering a reliable solution for vibration monitoring in harsh environments."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Shaping the Q-U Droop Characteristic of Grid Forming Converters from the Perspective of Constant Voltage Control",
+    "authors": "Chenhui Fan, Xiaohui Qin, Xiangyu Zhang, Cheng Wang, Hui Liu, Lei Qi, Jun Liang",
+    "publish": "IEEE Transactions on Sustainable Energy",
+    "url": "https://doi.org/10.1109/tste.2026.3690113",
+    "source": "IEEE",
+    "abstract": "With the increasing penetration rate of variable renewable energy (VRE) and other inverter-based resources (IBR) in power systems, system inertia and strength are being continuously weakened. Grid-forming (GFM) technology, adaptable to weak grids, has attracted widespread attention. The GFM Q-U droop control is widely adopted in practice, but it is challenging to tune key parameters, such as initial voltage reference value and droop coefficient, therefore, the adaptability and effectiveness of voltage support is difficult to ensure. To take the advantages of GFM converters as voltage sources, adopting constant voltage control (CVC) seems to be a better choice. This paper clarifies the implicit internal connection between CVC and droop control, indicating that the droop characteristic does not inherently depend on droop control, but should be regarded as a natural external port performance under internal CVC. Based on above analysis, a novel shaping method for Q-U droop characteristic of GFM converters from the perspective of CVC using virtual impedance is proposed. The virtual impedance in the proposed method is straightforward to set due to its explicit physical meaning, and the method performs well in strong adaptability and robustness for both islanded and grid-connected modes. Finally, the conclusions and the control effectiveness are verified by theoretical analysis, simulation, and experimental results."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Advertisement",
+    "authors": "N/A",
+    "publish": "IEEE Spectrum",
+    "url": "https://doi.org/10.1109/mspec.2026.11506030",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Experimental Demonstration of Grid-Gate LDMOS with Ultra-Low\n                    <i>R</i>\n                    <sub>on,sp</sub>\n                    and High HCI Robustness on 55nm BCD Platform",
+    "authors": "Jiawei Wang, Ming Qiao, Fanyi Zeng, Hanwen Bai, Wenliang Liu, Dingxiang Ma, Yangjie Liao, Zhaoji Li, Bo Zhang",
+    "publish": "IEEE Electron Device Letters",
+    "url": "https://doi.org/10.1109/led.2026.3689917",
+    "source": "IEEE",
+    "abstract": "In this letter, a grid-gate LDMOS (GG-LDMOS) is experimentally demonstrated on a 55-nm Bipolar-CMOS-DMOS (BCD) platform to relax the drift-region doping limit of scaled finger-LDMOS under breakdown-voltage (<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">BV</i><sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">OFF</sub>) and hot-carrier injection (HCI) constraints. A sloping body formed by a dual-implantation process enables an ultra-short channel, making the channel resistance sufficiently low that the drift-region resistance dominates the on-resistance. Multidimensional depletion in the GG-LDMOS homogenizes the drift-region surface electric field and allows higher drift doping at a given <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">BV</i><sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">OFF</sub>, lowering the specific on-resistance (<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">R</i><sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">on,sp</sub>). Circular and hexagonal GG-LDMOS devices are fabricated and analyzed, and the hexagonal cell spatially separates the peaks of ionization coefficient (α<sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">n</sub>) and vertical electric field, resulting in improved HCI robustness. The fabricated 9 V GG-LDMOS achieves <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">BV</i><sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">OFF</sub> > 18 V, sub-1-μm cell pitch, and a 25% reduction in <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">R</i><sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">on,sp</sub> (1.76 mΩ·mm<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup>) with a finger-LDMOS-comparable HCI lifetime in the hexagonal cells, providing an architecture for scaling in advanced BCD nodes."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "MConAI: Multilingual Conversational AI for Low-Cost Early Alzheimer's Detection",
+    "authors": "Srihith Chennareddy, Charisse N. Winston",
+    "publish": "Proceedings of the 2025 8th Artificial Intelligence and Cloud Computing Conference",
+    "url": "https://doi.org/10.1145/3789982.3790060",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "The Landscape of GPU-Centric Communication",
+    "authors": "Didem Unat, Ilyas Turimbetov, Mohammed Issa, Dogan Sagbili, Flavio Vella, Daniele Sensi, Ismayil Ismayilov",
+    "publish": "ACM Computing Surveys",
+    "url": "https://doi.org/10.1145/3813799",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "HierMine: Accelerating Graph Pattern Mining via Hierarchical Sampling",
+    "authors": "Guang Wu, Xinbiao Gan, Songzhu Mei, Zhengbin Pang, Hongxu Jin",
+    "publish": "ACM Transactions on Architecture and Code Optimization",
+    "url": "https://doi.org/10.1145/3814962",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Research on Spectrum Sensing Method for Non-Cooperative Targets Correction",
+    "authors": "Yingqiang Song, Boyu Deng, Jizheng Sun, Le Yao, Jingchao Wang",
+    "publish": "Proceedings of the 2026 2nd International Conference on Big Data, Communication Technology and Computer Applications",
+    "url": "https://doi.org/10.1145/3801359.3801404",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Measuring and Predicting the Resilience of Smart Eldercare Industry Innovation Ecosystems: An Event-Driven Performance-Space Framework with Machine Learning",
+    "authors": "Supeng Zheng, Haoxi Zhang, Yanshang Hou",
+    "publish": "Proceedings of the 2026 2nd International Conference on Big Data, Communication Technology and Computer Applications",
+    "url": "https://doi.org/10.1145/3801359.3801369",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "A Unified Spatiotemporal Graph Prediction–Optimization Framework for Networked Time-Varying Systems",
+    "authors": "Taiyong Zhong",
+    "publish": "Proceedings of the 2026 2nd International Conference on Big Data, Communication Technology and Computer Applications",
+    "url": "https://doi.org/10.1145/3801359.3801414",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Dynamic Simulation and Performance Evaluation of an Electric Two-Wheeler Powertrain",
+    "authors": "Kumar Amartya Dev, Aldrin Claytus Vaz, Vinaya Basavaraaj Koradoor, Navya Thirumaleshwar Hegde",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490100",
+    "source": "IEEE",
+    "abstract": "India, as one of the largest consumers in the two-wheeler market, heavily depends on motorcycles for daily transportation. While conventional petrol-powered bikes offer extended range and efficient fuel use, they are associated with high fuel costs, environmental pollution, and frequent maintenance. In response to these challenges, the electric two-wheeler segment has gained substantial traction over the past decade. This paper presents a comprehensive design and simulation of electric two-wheelers aimed at improving efficiency, enhancing performance, and reducing maintenance demands. Multiple configurations were evaluated to identify the most effective setup, using MATLAB's Simscape and Powertrain Design Blockset for modeling. The powertrain simulation incorporates data-driven modeling of key components, including a mapped BLDC motor, battery specifications, wheel and brake dynamics, and vehicle body parameters. Regenerative braking enables energy recovery in generator mode, enhancing overall efficiency. Performance metrics such as range, speed, battery state of charge (SOC), and powertrain efficiency are analyzed under standard drive cycles. The entire study is executed within the MATLAB environment using SIMULINK and Simscape tools."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Shunt Active Power Filter Based on DETOGI for Self-Excited Induction Generator Under Unbalanced Loaded Condition",
+    "authors": "Jotirmoy Samanta, Ralli Sangno, Rajen Pudur",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490321",
+    "source": "IEEE",
+    "abstract": "Power quality issues (PQIs) pose a critical challenge in edge-of-grid renewable systems, especially under dynamic and unbalanced loading conditions. These issues are primarily characterized by harmonic distortion arising from nonlinear loads, poor power factor (PF), and voltage degradation at the terminals of self-excited induction generators (SEIGs). This paper proposes a shunt active power filter (SAPF)-based SEIG system to mitigate PQIs in edge-of-grid applications effectively. A Double-Enhanced Third-Order Generalized Integrator (DETOGI) is employed within a Dual Fundamental Component Extraction (DFCE) control framework to precisely extract the fundamental components necessary for generating the reference compensation current in the PWM control of the SAPF. Additionally, a nonlinear PID (NPID) controller is designed to regulate the DC-link voltage of the SAPF, ensuring stable operation under varying load conditions. The proposed control strategy not only stabilizes the SEIG terminal voltage but also significantly reduces harmonic distortion and improves the overall power factor of the system. The performance of the proposed SEIG-SAPF configuration is validated through detailed simulations conducted in MATLAB/Simulink, demonstrating its effectiveness in enhancing power quality at the grid edge."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Urban Traffic Intelligence: Merging Computer Vision and Reinforcement Learning for Proactive Congestion Control",
+    "authors": "Aadithyaa Eeswaran, Sravya Duvvuri, Bhavana Naidu, N Lalithamani N",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490570",
+    "source": "IEEE",
+    "abstract": "Urban traffic congestion significantly impacts travel time, fuel use, and air quality in rapidly growing cities. This paper proposes an integrated framework combining computer vision and reinforcement learning for proactive traffic-signal control and emergency-vehicle prioritization. The system uses YOLOv8-based image analysis and Mel-spectrogram audio classification to detect and classify vehicles in real time, while a Proximal-Policy-Optimization (PPO) controller dynamically optimizes signal phases across multiple intersections. SUMO- based experiments show a 94 % cut in ambulance waiting time, 96 % in overall vehicle waiting, and a 41 % drop in emissions versus timer-based control. These results highlight the approach's potential to improve urban mobility, lower environmental impact, and speed emergency response."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Bandgap Prediction in Mixed $\\text{Sn}-\\text{Pb}$ Perovskites via Regression Models",
+    "authors": "Shikha Marwaha, Debajyoti Biswas",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490525",
+    "source": "IEEE",
+    "abstract": "In this work, we have predicted the bandgap of mixed tin-lead <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(\\text{Sn}-\\text{Pb})$</tex> perovskites using machine learning techniques. Here, we apply machine learning techniques including NuSVR (with RBF kernel), Random Forest Regressor, and Linear Regression to predict the bandgap of <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\text{Cs}_{\\mathrm{a}} \\text{FA}_{\\mathrm{b}} \\text{MA}_{(1-\\mathrm{a}-}$</tex> b) <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\text{Sn}_{\\mathrm{m}} \\text{Pb}_{(1-\\mathrm{m})}(\\text{Cl}_{\\mathrm{x}} \\text{Br}_{\\mathrm{y}} \\mathrm{I}_{(1-\\mathrm{x}-\\mathrm{y})})_{3}$</tex> perovskites. The models are evaluated via <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathrm{R}^{2}$</tex> metrics, while compositional impacts on bandgap tuning are examined. Our results align well with experimental data, demonstrating machine learning's efficacy in guiding material optimization for scalable PSC development."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Design and Control of High Power Density Power Electronics for Fuel Cell-Based Energy Storage Systems",
+    "authors": "Rajesh Kumar Mahto, Aditya Kant, Pallavi Bharadwaj",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490397",
+    "source": "IEEE",
+    "abstract": "This work presents the design and control strategy for the development of a 5 kW high power-density DC/DC converter used to power loads from fuel cell energy storage systems. The proposed converter can maintain a fixed voltage at the DC bus despite of wide variation in input voltage produced by fuel cells. This is ensured under varying load demand. The fuel cell DC/DC converter (FDC) consists of two H-bridges with a common high-frequency AC link. The primary H-bridge has four active semiconductor switches controlled through a single microcontroller. The FDC is operated in the boost mode at a switching frequency of 25 kHz. The validity of the converter control and performance is confirmed through simulation as well as experimental verification on developed hardware prototypes. The efficiency of the proposed converter varies between 88 and 98% as per operating conditions."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "A Machine Learning Approach for Efficiency-Based Fault Detection in Ev Batteries",
+    "authors": "Bhagya Satya Sri Vutukuri, Shanmukha Krishna Chaitanya M, Gowreesh Raja Dandamudi, D S R S L Avanthika, Ramanjaneya Reddy Udumula",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490593",
+    "source": "IEEE",
+    "abstract": "The widespread adoption of electric vehicles (EVs) has significantly increased the demand for reliable and efficient Battery Management Systems (BMS), which are essential for ensuring safety, high performance, and extended battery life. BMS rely on parameters such as voltage, current, temperature, and charge-discharge cycles to estimate the battery's State of Charge (SOC) and State of Health (SOH). However, efficiency degradation and fault conditions remain key challenges. This study presents a machine learning (ML)-based framework aimed at detecting efficiency-related anomalies in BMS data. The proposed approach emphasizes a structured preprocessing pipeline, incorporating missing value imputation, outlier correction, skewness handling, and feature scaling to enhance data quality. Unsupervised anomaly detection using Isolation Forest is employed to identify deviations from normal behavior, followed by classification of these anomalies using supervised ML algorithms: Logistic Regression, Decision Tree, and Random Forest. Model performance is rigorously evaluated using Accuracy, F1-Score, and AUC-ROC metrics to benchmark effectiveness. This work contributes a scalable and data-driven diagnostic methodology for intelligent battery systems, addressing real-time fault detection in evolving EV ecosystems."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Modern Hybrid Cross-Tied BIPV Interconnections for Smart Infrastructures With Improved Global MPP Under Extreme Non-Uniform Shading",
+    "authors": "Nikhil Arunrao Bodkhe, Debayan Sarkar, Risha Mal",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490598",
+    "source": "IEEE",
+    "abstract": "Modern hybrid cross-tied interconnections offer promising solutions to the persistent challenge of Global Maximum Power Point (GMPP) enhancement in BuildingIntegrated Photovoltaic (BIPV) systems under extreme NonUniform Shading Patterns (NU-SPs). This study evaluates three existing configurations-Alternate Bridge Linked-Honey Comb (A-BL-HC), Series Parallel-Triple Tied Cross Linked (SP-TTCL), and Total Cross Tied-Bridge Link-Total Cross Tied (TCT-BL-TCT-alongside two new interconnections: Proposed Triple Tied-Total Cross Tied (Prop. TT-TCT) and Proposed Series Parallel-Total Cross Tied-Series Parallel (Prop. SP-TCT-SP). Simulations performed in MATLAB R2023b examine key performance metrics including GMPP, Mismatch Loss (ML), Cross Ties, Open-Circuit Voltage (OCV), Short-Circuit Current (SCC), and Local Maximum Power Points (LMPP1 & LMPP2) under high, low, and very low NU-SP scenarios. Results indicate that the Prop. SP-TCT-SP topology delivers the highest GMPP and most effective shade dispersion, while A-BL-HC suffers from the lowest power output and highest shading sensitivity. The emergence of multiple LMPPs at varying irradiance levels further emphasizes the role of modern hybrid topologies in maximizing energy yield. This study underscores the value of strategically engineered cross-tied hybrid BIPV interconnections for enhancing reliability and performance in smart building infrastructures under real-world shading conditions."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Enhanced Ultra Gain Cubic DC-DC Converter for EV and Grid Applications Using Dual Switch Operation",
+    "authors": "Arun Polasa, Roshini Gaini, Pavani Guvvala, Phanindra Kumar Samudrala, Manikanta Kuraganti, Ramulu Chinthamalla",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490675",
+    "source": "IEEE",
+    "abstract": "In order to integrate photovoltaic (PV) and fuel cell sources into the grid with a substantially higher voltage gain, this paper suggests a novel Ultra Gain Cubic (UGC) DC-DC converter. Even at a low duty cycle, the suggested converter achieves ultra high gain, making it extremely effective for applications involving renewable energy. With a focus on its gain performance at lower duty cycles, the converter's operation is examined in Continuous Conduction Mode (CCM). Using the PSIM simulation platform, a <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$1 \\text{KW}, 800 ~\\mathrm{V}$</tex> converter model is developed and tested, demonstrating its reliability and suitability for high voltage, high efficiency power conversion."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Life Cycle Assessment of Prismatic Lithium Iron Phosphate Batteries for Autonomous Vehicles in India: Tool Benchmarking and Environmental Impact Mitigation Strategies",
+    "authors": "Aarushi Chatterjee, Souvik Ganguli",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490687",
+    "source": "IEEE",
+    "abstract": "Autonomous vehicles (AVs) in India use a lot of Prismatic Lithium Iron Phosphate (LFP) batteries because they are more stable, last longer, and are safer. But most of the environmental studies on these batteries use international datasets that don't show how India's electricity grid and manufacturing ecosystem are changing and how much carbon they use. This work contributes to the development of an India-specific Life Cycle Assessment (LCA) model for prismatic LFP cells, incorporating localized electricity emission factors, material supply chains, and process-specific parameters. Using the Central Electricity Authority (CEA) emission factor of 0.716-0.757 kg <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\text{CO}_{2} / \\text{kWh}$</tex>, the cradle-to-gate Global Warming Potential (GWP) was found to be <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$67.1 ~\\text{kg} \\text{CO}_{2} \\mathrm{e} / \\text{kWh}$</tex>. The battery model was implemented using TCS Product Life Cycle Profiler (PLCP) and compared with openLCA, SimaPro, and GaBi. The results were within <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\pm 6 \\%$</tex> of each other based on the same assumptions. The case study showed that using an aqueous binder, adding renewable energy, and using hydrometallurgical recycling more effectively could all lower GWP by 15-20%. These studies show that India needs LCA frameworks, new ways of doing things, and clear policy measures to really reduce the environmental impact of different battery models throughout their entire life cycle."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Optimal Placement of Electric Vehicle Rapid Charging Stations with V2G strategies",
+    "authors": "Sandip S. Yeole, Prakash G. Burade, Fareed Ahmad",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490697",
+    "source": "IEEE",
+    "abstract": "Electric vehicles (EVs) are gaining substantial consideration from both government and the automotive industry due to their potential for reducing carbon emissions, lower maintenance requirements. With the growing adoption of EVs as a sustainable alternative to fossil fuel-based vehicles, the growth of sustainable charging infrastructure has become a global significance. One of the foremost concerns in this area is determining the optimal number of charging piles and the locations of EV rapid charging stations (RCSs), which is necessary for effective policy and infrastructure planning. This study presents a mathematical model designed to forecast the required number of RCSs in the proposed area. Additionally, an optimisation framework is established to identify the optimal locations for proposed RCSs within the power distribution network, incorporating vehicle-to-grid (V2G). The problem formulation considers two main objective functions: minimizing the total power loss and reducing the transportation cost incurred by EVs traveling from demand points to nearest RCS. To evaluate the efficiency of the proposed framework, simulations are conducted on the IEEE 34-buses test system using the backward/forward sweep load flow technique. Performance is analyzed under three scenarios: the base case, optimal placement of RCSs, and optimal placement with integrated V2G strategy."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Reduction of Harmonic Distortion in Five-Phase VSI Using Modified Pentagonal Space Vector PWM",
+    "authors": "Harsh Ramesh Moon, Ramsha Karampuri",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490707",
+    "source": "IEEE",
+    "abstract": "This paper discusses an improved pentagonal space vector pulse width modulation (SVPWM) method for a five-phase voltage source inverter (VSI). Conventional pentagonal SVPWM techniques often face limitations in achieving good harmonic performance while keeping the output voltage quality high. In this work, the conventional switching sequences have been modified to create a new pattern that makes better use of the available dc bus voltage. The proposed method provides a stronger fundamental component in the output voltage and smoother current waveforms. Simulation results show that the load current total harmonic distortion (THD) is reduced compared to the standard pentagonal approach. These improvements highlight the effectiveness of the proposed scheme, making it a promising option for high-performance motor drives and multiphase energy conversion systems."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Frequency Control of Multi-Area Power Systems Using a Novel Hippopotamus Optimization-Based Cascaded Controller Incorporating Renewable Energy Sources and Electric Vehicles",
+    "authors": "Hiramani Shukla, Shailendra Kumar",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490793",
+    "source": "IEEE",
+    "abstract": "Ensuring constant system frequency is essential for the reliable functioning of contemporary power systems, particularly with the increasing integration of renewable energy sources. This research examines load frequency management in a multi-area, multi-source power system using a cascaded proportional-integral and proportional-integral-derivative with filter (C-PI-PIDN) controller, optimized by the Hippopotamus Optimization Algorithm (HOA). The suggested HOA-based method is contrasted with several known optimization strategies to assess its efficacy. Simulation findings reveal that the C-PI-PIDN controller exhibits superior performance compared to the traditional PIDN controller in alleviating frequency deviations and tie-line power variations, attaining diminished overshoot, minimized undershoot, and expedited settling time. The system model includes traditional thermal generating units with renewable energy sources, including a solar thermal power plant, wind energy conversion systems, and solar photovoltaic production. The involvement of electric cars functioning in vehicle-to-grid (V2G) mode is seen as beneficial for grid stability and for mitigating carbon emissions. Moreover, energy storage technologies, such as a redox flow battery and an ultracapacitor, are included to improve system dynamics and mitigate oscillatory behavior. The efficacy of the suggested control technique is substantiated by simulation experiments conducted in MATLAB/Simulink, with the findings further corroborated using the OPAL-RT (OP4510) real-time simulation platform."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Comparative Analysis of Different Rotor-Shaped IPMSM for Two-Wheeler Electric Vehicles",
+    "authors": "Lourembam Ranjita Devi, Sreenu Sreekumar, Anoubam Delin Sharma, Stalin Meitei Athokpam, Kilangleima Chingsubam",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490790",
+    "source": "IEEE",
+    "abstract": "The rapid rise in vehicle numbers has intensified concerns over air pollution and global warming. Electric vehicles (EVs) present a sustainable solution, with electric motors playing a critical role in their performance. Among various motor types, Interior Permanent Magnet Synchronous Motors (IPMSMs) are widely adopted in electric two-wheelers due to their high torque output and high efficiency. This study investigates the impact of rotor geometry on the performance of IPMSMs, focusing on enhancing output power, power factor, torque, and efficiency characteristics through rotor shape optimization. Particular attention is given to minimize undesirable cogging torque, which can arise from poor rotor design. Comparative analysis shows that a delta-shaped rotor offers improved performance, with the lowest cogging torque (4.4329 Nm), highest average torque (25.47 <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{N m}$</tex>), and minimal torque ripple (<tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{0. 2 8 5 \\%}$</tex>), outperforming the V-shaped rotor by 4.3 % in torque and reducing torque ripple by 60 %. Furthermore, the application of rotor skewing in the V-shaped design significantly reduces cogging torque from 5.2388 Nm to 0.0248 Nm and torque ripple from 1.29 % to 0.53 %, achieving a 58.9 % improvement. These findings demonstrate that rotor shape optimization, particularly skewing and delta configurations, enhances overall motor performance, leading to smoother and more efficient EV operation."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Optimized Bidirectional Dual-Input Single-Output DC-DC Converter for Enhanced Electric Vehicle Integration",
+    "authors": "V. Suryanarayanareddy, Arun Kumar Thulasi, P. Dhanaselvi, Busireddy Hemanth Kumar, P. Vishnuvardhan, E. Parimalasindar",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490837",
+    "source": "IEEE",
+    "abstract": "This study helps to completely examine an optimized Bidirectional Dual-Input Single-Output (BDISO) DC-DC converter tailored for Electric Vehicle (EV) applications. Incorporating Photovoltaic (PV) technology with advanced Maximum Power Point Tracking (MPPT) functionality. The converter's dual functionality proves instrumental in managing power flow between various sources, optimising energy efficiency in EVs. The presentation covers the converter's operational principles, application in EVs, advantages, and analysis methods. Real-world case studies highlight successful implementations, while discussions on challenges and innovative solutions provide a comprehensive overview. This research not only contributes to the efficiency of EVs but also underscores the pivotal role of bidirectional converters in shaping the future of electric transportation. Utilising MATLAB software, comprehensive simulations were conducted to investigate the behaviour of the converters under different loading conditions, including various load scenarios and different input voltage scenarios."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Efficient Architecture for Cubesat Electric Power System",
+    "authors": "Anil Jakhar, Pravin Kumar, Amarendra Edpuganti",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490878",
+    "source": "IEEE",
+    "abstract": "This paper presents a new architecture for CubeSat Electric power system (EPS) to achieve higher efficiency compared to the state-of-the-art architectures. In the literature, several architectures are presented for the CubeSat EPS, and among them, two architectures are utilized in commercial products. The efficiency of the architectures that depend on the number of power converters between the source and load is critical, as it affects the cycle life of the battery. The proposed architecture achieves only one power conversion stage between source and load in all modes of operation and thus, it achieves higher efficiency compared to commercial EPS architectures. Further, the simulation tests are performed for the proposed EPS architecture based on the 1 U CubeSat specifications, and results are presented to demonstrate the performance of the proposed EPS architecture."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Loss Minimization Through Non-Dispatchable Distributed Generators in Distribution System",
+    "authors": "Aditya, Narayanan Krishnan, Alexander Águila Téllez, Anurag Sharma, Gulshan Sharma, Tomonobu Senjyu",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490872",
+    "source": "IEEE",
+    "abstract": "The growing integration of renewable energy sources within distribution networks such as the IEEE 33-Bus and IEEE 118-Bus systems offers a practical route toward affordable and sustainable electricity access. This paper presents a detailed techno-economic analysis of renewable energy technologies, focusing mainly on solar and wind generation. Key performance indicators—including the Voltage Stability Index (VSI), total system loss, voltage profile, and operational cost—are evaluated using load-flow analysis. The study examines the influence of incorporating Distributed Generators (DGs) of uniform capacity into the system. Using DGs of equal rating ensures consistent investment requirements for customers and simplifies comparative evaluation at the distribution level. Results from the simulated test systems provide valuable guidance for planners and utilities in designing system reinforcements that accommodate both future load growth and the increasing penetration of electric vehicles (EVs)."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Advanced Incentive-Based Demand Response Strategies for Optimal Energy Management in Microgrids",
+    "authors": "Neha Yadav, Amit Kumar Singh",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490905",
+    "source": "IEEE",
+    "abstract": "Microgrids use energy management strategies to reduce costs and maximise resource use. This research proposes an energy management system incorporating demand response (DR) to optimise power output and load demand. This study incorporates an incentive-based DR strategy, where consumers are incentivized to reduce or shift their electricity usage. Consumers receive incentives based on their load curtailment, which helps the microgrid operator (MGO) balance supply and demand efficiently. The MGO offers incentives to service providers (SPs), who in turn compensate consumers for their participation, thus creating a financial balance in the resource trading process. Additionally, an advanced Coati Optimization Algorithm (ACOA) is utilized to optimize the cost and incentives. The results demonstrate that the proposed ACOA technique, combined with the incentive-based DR strategy, effectively reduces operational costs by up to 5.040 %."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Cyber Resilient Protection Functionality of Modern Protective Relays",
+    "authors": "Rahul Pujari, Mahamad Nabab Alam",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490948",
+    "source": "IEEE",
+    "abstract": "The advancements in technology have significantly enhanced and strengthened the reliability of modern power system network. With the integration of modern advanced tools like Internet of Things (IoT), Information and Communication Technology (ICT), and standard communication protocols, the traditional power grid is rapidly evolving into a digital and more sophisticated intelligent smart grid. This offers improved controllability, stability, resiliency and efficiency. However, this digital transformation introduces new risks in particularly to cyber threats. The increasing dependence on digital infrastructure unmask the grid to potential cyber-attacks, which can target critical protection infrastructure and can cause faulty conditions without any actual physical fault type scenario. Such attacks pose challenges, as they can compromise the security, dependability, and integrity of fault detection and protection systems. Thus recent research focused on distinguishing between cyber-attacks, faults, and faults occurring during a cyber-attack. In this regard, the authors of this paper propose a method that utilizes digital data with local analog measurements of voltage, current, and frequency—and integrates them with existing protection relay logic. Which aims to reliably detect and differentiate between complex scenarios and thus enhancing grid resilience."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "IoT Node Synchronized with Indian Constellation for Phasor Measurement in Power System",
+    "authors": "Pratik Sharma, Ankush Sharma",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490975",
+    "source": "IEEE",
+    "abstract": "The commitment to reduce carbon emission is encouraging the integration of renewable energy generation sources in the power system. However, the intermittency of these renewable resources adds stress to the power system and compels its components to operate close to their operating limits. This situation pose threat to the security and stability of the power system. Thus it is important to implement real-time monitoring techniques in power systems. The real-time monitoring in the power system is carried out using wide area monitoring system (WAMS) which intends to cover the monitoring of power systems spread over a huge geographical area using phasor measurement units (PMUs). This paper describes the construction of a low-cost, open-source hardware based, phasor measurement apparatus. It acquires 64 digital samples per power cycle and can publish up to 50 phasor measurement. It employs the Indian Regional Navigation Satellite System (IRNSS) for time stamping, and streams reports following IEEE C37.118.2011 standard. The results indicate that a low-cost, standards-compliant PMU can provide actionable situational awareness for power grid."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Fuzzy Logic Controlled Hybrid EV Charging Station Utilizing Solar Power and Diesel Generator",
+    "authors": "Chidurala Saiprakash, Buddhadeva Sahoo, Srikanth Velpula, Masadi Prashanth Kumar, Kalyani Thota",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490969",
+    "source": "IEEE",
+    "abstract": "The Range-Anxiety is the major concern influencing consumers' use of Electric Vehicles (EVs). In this context, designing an EV charging station (CS) has become more important and plays a vital role in EV technology. Especially the designing of EVs CS using different energy sources that are in demand, which helps in increasing the use of renewable energy sources. In this paper, the CS for EV is designed using solar energy, batteries, along with a diesel generator and verified its performance. This charging station employs the use of a grid-operated CS for continuous load disjunct, grid-operated, and DG-operated modes. A power storage unit, a DG, and photovoltaic (PV) technology are used for EV charging. The DG set in this project has a FUZZY controller that can control the voltage and frequency. Recharging the EV energy storage unit by making use of solar PV and BES saves money by reducing the cost per unit at a charging station. In the event of an empty storage battery and the unavailability of solar PV array production, the CS is conceptually powered by electricity from the power grid or diesel generators. To ensure maximum fuel efficiency, the DG aggregation power is drawn in a way that typically operates at 80 to 90 percent charge in all charging conditions. The charger manages the generator's output voltage and frequency in addition to the storage battery in the absence of a mechanical speed control. Furthermore, the tension of the PCC (Point Common connector) synchronises with the grid/generator voltage for continuous loading. Further, to maximise the vehicle's working efficiency, the CS directs the EV toward the grid's isolated/connected transmission, its domestic, and the transference of vehicle power. The proposed CS operation is verified using Matlab/Simulink."
+  },
+  {
+    "date": "2026-5-5",
+    "title": "Research on the Pattern Design of Doors and Windows in Tuanshan Village Based on AIGC and Entropy Weight TOPSIS Method",
+    "authors": "Xianbo Liu, Tianfeng Jing",
+    "publish": "Proceedings of the 2026 2nd International Conference on Generative Artificial Intelligence and Digital Media",
+    "url": "https://doi.org/10.1145/3803730.3803735",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Electric Vehicles Impact on the Power Grid: A Review of Challenges, V2G Integration, and AI-Based Control Strategies",
+    "authors": "Sahil V. Bansod, Rudresh P. Kadu, Madhuri A. Chaudhari",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490718",
+    "source": "IEEE",
+    "abstract": "The increasing use of electric vehicles (EVs) is changing travel patterns and, by extension, has significant implications for the electricity supply system. One of the most important issues related to EVs is their effect on the electrical network when a large number of vehicles are connected at the same time for charging. Although EVs help in lowering greenhouse gas emissions, their sudden demand surge can cause circuit overload. The transmission lines can be loaded with additional demand, especially during the evening peak hours. The voltage levels can show erratic variations if the charging is not managed. These issues are more probable to occur in the local distribution network than in the national network. The charging patterns of consumers show immediate charging as soon as they arrive at work, rather than managing the demand over time. This paper focuses on the implications of EV charging on the local network, particularly on the weaknesses of the local power grids. It covers charging stations, current regulation methods, stability issues, and harmonic distortion. In addition, it explores the idea of vehicle-to-grid (V2G) power flow and artificial intelligence-based smart charging systems. The paper integrates the latest research to identify the key operational issues and their management strategies necessary for the stable and sustainable integration of electric vehicles into the electricity supply system."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "$\\text{MoS}_{2}$ /Barium Ferrite Nanocomposite: a Synergistic Electrode for Advanced Supercapacitor Applications",
+    "authors": "Shivam Kumar Mittal, Udeshwari Jamwal, K. L. Yadav",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490823",
+    "source": "IEEE",
+    "abstract": "In this work, a novel multidimensional 2D/0D nanocomposite based on flower-like molybdenum disulfide (<tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\text{MoS}_{2}$</tex>) and barium ferrite (<tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\text{BaFe}_{12} \\mathrm{O}_{19}$</tex>) nanoparticles was developed via one-step hydrothermal method for high-performance supercapacitor applications. The incorporation of <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$10 \\text{wt} \\% \\text{BaFe}_{12} \\mathrm{O}_{19}$</tex> into the <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\text{MoS}_{2}$</tex> matrix significantly enhanced the electrochemical performance by improving electrical conductivity, redox activity, and structural stability. The MS-BFO10 electrode exhibited a <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathrm{C}_{\\mathrm{s}}$</tex> of <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$215 ~\\mathrm{F} ~\\mathrm{g}^{-1}$</tex> at <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$5 \\text{mV} \\mathrm{s}{}^{-1}$</tex>. Electrochemical impedance spectroscopy revealed reduced charge transfer resistance, while long-term cycling at <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$10 \\text{Ag} \\mathrm{g}^{-1}$</tex> showed outstanding stability with <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\sim 104 \\%$</tex> capacitance retention and nearly 100 % coulombic efficiency over 5,000 cycles. Kinetic analysis confirmed that the charge storage mechanism is primarily capacitive in nature, supported by a high b-value of 0.91 and a capacitive contribution of up to 92 % at higher scan rates. These findings highlight the synergistic effect of the <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\text{MoS}_{2} / \\text{BaFe}_{12} \\mathrm{O}_{19}$</tex> architecture, offering a promising strategy for designing advanced supercapacitor electrode materials with superior energy storage performance and long-term durability."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Thermal Analysis of Multiphase Electromagnetic Coupler for High Power Contactless Charging System Considering Core and Shielding Effects",
+    "authors": "Sukumar Das, Apurv Kumar Yadav",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490838",
+    "source": "IEEE",
+    "abstract": "This paper presents a thermal analysis approach for a high-power multiphase inductive power transfer (IPT) system, with a focus on the thermal behavior of the magnetic core and electromagnetic shielding materials. The study incorporates detailed electromagnetic and thermal co-simulation using FEA in ANSYS to evaluate the spatial heat distribution across core, winding, and shielding structures. The influence of eddy current loss, core loss, and ohmic heating in conductors is analyzed. The thermal model is validated against experimental data and is used to optimize design of the magnetic core, coil geometry and shielding layout to minimize hotspots and improve thermal dissipation. Results demonstrate that appropriate selection of core and shielding can significantly reduce localized heating, enabling the system to operate safely at higher power levels."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Impact Assessment of Fast DC EV Charging Station Integration in an Islanded Microgrid Using a Node Sensitivity-Based Approach",
+    "authors": "Amrutha Raju Battula, Sagar Babu Mitikiri, Dushyant Sharma, Vedantham Lakshmi Srinivas",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490868",
+    "source": "IEEE",
+    "abstract": "This study proposes a node-sensitivity-based methodology to leverage fast DC electric vehicle (EV) charging stations for enhancing power-system stability during grid-to-island transitions. The IEEE 14-bus system, modeled in PSS®E, serves as the testbed to evaluate the dynamic role of EV charging stations as auxiliary power sources. An analytical framework incorporating the load-reduction effectiveness (LRE) and enhanced load-impact sensitivity index (ELISI) identifies critical nodes vulnerable to voltage and frequency instability. The study also evaluates vehicle-to-grid (V2G) operation, wherein EV charging stations act as temporary power supplies during islanding events. Simulations show that strategically integrated EV charging stations improve transient stability and reduce system stress during grid disturbances. The results indicate a viable pathway for EV charging infrastructure to provide ancillary services, informing planning for resilience and emergency response."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Subsynchronous Oscillations Identification in Series-Compensated DFIG-Based Wind Farm Using Machine Learning Algorithms: A Comprehensive Review",
+    "authors": "Sameer P. Meshram, Jawaharlal Bhukya, Soumyabrata Das",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490862",
+    "source": "IEEE",
+    "abstract": "In wind-integrated power grids, sub-synchronous oscillations (SSOs) are gaining attention due to their potential impact on system stability, particularly following several reported incidents in the United States and China. These events are primarily associated with the interplay between seriescompensated transmission lines and power electronic converters. SSOs arise when two or more components within the power system (PS) exchange energy at frequencies less than the nominal system frequency. The integration of wind power plants (WPPs) introduces additional complexities, making SSO one of the critical challenges in ensuring system stability. Notably, the SSO phenomena observed in real-world wind farms (WFs) are not yet fully addressed in the conventional SSO literature. This article offers an extensive review of the traditional classifications of SSOs as defined by IEEE, proposes an updated classification framework based on recent research developments, and evaluates various SSO monitoring and identification techniques. Furthermore, the limitations of existing methods are discussed. The paper aims to provide a practical perspective and outline future research directions, assisting PS planners and operators in achieving secure, economical, and sustainable grid operations."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Estimating Power System Inertia: A Study with Renewable Energy Integrated Power Networks",
+    "authors": "Nitisha Sudhir Darwade, S.T. Nagarajan",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490888",
+    "source": "IEEE",
+    "abstract": "It is widely known that, with adoption of Renewable Energy Sources (RES) in the power system, overall inertia of system decreases. Continuous monitoring of system inertia is essential to prevent the failure of protection schemes and components during low system inertia. This paper summarizes the formulas used for calculation of inertia in power system. Further, it explains quantum of reduction in inertia with numerical calculation, when RES are integrated in the system. In addition, it proposes simple approach for calculation of synthetic inertia to be provided in presence of RES. The proposed approach for calculation of reduced inertia or synthetic inertia has been verified based on IEEE benchmark models."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Asymmetrical Dc-Link Voltage Based 51-Level Multilevel Inverter Topology with Less Switch Count",
+    "authors": "Uday Patel, Siddharthsingh K. Chauhan, P. N. Tekwani",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490903",
+    "source": "IEEE",
+    "abstract": "A multilevel inverter (MLI) topology based on, both, symmetrical (SYM) and asymmetric (ASYM) dc-link voltages is proposed in this paper. The proposed MLI topology generates 11-level output voltage under SYM dc-link conditions. By employing ASYM dc-link voltages, the same topology produces output voltage levels ranging from 13 to 51, thereby offering enhanced voltage resolution and improved output voltage waveform quality. The number of power semiconductor controlled switches, driver circuits, dc voltage sources, diodes, capacitors, and the total number of components in the proposed MLI topology are compared with those in recently published MLI topologies. The performance of the proposed MLI topology is evaluated using MATLAB. The results show that proposed MLI topology produces a higher voltage level with reduced total harmonic distortion. Additionally, the proposed topology provides a stable output voltage under various dynamic conditions. The multiple dc-link voltage sources of the proposed topology makes it a good choice for photovoltaic applications, microgrids, and also gridtied systems."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Five-Level Fault-Tolerant Inverter with Preserved Output Under Multiple Switch Failure",
+    "authors": "Prajesh Niranjan, Vimlesh Verma",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490964",
+    "source": "IEEE",
+    "abstract": "As the demand for multi-level inverters (MLIs) increases for high-power applications, the number of electronic switches required by consumers who use these MLIs exceeds that of the conventional 2-level inverter. These semiconductor devices must be protected against any faults to ensure the continuity of the power supply. A new Fault-Tolerant (FT) MLI is proposed in this paper that can overcome both single and multiple opencircuit switch faults while preserving post-fault output power. The proposed inverter is tested over dynamic load conditions and on different modulation indices. The superior features of the proposed FT-MLI are lower voltage stress, less power loss, and higher efficiency, which fit best for industrial and consumer electronics-based applications. The proposed FT topology is tested on the SIMULINK tool and validated experimentally, followed by the comparative analysis. PLECS software is used to calculate the power loss and efficiency."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Solar-Powered Boost Converter Using PID Control for Efficient Speed Regulation of a BLDC Motor and Real-Time MPPT",
+    "authors": "Mohit Singh, Naushad Hussain, Madhu Singh",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490413",
+    "source": "IEEE",
+    "abstract": "Environmental concerns have led to an expansion in the implementation of renewable energy for a range of applications. The most viable solution appears to be photovoltaic (PV) technology, which converts sunlight into electricity and is an environmentally friendly option. The energy required to operate the BLDC motor is obtained from the solar panel. The speed control method for Permanent Magnet-based BLDC (PM-BLDC) motors is presented in this paper, which combines a P&O-based algorithm and Incremental conductance (Inc) with a PID controller. This method achieves robust speed regulation in changing operational conditions by combining the precision of PID control with the adaptive characteristics of Perturb and Observe (P&O) and Inc. algorithms. The energy required to operate the BLDC motor is sourced from the solar panel. However, the voltage output of a solar panel is not always constant. Therefore, a boost converter is necessary, as the solar panel's voltage may be insufficient to operate the BLDC motor. The converter elevates the voltage required to operate a BLDC motor."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Dual Parametric Fractional Controller for Unstable Fractional Order Processes",
+    "authors": "Rammurti Meena, Sudipta Chakraborty, Vipin Chandra Pal",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490584",
+    "source": "IEEE",
+    "abstract": "Recent studies in control theory have highlighted the significant interest in fractional order (FrO) plants with dead time. However, tuning fractional order controllers presents challenges due to the numerous tunable parameters and the lack of systematic tuning methods. Controlling unstable industrial processes with dead time is particularly challenging. Control structures incorporating dual-loop configuration have demonstrated greater effectiveness than conventional proportional-integral-derivative (PID) controllers in unity feedback loops for such processes. This paper presents a Smith-predictor (SP) based dual-loop control structure for FrO unstable processes with time delays. A key advantage of this design is its ability to be analytically tuned based on defined maximum sensitivity (<tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$M_{s}$</tex>) and phase-margin (<tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\phi_{m}$</tex>) specifications. The effectiveness of the proposed design is assessed by testing it with altered plant models, and then quantifiable performance indicators are derived. The findings indicate that the proposed design provides a more robust and improved closed-loop response compared to other contemporary approaches."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "LTO Battery Fading Prediction Using Deep Learning",
+    "authors": "Vaibhav Mandhyan, Darshan R, Sanka Saketh Ram, Sreenu Sreekumar",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490340",
+    "source": "IEEE",
+    "abstract": "The high thermal stability, rapid charge/discharge capability, and extended lifespan of Lithium Titanate Oxide (LTO) batteries enhanced their applicability in electric vehicles, grid storage, and other high-demand applications. However, LTO cells experience gradual capacity fading with repeated charge-discharge cycling, like other lithium battery variants. This impacts the overall performance and reliability. This necessitates accurate degradation behaviour prediction for developing intelligent battery management systems and ensuring operational safety. Therefore, this paper proposes deep learning models for forecasting the capacity fading trend in LTO batteries. Long Short-Term Memory (LSTM), Gated Recurrent Unit (GRU), Convolutional Neural Network (CNN), and four hybrid architectures: LSTM-GRU, LSTM-CNN, LSTM-GRU-CNN, and CNNGRU, are implemented for capacity fading forecasting. These models are trained and validated using real-world battery cycling data, and their performance is assessed based on metrics like Mean Absolute Percentage Error (MAPE), Mean Absolute Error (MAE), and Root Mean Square Error (RMSE). The comparative analysis highlights the strengths and trade-offs of each architecture, providing valuable guidance for selecting the most suitable models in practical battery health prediction scenarios."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Hybrid BO-LSBoost Model for Accurate Prediction of Remaining Useful Life of Li-Ion Battery",
+    "authors": "Shivi Varshney, Bhavnesh Kumar, Alok Prakash Mittal",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490495",
+    "source": "IEEE",
+    "abstract": "Estimating the Remaining Useful Life (RUL) of lithium-ion batteries is important in maintenance scheduling, safety evaluations, and applications like electric vehicles or renewable energy storage systems. We present a Hybrid Bayesian Optimization - Least Squares Boosting (BO - LSBoost) model to estimate RUL; in addition, the hybrid framework utilizes an original feature selection methodology that combines mutual information (MI), statistically-ranked feature importance, and synthetic features based on battery voltage time series that provide additional predictive capacity and improve RUL estimation accuracy. In addition, Bayesian Optimization is used to optimize the hyperparameters of the LSBoost to reduce prediction error. The combined BO - LSBoost models has improved RMSE of 1.3210 compared to the baseline LSBoost RMSE of 4.2959. This work shows that the BO - LSBoost has greater prediction accuracy while being less computationally intensive than other learning models such as Support Vector Machine (SVM), Random Forest (RF), and Artificial Neural Network (ANN). Overall, the BO - LSBoost architecture provides accurate, custom, and generalized estimates of RUL that could improve the functionality of Battery Management Systems (BMS) for grid scale Battery Energy Storage Systems (BESS)."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Indirect Field-Oriented Control of a Single-Phase Induction Motor Fed by a Three-Phase Inverter",
+    "authors": "Boikuntha Bikash Buragohain, Parthajit Dutta, Soumya Samanta",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490640",
+    "source": "IEEE",
+    "abstract": "This paper presents the design, modeling, and simulation of an Indirect Field-Oriented Control (IFOC) scheme for a Single-Phase Induction Motor (SPIM) which is fed from a three-phase inverter to eliminate the need of the capacitor. A three-phase inverter emulates a balanced three-phase supply to the inherently asymmetric SPIM, allowing it to be controlled like a symmetric machine and making it suitable for lowpower electric vehicle applications. Clarke and Park transformations are employed to achieve decoupled torque and flux control. Additionally, a flux weakening mechanism is integrated with speed and current regulation. The rotor angle and slip speed are estimated mathematically, eliminating the need for flux sensors. The complete control strategy is implemented in MATLAB/Simulink, and the dynamic performance is validated through simulation. Simulation results confirm rapid dynamic response and improved torque smoothness under varying load conditions."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Nash Equilibrium in Hybrid Impulsive Nonzero-Sum Game: A Weak Convexity Framework",
+    "authors": "Tong Liu, Bin Hu, Zhi-Hong Guan, Dingxue Zhang, Tao Li",
+    "publish": "IEEE Transactions on Automation Science and Engineering",
+    "url": "https://doi.org/10.1109/tase.2026.3689967",
+    "source": "IEEE",
+    "abstract": "This paper investigates the existence of Nash equilibria in multi-player nonzero-sum differential games governed by hybrid impulsive systems, where one player applies impulse controls while the remaining <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">N</i> players adopt piecewise-continuous controls. The proposed framework captures complex dynamics in which gradual adjustments coexist with abrupt interventions, with applications in traffic management, power dispatch, and emergency response. First, the necessary conditions for the existence of hybrid-strategy Nash equilibrium are rigorously derived using a variational method. Second, under traditional convexity assumptions, a sufficiency theorem for equilibrium existence is provided. By further introducing pseudoconvexity and invexity, a weak convexity framework with broader applicability is proposed, significantly relaxing the regularity requirements on the cost functions. Finally, numerical simulations, including a power system load dispatch case, demonstrate the validity of the theoretical results."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "A Diversity-Preserving Multistrategy Differential Evolution Algorithm for 3-D Uncrewed Aerial Vehicle Offline and Online Path Planning_supp1-3683527.pdf",
+    "authors": "Zhenyu Meng",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tii.2026.3683527/mm1",
+    "source": "IEEE",
+    "abstract": "With the increasing adoption of metaheuristic algorithms in uncrewed aerial vehicle (UAV) path planning, the problem has evolved into a challenging optimization task. To address offline and online planning under diverse terrains and multiple obstacle conditions, this article proposes a diversity-preserving multistrategy differential evolution-based method for 3-D path planning. The proposed algorithm integrates three key mechanisms. First, the multistage success rate-based adaptive strategy balances global exploration and local exploitation across evolutionary stages. Second, the stagnant individual replacement mechanism enables stagnant individuals to escape local optima, mitigating premature convergence. Third, the diversity maintenance mechanism preserves diversity within the top population, thereby strengthening global search capability. Furthermore, a benchmark suite with 26 terrain scenarios is designed to comprehensively evaluate performance. Experimental results demonstrate that the proposed algorithm outperforms six state-of-the-art methods in generating superior 3-D UAV paths for both offline and online planning. Finally, tests on the CEC2013, CEC2014, and CEC2017 benchmarks confirm its competitive performance on numerical optimization."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Air-to-Ground Covert Communication With Location and Interference Uncertainty",
+    "authors": "Hongchi Chen, Junsheng Mu, Na Deng, Haichao Wei, Nan Zhao",
+    "publish": "IEEE Transactions on Wireless Communications",
+    "url": "https://doi.org/10.1109/twc.2026.3687670",
+    "source": "IEEE",
+    "abstract": "As uncrewed aerial vehicles (UAVs) are widely used in many communication scenarios, the issue of security has also caused much concern due to the line-of-sight propagation. Therefore, in this paper, we study an air-to-ground covert communication system, where a UAV transmitter Alice transmits messages covertly to a ground receiver Bob under the communication behavior detection of a ground warden Willie with location uncertainty and concurrent interference from other ground environmental nodes whose locations follow a two-dimensional Poisson point process. Under this setup, we first provide the approximate probability distribution of the aggregated interference power from all environmental co-channel nodes to facilitate the covert analysis. Then, we derive the average covert probability separately for two cases: case 1 assumes that Willie knows the received power from Alice; case 2 assumes that Willie knows the probability distribution of the received power from Alice. Next, we derive the connection probability and the covert throughput which is the maximal transmission rate under the covertness and reliability constraints. Numerical results demonstrate the feasibility of air-to-ground covert communication with location and interference uncertainty. The results also show the average covert probability and covert throughput in case 2 are higher than that in case 1, especially for a sparse deployment of interfering nodes."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Large-Frequency-Ratio Dual-Band Shared-Aperture Conformal Transmit-Reflect-Array Antenna with Independent Beam Control for UAV-Based Space-Air-Ground Emergency Communication Networks",
+    "authors": "Chuanfei Ding, Xiang Gao, Xiangyuan Bu, Jianping An",
+    "publish": "IEEE Transactions on Antennas and Propagation",
+    "url": "https://doi.org/10.1109/tap.2026.3687592",
+    "source": "IEEE",
+    "abstract": "This paper proposes a large-frequency-ratio (140 GHz : 35 GHz) dual-band shared-aperture conformal transmit-reflect-array antenna (CTRA) for unmanned aerial vehicle (UAV)-based emergency communication applications. A 3×3 cascaded multilayer frequency selective surface (FSS) is designed as the low-frequency (35 GHz) ground plane while also enabling transmission of high-frequency waves (140 GHz). Subsequently, a radius-limited double-split ring is placed underneath the cascaded FSS layers to form the transmissive element (TE, defined as Unit-1). In addition, a miniaturized multilayer FSS unit is proposed as another TE (defined as Unit-2) at 140-GHz band and arranged around Unit-1 to form a full ground plane for the split ring, constituting a complete reflective element at 35-GHz band. Independent modulation of the reflection/transmission coefficients can be achieved by rotating the split ring and tuning the TE dimensions, respectively. Moreover, the joint operation of the two TEs can effectively suppress the elevated sidelobe levels caused by the larger frequency ratio. To validate the design, a prototype of the whole CTRA architecture was fabricated and measured. Experimental results have indicated the proposed CTRA exhibits a peak transmitted gain of 34.3 dBi at the 140-GHz band and a peak reflected gain of 22.8 dBi at the 35-GHz band, which demonstrates its significant potential for UAV-based space-air-ground emergency communication networks."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "PCCNA: A Probabilistic Caching Strategy Based on Strong Content Consistency and Node Attributes",
+    "authors": "Wenjing Jing, Quan Zheng, Chaoming Huang, Shuangwu Chen, Xiaobin Tan, Jian Yang",
+    "publish": "IEEE Transactions on Green Communications and Networking",
+    "url": "https://doi.org/10.1109/tgcn.2026.3689913",
+    "source": "IEEE",
+    "abstract": "In response to the growing challenges posed by excessive redundant traffic in cache-enabled networks (cache-enabled networks), this paper presents a novel probabilistic caching strategy termed PCCNA (Probabilistic Caching based on Content Consistency and Node Attributes). A key innovation of PCCNA is its incorporation of strong content consistency between caching proxies and backend servers into the caching decision-making process, addressing a critical gap in existing caching strategies. Unlike traditional approaches that often focus on a singular optimization criterion, PCCNA integrates multiple factors such as content popularity within the network and the centrality of caching proxies based on their attributes. By adaptively computing the caching probability for content of varying popularity while ensuring strong consistency, PCCNA enhances the efficiency of in-network caching. Extensive simulation results demonstrate that PCCNA outperforms established caching strategies in terms of cache hit ratio, server load, and user service latency across diverse network topologies. This research provides significant insights into the development of effective caching mechanisms, paving the way for optimized resource utilization and improved user experiences in cache-enabled networks environments."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Quantitative Controllability Analysis and Optimization in Attitude and Altitude Control of High Dynamic Flight Vehicles",
+    "authors": "Kai Shen, Yingxin Liu, Ding Zhong, Zheng Xu, Hang Xiao",
+    "publish": "IEEE Transactions on Aerospace and Electronic Systems",
+    "url": "https://doi.org/10.1109/taes.2026.3689797",
+    "source": "IEEE",
+    "abstract": "As an extension of controllability theory, degree of controllability (DOC) gives a deeper insight into the quantitative performance of dynamical systems. In this paper, to explore the engineering application of DOC, a definition of DOC from the energy perspective is introduced to analyze the controller performance of a high dynamic flight vehicle (HDFV). The scenario of altitude and attitude control for HDFV with active disturbance rejection control (ADRC) is modeled. In particular, a quantitative indicator based on DOC is designed and embedded into particle swarm optimization (PSO) method to optimize controller parameters. Comparison between the proposed DOC-based indicator and traditional indicators based on error integration is made by numerical simulations. According to the results, the effectiveness of the proposed DOC PSO approach is verified by satisfied state regulation performance and robust anti-disturbance capability, which behaviors better than the classical PSO method."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "A Hybrid Numerical Simulation–Data Driven Modeling Framework for Municipal Solid Waste Incineration Digital Twin Temperature Prediction",
+    "authors": "Junfei Qiao, Jiabin Zhuang, Haixu Ding",
+    "publish": "IEEE Transactions on Industrial Informatics",
+    "url": "https://doi.org/10.1109/tii.2026.3683387",
+    "source": "IEEE",
+    "abstract": "High-fidelity computational fluid dynamics (CFD) models can accurately describe the complex thermo–chemical processes in municipal solid waste incineration (MSWI). However, their high computational cost makes them difficult to apply in online monitoring, prediction, and control of industrial incineration systems. To overcome this limitation, this article proposes a fast and dynamic MSWI modeling framework that combines physics-based simulation with reduced-order modeling and data-driven learning to enable efficient temperature field prediction. First, a mechanism-based numerical model of a mechanical grate MSWI furnace is developed by coupling solid-phase waste combustion on the grate with gas-phase combustion simulated in Fluent, generating physically consistent temperature field data. Second, considering mechanism constraints, industrial controllability, and computational cost, key operating variables are selected and an orthogonal experimental design is employed to construct a representative simulation dataset. Third, proper orthogonal decomposition is applied to reduce the dimensionality of high-dimensional temperature fields, extracting dominant thermal modes and corresponding modal coefficients. Finally, an improved interval type-2 fuzzy neural network is used to establish the nonlinear mapping between industrial operating variables and temperature modal coefficients, enabling rapid temperature field reconstruction and short-term prediction. Simulation results show that the proposed method can effectively predict the dynamic evolution of the furnace temperature field within a 3 s horizon after operating condition changes, while reducing the full-field reconstruction time to approximately 10 s. The proposed framework significantly improves computational efficiency while preserving physical consistency, providing a practical solution for online modeling and intelligent operation of MSWI systems."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "GBFRS: Robust Fuzzy Rough Sets via Granular Ball Computing",
+    "authors": "Xiaoyu Lian, Shuyin Xia, Binbin Sang, Guoyin Wang, Xinbo Gao",
+    "publish": "IEEE Transactions on Neural Networks and Learning Systems",
+    "url": "https://doi.org/10.1109/tnnls.2026.3681370",
+    "source": "IEEE",
+    "abstract": "Fuzzy rough set (FRS) theory is effective for handling uncertainty and vagueness in complex datasets. However, most existing models rely on fine-grained pointwise analysis, resulting in poor robustness to noise. This article integrates granular ball computing into FRSs by replacing individual data points with granular balls of varying sizes. A granular ball FRS (GBFRS) framework is proposed and applied to feature selection for the first time. Each granular ball is labeled by the majority class of its internal samples, reducing the impact of noisy instances and improving noise tolerance. Within this framework, a weighted fuzzy dependency function is redefined based on fixed <uri xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">https://github.com/lianxiaoyu724/GBFRS</uri> structures, where the weight is determined by the proportion of samples within each granular ball. Larger balls have higher fuzzy dependency values and thus receive greater weights, enabling a more stable evaluation of attribute importance. The theoretical foundations, including properties of lower and upper approximations and the convergence of dependency, are formally established. The experimental results on multiple UCI datasets demonstrate that GBFRS outperforms existing methods in classification accuracy. The source codes and datasets are both available on the public link: <uri xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">https://github.com/lianxiaoyu724/GBFRS</uri>"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "A Frequency-Selective Hybrid-Core Architecture for Third-Harmonic Loss Optimization in Wireless Power Transfer Systems",
+    "authors": "Jiatong Li, Chunsen Tang, Lei zhao, Yuhang Gan, Udaya Madawala",
+    "publish": "IEEE Transactions on Power Electronics",
+    "url": "https://doi.org/10.1109/tpel.2026.3690168",
+    "source": "IEEE",
+    "abstract": "This letter proposes a frequency-selective hybrid-core architecture to improve the DC-DC efficiency of a 350-kHz WPT system. In this design, the power from the fundamental-frequency is transmitted through a low-frequency core with high permeability magnetics (e.g., PC95), whilist, the third-harmonic power is transmitted through a high-frequency magnetic material (e.g., PC200). By allocating spectral components to magnetic materials according to their frequency characteristics, the proposed hybrid-core configuration reduces third-harmonic-related loss in the main magnetic path and alleviates thermal stress in the magnetic components. A mathematical model has been established to verify the validity of the proposed method. A 10 kW prototype was built alongside a conventional system for comparison. Experimental results demonstrate that the proposed approach achieves a peak efficiency of 98.22%, compared with 97.96% for the conventional system. These findings indicate a viable pathway to further efficiency enhancement even when conventional designs are widely regarded as highly optimized."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Teaching Radio Waves to Compute: Smart Cities will Treat Interference as a New Kind of Calculator",
+    "authors": "Ana I. Pérez-Neira, Alphan Sahin",
+    "publish": "IEEE Spectrum",
+    "url": "https://doi.org/10.1109/mspec.2026.11506037",
+    "source": "IEEE",
+    "abstract": "Picture a highway with networked autonomous cars driving along it. On a serene, cloudless day, these cars need only exchange thimblefuls of data with one another. Now picture the same stretch in a sudden snow squall: The cars rapidly need to share vast amounts of essential new data about slippery roads, emergency braking, and changing conditions."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Liver Couinaud Segmentation: A Review on Existing Segmentation Techniques of the Couinaud Classification of Liver_supp1-3623914.pdf",
+    "authors": "Gajendra Kumar Mourya",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/trpms.2025.3623914/mm2",
+    "source": "IEEE",
+    "abstract": "Liver Couinaud segmentation is crucial in biomedical image processing for treatment planning and surgical interventions of the liver parenchyma. This is because the liver Couinaud segments help provide clinicians with a clearer and specific diagnosis of the location of the diseased areas within the liver tissue. Technological advancements in the form of machine learning (ML) and deep learning (DL) models have greatly enhanced the process of liver Couinaud segmentation. The efficiency of ML and DL models showcases their performance with incredible results. Hence, this article discusses the state-of-the-art techniques for liver Couinaud segmentation from 2006 to 2024. The segmentation techniques are divided into semi-automatic and automatic. Additionally, the online medical imaging datasets suitable for developing algorithms and frameworks for liver Couinaud segmentation are presented with their descriptions, advantages, and limitations. Furthermore, the performance metrics that are commonly used for evaluating the performance of segmentation algorithms are thoroughly discussed. Finally, the research challenges and recommendations are accentuated for future researchers who intend to bridge the highlighted gaps in liver Couinaud segmentation."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "RSMA-Assisted Edge Collaborative Inference for Internet of Vehicles",
+    "authors": "Zhijian Lin, Shaowei Yang, Xiaopei Chen, Daxin Tian, Jiguang He, Yi Fang, Wenhao Wu",
+    "publish": "IEEE Transactions on Mobile Computing",
+    "url": "https://doi.org/10.1109/tmc.2026.3690006",
+    "source": "IEEE",
+    "abstract": "With the growing deployment of intelligent applications in the Internet of Vehicles (IoV), collaborative deep neural network (DNN) inference across edge nodes has become essential for satisfying real-time processing and service demands. As a key enabler for 6G networks, rate-splitting multiple access (RSMA) offers improved transmission performance to meet the diverse requirements of multi-user communications. In this work, we propose an RSMA-assisted edge co-inference framework for distributed DNN task offloading in the IoV, where DNN inference tasks are partitioned and offloaded across roadside unit (RSU) and vehicles in a collaborative manner. The objective is to minimize the total task completion time for all vehicles by jointly optimizing the DNN partitioning and offloading strategy, RSMA power allocation, and computing resource allocation. The problem is inherently non-convex due to the strong coupling among communication, computation, and model partitioning variables. To address this, we develop a unified optimization framework and decompose it into three coordinated sub-problems. A triple-iteration joint optimization algorithm is formulated, combining successive convex approximation (SCA) based RSMA power control, genetic algorithm based DNN task scheduling, and Lagrange multiplier method based computing resource allocation at RSU. Simulation results demonstrate that, compared with baseline schemes, the proposed framework can reduce inference latency by up to <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$20\\%$</tex-math></inline-formula>."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "A Weighted Citation Graph Model for Automatic Evaluation of Scientific Papers",
+    "authors": "Ekaterina Miroshnikova, Dmitriy Levonevskiy, Nobutaka Suzuki",
+    "publish": "Proceedings of the 2025 8th Artificial Intelligence and Cloud Computing Conference",
+    "url": "https://doi.org/10.1145/3789982.3790034",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Predicting AI Position Salaries: Model Fusion via Weighted Averaging and Feature Correlation Analysis",
+    "authors": "Han Wang, Qinxin Mei",
+    "publish": "Proceedings of the 2025 8th Artificial Intelligence and Cloud Computing Conference",
+    "url": "https://doi.org/10.1145/3789982.3790053",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "A Deep Learning–Based Framework for Credit Risk Assessment with Multi-Source Financial Data",
+    "authors": "Wenting Wang, Xuanyi Zhao",
+    "publish": "Proceedings of the 2026 2nd International Conference on Big Data, Communication Technology and Computer Applications",
+    "url": "https://doi.org/10.1145/3801359.3801419",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Research on Hierarchical Multi-Aspect Weighted Interactive Model for AIGC",
+    "authors": "Yu Li, Tianqi Jiang",
+    "publish": "Proceedings of the 2026 2nd International Conference on Big Data, Communication Technology and Computer Applications",
+    "url": "https://doi.org/10.1145/3801359.3801376",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Multiple-RIS-Aided Predictable V2V Communications in Graph Structure with Doppler Spread Suppression",
+    "authors": "Xue Wang, Ruixin Cao, Dongchan Sun",
+    "publish": "IEEE Transactions on Vehicular Technology",
+    "url": "https://doi.org/10.1109/tvt.2026.3690198",
+    "source": "IEEE",
+    "abstract": "Doppler spread and multipath propagation leads to delay spread cause severe phase and waveform distortion of the transmitted signal in the Internet of Vehicles (IoV) system. Reconfigurable intelligent surface (RIS) can significantly mitigate phase shifts and channel fading by leveraging their reflective elements. Meanwhile, vehicular networking communication must address various factors such as Doppler effects, multipath delay spread, and received power. Multi-objective optimization incorporating RIS enables a comprehensive balance among these performance metrics. In this paper, we model the RIS-aided network as a graph structure within a multi-objective optimization framework by integrating graph theory, where graph information represents the physical characteristics of RIS. We formulate four objective functions for Doppler spread, delay spread, received power, and system energy efficiency, and reconstruct four objective functions with phase as the core. We construct a multi-objective optimization model based on graph Laplacian regularization and present an improved Graph-NSGA-II algorithm to efficiently solve the optimization problem. Simulation results demonstrate that the Graph-NSGA-II algorithm in multi-RIS cooperative systems achieves significantly reduced computational complexity and improved communication quality and phase optimization while maintaining a low Bit Error Rate (BER)."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Challenges and Research Directions for Large Language Model Inference Hardware_supp1-3652916.pdf",
+    "authors": "David Patterson",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/mc.2026.3652916/mm1",
+    "source": "IEEE",
+    "abstract": ""
+  },
+  {
+    "date": "2026-5-4",
+    "title": "GSDeformer: Direct, Real-time and Extensible Cage-based Deformation for 3D Gaussian Splatting_supp1-3687062.pdf",
+    "authors": "Hongchuan YU",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tvcg.2026.3687062/mm1",
+    "source": "IEEE",
+    "abstract": "We present GSDeformer, a method that enables cage-based deformation on 3D Gaussian Splatting (3DGS). Our approach bridges cage-based deformation and 3DGS by using a proxy point-cloud representation. This point cloud is generated from 3D Gaussians, and deformations applied to the point cloud are translated into transformations on the 3D Gaussians. To handle potential bending caused by deformation, we incorporate a splitting process to approximate it. Our method does not modify or extend the core architecture of 3D Gaussian Splatting, making it compatible with any trained vanilla 3DGS or its variants. Additionally, we automate cage construction for 3DGS and its variants using a render-and-reconstruct approach. Experiments demonstrate that GSDeformer delivers superior deformation results compared to existing methods, is robust under extreme deformations, requires no retraining for editing, runs in real-time, and can be extended to other 3DGS variants. Project Page: <uri xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">https://jhuangbu.github.io/gsdeformer/</uri>"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Autonomous Causal Discovery: Evaluating LLMs' Priors and Constraint Strategies for Reliability",
+    "authors": "Lyuzhou Chen, Xiangyu Wang, Taiyu Ban, Derui Lyu, Qinrui Zhu, Xin Wang, Huanhuan Chen",
+    "publish": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "url": "https://doi.org/10.1109/tpami.2026.3689960",
+    "source": "IEEE",
+    "abstract": "Expert-guided Causal Structure Learning (CSL) incorporates prior knowledge to improve the accuracy of causal discovery, yet the acquisition of such knowledge is often restricted by the availability of human experts. While Large Language Models (LLMs) provide an alternative source of causal priors, LLM-derived knowledge can be inconsistent with the true causal structure due to hallucinations or contextual misinterpretations. This paper introduces a structural constraint measurement framework, which defines constraint strength and constraint quality to describe reliability and effectiveness, enabling a systematic evaluation of LLM-derived constraints. Using this framework, we evaluate five categories of structural constraints: Edge Existence (EEC), Edge Forbidden (EFC), Path Existence (PEC), Path Forbidden (PFC), and Order Constraints (OC). Our theoretical and empirical analyses demonstrate that while EEC offers high constraint strength, it exhibits low quality when derived from LLMs; conversely, PFC and OC provide a balanced trade-off between search-space pruning and reliability. Building on these insights, we propose a two-level CSL optimization framework that partitions the search space by node order and refines the structure using global path constraints. The results show that this framework provides an effective way to incorporate noisy LLM-derived priors into CSL, particularly in settings where expert knowledge is limited."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Founder Organizer of STPEC",
+    "authors": "N/A",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490194",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Distilling Large Language Models for Network Active Queue Management",
+    "authors": "Shiva Raj Pokhrel, Deol Satish, Jonathan Kua, Anwar Walid",
+    "publish": "IEEE Transactions on Networking",
+    "url": "https://doi.org/10.1109/ton.2026.3690076",
+    "source": "IEEE",
+    "abstract": "We propose AQM-LLM, a framework that distills Large Language Models for Active Queue Management in modern networks. Unlike conventional learning-based AQMs that require extensive feature engineering and struggle with dynamic conditions, our approach leverages the contextual reasoning capability of LLMs to enhance the Low Latency, Low Loss, and Scalable Throughput (L4S) architecture with minimal manual intervention. The L4S-LLM design introduces three key components: (i) a state encoder that transforms heterogeneous network telemetry into token embeddings, (ii) a specialized L4S-LLM head that produces congestion actions in a single inference step, and (iii) a data-driven Low-Rank Adaptation scheme that drastically reduces trainable parameters while preserving accuracy. Our open-source FreeBSD-14 implementation demonstrates improved queue delay stability and higher bandwidth utilization for both DCTCP and UDP Prague traffic. We emphasize that this work demonstrates architectural feasibility through controlled experiments; deployment on router-class hardware will require additional model optimization (e.g., compression, pruning, or quantization) and is left for future work."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "PVSizer: An Open-Source Python Framework for PV and BESS Sizing and Impact Analysis in Distribution Networks",
+    "authors": "Yayu Yang, Samuel N. Okhuegbe, Jian Zhang, Apsana Bhandari, Zhengfa Zhang, Haozong Wang, Muhammad Umar Afzaal, Yuru Wu, Junjie Yin, Fangxing Li, Yilu Liu",
+    "publish": "IEEE Transactions on Industry Applications",
+    "url": "https://doi.org/10.1109/tia.2026.3689460",
+    "source": "IEEE",
+    "abstract": "High photovoltaic (PV) penetration in distribution systems may cause voltage violations and thermal overloading, while existing open-source tools do not provide an integrated and automated approach for systematic PV and battery energy storage system (BESS) sizing under feeder constraints. To address this gap, this paper presents PVSizer, an open-source tool for PV-BESS sizing and impact assessment in distribution networks. Built on OpenDSS and a Python-based automation layer, PV Sizer provides three modules: (1) Impact Analysis/Time-Series Simulation for detailed quasi-static time-series (QSTS) analysis of a specified configuration; (2) Traversal for parallel feasible domain mapping under feeder operational constraints; and (3) Optimization based on constraint-guided incremental search (CGIS) to identify the maximum feasible PV capacity together with the minimum required BESS support. Case studies on a real utility feeder with over 700 nodes show strong site dependence in feasible PV-BESS sizing limits. The Optimization module reaches the same final solution as exhaustive Traversal with substantially lower computational burden, demonstrating the usefulness of PVSizer for feeder-constrained PV-BESS integration studies."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Rate-Distortion Trade-off in Integrated Communication, Sensing, and Control Closed-Loop Systems",
+    "authors": "Yinglong Fan, Zhiyong Feng, Zeyang Meng, Zhiqing Wei, Ying Zhou, Kai Niu",
+    "publish": "IEEE Transactions on Vehicular Technology",
+    "url": "https://doi.org/10.1109/tvt.2026.3690330",
+    "source": "IEEE",
+    "abstract": "The rapid advancement of wireless communication technologies has accelerated the adoption of networked closed-loop control systems in intelligent manufacturing. Within this context, the integrated communication, sensing, and control (ICSC) framework has emerged as an important paradigm for modeling and analyzing large-scale real-time closed-loop systems. However, existing studies frequently overlook the impact of downlink communication on closed-loop control performance and fail to comprehensively model the interactions between communication, sensing, and control, making it difficult to identify the achievable performance limits under constrained communication resources. Therefore, this paper establishes a rigorous theoretical framework that explicitly accounts for both uplink sensing measurements and downlink control commands. Based on causal directed mutual information theory, we derive a lower bound on the downlink rate-distortion function that decomposes into a dynamics-dependent term and an innovation-dependent term. The results clearly quantify the influences of sensing quality and closed-loop dynamics on the minimum communication rate required to achieve a specified distortion level, and further clarify the connection between downlink communication constraints and achievable closed-loop control performance. The simulation results demonstrate the validity of the bound and further illustrate that the minimum downlink communication rate increases significantly with greater system dynamic complexity, higher sensing errors, and tighter distortion constraints. The findings reveal a fundamental rate-distortion trade-off in closed-loop systems, providing a theoretical foundation for the joint design of communication, sensing, and control."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Tournament-Based Index Obfuscation for Secure Space Shift Keying MIMO Systems",
+    "authors": "Raed Mesleh, Mohammad Abudayah, Saud Althunibat",
+    "publish": "IEEE Transactions on Vehicular Technology",
+    "url": "https://doi.org/10.1109/tvt.2026.3690306",
+    "source": "IEEE",
+    "abstract": "A tournament-based index obfuscation framework is proposed and analyzed for space shift keying (SSK) multiple-input multiple-output (MIMO) systems. Algebraic properties of Paley tournaments are exploited to construct deterministic yet nontrivial permutations of the transmit antenna indices. These permutations are refreshed on a per-channel basis through a channel-dependent cyclic shift derived from reciprocity. As a result, a matched index-domain channel is observed at the legitimate receiver, whereas an eavesdropper is forced to operate under a mismatched decoding metric. In contrast to conventional physical-layer security techniques, the proposed framework operates exclusively in the index domain and preserves the inherent energy-efficiency and low-complexity advantages of SSK. In practical SSK implementations where the number of transmit antennas is not a power of two, only a subset of valid antenna indices is used for information mapping, while the remaining antennas participate only in the obfuscation mechanism. Reliability and secrecy are characterized through average bit error rate, mutual information, generalized mutual information, secrecy rate, equivocation, and information leakage. Both passive and active adversarial scenarios are considered. Passive attacks include uninformed mismatched eavesdropping as well as partially correlated eavesdropping channels that emulate spatial proximity and common scattering. Active training-phase attacks, including pilot contamination and forced permutation manipulation, are also examined and mitigated through tournament-structure consistency checks leading to block acceptance/rejection. The proposed cyclic-shift realization is shown to operate effectively when the legitimate nodes observe consistent channel information, while its sensitivity to channel estimation mismatch is also discussed. Numerical results demonstrate that reliable communication is preserved at the legitimate receiver, while a substantial loss in the eavesdropper' achievable rate is induced even under correlated and active attack conditions. For benchmarking purposes, a comparison with artificial-noise based SSK is also included, highlighting the fundamental difference between power-domain and index-domain physical layer security mechanisms."
+  },
+  {
+    "date": "2026-5-5",
+    "title": "Interactive Digital Media Art Narrative System for Art Therapy: A Design Based on User Emotional Feedback Targeting Depression and Autism Spectrum Disorder",
+    "authors": "GUOWEN ZHU, XINLI NIU",
+    "publish": "Proceedings of the 2026 2nd International Conference on Generative Artificial Intelligence and Digital Media",
+    "url": "https://doi.org/10.1145/3803730.3803744",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-5",
+    "title": "Research on Intelligent Interactive Product Design Methods Based on User Behavior Data",
+    "authors": "Ze Tian, Yong Xiao",
+    "publish": "Proceedings of the 2026 2nd International Conference on Generative Artificial Intelligence and Digital Media",
+    "url": "https://doi.org/10.1145/3803730.3803764",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "A Microscopic Traffic Simulation Study on the Impact of Bus-Only Lane Opening on Urban Traffic Mobility",
+    "authors": "Qihao Zheng",
+    "publish": "Proceedings of the 2026 2nd International Conference on Big Data, Communication Technology and Computer Applications",
+    "url": "https://doi.org/10.1145/3801359.3801374",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Proceedings of the 2026 2nd International Conference on Big Data, Communication Technology and Computer Applications",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3801359",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "YOLO-SAE: Spatial-Adaptive Attention Enhancement for Small-Object Detection With Quantified Accuracy-Efficiency Trade-offs",
+    "authors": "Syam Widiyanto, Hsiu-Ming Wu",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3690202",
+    "source": "IEEE",
+    "abstract": "Small-object detection in aerial imagery remains challenging due to background clutter, occlusion, and extreme scale variation. This paper presents YOLO–Spatial Attention Enhancement (YOLO-SAE), an attention-augmented extension of YOLOv8 that integrates two complementary components: (i) a multi-head self-attention (MHSA) block inserted at the P5 stage to incorporate long-range contextual cues at coarse feature resolution, and (ii) a compact pre-head refinement module placed before the detection heads, instantiated as Efficient Channel Attention (ECA) or Shuffle Attention (SA) to recalibrate decision-time features. Under identical training protocols and single-scale evaluation at an input resolution of 640 on VisDrone 2019 and DOTA 2.0 (HBB), the most accuracy optimal configuration (MHSA+SA) improves mAP@0.5 from 0.299 to 0.405 and mAP@ [0.5:0.95] from 0.164 to 0.236 on VisDrone, and from 0.208 to 0.333 and from 0.109 to 0.190 on DOTA, respectively. To ensure computational transparency, we report parameters, GFLOPs, and runtime breakdown (pre-/inference/post-processing) for each variant, highlighting the accuracy–efficiency trade-offs of single and composite attention designs. All experiments were conducted Google Colab using Python 3 on an NVIDIA A100 GPU under the same environment for latency and throughput reporting. We emphasize that the individual attention components are established; our contribution is a deployment-oriented composition and placement strategy with quantified accuracy–efficiency trade-offs under a controlled and reproducible protocol."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "SpineVLM: A Markdown-Guided Structured Fine-Tuning Framework for Spine X-ray Report Generation",
+    "authors": "Dong Liu, Wenhui Li, Ning Xu, Guoge Han, Rui Hao, Xianzhu Liu, An-An Liu",
+    "publish": "IEEE Journal of Biomedical and Health Informatics",
+    "url": "https://doi.org/10.1109/jbhi.2026.3689568",
+    "source": "IEEE",
+    "abstract": "Automated medical report generation in specialized fields like spine radiography is constrained by data scarcity and high annotation costs. Consequently, existing multimodal large language models (MLLMs) struggle in these settings, often missing minute, scattered spinal abnormalities. We introduce SpineVLM, a data-efficient framework for structured spine X-ray report generation. The framework is built upon the newly constructed SXRG dataset, comprising 10,468 image-report pairs developed via a hierarchical AI-assisted annotation pipeline. To optimize learning under limited data, we propose Markdown-Guided Structured Learning (MGSL), which reformulates unconstrained free-text synthesis into a structured completion task, acting as a strong regularizer. Furthermore, an unsupervised Region-Focused Inference (RFI) module powered by foundation models (DINOv2) isolates the vertebral column to enhance the perception of subtle lesions without requiring manual spatial annotations. Evaluated on a 7B-parameter vision-language backbone, SpineVLM achieves strong performance against ten baseline multimodal models across standard linguistic metrics. In a double-blind reader study, the system achieved a diagnostic F1-score of 0.866, comparable to specialist performance, while reducing clinical reporting time by over 41%. By open-sourcing the dataset and codebase, we provide, to our knowledge, the first quantitative benchmark for automated spine radiography report generation, together with a structured framework for this data-limited setting. All data and code will be publicly released at <uri xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">https://github.com/LiuDongDaniel/SpineVLM</uri>."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "IEEE Computational Intelligence Society",
+    "authors": "N/A",
+    "publish": "IEEE Transactions on Neural Networks and Learning Systems",
+    "url": "https://doi.org/10.1109/tnnls.2026.3682064",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Corrections to “Demand Forecasting in Data-Scarce and Resource-Restricted Environments”",
+    "authors": "David Gögelein, Marianne von Schwerin, Thomas Walter",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3687724",
+    "source": "IEEE",
+    "abstract": "Presents corrections to the paper, (Demand Forecasting in Data-Scarce and Resource-Restricted Environments)."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Energy Efficient Federated Learning Over Wireless Networks: A GNN-assisted Deep Reinforcement Learning Approach",
+    "authors": "Liang Wang, Zihao Wei, Bomin Mao, Qu Luo, Qihao Peng, Pei Xiao",
+    "publish": "IEEE Internet of Things Journal",
+    "url": "https://doi.org/10.1109/jiot.2026.3689919",
+    "source": "IEEE",
+    "abstract": "Implementing federated learning (FL) over wireless networks faces critical research challenges, such as high communication costs, inevitable communication latency, and significant energy consumption for model transmission and training, primarily caused by device heterogeneity and unpredictable dynamic channel conditions. This paper proposes Graph-based Resource Optimization with Compression for FL (GROC-FL), a unified framework that jointly coordinates wireless resource allocation and collaborative model compression. By leveraging Graph Neural Networks (GNNs) to model wireless topology and Deep Reinforcement Learning (DRL) to optimize communication and computation resources together with a globally consistent sparse update mechanism, GROC-FL minimizes the overall energy consumption of clients over wireless networks. In order to address the intrinsic topology dependence of wireless FL, we develop a graph-augmented DRL agent based on a graph convolutional network (GCN) that captures resource competition and network topology. We further develop a collaborative model compression module, termed Federated Parameter Negotiation (FPN), which enables clients to negotiate a global sparse mask and further reduce energy consumption during FL training. Experimental results demonstrate that GROC-FL outperforms the baselines in energy consumption, training performance, and client fairness."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Dual-Polarized Endfire Phased Array Antenna with Forward Beam Coverage for IoT Devices",
+    "authors": "Yuepeng Yu, Changjiang Deng, Ruge Yao, Zilin Qiao",
+    "publish": "IEEE Internet of Things Journal",
+    "url": "https://doi.org/10.1109/jiot.2026.3690105",
+    "source": "IEEE",
+    "abstract": "In this paper, a dual-polarized endfire phased array antenna (PAA) based on tilted-beam elements is presented to provide forward beam steering for IoT Devices. Each antenna element comprises two mirror-symmetric modules to generate ±45° polarizations, with their normal directions oriented to the endfire direction. Each module contains two dipoles with unequal lengths, excited by a 1-to-2 feeding network to achieve forward beam tilting. This achievement is helpful to avoid large grating lobes, even with large element spacing of 0.76λ in array design. To further suppress the cross-polarization level at the zenith, a gradient polarization metasurface (GPM) is placed tightly above the elements. It can provide additional polarization for the broadside beam, without influencing the endfire beam. A 1×6 dual-polarized PAA prototype operating in the 4.8 GHz band is fabricated. The measured beam steering range is from 0° to +70° with a 3.8-dB gain fluctuation, exhibiting forward and low-elevation coverage. Within this range, the measured side lobe level is below -7.9 dB, the cross-polarization level is below -9.7 dB, and dual polarizations are consistently maintained."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Dynamic Analysis and Vibration Reduction of HTS Maglev Vehicle Using MRD Semi-active Control",
+    "authors": "Yuchen He, Xucheng Zhou, Haitao Li, Xianhong Hu, Mingxuan Yin, Zigang Deng, Gino D'Ovidio",
+    "publish": "IEEE Transactions on Intelligent Vehicles",
+    "url": "https://doi.org/10.1109/tiv.2026.3690344",
+    "source": "IEEE",
+    "abstract": "The limited intrinsic damping characteristics of the high-temperature superconducting (HTS) pinning maglev system pose challenges to effective vehicle vibration reduction under external disturbances such as permanent magnetic guideway (PMG) irregularities. This paper incorporates a magnetorheological damper (MRD) into the secondary suspension of HTS pinning maglev vehicles for semi-active vibration control. First, an MRD dynamic model considering the influence of current is presented, and a vehicle dynamic model developed based on an existing HTS pinning maglev test line and HTS-PMG relationship obtained from experiments. Subsequently, a semi-active vibration reduction co-simulation model is constructed using the skyhook (SH) linear continuous control strategy to evaluate the vertical and lateral dynamic performance of the car body under different operating speeds influenced by PMG irregularities. The results indicate that the semi-active damping strategy based on MRD ensures safe operation while effectively reducing carbody vibration, achieving over 50% vibration reduction rate at higher speeds, demonstrating its clear potential for improving the dynamic performance of HTS pinning maglev vehicles in practical engineering."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Design and Control of a Self-Balanced Quadruple Boost 17-Level Switched Capacitor-Based Inverter",
+    "authors": "Abdul Nadeem, Yogesh V. Hote",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490215",
+    "source": "IEEE",
+    "abstract": "A switched capacitor (SC) multilevel inverter produces high-quality, pseudo-sinusoidal stepped voltage waveforms with reduced total harmonic distortion (THD). It offers substantial voltage amplification capabilities, rendering it suitable for a variety of power conversion applications, including industrial systems and renewable energy integration. Multiple voltage levels are produced from a single DC source through the use of capacitors and switching mechanisms, thereby aiding in the reduction of overall system cost and size. A singlephase switched-capacitor (SC) inverter capable of producing seventeen voltage levels is introduced. The topology operates with one DC input source, eleven unidirectional switches, and two bidirectional switches, enabling a quadruple-boost output voltage. The proposed converter utilises parallel charging and series discharging techniques for capacitors, in conjunction with a DC voltage source, to achieve an output voltage four times the input voltage. A modulation strategy based on nearest-level control is adopted to keep the capacitor voltages balanced even when the load varies. Furthermore, the inverter is compared with existing MLI topologies, demonstrating its superior performance. The feasibility and effectiveness of this inverter are verified through MATLAB simulations under static resistive loads, inductive loads, dynamic load conditions, and different modulation index values."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Economic and Operational Analysis of Virtual Energy Storage in Energy Communities",
+    "authors": "Vishal Sharma, Shubham Patwari, Satish Sharma, Prerna Jain",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490424",
+    "source": "IEEE",
+    "abstract": "The recent decline in storage technology costs and the rise of economically-driven energy exchange mechanisms are fostering the growth of energy communities. This paper presents an evolved transactive control framework for shared energy communities featuring independent energy suppliers, retailers, and prosumers. The focus is on a virtual energy storage system (VESS), wherein each supplier has an individual battery. Due to underutilization and high costs, prosumers often cannot fully leverage their battery capacity. By aggregating suppliers' batteries, we create a virtual capacity that exceeds the actual physical capacity. This system optimizes battery usage since not all prosumers charge or discharge simultaneously. The control problem discussed involves the efficient scheduling of energy operations for a collection of prosumers, each with their own demand and generation capabilities, and a group of energy storage suppliers that can store and retrieve excess energy from the prosumers. This paper proposes a centralized system in which a central authority oversees and controls all energy transactions, enhancing the efficiency and sustainability of energy usage in these communities."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Cost Effective Reconfigurable Induction Motor Stator Windings for Single Phase Integrated Onboard Charger",
+    "authors": "Deepak Sai Duvvapu, Barry Venugopal Reddy, Srinvas. K",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490619",
+    "source": "IEEE",
+    "abstract": "Accelerating electric vehicle (EV) battery charging while ensuring long-range remains a pivotal challenge in advancing sustainable transportation. An Integrated On-Board Charger (IOBC) emerges as a compelling solution by repurposing existing traction drive components as an AC-DC front-end converter during charging. This results in significant reductions in charger size, weight, and overall system cost leaving much space for the battery to increase drive range. However, a key challenge lies in managing uneven winding current distribution, which can induce torque ripple and compromise system performance. This paper presents a modified IOBC topology that effectively mitigates this issue, ensuring balanced current flow across motor windings and equal magnetic stress during the charging process. Notably, the proposed solution requires only minimal hardware reconfiguration, enabling seamless operation in both vehicle-to-grid (V2G) and grid-to-vehicle (G2V) modes. The electromagnetic performance of the proposed architecture is designed and validated through finite element analysis using ANSYS, while steady-state operation and control strategies are verified through detailed simulations in MATLAB/Simulink. The findings highlight the practical viability and efficiency of the proposed IOBC design for next-generation EV applications."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Hyperbolic Micro-Expression Recognition",
+    "authors": "Zixi Chen, Boxuan Hu, Junlin Hu",
+    "publish": "IEEE Transactions on Biometrics, Behavior, and Identity Science",
+    "url": "https://doi.org/10.1109/tbiom.2026.3690132",
+    "source": "IEEE",
+    "abstract": "Micro-expression recognition is a fine-grained classification task that aims to classify brief, involuntary facial expressions into some basic emotion categories. The primary challenge lies in extracting robust feature representations due to the short duration, low intensity, and significant individual variability of micro-expressions. In this paper, we study micro-expression recognition problem in hyperbolic space, and propose a hyperbolic micro-expression recognition (HypMER) method that exploits vision Transformer architecture and learns a deep distance metric in hyperbolic space. Our HypMER designs a hyperbolic mapping module to project Euclidean features into hyperbolic space, leveraging the unique geometric properties of hyperbolic space to better represent hierarchical data. Additionally, we combine a hyperbolic space-based loss and a Euclidean space-based loss to optimize feature learning by exploiting the strengths of both Euclidean and hyperbolic spaces. Extensive experiments on multiple benchmark datasets show that our HypMER outperforms state-of-the-art methods, achieving notable improvements in unweighted F1-score (UF1) and unweighted average recall (UAR) and verifying its effectiveness."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Information-Theoretic Sensor Control for Multiple Extended Target Tracking Using Adaptive Hölder Divergence",
+    "authors": "Yating Liu, Guoqing Qi, Yinya Li, Andong Sheng",
+    "publish": "IEEE Sensors Journal",
+    "url": "https://doi.org/10.1109/jsen.2026.3687244",
+    "source": "IEEE",
+    "abstract": "This article proposes an adaptive sensor control strategy within the GGIW-LMB filtering framework for elliptical extended target tracking, aiming to jointly optimize kinematic states, target extent, and cardinality. With improving sensor resolution, shape information (e.g., target size) has become increasingly important for tracking and decision-making. In practice, however, heavy clutter, missed detections, and time-varying target numbers significantly degrade the accuracy of target state and cardinality estimation. To address these challenges, a closed-form approximation of the Hölder divergence is derived specifically for the GGIW-LMB filtering framework, which enables efficient information-theoretic sensor control without particle-based numerical methods. Building on this result, an adaptive Hölder-divergencebased sensor control strategy is developed, in which the divergence parameter is dynamically adjusted according to uncertainties in target existence and state estimates. The proposed algorithm jointly accounts for kinematics and shape parameters of elliptical extended targets and improves robustness in challenging scenarios. Finally, the effectiveness of the proposed approach is validated through simulation results."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Embedded Realization of Deep Learning Based LMPC for PMSM Drives",
+    "authors": "Akash Patil, Yoshit Tapar, Pramod Ubare, Nirlipta Ranjan Mohanty, D. N. Sonawane",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490633",
+    "source": "IEEE",
+    "abstract": "In today's time, Model Predictive Control (MPC) has gained attention as a viable alternative to conventional control approaches in the motor control applications due to its capability to handle multi-input, multi-output constraints. However, due to its optimization-based nature, MPC requires significant computational resources, necessitating strong hardware and robust algorithms when implemented on embedded systems. MPC's computational efficiency can be improved by using better optimization solvers or better MPC design, but each has its own set of limitations. This research suggests deep neural network based linear model predictive control (DNN-MPC) as a method to reduce computational burden while maintaining performance characteristics. Additionally, this study demonstrates a systematic process of embedded implementation on low-end microcontrollers. DNN model is trained using data generated through a Monte Carlo method based on the LMPC model. The DNN-MPC attained an accuracy of 97.28%, acquiring all the characteristics of LMPC. Despite this negligible reduction in accuracy, the DNN-based model offers substantial improvements in computational efficiency, making it a viable alternative for real-time applications. The proposed DNN-MPC approach has validated using hardware-in-the-loop (HIL) co-simulation on a low-end STM-32 microcontroller. Furthermore, this study also presents a systematic approach of Embedded code-generation on embedded hardware."
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Design, Analysis and Control of Multi-Mode Cell Voltage Equalizer Using Fly-Back Converter for Series-Connected Battery String",
+    "authors": "Abhaya Kumar Sahoo, Keerthi Saladi, Sashwathkumar S, Lizanne Fernandes, V. Sankaranarayanan",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490616",
+    "source": "IEEE",
+    "abstract": "Conventional direct-cell-to-cell (DC2C) cell voltage equalizers exhibit lower balancing speed, particularly in large battery strings, due to only a single active balancing path at any given time. This sequential charge transfer from high to low voltage cells counterparts continues until voltage uniformity is achieved across all cells, resulting in extended balancing duration. To address the above limitation, this study proposes a multi-mode DC2C cell voltage equalizer designed to enhance balancing speed under various cell voltage imbalance conditions. The proposed architecture employs a single fly-back converter operating in three distinct modes, each tailored to specific imbalance scenarios to optimize energy redistribution. A comprehensive design methodology, operating principle, and control strategy for the multi-mode equalizer are presented, supported by flowchart. Simulation analysis justify that the proposed multimode DC2C equalizer achieves significantly improved voltage balancing performance compared to conventional single-path equalizers, thereby validating its efficacy and suitability for high-performance battery management systems."
+  }
+]
