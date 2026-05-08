@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-05-07",
+    "title": "From Multi-Port Models to Cascade Structures: Optimization of Active Unilateral Stacked Intelligent Metasurfaces",
+    "authors": "Andrea Abrardo, Giulio Bartoli, Alberto Toccafondi, Marco Di Renzo",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.05884v1",
+    "source": "arXiv",
+    "abstract": "This paper develops a multi-port S-parameter framework for the analysis and optimization of stacked intelligent metasurfaces (SIMs) with unilateral active interconnections. By modeling each unit cell as a non-reciprocal two-port network, the resulting SIM exhibits a feed-forward structure that enables a recursive, cascade-like representation of the end-to-end transfer function while preserving electromagnetic accuracy. Based on this model, we derive an efficient gradient-based optimization algorithm with reduced computational complexity compared to conventional reciprocal SIM architectures. Numerical results, obtained from full-wave simulations, illustrate the trade-offs among inter-layer spacing, active gain, and SIM size in terms of channel diagonalization and achievable spectral efficiency.",
+    "title_zh": "从多端口模型到级联结构的优化：激活的单侧堆叠智能超表面",
+    "abstract_zh": "本文提出了一种多端口S参数框架，用于分析并优化具有单向有源互连的叠层智能超表面（SIMs）。通过将每个单元建模为非互易二端口网络，所得到的SIM展现出前馈结构，能够以递归式级联方式表征端到端传输函数，同时保持电磁精度。基于该模型，我们推导出一种计算复杂度低于传统互易性SIM架构的梯度优化算法。通过全波仿真获得的数值结果表明，在信道对角化和可实现的频谱效率方面，层间间距、有源增益和SIM尺寸之间存在权衡关系。\n\n（说明：翻译过程中重点处理了以下技术术语：\n1. \"multi-port S-parameter framework\" → \"多端口S参数框架\"\n2. \"non-reciprocal two-port network\" → \"非互易二端口网络\"\n3. \"feed-forward structure\" → \"前馈结构\"\n4. \"recursive, cascade-like representation\" → \"递归式级联方式\"\n5. \"full-wave simulations\" → \"全波仿真\"\n6. \"channel diagonalization\" → \"信道对角化\"\n7. \"spectral efficiency\" → \"频谱效率\"\n\n在保持专业性的同时，通过\"递归式级联方式\"等表述实现了技术逻辑的清晰传达，并采用\"权衡关系\"等符合中文科研论文习惯的表述方式。）"
+  },
+  {
+    "date": "2026-5-7",
+    "title": "Movable Antenna-Enabled Reliable Multi-User Uplink Transmission Under Jamming Attacks",
+    "authors": "Zhihui Shang, Zhiqiang Xiao, Zhi Lin, Xiaoqiang Qiao, Hao Wu, Tao Zhang, Guan Gui",
+    "publish": "IEEE Open Journal of the Communications Society",
+    "url": "https://doi.org/10.1109/ojcoms.2026.3691173",
+    "source": "IEEE",
+    "abstract": "Movable antenna (MA) technology has emerged as a promising solution to enhance wireless reliability against malicious jamming. It achieves this by exploiting spatial degrees of freedom through dynamic antenna repositioning within a confined area. This paper investigates the max-min fairness problem in an MA-enabled reliable multi-user uplink system under jamming attacks. The objective is to maximize the worst-case signal-to-interference-plus-noise ratio (SINR) at the base station (BS) by jointly optimizing the positions of the MAs and the receive beamforming (RB) vector, while satisfying the SINR requirement for each user equipment. The formulated optimization problem is non-convex and thus challenging to solve directly. To address it, we first consider a special case where the antenna positions of the BS are fixed, and derive a closed-form optimal RB based on the minimum mean square error (MMSE) criterion. Building on this insight, we develop an alternating optimization framework coupled with successive convex approximation (SCA) to iteratively update the MA positions and RB design in the general scenario. Numerical results demonstrate that the proposed scheme significantly outperforms conventional fixed-antenna systems in terms of both communication efficiency and anti-jamming robustness, highlighting the practical potential of MAs for wireless communications in adversarial environments.",
+    "title_zh": "抗干扰攻击下的多用户上行可靠传输（移动天线支持）",
+    "abstract_zh": "移动天线（MA）技术作为一种提升无线通信系统抗恶意干扰能力的有效方案脱颖而出。该技术通过利用空间自由度，在有限区域内动态调整天线位置来实现这一目标。本文研究MA支持下的可靠多用户上行链路系统中，在遭受干扰攻击时的极大-极小公平性问题。研究目标是通过联合优化移动天线位置和接收波束成形向量，在满足各用户设备SINR需求的前提下，最大化基站（BS）处最差用户的信号干扰加噪声比（SINR）。构建的优化问题由于非凸特性，直接求解具有挑战性。为此，我们首先考虑基站天线位置固定这一特殊情况，基于最小均方误差（MMSE）准则推导出闭式解最优波束成形方案。基于此发现，我们提出一种结合逐次凸近似（SCA）的交替优化框架，通过迭代更新MA位置和波束成形设计以解决一般场景问题。仿真结果表明，所提方案在通信效率和抗干扰鲁棒性方面均显著优于传统固定天线系统，突显了MA技术在对抗性无线通信环境中的实用潜力。\n\n（说明：翻译过程中对专业术语进行了标准化处理，如：\n1. \"max-min fairness\"译为\"极大-极小公平性\"，符合通信领域术语规范\n2. \"spatial degrees of freedom\"译为\"空间自由度\"，是信号处理领域的标准译法\n3. \"successive convex approximation\"采用\"逐次凸近似\"的通用译法\n4. \"adversarial environments\"译为\"对抗性环境\"，准确传达安全通信场景含义\n同时保持了学术论文的严谨性，通过\"为此\"、\"基于此发现\"等逻辑连接词确保行文流畅，专业符号如SINR、MMSE等均保留英文缩写以符合学术惯例。）"
+  }
+]
