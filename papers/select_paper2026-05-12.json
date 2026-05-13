@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-5-12",
+    "title": "Real-Time eBPF/XDP-based Deep Learning Framework for Anomaly Traffic Detection in IoT Networks",
+    "authors": "Shuangxing Liu, K. L. Eddie Law, Zien Zhang, Chan-Tong Lam",
+    "publish": "IEEE Internet Computing",
+    "url": "https://doi.org/10.1109/mic.2026.3692726",
+    "source": "IEEE",
+    "abstract": "IoT networks face resource constraints yet require real-time anomaly detection across diverse protocols. We propose a dynamic, feature-selective framework for heterogeneous IoT networks. It integrates eBPF/XDP in the driver path with a pre-trained lightweight deep learning model in user space, enabling two-stage adaptive feature selection. The feature-selective engine dynamically identifies the most discriminative traffic characteristics under evolving attacks. We validate generalizability using CICDDoS2019, IoT-23, and TON_IoT datasets. For example, on CICDDoS2019, our model trims 77 features down to only 5 while maintaining nearly identical accuracy (93.30% versus 92.73%). On a Raspberry Pi 4B, packet interception averages 1.85 μs and inference 10.38 ms, with negligible CPU overhead. Results confirm both responsiveness and accuracy, addressing security challenges in IoT networks and edge computing systems.",
+    "title_zh": "基于eBPF/XDP的实时深度学习框架在物联网网络中的异常流量检测",
+    "abstract_zh": "物联网网络面临资源受限的挑战，却需要跨多种协议的实时异常检测能力。我们提出了一种针对异构物联网网络的动态特征选择框架，该框架通过在驱动路径集成eBPF/XDP技术，结合用户空间预训练的轻量级深度学习模型，实现了两阶段自适应特征选择。特征选择引擎能够动态识别在持续演变的攻击场景下最具区分性的流量特征。通过在CICDDoS2019、IoT-23和TON_IoT数据集上的验证，实验表明：在CICDDoS2019数据集上，模型从77个特征精简至仅5个，同时保持几乎相同的准确率（93.30% vs 92.73%）。在搭载Raspberry Pi 4B的硬件平台上，数据包拦截平均耗时1.85微秒，推理阶段耗时10.38毫秒，且CPU开销可忽略不计。实验结果证实了该方案在响应速度和检测精度上的双重优势，有效解决了物联网网络和边缘计算系统中的安全挑战。\n\n（翻译说明：\n1. 专业术语处理：保留eBPF/XDP等专有名词，\"异构\"对应\"heterogeneous\"，\"边缘计算系统\"准确传达edge computing\n2. 技术细节强化：明确\"驱动路径\"（driver path）和\"用户空间\"（user space）的分层架构，突出硬件加速特性\n3. 数据呈现优化：将技术指标（1.85μs/10.38ms）与性能对比（77→5特征）并列展示，增强可读性\n4. 逻辑衔接：使用\"通过...实验表明...\"等连接词，保持学术论文的严谨结构\n5. 单位规范：统一使用中文单位符号（微秒/毫秒），数字格式与原文保持一致\n6. 核心价值提炼：末句强调\"双重优势\"（响应速度+检测精度），呼应前文技术方案）"
+  },
+  {
+    "date": "2026-5-13",
+    "title": "Mobility-Aware Adaptive Access Protocol: A Cross-Layer Framework with Predictive Backoff Optimization for UAV Ad-Hoc Networks",
+    "authors": "Yide Ji",
+    "publish": "Proceedings of the 2026 3rd International Conference on Autonomous Driving and Intelligent Sensing Technology",
+    "url": "https://doi.org/10.1145/3807211.3807237",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "无人机自组织网络中一种跨层感知移动性的自适应接入协议，结合预测退避优化\n\n（解析：该翻译严格遵循学术论文标题的规范，采用\"领域+技术特征+方法+优化方向\"的递进结构：\n1. \"无人机自组织网络\"对应UAV Ad-Hoc Networks，作为研究背景\n2. \"跨层感知移动性\"准确传达Cross-Layer Mobility-Aware的技术特征\n3. \"自适应接入协议\"对应Adaptive Access Protocol，保持专业术语一致性\n4. \"结合预测退避优化\"完整呈现with Predictive Backoff Optimization的优化机制\n特别处理了：\n- 专业术语\"backoff\"译为\"退避\"（通信领域标准译法）\n- \"cross-layer\"译为\"跨层\"（网络协议领域通用译法）\n- 逻辑关系通过逗号分隔，符合中文标题的层次表达习惯\n- 保留英文原题的学术严谨性，同时确保中文可读性）",
+    "abstract_zh": "None"
+  }
+]
