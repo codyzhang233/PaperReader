@@ -1,0 +1,902 @@
+[
+  {
+    "date": "2026-6-3",
+    "title": "IEEE Antennas and Wireless Propagation Letters Publication Information",
+    "authors": "N/A",
+    "publish": "IEEE Antennas and Wireless Propagation Letters",
+    "url": "https://doi.org/10.1109/lawp.2026.3696273",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Detecting Cyber Attacks in Power System AGC Using a Drifted Ornstein-Uhlenbeck Process",
+    "authors": "Mingqiu Du, Xiaozhe Wang, Qinglai Guo",
+    "publish": "IEEE Transactions on Industrial Cyber-Physical Systems",
+    "url": "https://doi.org/10.1109/ticps.2026.3700087",
+    "source": "IEEE",
+    "abstract": "The Automatic Generation Control (AGC) system, reliant on real-time measurements over communication networks, is susceptible to stealthy false data injection attacks (FDIAs), risking equipment damage and economic losses. We propose a robust FDIA detection method using maximum likelihood estimation (MLE) of a drifted multivariate Ornstein-Uhlenbeck (OU) process. Independent of load observability, in various cyber-attack scenarios, the proposed FDIA detection method delivers accurate and rapid detection of sophisticated FDIAs, outperform-ing traditional Unknown Input Observer (UIO) methods, which miss detections, and Long Short-Term Memory Autoencoder (LSTM-AE) approaches, which suffer from prolonged detection times."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Method for Restoring Dunhuang Murals Based on Improved Generative Adversarial Networks",
+    "authors": "Hongbo Wang, Yang Wang",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3699649",
+    "source": "IEEE",
+    "abstract": "Due to long-term natural weathering and environmental erosion, the murals of the Dunhuang Mogao Caves commonly suffer from degradation issues such as fading, flaking, cracking, and large-scale structural damage. Existing deep learning-based image inpainting methods frequently suffer from structural discontinuities, pattern distortion, and local semantic inconsistencies when processing images with complex line drawings and distinctive cultural patterns, such as Dunhuang murals. To address these challenges, this paper proposes HT-GAN, a Dunhuang mural restoration framework that integrates Hankel-Tucker low-rank structural modeling with generative adversarial learning. This framework enhances structural continuity and pattern consistency within complex damaged regions through explicit low-rank structural constraints. Specifically, the proposed method models local mural features as Hankel tensors and utilizes Tucker decomposition to extract low-rank structural correlations. These correlations are then embedded into the feature learning process of the generator, enabling the joint optimization of structural priors and texture generation. Furthermore, a two-stage progressive generation mechanism consisting of \"coarse-to-fine\" restoration is developed. The coarse restoration stage aims to reconstruct the overall contours and low-frequency semantic structures of the damaged regions, while the fine restoration stage incorporates dilated convolutions, skip connections, and PatchGAN adversarial constraints to further enhance local texture details and edge realism. Experiments were conducted on a Dunhuang mural dataset, and a comprehensive evaluation was performed using objective metrics including PSNR, SSIM, and MSE. Quantitative results indicate that the proposed method achieves a PSNR of 41.13 dB, an SSIM of 0.9779, and a low MSE of 0.000440 on the validation set, significantly outperforming several state-of-the-art image inpainting methods in terms of structural continuity, pattern consistency, and visual naturalness. Ablation studies further validate the indispensability of both the Hankel-Tucker module and the two-stage generation mechanism. This work provides a novel approach that balances structural controllability and visual realism for the non-destructive digital restoration of cultural heritage images, such as the Dunhuang murals."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Machine Learning Unveils System-Level Signatures of Integrated Motor&amp;#x2013;Non-Motor Dysfunction in Parkinson&amp;#x2019;s Disease during Telerehabilitation_supp6-3697696.xlsx",
+    "authors": "LUCIA PEPA",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/access.2026.3697696/mm2",
+    "source": "IEEE",
+    "abstract": ""
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Analysis and Reduction Methods for Floating Potential and Voltage Stress in IPT System",
+    "authors": "Xingjian Zhou, Xin Gao, Dongxue Li, Chunbo Zhu",
+    "publish": "IEEE Transactions on Power Electronics",
+    "url": "https://doi.org/10.1109/tpel.2026.3699940",
+    "source": "IEEE",
+    "abstract": "In high-power inductive power transfer (IPT) systems, kilovolt-level winding voltages can induce hazardous floating potentials on ungrounded ferrites and aluminum shielding structures, thereby degrading insulation reliability and increasing the risk of electrical breakdown. To investigate this issue, a distributed-parameter model incorporating partial inductances and parasitic capacitances was developed to analyze the floating potential coupling mechanism in magnetic couplers. Based on the proposed model, the effects of parasitic-capacitance distribution on floating potentials were investigated through finite element analysis (FEA) and experiments. To intrinsically suppress floating potentials, a distributed compensation topology with a parallel wound single-layer winding structure was proposed. By symmetrically balancing winding-terminal potentials and distributing compensation capacitors, the proposed topology significantly reduced floating potentials and winding voltage stress. Experimental results demonstrated that the ferrite and aluminum-shield potentials were reduced to 4% of the inverter output potential, the maximum ground-referenced voltage was reduced by 71%, and the winding-terminal voltage stress was reduced by 52%, accompanied by reduced dielectric loss associated with parasitic capacitive coupling. Experimental verification using an 80-kW prototype further confirmed the feasibility of the proposed method for high-power IPT systems."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Feedback-Guided Hierarchical Transmission for Multi-Robot Mapping under Bandwidth Constraints_supp1-3699241.mp4",
+    "authors": "Jinglei Li",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/lra.2026.3699241/mm1",
+    "source": "IEEE",
+    "abstract": "As multi-robot mapping systems expand into data intensive environments, efficient data transmission methods are essential for maintaining global consistency and safety under scarce and time-varying bandwidth. In this work, we propose a Feedback-Guided Hierarchical Transmission framework for centralized multi-robot mapping. In this framework, the submap representation is structured with three layers: L1 extracts the pose-and-factor skeleton to ensure topological consistency with minimal overhead; L2 streams geometric details, prioritized by semantic-weighted entropy reduction to refine the occupancy map; L3 delivers semantic labels to support high-level under-standing. To optimize transmission, the backend performs centralized occupancy fusion and employs Truncated Least Squares Graduated Non-Convexity (TLS–GNC) pose-graph optimization and a Lambda-Field risk model to produce guidance signals. These signals dynamically reshape the utility curves of the layers to prioritize loop-closure consistency and safety-critical regions. Experiments are conducted on S3DIS and ScanNet indoor RGB D datasets to validate the effectiveness of the proposed frame work. The performance evaluation under bandwidth sweeps and packet loss tests indicates that our method reaches joint geometry-and-semantics accuracy with fewer bytes, recovers loop closures faster, and lowers estimated collision risk in rendezvous regions compared with non-hierarchical baselines."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A New Axial-Flux Dual-Rotor Variable Reluctance Resolver",
+    "authors": "Murat Onsa, Metin Aydin",
+    "publish": "IEEE Transactions on Magnetics",
+    "url": "https://doi.org/10.1109/tmag.2026.3699967",
+    "source": "IEEE",
+    "abstract": "This paper presents a novel axial-flux dual-rotor variable reluctance resolver (AF-VRR) developed for high-precision rotor position sensing in permanent magnet motor drive systems. The proposed topology employs a single toroidal excitation winding located around the stator core, enabling simultaneous excitation of both stator surfaces and providing a compact dual-rotor configuration. The winding layout is designed to ensure symmetric magnetic flux distribution and accurate sine–cosine signal generation. An initial electromagnetic design is developed based on resolver design constraints and evaluated using both two-dimensional (2D) linearized and full three-dimensional (3D) finite element analysis (FEA). A prototype of the proposed resolver is manufactured and experimentally tested. The measured results show good agreement with simulation results. The proposed AF-VRR demonstrates a compact structure, reduced winding complexity, and reliable signal generation, making it suitable for integration in electric motor drive systems."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Front Cover",
+    "authors": "N/A",
+    "publish": "Journal of Microelectromechanical Systems",
+    "url": "https://doi.org/10.1109/jmems.2026.3693926",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-6-3",
+    "title": "High-frequency monitoring of sea-fog/low-clouds in the Arctic summer daytime from multi-satellite synergy",
+    "authors": "Huiyun Ma, Zengwei Liu, Jiedong Liu, Junjie Yan, Huihui Feng",
+    "publish": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "url": "https://doi.org/10.1109/jstars.2026.3700065",
+    "source": "IEEE",
+    "abstract": "It is crucial to detect sea-fog/low-clouds precisely for potential navigation in the Arctic. This study developed a novel model for high-frequency detection of daytime sea-fog/low-clouds in the Arctic with the aid of nine polar-orbiting meteorological satellite observations. Methodologically, the sea surface could be first extracted by considering the visible and near-infrared characteristics under different solar zenith angles (SZAs). Then, the gray-level co-occurrence matrix (GLCM) and random forest (RF) approaches were adopted to distinguish sea-fog/low-clouds and mid-high clouds through the difference in vapor absorption in thermal infrared bands. The validation results showed that our algorithm presented high performance over different satellite platforms. The overall probability of detection (POD), false alarm ratio (FAR) and critical success index (CSI) were 75.39%, 12.35% and 68.17%, respectively. The research results are important for the safety of shipping in the Arctic and the research mechanism of formation and development of Arctic sea-fog/low-clouds."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Precision Measurement Method for High-order Aspheric Surface Based on Pinhole Point Diffraction Interferometry and Optimized Sub-aperture Stitching",
+    "authors": "Leqi Geng, Bing Li, Zhuo Zhao, Zhenchuan Hu, Jiasheng Lu",
+    "publish": "IEEE Transactions on Instrumentation and Measurement",
+    "url": "https://doi.org/10.1109/tim.2026.3699693",
+    "source": "IEEE",
+    "abstract": "To address the challenges of insufficient accuracy and poor versatility faced by conventional interferometers in measuring high-order aspheric surfaces, this paper proposes an optimized annular sub-aperture stitching method based on a reverse global planning strategy. The method initiates sub-aperture division from the edge region with the highest asphericity, aiming to maximize the effective measurement range of each individual sub-aperture and setting the minimization of the number of sub-apertures (N) as the core optimization objective. The algorithm features a concise structure, high stability, and ease of automation, enabling a significant extension of the interferometer's dynamic measurement range. Simulation studies demonstrate that the method effectively reduces the required number of sub-apertures, thereby suppressing the propagation and accumulation of mechanical positioning errors during the stitching process. Furthermore, by integrating this method with pinhole point diffraction interferometry (PPDI), a measurement system combining high accuracy and large measurement range is constructed. Experimental measurements of a convex high-order aspheric surface yield stitched results that are in excellent agreement with full-aperture measurements, with the peak-to-valley (PV) deviation of only 2.66 nm and the root-mean-square (RMS) deviation of only 0.44 nm. A detailed uncertainty analysis of the system confirms the reliability and reproducibility of the measurement results. This study not only provides an efficient method for the precision measurement of aspheric surfaces with large deviations but also offers a new technical pathway for enhancing the measurement capability and automation level of interferometers."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "On Integrating Friction Dynamics Into Cosserat Models for Tendon-Driven Continuum Manipulators_supp1-3694254.mp4",
+    "authors": "Filipe de Carvalho Pedrosa",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tmech.2026.3694254/mm1",
+    "source": "IEEE",
+    "abstract": "This article presents a dynamic modeling framework for tendon-driven continuum manipulators, with a focus on cardiac catheters. Tendon compliance and tendon–sheath friction produce nonuniform tensions and motion-history-dependent dynamics (hysteresis), which, if neglected, degrade model fidelity and control. We develop a Cosserat-based formulation that integrates tendon compliance and a dynamic LuGre friction law into the governing nonlinear PDEs. This allows geometrically exact spatiotemporal computation of tendon–tension transmission without assuming initial friction states. Experiments on two clinical catheters demonstrate that incorporating friction dynamics reduces distal-tip error from <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$1.62\\pm 1.01$</tex-math></inline-formula> mm (frictionless) to <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$0.99\\pm 0.65$</tex-math></inline-formula> mm (<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$\\approx 39\\%$</tex-math></inline-formula> improvement), and achieves <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$2.31\\pm 0.91$</tex-math></inline-formula> mm mean absolute error for out-of-plane spatial actuation of a four-tendon ICE catheter. Comparative analysis against a Coulomb-based capstan model highlights the significance of dynamic friction, which produces rate-dependent tension transmission and more accurate modeling of hysteresis effects."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Novel Stereo Tracking Technology for Intraoperative Intervertebral Motion Compensation in Robot-assisted Laminectomy",
+    "authors": "Wenyuan Sun, Xiaoyang Zou, Yidan Chen, Guoyan Zheng",
+    "publish": "IEEE Transactions on Instrumentation and Measurement",
+    "url": "https://doi.org/10.1109/tim.2026.3699703",
+    "source": "IEEE",
+    "abstract": "Robot-Assisted Laminectomy (RAL) has become an emerging approach for treatment of lumbar spinal stenosis. However, the spine is an articulated structure that can be deformed under contact force during grinding. Patient-image registration performed at the start of RAL cannot account for intraoperative intervertebral motion, resulting in degraded surgical accuracy and compromised safety. To tackle this issue, we propose a novel stereo tracking technology for intraoperative intervertebral motion compensation in RAL. Our tracking technology is a marker-based method, consisting of customized markers, a coding system, and a labeling and position tracking framework. Specifically, we first propose a new type of markers featured by binary-coded spatial patterns, referred to as SurgTag marker. Each marker in the codebook has a unique digital IDentification (ID) code and a fixed set of keypoints. By rigidly attaching a marker with a unique ID to each vertebra during RAL, we can simultaneously track multiple vertebrae. We then introduce a two-stage SurgTag-marker-based tracking framework consisting of a marker labeling stage followed by a keypoint detection stage. In theory, we formulate both marker labeling and keypoint detection as one-to-one set prediction problems and further propose respectively two different types of DEtection-TRansformer (DETR)-based detector: Marker-DETR and Keypoint-DETR. Marker poses are then estimated based on detected keypoints, enabling tracking and compensation for intervertebral motion. Comprehensive experiments were conducted for evaluation. The proposed method achieved on average a submillimeter translation error and a sub-degree orientation error on both a synthetic dataset and an ex-vivo dataset. Additionally, surgical robot with the proposed technology achieved a submillimeter grinding error, demonstrating its effectiveness for improving surgical accuracy. The code will be publicly available at https://github.com/Wenyuan-Sun/StereoTracking."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Prototyping Regenerative Ontologies: Participatory Design for More-Than-Human Coexistence",
+    "authors": "Marco Andrea Finardi",
+    "publish": "Proceedings of the 19th Participatory Design Conference 2026, Vol. 2: Exploratory Papers and Doctoral Colloquium",
+    "url": "https://doi.org/10.1145/3789492.3796460",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Neuro Chair: A Smart IoT-Based Ergonomic System for Real-Time Stress and Posture Monitoring",
+    "authors": "R.M.D.E. Rajapaksha, R.M.H.L. Rathnayaka, A.J.M.S. Sithumini, S.A.H.D.M. Perera, Anuradha Jayakody, Dinith Primal",
+    "publish": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+    "url": "https://doi.org/10.1109/ichora69329.2026.11537241",
+    "source": "IEEE",
+    "abstract": "This paper presents NeuroChair, a smart IoT-based ergonomic chair system for real-time posture and stress monitoring using multi-sensor data fusion and machine learning techniques. The system integrates physiological and pressure-based sensors to capture both biomechanical and physiological signals. Data are processed through an edge device and transmitted via the MQTT protocol to a cloud-based platform for further analysis. An XGBoost-based classification model is utilized to detect posture abnormalities and stress conditions. Experimental results demonstrate high accuracy and robust performance in both stress detection and posture classification tasks. The system provides real-time feedback through an interactive dashboard, promoting improved workplace ergonomics and user well-being. The proposed approach highlights the effectiveness of combining subjective and sensor-based data for scalable and intelligent health monitoring."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Grama Medai: A Portable AI-Enabled Diagnostic Laboratory for Rural Healthcare",
+    "authors": "Pavithra M, Naveen Kumar S, Rakesh Varsan S, Reshma Dharshini S, Sutiksn A",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11542019",
+    "source": "IEEE",
+    "abstract": "Access to timely, affordable, and accurate healthcare diagnostics remains a major challenge in rural regions of India, where advanced medical facilities are largely concentrated in urban centers. Rural populations often face delayed detection of chronic diseases, such as diabetes, anemia, hypertension, and respiratory disorders, due to inadequate infrastructure, shortage of trained professionals, and long travel distances for basic laboratory testing. These barriers lead to delayed treatment and limited adoption of preventive health care. This study presents an enhanced version of Grama MedAI, a portable AI-enabled diagnostic laboratory designed for early disease detection and predictive risk assessment in resource-limited settings. The system integrates non-invasive biosensors with finger-prick capillary blood testing to measure vital parameters and key biomarkers. The data are processed locally using embedded hardware and analyzed using machine learning algorithms to generate a multi-level risk classification. Operating offline with optional cloud support, the system enables continuous monitoring and provides a scalable and cost-effective solution for improving rural healthcare delivery."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Evaluation of Computer Vision-Driven Autonomous Water Landing of Amphibious UAVs Using YOLOv8 and MATLAB",
+    "authors": "Elumalai Kannan, Surendar Ganesan, Balasubramanian Esakki, Nirmal Prabhath Ch",
+    "publish": "2026 12th International Conference on Communication and Signal Processing (ICCSP)",
+    "url": "https://doi.org/10.1109/iccsp68173.2026.11539670",
+    "source": "IEEE",
+    "abstract": "Traditional sensors, such as GPS, barometric, and ultrasonic sensors, have limitations in accurately reflecting and dynamically capturing data from water surfaces, particularly during the unsafe landing of a UAV at precise locations. To overcome these limitations, a computer vision-driven landing zone detection framework using a YOLOv8 deep learning model is being trained on a custom dataset and imported within a MATLAB simulation environment. In this research, a MATLAB-based simulation architecture for identifying safe water landing zones in a camera-based virtual environment is designed. The custom datasets are annotated and trained using the YOLOv8 architecture with the best.pt weights are deployed in MATLAB for real-time inference. In the MATLAB environment, the virtual camera sensor processes input video streams, providing real-time object detection and classification and enabling the identification of safe landing zones over the water body under varying environmental conditions, including dynamic water and lighting conditions. The proposed system achieves high detection accuracy in safe-zone landing detection and demonstrates the effectiveness of the computer vision-based autonomous water-landing system for amphibious UAVs. The results show that the planned methods are suitable for applications, such as environmental monitoring, search and rescue, and maritime surveillance operations involving amphibious UAVs. Future work will focus on improving simulation-based validation for real-time embedded hardware deployment using an NVIDIA Jetson Nano, integrating an RGB camera and mmWave radar."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "SmuggleDoS: Evasive DDoS Attacks using HTTP Request Smuggling",
+    "authors": "Deeraj U, Pradeep Kumar Tiwari, Vasudevan A.R., Amit Praseed",
+    "publish": "2026 1st International Conference on Emerging Trends in Advancements and Applications of Computational Intelligence Techniques (ETAACT)",
+    "url": "https://doi.org/10.1109/etaact69135.2026.11541337",
+    "source": "IEEE",
+    "abstract": "Application Layer Distributed Denial of Service attacks are one of the major threat to web security now. The low attack volume of these attacks, coupled with the myriad ways in which they can be launched make these attacks challenging to detect. HTTP(Hypertext Transfer Protocol) Request Smuggling is an attack that make use of the differences in how front-end and back-end servers parse HTTP requests. Request smuggling has been extensively used to deliver a wide variety of attack payloads including cache poisoning, information stealing and XSS(Cross-Site scripting). In this work, we present SmuggleDoS, a novel application layer DDoS attack that uses HTTP request smuggling to deliver DDoS(Distributed Denial-of-Service) attack payloads. Configurations where the front-end server or firewall gives importance to the Content-Length header, while the back-end server give importance to the Transfer-Encoding header are especially vulnerable to SmuggleDoS. Experiments demonstrate that when multiple legitimate HTTP requests are smuggled inside an outer HTTP request, such front-end servers or firewalls log the request as single request, while the back-end servers perceive and process multiple requests, effectively defeating rate-limiting based DDoS mitigation mechanisms."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "An Empirical Comparison of Traditional ML and GPT-Based LLMS for Turkish E-Commerce Review Moderation",
+    "authors": "Muhammed Abdullah Özdemir, Melih Rıza Koç, Mustafa Buğra Yılmaz, Mehmet Ali Ekmiş, Bilal Ekinci",
+    "publish": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+    "url": "https://doi.org/10.1109/ichora69329.2026.11536974",
+    "source": "IEEE",
+    "abstract": "User-generated content, especially customer reviews, strongly influences trust and purchase decisions in e-commerce. As platforms scale, these review streams inevitably accumulate spam, manipulation, and toxic language. While accurate moderation is essential to protect platform integrity, manual filtering is both costly and inconsistent. Conversely, traditional supervised models (e.g., Logistic Regression, SVM, XGBoost) require extensive feature engineering to handle class imbalance and frequently struggle with the contextual nuances of morphologically rich languages like Turkish. To address this gap, this study presents an empirical comparison between traditional machine learning baselines and a GPT-based large language model (LLM) for moderating Turkish e-commerce reviews, utilizing 16,531 labeled realworld samples. We evaluate the models using precision, recall, and F1 metrics, complemented by a false-positive-focused error analysis. Our results demonstrate that the GPT-based approach <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(F 1=0.920)$</tex> significantly outperforms the best traditional baseline, XGBoost <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(\\mathbf{F 1} \\boldsymbol{=} \\mathbf{0. 8 5 7})$</tex>. More importantly, the LLM reduces false positives by 54 % relative to XGBoost, effectively preventing the erroneous rejection of harsh but legitimate customer criticism. These findings highlight that LLMs offer a scalable, semantically aware solution for content moderation in operational e-commerce environments."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Hybrid Knowledge Graph and Graph Neural Network Framework for Context-Aware Consumer Behavior Modeling in E-commerce",
+    "authors": "A. Balamurugan, G. Sivakumar, Palagiri Mabjan, Bollam Srivani, Sabina A. Nair, Naveen Nandal",
+    "publish": "2026 1st International Conference on Emerging Trends in Advancements and Applications of Computational Intelligence Techniques (ETAACT)",
+    "url": "https://doi.org/10.1109/etaact69135.2026.11541466",
+    "source": "IEEE",
+    "abstract": "More and more people are replacing traditional shopping methods with online payments and purchases because the Internet and web technologies are used all over the world. This Paper Proposes Knowledge Graph and Graph Neural Network framework for Context-Aware Consumer Behavior Modelling in E-commerce. The framework combines deep relational learning through GNN with semantic entity relationships from a knowledge graph. Using a dataset, this model uses TF-ICF Feature extraction for the textual comments and Structural graph representation for entity embeddings. The experimental findings show that the suggested KGGNN model successfully captures intricate patterns of behaviour and achieves a prediction accuracy of 97.12%. The results show that e-commerce consumer behaviour modelling is greatly improved with the help of a framework that combines knowledge graphs with graph neural networks. This framework can improve recommendation systems, targeted marketing, and the general performance of the platform."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Smart LoRaWAN-based Diabetic Monitoring System using Dual Coordinate Descent SVM for Data Transmission Optimization",
+    "authors": "C. Seetha Lakshmi, A. Angel Cerli",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11542117",
+    "source": "IEEE",
+    "abstract": "Due to the exploding number of remote healthcare applications, the need for reliable and energy-efficient data transmission for continuous diabetic monitoring is also on the rise. However, the conventional LoRaWAN based systems have static or rule-based scheduling mechanisms which lead to excessive energy consumption, network congestion and delayed detection of critical health events. The goal of this study is to create an intelligent information communication framework based on adaptation that is efficient in terms of data transmission and safe from a clinical standpoint. This paper proposes a smart Diabetic monitoring system using LoRaWAN with Dual Coordinate Descent Support Vector Machine (DCD-SVM) for Risk Aware and QoS based transmission control. The model dynamically classifies patient states and dynamically alters spreading factor, transmission power, packet interval and routing paths. Extensive NS-3/LoRaSim simulations have shown that the proposed DCD-SVM-AT framework provides a packet delivery ratio of 98.4%, average end-to-end delay is 140 ms, energy consumption is 2.1 J and network lifetime is 2730 s. In addition, it achieves a transmission reduction ratio of 43%, critical event detection latency of 4.6 seconds, and critical event missing rate of 1.1%, which is better than Static LoRaWAN, ADR, QoS-routing, LSTM-AT and XGBoost-AT schemes. These results confirm that lightweight edge intelligence and the combination with adaptive LoRaWAN communication is a promising and powerful method to boost reliability, efficiency and clinical responsiveness of large-scale diabetic monitoring systems."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Neuro-Symbolic Expert System for Medical Diagnosis From Natural Language with Rule-Based Logic Engines",
+    "authors": "Ndachimya Magaji Edward, Daniel Godwin, Fares Odeh, Aytuğ Sağlam, Moustafa Leila",
+    "publish": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+    "url": "https://doi.org/10.1109/ichora69329.2026.11536979",
+    "source": "IEEE",
+    "abstract": "The integration of artificial intelligence into clinical diagnostic workflows is heavily impeded by the inherent “black box” nature of deep learning. Neural networks struggle to provide the epistemological transparency required for safe medical reasoning, whilst traditional rule-based expert systems fail to process unstructured, real-world patient data effectively. This paper proposes a novel Neuro-Symbolic architecture that physically decouples natural language perception from deterministic medical logic. This system is engineered specifically for low-resource clinical environments, such as those found in West Africa. Differentiating overlapping endemic febrile illnesses-specifically Malaria, Typhoid, Dengue, and Lassa Fever-presents a rigorous mathematical challenge due to near-identical initial clinical presentations and severe lack of advanced laboratory infrastructure. Our proposed three-tier architecture isolates a Large Language Model (LLM) strictly to an information extraction role. The neural layer parses unstructured clinical vignettes and outputs structured medical facts paired with semantic certainty factors. An integration middleware then validates these facts against a machine-readable JSON Knowledge Base grounded in peer-reviewed clinical parameters, significantly mitigating the risk of AI hallucinations. Finally, the structured data is processed by a custom Evidence-Weighted Directed Acyclic Graph (DAG) inference engine. By applying MYCIN-style probabilistic mathematics, the engine calculates diagnostic certainty whilst simultaneously generating a real-time, auditable logical trace. Empirical evaluation on an out-of-distribution dataset demonstrates that whilst pure LLMs force opaque classifications, this framework successfully bounds diagnostic uncertainty, prioritising clinical safety and epistemological transparency over raw, unverified accuracy."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "AI Image Classification Detection Brain Tumor using C-RNN",
+    "authors": "Tina Victoria, Nandhini.V",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11541366",
+    "source": "IEEE",
+    "abstract": "This work presents an integrated system that combines automated brain tumor instance segmentation with AI-assisted clinical guidance using deep learning and generative models. The proposed framework employs a customized Mask R-CNN architecture with a ResNet-50 Feature Pyramid Network backbone to detect tumor regions from MRI scans and generate pixel-level masks, bounding boxes, and calibrated confidence scores. The system supports identification of multiple tumor instances within a single scan and incorporates uncertainty-aware filtering to reduce unreliable predictions. Uploaded MRI images are preprocessed and passed through the segmentation pipeline, and the outputs are visualized as overlay masks with annotated confidence values to enhance interpretability. Instead of using confidence as a clinical certainty indicator, the system applies it as a contextual parameter for generating educational medical guidance using the Gemini generative model. The generated responses describe commonly adopted treatment pathways such as surgical options, radiotherapy, chemotherapy, and supportive care while maintaining non-diagnostic and assistive intent.The framework is implemented through a Streamlit interface that enables model loading, real-time inference, visualization, and structured text generation in a unified workflow. The end-to-end pipeline operates within interactive latency suitable for demonstration and decision-support research environments. Overall, the system highlights the feasibility of combining instance segmentation, uncertainty-aware AI reasoning, and generative medical explanations to support medical imaging analysis, educational use, and future deployment-oriented clinical assistance tools."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Dual-Instructor AI-Enhanced Teaching Framework for Interdisciplinary AI Literacy: An Empirical Study Based on Learning Analytics",
+    "authors": "Yuezhou Zhang, Miaomiao Zhang, Shaohua Sun, Lin Qu",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3807015",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Deep Learning--Based Study on Quality Evaluation in Higher Continuing Education",
+    "authors": "Hui Yang",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3806992",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Design and Implementation of an Intelligent Question Practice Platform: A Multi-Feature Fusion-Based Question Recommendation Algorithm",
+    "authors": "Tianbao Xue, Quanxiang Lan",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3807201",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Practice and Exploration of BOPPPS Model Integrated with PBL in the Experimental Teaching of Industrial Robot Programming and Debugging",
+    "authors": "Jiaqi Li, Qinqin Wei, Guoqiang Luo, Junbo Peng, Li Liu",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3807152",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Machine Learning Approach to Evaluating High-Quality Employment: Career Adaptability as a Predictive Metric in Private UniversitiesCareer Adaptability as a Metric for High-Quality Employment",
+    "authors": "Jing Liao, Shuyan Xu",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3807132",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Research on the Construction of VR Smart Classrooms for Mechanical Course",
+    "authors": "Caiyun Gao, Shiqiang Wang, Juanna Jiang, Yibo Shang",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3807140",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Exploration on Blended Intelligent Teaching of Community Nursing Based on Knowledge Graph",
+    "authors": "Yanying Lei, Fenfang Lei, Liying Deng, Ting Ma, Chao Tang, Yuejuan Yue, Wufei Li, Xiwei Xiao",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3807049",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Research on the Application of XR Digital Media Interactive Design in Information Technology Education",
+    "authors": "Nian Si",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3807179",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Cloud-Edge Collaborative Intelligent Framework for Multimodal Foreign Language Education: Integrating Federated Learning with Knowledge Graph",
+    "authors": "Zheng Cao",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3807174",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Beyond Accuracy: Evaluating Trust, Bias, and Hallucination in AI-Generated Alternative (Alt) Text for Accessibility",
+    "authors": "Wajdi Aljedaani, Razan Alsulaymi, Ghada Alqahtani, Yunhe Feng",
+    "publish": "Proceedings of the 23rd International Web for All Conference",
+    "url": "https://doi.org/10.1145/3800424.3800454",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Reinforcement Learning-Assisted Design of Active and Reactive Power Control for GFM Inverters with Various Grid Strengths",
+    "authors": "Shyamal S. Chand, Arman Ali, Majid Farhangi, Maurizio Cirrincione, Branislav Hredzak",
+    "publish": "2026 IEEE Conference on Technologies for Sustainability (SusTech)",
+    "url": "https://doi.org/10.1109/sustech67720.2026.11536162",
+    "source": "IEEE",
+    "abstract": "This study proposes a technique for the optimal parameter selection of a virtual synchronous generator (VSG)-regulated grid-forming inverter through a twin delayed deep deterministic reinforcement learning (TD3-RL) agent, applicable to both strong and weak grid scenarios. The methodology utilizes voltage fluctuations at the point of common coupling (PCC) due to grid impedance and incorporates integral-time errors of both active and reactive power as observational inputs. The TD3-RL agent is designed to modify the inertia and damping coefficients of the active power controller, as well as the proportional-integral gains of the reactive power controller. The objective is to pinpoint the optimal parameter configuration that improves inverter response across a wide range of grid impedances. Since the policy provides the same controller parameters for all grid impedances, it can be seamlessly used in the existing VSG architecture without requiring a trained policy. The efficacy of this approach was evaluated against conventional empirical frequency-droop control and the standard VSG parameter calculation method across grids with different short-circuit ratios (SCR). The proposed RLVSG consistently showed enhanced performance under all tested conditions."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "DeepVesselNet-Based Retinal Vessel Segmentation with Enhanced Preprocessing",
+    "authors": "Adith Sreejey A S, Rochit L, Pranavaswaruban S, Karthik S, Saladi Saritha, Yepuganti Karuna",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11541335",
+    "source": "IEEE",
+    "abstract": "Retinal vessel segmentation is a critical task in the diagnosis and treatment of ocular diseases such as diabetic retinopathy, glaucoma, and hypertension. Accurate segmentation of fine vascular structures enables early detection of pathological changes and supports quantitative retinal image analysis. In this study, we present an improved implementation of DeepVesselNet for robust vessel segmentation in fundus images. The framework is evaluated on benchmark retinal imaging datasets, including DRIVE and STARE, demonstrating consistent performance across different imaging conditions. Experimental results show a Dice Coefficient exceeding 0.80, with competitive Intersection over Union (IoU), sensitivity, and specificity metrics. The proposed system provides a scalable, accurate, and deployment-ready solution for retinal vessel analysis, making it a strong candidate for integration into real-world ophthalmic diagnostic workflows."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Design and Optimization of a High-Gain Multi-Input Multilevel Inverter for Harmonic Mitigation",
+    "authors": "T. Jarin, D. Navin Sam, N. Senthilkumar, Gaydaa AlZohbi, B. Deepanraj",
+    "publish": "2026 12th International Conference on Communication and Signal Processing (ICCSP)",
+    "url": "https://doi.org/10.1109/iccsp68173.2026.11539159",
+    "source": "IEEE",
+    "abstract": "This work proposes a high-gain multi-input multilevel inverter based on switched diode capacitor voltage accumulator (SDCVA) topology for renewable energy and photovoltaic applications. The proposed configuration utilizes two identical or different low-voltage DC sources to create a higher DC-link voltage with reduced switch count, low voltage stress, and high efficiency. In this topology, an H-bridge inverter synthesizes a seven-level output voltage, and it is easy to increase the voltage levels by increasing the input sources. Multilevel inverters inherently have dominant lower-order harmonics; therefore, this paper implements selective harmonic elimination using metaheuristic optimization techniques. Three different metaheuristic methods have been investigated. Mathematical modeling and closed-loop stability are ensured by transfer-function analysis and Bode plots along with PI controller tuning. Performance evaluations show reduced voltage stress, low current ripple, high efficiency, and significant total harmonic distortion (THD) reduction. Among them, PSO has the minimum THD of 1.71% that satisfies the IEEE harmonic standard. The results confirm that the proposed SDCVA-based MI-MLI with optimization-based selective harmonic elimination (SHE) provides robustness, efficiency, and scalability for high-gain power conversion applications."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "IoT-Based Solar Power Monitoring System",
+    "authors": "Venkatesan M, Vasudevan D, Marthandan T, Gajalakshmi K, S Karthick, Karthikeyan A",
+    "publish": "2026 12th International Conference on Communication and Signal Processing (ICCSP)",
+    "url": "https://doi.org/10.1109/iccsp68173.2026.11539564",
+    "source": "IEEE",
+    "abstract": "The solar power system is integrated with an IoTbased monitoring setup comprising ESP32 microcontrollers, current sensors, voltage sensors, temperature sensors, and solar panels to enable real-time monitoring and optimization of solar energy generation. ESP32 microcontrollers serve as core processing units, facilitating communication and data analysis. Current sensors monitor electrical flow, while voltage sensors track voltage levels within the system. Temperature sensors ensure optimal performance by monitoring component temperatures. Solar panels incorporate sensors to monitor sunlight intensity and efficiency. The system offers real-time monitoring, remote accessibility, and data analytics. Users can optimize energy production, detect faults, and schedule maintenance remotely. Data analytics provide insights into energy generation, consumption trends, and system efficiency, aiding informed decision-making. In summary, the proposed system provides a comprehensive solution for monitoring and optimizing solar power systems, contributing to sustainable energy management and maximizing solar energy utilization."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Backscatter Device-Aided Integrated Sensing and Communication: A Pareto Optimization Framework",
+    "authors": "Yifan Zhang, Yu Bai, Shuhao Zeng, Riku Jäntti, Zheng Yan, Christos Masouros, Zhu Han",
+    "publish": "IEEE Transactions on Wireless Communications",
+    "url": "https://doi.org/10.1109/twc.2026.3698666",
+    "source": "IEEE",
+    "abstract": "Integrated sensing and communication (ISAC) systems potentially encounter significant performance degradation in densely obstructed urban and non-line-of-sight scenarios, thus limiting their effectiveness in practical deployments. To deal with these challenges, this paper proposes a backscatter device (BD)-assisted ISAC system, which leverages passive BDs naturally distributed in underlying environments for performance enhancement. Specifically, the additional reflective signal paths provided by these ambient devices are exploited to enhance sensing accuracy and communication reliability, respectively. In this system, we define the Pareto boundary characterizing the trade-off between sensing mutual information (SMI) and communication rates to provide fundamental insights for its design. To derive the boundary, we formulate a performance optimization problem within an orthogonal frequency division multiplexing (OFDM) framework, by jointly optimizing time-frequency resource element (RE) allocation, transmit power management, and BD modulation decisions. To tackle the non-convexity of the problem, we decompose it into three subproblems, solved iteratively through a block coordinate descent (BCD) algorithm. Specifically, the RE subproblem is addressed using the successive convex approximation (SCA) method, the power subproblem is solved using an augmented Lagrangian combined water-filling method, and the BD modulation subproblem is tackled using semidefinite relaxation (SDR) methods. Additionally, we demonstrate the generality of the proposed system by showing its adaptability to bistatic ISAC scenarios and MIMO settings. Finally, extensive simulation results validate the effectiveness of the proposed system and its superior performance compared to existing state-of-the-art ISAC schemes."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Next-Gen Mobile Forensics Tool: Timeline Reconstruction from Android Digital Evidence",
+    "authors": "Supitha Pathirana, Rasan Dushmantha, Chamara Jayarathna, Behan Thilakarathna, Amila Senarathna, Ayesha Wijesooriya",
+    "publish": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+    "url": "https://doi.org/10.1109/ichora69329.2026.11536997",
+    "source": "IEEE",
+    "abstract": "Rapid proliferation of Android devices has created a critical need for forensic tools capable of automated, largescale evidence analysis. Existing tools often operate in isolation, placing a heavy interpretive burden on investigators. This paper proposes a novel four-component mobile forensic pipeline that integrates machine learning and transformer-based correlation to automate the digital evidence lifecycle. The system implements a high-speed parallel acquisition engine coupled with an XGBoost classifier that achieves 80.12 % accuracy in log severity triage, outperforming keyword-only and Naive Bayes baselines by 16.7 and 8.9 percentage points respectively. To address data fragmentation, the pipeline performs cross-source timestamp normalisation and utilises transformer-based semantic embeddings to reconstruct chronological event chains within a hybrid MongoDB and Neo4j architecture. A dual-engine scoring system, combining behavioural analysis and deterministic rules, triages applications achieving a macro F1-score of <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{0. 8 7 4}$</tex>, surpassing single-engine alternatives. An air-gapped Large Language Model (LLM) generates forensic narratives to preserve the chain of custody. A hybrid decision matrix classifies reconstructed events, presenting results through a real-time analyst dashboard with full audit trails. Experimental evaluation on physical Android devices demonstrates measurable improvements in acquisition throughput and timeline reconstruction completeness compared to sequential baselines. This end-to-end pipeline contributes a reproducible, audit-transparent tool that addresses measurable gaps in current Android forensic workflows."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Three-Phase AI Framework for Distributed Database Optimization",
+    "authors": "Shatha Abdulkhaleq, Hayri Sever",
+    "publish": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+    "url": "https://doi.org/10.1109/ichora69329.2026.11537131",
+    "source": "IEEE",
+    "abstract": "Distributed databases require intelligent mechanisms to manage data partitioning, replication, and anomaly monitoring under dynamic workloads. This paper proposes a three-phase AI-driven framework that jointly optimizes these tasks using production-scale telemetry from the Alibaba Cluster Trace v2022 dataset containing 244,628 microservice node profiles across <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{1 0}$</tex> temporal windows. In Phase 1, a Random Forest classifier predicts optimal data fragmentation levels <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(2-8$</tex> shards) using workload risk modeling, achieving 97.88% classification accuracy with cross-validation stability <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\sigma=0.0042$</tex>. Phase 2 introduces reinforcement learningbased adaptive replication control formulated as a Markov Decision Process, where a Q-learning agent learns optimal scaling policies and reaches <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{1 0 0 \\%}$</tex> state-action coverage with an exploit reward of 53.13. Phase 3 employs a temporal LSTM autoencoder to detect abnormal node behavior using integrated telemetry and replication signals, achieving AUC-ROC of 0.9344, F1-score of 0.897, and an anomaly detection rate of 86.82 %. By integrating workload-aware fragmentation, reinforcement-driven replication, and sequence-based anomaly detection within a unified pipeline, the proposed framework demonstrates that AI can effectively automate critical operational decisions in large-scale distributed database systems while maintaining high accuracy and robust temporal generalization."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Hybrid Deep Learning Framework for Underwater Image Enhancement in Marine Infrastructure Inspection and Archaeological Exploration",
+    "authors": "Bhanumathi M, Rathinapriya V, Anandha Mala G S",
+    "publish": "2026 1st International Conference on Emerging Trends in Advancements and Applications of Computational Intelligence Techniques (ETAACT)",
+    "url": "https://doi.org/10.1109/etaact69135.2026.11541451",
+    "source": "IEEE",
+    "abstract": "Underwater imaging, which is used for marine infrastructure inspection and underwater archaeological exploration, is greatly affected by turbidity, the absorption of light depending on its wavelength, scattering, and also improper illumination. In order to overcome these obstacles, a hybrid deep learning framework is proposed in this paper that combines multi-scale convolutional feature extraction, attention-guided residual learning, and physics-aware color and illumination correction in a modular architecture. The proposed method differs from traditional methods in that it breaks down the enhancement into different specialized tasks, thus making it possible to have robust restoration even in different underwater environments. The architecture is highly versatile and can be trained on unpaired as well as paired datasets of underwater images, thanks to the domain-consistency refining module that preserves the structure even without the reference of ground-truth. In addition, approximate depth estimates as optional auxiliary input can be utilized to further enhance the color fidelity along with sensor-agnostic deployment. The experimental results on marine infrastructure and underwater archaeological datasets show that the proposed method is superior compared to traditional, CNN-based, attention-based, and diffusion-based enhancement methods in terms of UCIQE, Entropy, Edge Preservation Index (EPI), and CIEDE2000. Computational analysis validates the practicality of the deployment, with 22–28 FPS on edge devices and up to 35 FPS on GPU platforms being the result. The deployment comes with seamless integration into cloud and distributed data infrastructures which are necessary for large-scale inspection workflows."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Video Surveillance Model for Anomaly Detection and Alert Generation using Deep Learning",
+    "authors": "Y. Surekha, G Lalitha Kumari, Thirandi Ramya, Paidimukkula Lavanya, Tatiparti Meghana, Valluru Divya Charitha",
+    "publish": "2026 1st International Conference on Emerging Trends in Advancements and Applications of Computational Intelligence Techniques (ETAACT)",
+    "url": "https://doi.org/10.1109/etaact69135.2026.11541538",
+    "source": "IEEE",
+    "abstract": "In today’s world, the number of accidents and crimes is rapidly increasing, which is a serious concern for the safety of the public. Unfortunately, most of these incidents go unnoticed or are reported only when someone witnesses them, which causes a significant delay. By the time authorities take action, the damage may already have occurred, reducing the chances of providing immediate help.After receiving the report, police generally reach the location, conduct an enquiry, and mainly rely on monitoring CCTV footage to understand what exactly happened. This traditional process is time-consuming, and valuable time is lost that could otherwise be utilized to save lives or catch criminals effectively.To solve this problem, we use deep learning techniques to automatically detect accidents or crimes using video surveillance footage. Our model continuously monitors CCTV footage, and if any suspicious or unusual activity occurs, it immediately generates an alert that is sent to the authorities."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Multi-Sensor Fusion With Transformer-based Deep Learning for Real-Time Fetal Health Monitoring",
+    "authors": "V.Sharmila Packiavathy, KAnita Davamani",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11541436",
+    "source": "IEEE",
+    "abstract": "Monitoring of fetal health is of great significance in pregnancy risk reduction in the mother and the baby. Even though cardiotocography (CTG) is a popular method, the interpretation of cardiotocography signals is rather subjective and inconsistent, and most of the available AI solutions are based on cardiotocography signals and do not use maternal physiological signals. This drawback lowers credibility in practical clinical practice. This paper presents Fusion-TransFHR, a multi-sensor fusion model with the help of deep learning based on Transformers to monitor the health of a fetus in real-time. The system incorporates the fetal heart rate, uterine contractions, fetal motion, the uterine EMG, and the most important maternal variables of ECG, oxygen saturation, and blood pressure. The modality-specific features are extracted by a dual-stream encoder, and a proposed Cross-Modality Fusion Attention and Temporal Transformer Encoder is able to extract long-range temporal dynamics, as well as more profound maternal-fetal physiological interactions. The experimental result of Fusion-TransFHR attains an accuracy level of 96.84 which compared to CNN, MLP and hybrid baseline for specifically identify the suspect and Pathological classes. The system is low-latency inferred with respect to providing real-time monitoring and scalable deployment whether in a clinical or a remote setting. Its design is consistent with the strategy in healthcare innovation in the future and demonstrates the relevance to SDG 3, SDG 9, and SDG 10 as it can enhance predictive fetal care and accessibility."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Dynamic Edge-Cloud Intelligence Framework for Real-Time Abnormal Activity Detection using Vision-Language Reasoning, Super-Resolution Enhancement, and Reinforcement Learning Optimisation",
+    "authors": "Gokula Krishnan R, Prabakaran J",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11541651",
+    "source": "IEEE",
+    "abstract": "With the rising number of surveillance cameras being rolled out in addition to the rising pressure on real time and monitoring systems, the problem of identification of abnormal activities is becoming an important concern. The article presents a paper about the edge-cloud video analytics system where a vision-language model, ESRGAN and DQN are used to identify abnormal actions with live video with great success and dynamically. The visual elements identified by any lightweight deep learning on edge devices are enhanced by ESRGAN so that resolutions are more precise and richer in detail of the image, making a person more aware of minor anomalies. The optimization of the distribution of edge-cloud computing resources and trade-off between computational load, latency, and the quality of the detection is performed dynamically by the use of a Deep Q-Network (DQN). Vision-language will provide semantic interpretation of visual events and they enhance robustness of complicated situations. Experimental testing demonstrates that there is a high-quality and rapid performance rate of detecting of 99.7%, which involves low latency in the dynamic settings. This model shows the potential of super-resolution, reinforcement learning and vision-language models of the smart and proactive video surveillance systems."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Iot Payments: Bridging the Gap Between Connectivity, Compliance and Commerce",
+    "authors": "Boris Robev, Ioannis Patias",
+    "publish": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+    "url": "https://doi.org/10.1109/ichora69329.2026.11537063",
+    "source": "IEEE",
+    "abstract": "Digital payments have become essential in contemporary society, making it imperative for individuals to adapt their habits and embrace these methods. Beyond offering greater security than cash-based transactions, cashless payment processing saves time and enables precise tracking of all completed transactions. The ongoing digital transformation of information technologies has also expanded the availability of digital payment services in rural areas. At the same time, these innovations are reshaping the service and product delivery models of financial and payment-oriented organizations. In this context, the development of the Internet of Things (IoT), which refers to the growing network of physical devices connected to the internet, is transforming how companies, consumers, and even entire cities communicate through interconnected devices. Many IoT applications additionally require integrated payment processing. As embedded IoT devices become part of everyday life, their role in facilitating payment transactions is increasingly evident. IoT-initiated payments (payments started by connected devices rather than humans) have the potential to provide efficient and secure transaction handling - whether between devices themselves or between devices and people. The abstraction of IoT-based payments introduces the need for complex integrations between IoT technologies and the payments domain, including communication networks, security and compliance requirements, data collection and management, and varying levels of autonomy (how much independence a device has to make decisions) within heterogeneous (varied and diverse) systems. This study examines the potential challenges and influencing factors associated with implementing IoT-based technological devices, focusing on methodologies, standards, and compliance considerations relevant to conventional payment processing systems."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Smart Indian Farmer Assistant: A Tri-Modal AI Framework for Precision Agriculture Using MobileNetV2, XGBoost, and Multimodal Language Models",
+    "authors": "Varshan K., Vishnu Vatsan K. S., Arulselvan M., Kowsalya K.",
+    "publish": "2026 1st International Conference on Emerging Trends in Advancements and Applications of Computational Intelligence Techniques (ETAACT)",
+    "url": "https://doi.org/10.1109/etaact69135.2026.11541876",
+    "source": "IEEE",
+    "abstract": "The agriculture sector of today is at a crossroads and has to tackle a tripartite challenge: delayed pathological diagnosis, empirical treatment, uncertainty regarding crops to be grown, and acute lack of available agronomic knowledge. In this scenario, this paper examines the \"Comprehensive Smartphone-Based System\" designed to serve as a Virtual Agricultural Scientist. The proposed technique is based on the integration of MobileNetV2 for offline disease detection, XGBoost for soil-parameter-based crop recommendation, and Gemini 1.5 Flash for reasoning-based validation. Experimental validation on a dataset of over 54,000 images shows a classification accuracy of 98.24% with an inference latency of only 26 milliseconds. At the same time, the XGBoost model is also able to predict the best crops with an accuracy of 99.65%. In addition, in situations where the confidence in models is not very high, the Gemini model provides opportune \"second opinions,\" correcting errors or resolving ambiguous symptoms in 68% of such cases. Notably, these modules for diagnosis and consultation are designed to function in an offline manner, providing constant support to farmers in conditions of limited connectivity."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Do-It-Yourself Approach to Oscillating Hydropower",
+    "authors": "Matej Sečnik, Marko Hočevar, Tone Godeša, Tadej Brodarič, Gašper Rak, Francesco Nascimben, Giovanna Cavazzini",
+    "publish": "2026 IEEE Conference on Technologies for Sustainability (SusTech)",
+    "url": "https://doi.org/10.1109/sustech67720.2026.11536265",
+    "source": "IEEE",
+    "abstract": "This work addresses the development of a hidden hydropower energy harvester for open streams, driven by the von Kármán flow instabilities. It uses a vertically oscillating cylinder, fully immersed in the flow, coupled to an axial-flux permanentmagnet generator and modular power electronics. A new design logic was introduced, that prioritizes component availability and manufacturability over efficiency. The entire system is designed to be built using readily available tools and parts in a hands-on or do-it-yourself way. Besides presenting the mechanical design of the energy harvester, in the present paper we focus on axial flux generator and electronics. The maximum generator efficiency was 58 % at a rotational frequency of 5 Hz. The developed power electronics integrate three-phase rectification, a buck converter, and a UPS module that combines Li-ion battery charging with a DC-DC boost stage to deliver a regulated 5 V USB output."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Secure Adaptive Fractal Watermarking Scheme for Visual Authentication",
+    "authors": "B Akshitha Yadav, Ch Rupa, K Sushmasri",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11542078",
+    "source": "IEEE",
+    "abstract": "The increasing demand for the sharing of digital images has further increased the concerns regarding the unauthorized replication and manipulation of images, thus requiring the development of advanced and adaptive image protection mechanisms. The traditional static watermarking techniques, such as neural network watermarking, blind image watermarking, DCT-based frequency domain watermarking, LWT-based watermarking, and CNN-based watermarking, involve the uniform embedding of static watermark information into images. These techniques have been known to face limitations in terms of adaptability, visibility, and robustness against manipulation attacks, thus making them less reliable for practical applications. In this context, a dynamic and fragile image watermarking system is proposed that combines fractal Sierpinski triangle patterns and YOLO-based object detection. The fractal pattern ensures the imperceptibility of the watermark embedding process while being extremely sensitive to even the slightest changes, thus making it possible for tamper detection and authentication. Object-aware embedding makes it possible to embed watermarks into meaningful regions of images, thus improving robustness, traceability, and ownership verification. The experimental results demonstrate the highest imperceptibility of up to 94.2% visual fidelity and confirm the superiority of the proposed technique over traditional static watermarking techniques in terms of adaptability, security, and resistance to manipulation attacks."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Design and Implementation of a High-Efficiency Transformer-Less Inverter for Low-Voltage Applications",
+    "authors": "M.Pradeepa, S.Santhiya, V. Sri Abilesh, K.Muniraj",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11542192",
+    "source": "IEEE",
+    "abstract": "In recent power system research, transformer-less inverters are widely used applications in renewable and grid-connected systems for transmission and distribution processes. In previous inverter-based systems, these systems suffer from increased high-power losses, higher switching losses, and irregular voltage conversion, which reduce overall circuit efficiency. To overcome this limitation, a novel Adaptive Leakage Current Suppression Optimization (ALCSO) controller algorithm is proposed for a transformer-less inverter to improve power quality. The input source is solar, a primary renewable energy source for DC power generation, with a buck-and-boost converter in operation. The ALCSO algorithm continuously regulates the switching value, reduces common-mode voltage variations, and provides reliable power conversion. The transformer less inverter operates under specific conditions, using an optimized switching framework with proper voltage gain and current level. In the experiment output, summarized Rise Time (s) 0.018, Settling Time (s) 0.042, Overshoot (%) 3.2, Tracking Noise (V) 0.85 for reliable grid connected output. The result provides a reliable, compact, and key solution for low-voltage renewable grid-connected applications"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Predictive Self-Healing for Multi-Agent LLM Pipelines Using Model Predictive Control",
+    "authors": "Tejas Pravinbhai Patel, Amit Kumar Padhy, Sandeep Shivam, Viswanathan Ranganathan, Arun Kumar Elengovan, Deepak Kole",
+    "publish": "2026 IEEE Conference on Technologies for Sustainability (SusTech)",
+    "url": "https://doi.org/10.1109/sustech67720.2026.11536606",
+    "source": "IEEE",
+    "abstract": "Multi-agent Large Language Model (LLM) systems are increasingly deployed for complex reasoning tasks, yet their reliability under dynamic conditions remains inadequately addressed. Existing fault tolerance mechanisms are predominantly reactive, responding to failures only after cascading effects have begun. This paper presents a predictive self-healing framework that applies Model Predictive Control (MPC) to multi-agent LLM orchestration. Our approach models the agent pipeline as a dynamical system, employs a Kalman filter for state estimation, and computes optimal control actions-including replica scaling, load redistribution, and circuit breaker activation-to maintain system stability proactively. Experimental evaluation on a threestage LLM pipeline demonstrates that our MPC-based controller achieves 96.8 % success rate under stress conditions, reduces P99 latency by 68 % compared to reactive approaches, and recovers from failures 73 % faster than Kubernetes Horizontal Pod Autoscaler. Energy analysis shows a 22 % reduction in GPUhours consumed, yielding proportional carbon footprint savings at scale. These results indicate that control-theoretic methods are a promising direction for reliable and energy-efficient multi-agent LLM deployment."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Self-Adaptive Graph Analytics for Real-Time Fraud Detection in Transaction Networks",
+    "authors": "R.Mahalakshmi, Saranya S, S.Thiruselvi, D. Kerana Hanirex, Sheela.K, S. Arunarani",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11542059",
+    "source": "IEEE",
+    "abstract": "Financial fraud in large scale transaction networks has become more sophisticated, and traditional static and rule-based systems are not anymore adequate to deal with dynamic and evolving fraudulent behaviors. The issue is that conventional graph-based and machine learning models struggle with the changing topology in real-time financial data streams which must be adaptable to fast changes in topology and concept drift. This study proposes a Self-Adaptive Graph Analytics (SAGA) framework that is able to dynamically model transaction networks with temporal graph learning, reinforcement-driven topology adaptation and continuous online feedback. The goal is to increase accuracy in detecting fraud in near real-time and keep the inference time low. The methodology uses the temporal graph neural networks(TGNN), meta-learning based self adaptation and graph based anomaly scoring mechanism to evolve with the dynamics of transactions continuously. Experimental evaluation using Elliptic Bitcoin Transaction Dataset shows that SAGA achieves an F1 score of 0.90 and an AUC score of 0.96 and outperforms 5 state-of-the-art temporal and static graph baselines with an inference latency of less than 12 ms per transaction. The outcomes prove SAGA has the ability to effectively capture evolving fraud patterns, reduce false alarms, and enable real time operational deployment. This study concludes by stating that the adaptive graph analytics is a promising way towards scalable, transparent and resilient fraud detection in modern financial systems."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Hybrid Deep Learning Models for Solar Energy Production Forecasting: Explainable Artificial Intelligence Approach",
+    "authors": "Faruk Kirmizizambak, Emre Biçek",
+    "publish": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+    "url": "https://doi.org/10.1109/ichora69329.2026.11537148",
+    "source": "IEEE",
+    "abstract": "The production performance of photovoltaic systems depends not only on historical data but also directly on complex environmental dynamics such as temperature, solar radiation, wind, and cloud cover. In this study, a unique dataset was created by integrating production records from the Yulara Solar system in Australia with CAMS-based particulate matter measurements. Four different deep learning architectures were established: LSTM, GRU, Hybrid_CNN_LSTM and Hybrid_CNN_Transformer. All models were evaluated under the same input size and similar training strategies. WMAPE, MAE, RMSE, <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{R}^{\\mathbf{2}}$</tex>, and MAPE metrics were used in the performance comparisons of the models. The results were evaluated according to the WMAPE metric. The most successful model in this study was the Hybrid_CNN_Transformer model. The highest <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{R}^{\\mathbf{2}}$</tex> value was observed in the GRU model. This finding shows that model success can vary depending on the performance metric used. XAI methods were used in the evaluation of the results. It has been observed that intraday cyclical time variables, radiation-based inputs, and air pollution data have an impact on model decisions. The combined use of hybrid deep learning architectures and explainable artificial intelligence approaches demonstrates a supportive effect in terms of both accuracy and interpretability in solar energy forecasting."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Improved Variational Graph Autoencoder for Link Prediction on Real-World Telecom Graphs",
+    "authors": "Mugdha Arun Sathe, Pooja Shyamsundar, Ojas Naik, Navrati Saxena",
+    "publish": "2026 1st International Conference on Emerging Trends in Advancements and Applications of Computational Intelligence Techniques (ETAACT)",
+    "url": "https://doi.org/10.1109/etaact69135.2026.11542169",
+    "source": "IEEE",
+    "abstract": "Mobility management in emerging O-RAN deployments increasingly leverages predictive intelligence to reduce handover failures and improve radio resource utilization. Recent studies have shown that Graph Neural Networks (GNNs), particularly variational graph autoencoders (VGAEs), are well suited to link-prediction formulations of user-cell association forecasting. In this work, next-cell selection is cast as a link-prediction problem on a bipartite user-cell graph derived from a real-world Huawei RW deployment and enriched with edge features. The proposed attention-based VGAE achieves an accuracy of 0.9127 and an F1-score of 0.9190 on the 10k-UE RW graph, improving over a baseline accuracy of 0.80 and F1-score of 0.83, and thereby providing substantially more reliable next-cell predictions for proactive handover."
+  },
+  {
+    "date": "2026-6-4",
+    "title": "Cloud-Powered Federated Learning for Global Healthcare Diagnostics: Privacy Preserving Multi-Cloud Architecture",
+    "authors": "Bharath M B, Mala B A, M Kiruthika, Pooja Shree H R, Sharanabasappa Tadkal",
+    "publish": "Proceedings of the 7th International Conference on Information Management &amp; Machine Intelligence",
+    "url": "https://doi.org/10.1145/3793449.3793480",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-4",
+    "title": "From Algorithms to Accountability: Navigating AI's Ethical and Legal Challenges",
+    "authors": "Mohit Tiwari, Aparna Marwah, Ashima Bhatnagar, Bhawna Duggal, Aditi Malhotra",
+    "publish": "Proceedings of the 7th International Conference on Information Management &amp; Machine Intelligence",
+    "url": "https://doi.org/10.1145/3793449.3793466",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-4",
+    "title": "Enhanced Cloud-Based Hybrid Learning System for Remote Monitoring and Optimization of E-Waste Recycling Operations",
+    "authors": "Suryansh Pandey, Bramah Hazela, Shikha Singh, Ritu Garg, Pallavi Asthana, Ashish Tiwari",
+    "publish": "Proceedings of the 7th International Conference on Information Management &amp; Machine Intelligence",
+    "url": "https://doi.org/10.1145/3793449.3793475",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Multimodal Data-Driven Scaffolding Instruction Model for Foreign Language Learning Based on AIGC",
+    "authors": "Sujie Tang",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3807013",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Research on LSTM-Attention Based Prediction of Student Performance in Operating Systems Principles Course",
+    "authors": "Yanpeng Ou",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3807121",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Design of Learning Analytics Tools for Teachers: Optimizing Teaching Strategies Based on Educational Data",
+    "authors": "Xin Li, Wenzhu Wang",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3807110",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "An AI-Enhanced Teaching Framework Integrating OBE and ‌Five Pillars of Education for Project-Based Practical Training",
+    "authors": "Hu Wang, Geng'e Zhang, Zehui Li, Xiaozhe Yang",
+    "publish": "Proceedings of the 2026 International Conference on Big Data and Informatization Education",
+    "url": "https://doi.org/10.1145/3806980.3807180",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "On the Limits for Web Accessibility Evaluation Using AI Agents",
+    "authors": "Vagner Santana, Reinaldo Ferraz, Jeniffer Vieira de Deus",
+    "publish": "Proceedings of the 23rd International Web for All Conference",
+    "url": "https://doi.org/10.1145/3800424.3800445",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Human vs LLM-Generated Alt Text for STEM Image Accessibility: A Comparative Study",
+    "authors": "Marco Cardia, Letizia Angileri, Camilla Poggianti, Barbara Leporini",
+    "publish": "Proceedings of the 23rd International Web for All Conference",
+    "url": "https://doi.org/10.1145/3800424.3800457",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Enhancing Depression Detection on Social Media with DSM-V Guided RAG and Fine-Tuned DeepSeek-R1_supp1-3699501.docx",
+    "authors": "Shouliang Qi",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/taffc.2026.3699501/mm1",
+    "source": "IEEE",
+    "abstract": "Depression significantly contributes to global disability, yet remains underdiagnosed due to lack of awareness. Social media platforms provide rich, real-time data reflecting users' emotional and psychological states, making them promising resources for automated depression detection. However, general-purpose Large Language Models (LLMs) often perform suboptimally in clinical domains, lacking interpretability and domain specificity. To address these limitations, this study introduces a knowledge-augmented framework combining Retrieval-Augmented Generation (RAG) guided by clinical psychiatric criteria from the DSM-V with a fine-tuned DeepSeek-R1-7B model. We constructed a domain specific knowledge base comprising 329 expert-reviewed, retrieval-friendly DSM-V-derived entries. By retrieving relevant DSM-V-TR diagnostic criteria alongside user posts, our framework provides clinically grounded contextual information that may support human review by relating model predictions to established psychiatric criteria. Experiments on three balanced social media datasets showed that the DSM-V-guided RAG module, when combined with fine-tuned DeepSeek-R1-7B, achieved improved performance over the compared settings under the current experimental protocol. The retrieved DSM-V entries also provided clinically grounded contextual information that may help interpret model predictions. These findings suggest that DSM-V-guided knowledge augmentation is a promising direction for improving the transparency of benchmark-based depression detection on social media."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "FlexPWL: A Flexible, Scalable, and Multiplier-Free Approach for Activation Functions on FPGA",
+    "authors": "Ebrahim Fard, Janier Arias-Garcia, Hao Zhang, Seokbum Ko",
+    "publish": "IEEE Transactions on Computers",
+    "url": "https://doi.org/10.1109/tc.2026.3700077",
+    "source": "IEEE",
+    "abstract": "The hardware implementation of nonlinear activation functions (AFs), such as the Sigmoid and Hyperbolic Tangent (Tanh), presents a significant bottleneck for deploying Recurrent Neural Networks (RNNs) on resource-constrained edge devices. Field Programmable Gate Arrays (FPGAs), as a leading platform for edge AI, face challenges in efficiently executing these functions due to their complex mathematical nature and limited computational resources. This paper proposes a novel, hardware-friendly piecewise linear (PWL) approximation method for implementing Sigmoid and Tanh functions. Our approach introduces new mathematical formulations for computing the y-intercept that significantly reduce Mean Squared Error (MSE) and Maximum Absolute Error (MXE) at no additional hardware cost. By consolidating the features of recent works, the proposed architecture eliminates a costly segment address encoder, supports pipelining for low-latency and high-frequency operation, and avoids the complexity and low precision of other methods. Moreover, it offers high configurability in bit width, number of segments, and input ranges, enabling adaptable deployment across diverse hardware and precision targets. A unified architecture is presented for both AFs, maintaining identical FPGA resource usage across functions. Experimental results demonstrate that the proposed method outperforms prior state-of-the-art designs by up to 18.52× in accuracy, 437.29× in latency, and 3.71× in frequency, and achieves LUT and flip-flop savings of up to 11.63× and 12.42×, respectively."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "HF-Head: A Lightweight Head Design for SAR Small-Ship Detection with Algorithm–Hardware Co-Optimization",
+    "authors": "Zhenjiao Chen, Hepeng Hu, Wei Cheng, Binghe Ma, Feng Liang, Guilin Zhao",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3699472",
+    "source": "IEEE",
+    "abstract": "Synthetic aperture radar (SAR) ship detection remains challenging in complex maritime scenes because small targets usually exhibit weak contours and limited textures and suffer from strong background interference, while edge deployment further demands low complexity and high efficiency. To address these challenges, this paper proposes HF-Head, a lightweight detection head for SAR small-ship detection with algorithm–hardware co-optimization. Built on the YOLO framework, HF-Head reconstructs the detection head with a unified depthwise separable design to improve deployment regularity and reduce computational cost, and further introduces a lightweight dual-branch enhancement mechanism, where a high-frequency branch strengthens edge and local-detail representation and a semantic branch enlarges the receptive field for contextual modeling.Aspatially gated injection strategy is used for adaptive feature fusion, and a re-parameterized folding scheme maintains stronger training-time representation while preserving single-path inference at deployment. Experiments on HRSID, SAR-Ship, and SSDD show that HF-Head reduces parameters by 13.2% and GFLOPs by 28.0% while maintaining or improving detection accuracy; specifically, mAP@0.5:0.95 is improved by 6.5%, 3.9%, and 3.4%, reaching 0.754, 0.554, and 0.661, respectively. FPGA RTL evaluation of the P3-level head under a near-iso-DSP budget further demonstrates a 3.81× latency speedup and a 58.5% reduction in energy per frame, reaching 240.66 mJ, indicating that HF-Head achieves a favorable accuracy–efficiency trade-off for edge-oriented SAR ship detection."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Dense Facial Landmark Detection in Thermal Infrared With Cross-Dataset Generalization Testing and Failure Detection",
+    "authors": "Wiktoria Szumigraj, Marcin Kowalski",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3699562",
+    "source": "IEEE",
+    "abstract": "Thermal infrared face analysis remains challenging compared to its visible spectrum counterpart due to reduced texture, sensor noise, and large variations across camera characteristics. These factors limit the generalization of existing landmark detectors, which exhibit substantial performance degradation when deployed on unseen datasets or acquisition conditions. In this study, we introduce a dense facial landmark detection framework that directly regresses a 478-point facial mesh from thermal images. The model is based on a ConvFormer-S36 backbone with a proposed lightweight Multi-Query Attention Pooling head, enabling the learning of stable thermal representations with reduced overfitting to dataset-specific statistics. Proposed model achieved stable vertical-axis regression behavior. We systematically analyzed failure modes across multiple architectures and identified distinct patterns that emerged under extreme poses, occlusions, or low-contrast conditions. We further proposed a lightweight, geometry-based failure detection mechanism that leverages the distinctive signature of errors to flag degraded predictions. We validated our framework by using several thermal infrared datasets for emotion recognition and landmarking. Quantitatively, our model achieved a normalized mean error of 0.045 on the external dataset after mapping the dense mesh to the 68-point standard format, whereas qualitative evaluations on external datasets demonstrated improved cross-dataset generalization under diverse imaging conditions, poses, and occlusions. Together, these results establish dense mesh-based thermal landmarking as a generalizable paradigm and highlight the importance of understanding the failure modes for deployment in real-world applications."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Collaborative Acceleration for Server-Side Multi-User View Synthesis_supp1-3694560.pdf",
+    "authors": "Chubo Liu",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tmm.2026.3694560/mm1",
+    "source": "IEEE",
+    "abstract": "Real-time performance optimization is critical for interactive applications like Virtual Reality (VR). Existing methods primarily focus on single-user scenarios and often overlook spatial redundancy in multi-user environments. As collaborative experiences grow, delivering real-time rendering on lightweight devices becomes increasingly challenging. This paper proposes a spatial-similarity-based clustering method and a server-side multi-user multi-view rendering framework. By leveraging cross-user redundancy in reference views, the framework reuses intermediate transformation results to improve computational efficiency. Server-side rendering further enhances performance on lightweight clients. Experiments on NVIDIA A100 GPU show that our method reduces computational workload by 23.68%-24.10% and H2D memory copy overhead by 66.81% compared to traditional DIBR. Compared with VINet and IBRNet, our approach achieves higher efficiency in computation, memory, and runtime, enabling real-time synthesis of <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$4096 \\times 2048$</tex-math></inline-formula> images within 16.63 ms (approximately 60 FPS). Project code and scripts: <uri xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">https://github.com/yuanaiya/CASSMVS</uri>."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A High-Speed Omnidirectional Ceiling Mobile Robot Using a Synchronized Crawler-Hanging Mechanism_supp1-3699154.mp4",
+    "authors": "Hiroto Hasegawa",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/lra.2026.3699154/mm1",
+    "source": "IEEE",
+    "abstract": "We present a ceiling mobile robot capable of high-speed transport with versatile routing. Based on the crawler-hanging mechanism proposed in previous work, the robot introduces several key improvements. First, we enhanced hanging stability during high-speed travel by synchronizing the ceiling-hanging motion with the crawler's rotation via guide mechanisms. This approach achieved reliable operation at 1.35 m/s, a 35% improvement over earlier designs. Additionally, a position correction method utilizing claw insertion into ceiling holes effectively corrected <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$\\pm$</tex-math></inline-formula>2 mm positional errors per hanging action, ensuring accurate alignment during travel. Second, we developed a direction-changing mechanism for static ceiling panels by relocating rolling mechanisms from turntables to the robot itself. This design enabled turning at 45 deg/s with a 60 kg payload and sideway movement at 0.2 m/s, enhancing routing versatility. These advancements improve ceiling robot mobility and expand the applicability of ceiling transport systems for industrial and logistics environments."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Robust Intra-Pulse Frequency Coding Against Time-Gated Frequency-Following Jamming via Belief-State Reinforcement Learning_supp1-3699318.pdf",
+    "authors": "Zhenhua Zhang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/taes.2026.3699318/mm1",
+    "source": "IEEE",
+    "abstract": "Constrained by instantaneous receiver bandwidth and intermittent jamming mechanisms, radar anti-jamming against time-gated frequency-following jammers inherently degrades into a time-frequency dual-domain Partially Observable Markov Decision Process (POMDP). To overcome these physical constraints, this paper proposes an end-to-end belief-state reinforcement learning framework for robust intra-pulse frequency coding. By directly mapping short-time Fourier transform (STFT) sequences to agility commands, the architecture eliminates feature truncation errors. Furthermore, a state-transition-aware reward mechanism is designed to establish a phase transition boundary, analytically resolving the exploration-exploitation dilemma under partial observability. Feature manifold analysis reveals that the agent dynamically reconstructs the jammer's generative mechanism rather than memorizing static sequences. Simulations demonstrate the method achieves near-optimal steady-state robustness and enables rapid policy re-convergence against non-stationary strategy shifts without offline retraining."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Rotatable Continuous Aperture Array (CAPA)-based Multi-user MIMO Communications",
+    "authors": "Mengyu Qian, Xidong Mu, Li You, Michail Matthaiou",
+    "publish": "IEEE Transactions on Vehicular Technology",
+    "url": "https://doi.org/10.1109/tvt.2026.3700074",
+    "source": "IEEE",
+    "abstract": "This paper proposes a rotatable continuous-aperture array (R-CAPA)-based multi-user multiple-input multiple-output (MIMO) architecture. Aiming at maximizing the system spectral efficiency (SE), an integral-based optimizing problem is formulated for the joint optimization of the CAPA beamformers at the base station (BS) and the boresight direction of each CAPA at each user. To address this problem, we develop an alternating optimization (AO)-based algorithm. For the BS-CAPA beamformer optimization subproblem, we employ the calculus of variation (CoV) theory to obtain the optimized beamformer. For the user CAPA boresight direction optimization subproblem, we leverage the gradient-ascent method to derive the optimized boresight direction of each R-CAPA with the current beamformers. Our simulation results show that, compared to conventional static CAPAs, R-CAPAs can achieve significantly higher system SE with enhanced degrees of freedom."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "NPLNet: A Noise-Prior Lightweight Network for On-Device Acoustic Fault Diagnosis of Railway Point Machines from Noisy Measurements",
+    "authors": "Junxiang Yao, Xiaoxi Hu, Chengzhi Jiang, Yuhan Huang, Huan Wang, Zhuyun Chen",
+    "publish": "IEEE Transactions on Instrumentation and Measurement",
+    "url": "https://doi.org/10.1109/tim.2026.3699641",
+    "source": "IEEE",
+    "abstract": "Despite the remarkable success of deep learning in fault diagnosis for Railway Point Machines (RPMs), existing models often overlook the non-ideal conditions inherent in manual field maintenance, such as environmental noise and signal instabilities stemming from handheld acquisition. This leaves a critical gap: achieving high-performance diagnosis while maintaining the lightweight design required for end-to-end deployment on handheld diagnostic instruments remains a formidable challenge. We address this gap by proposing the Noise-Prior Lightweight Network (NPLNet), an end-to-end lightweight fault diagnosis network. To improve robustness to amplitude fluctuations, we introduce the Random Amplitude Perturbation (RAP) strategy, an empirical augmentation designed to mimic gain variations commonly observed in imperfect handheld acquisition. The architecture features a backbone that integrates a Noise-Prior Spectral Filtering (NPSF) module for robust noise suppression and stacked Attentive Hierarchical Redundancy-reduction Cell (AHRC) units for multi-scale feature extraction. This is followed by a Multi-granularity Semantic Aggregation (MSA) head that performs robust classification by fusing semantic information from the hierarchical feature maps. Experimental results on the noisy ZDJ9 RPM acoustic dataset demonstrate that NPLNet achieves a peak diagnostic accuracy of 99.59% with a high inference throughput of 228.9 samples/s on a single-thread ARM Cortex-A53 CPU. This performance demonstrates a favorable trade-off along the accuracy-throughput Pareto frontier, outperforming several lightweight architectures in accuracy while maintaining competitive CPU throughput. The proposed network provides a lightweight and noise-prior-guided solution for handheld RPM acoustic diagnosis in noisy environments."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Bayesian Inference-Based Model-Free Predictive Current Control for SPMSM Drives",
+    "authors": "Lu Liu, Rongbo Lai, Shihong Ding, Li Ma",
+    "publish": "IEEE Transactions on Industrial Electronics",
+    "url": "https://doi.org/10.1109/tie.2026.3688844",
+    "source": "IEEE",
+    "abstract": "To address the issue of control gain dependency on the accuracy of stator inductance in model-free predictive current control (MFPCC) for surface-mounted permanent magnet synchronous motors (SPMSM), this article proposes a novel approach integrating Bayesian inference for online parameter identification. The method combines an ultra-local model with an extended state observer (ESO) and incorporates a Metropolis-Hastings sampling algorithm to continuously estimate the posterior distribution of the inductance parameter, enabling real-time self-tuning of the controller. Simulation and experimental results demonstrate that the method achieves high-precision inductance identification, mitigating performance degradation caused by parameter variations and enhancing the robustness of the drive system."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Adaptive Downsampling and Refinement for Fast Iterative Closest Point",
+    "authors": "Neha Bhatt, Zhaodong Zhou, Krunal Mehta, Jun Chen",
+    "publish": "IEEE Systems, Man, and Cybernetics Letters",
+    "url": "https://doi.org/10.1109/lsmc.2026.3699834",
+    "source": "IEEE",
+    "abstract": "Iterative closest point (ICP) and its variants rep resent a fundamental technique for rigid registration between two point sets, with wide applications ranging from robotics to 3D reconstruction. The primary limitations of ICP include slow convergence due to its linear convergence rate, along with the per-iteration nearest-neighbor search, which scales linearly with source cloud size and dominates runtime on dense datasets. To address these issues, this paper proposes a modified ICP method that achieves fast convergence while maintaining robust alignment. Specifically, we introduce an adaptive threshold-based downsampling technique that selectively reduces the number of source points processed during early iterations, decreasing the computational cost for each iteration. This is followed by a full cloud refinement stage designed to recover alignment accuracy and mitigate any degradation introduced by the downsampling phase. Simulation results demonstrate that the proposed method achieves notable reductions in computational time across the majority of benchmark datasets, including Stanford mesh models and LiDAR point clouds, while maintaining comparable registration accuracy relative to the baseline method."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "2026 1st International Conference on Emerging Trends in Advancements and Applications of Computational Intelligence Techniques (ETAACT)",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/etaact69135.2026",
+    "source": "IEEE",
+    "abstract": ""
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Deciphering Object Concepts: Hierarchical Cross-Modal Relational Reasoning for Mining Object-Attribute-Affordance Associations",
+    "authors": "Yuxuan Wang, Muli Yang, Yihang Zhu, Jiexi Yan, Fen Fang, Xulei Yang, Cheng Deng",
+    "publish": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "url": "https://doi.org/10.1109/tpami.2026.3700158",
+    "source": "IEEE",
+    "abstract": "Object Concept Learning (OCL) aims to recognize high-level attributes and affordances of objects and to infer the causal relationships between them. The key is to accurately model the many-to-many mapping between objects and concepts: While an object may possess multiple concepts, a concept can also belong to multiple objects. Existing methods primarily rely on attention mechanisms to capture label correlations, which limits their ability to comprehend high-level concepts and to perform effective causal reasoning. Inspired by the human cognitive process of progressive understanding, a Hierarchical Cross-Modal Relational Reasoning (CORE) framework is proposed to enhance the understanding of object concepts through hierarchical interaction and reasoning between visual and textual modalities. Specifically, a coarse-to-fine relational reasoning module is developed, in which multi-step learnable prompts are employed to progressively localize the conceptual information of objects, thereby improving the accuracy of object-concept mapping. Subsequently, to facilitate the modeling of causal relationships between object attributes and affordances, a counterfactual reasoning mechanism is introduced. By constructing counterfactual samples and distinguishing the predictive outputs of factual and counterfactual parts, the model's ability to capture causality among concepts is enhanced. Significant performance gains and extensive visualization analysis demonstrate the superiority of our method."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Robustness of SAM: Segment Anything under Corruptions and beyond_supp1-3698837.pdf",
+    "authors": "Yu Qiao",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tpami.2026.3698837/mm1",
+    "source": "IEEE",
+    "abstract": "Segment anything model (SAM) is notable for its ability to cut out any object and its impressive zero-shot transfer performance with prompt guidance. However, its robustness under corruption remains underexplored. Prior work indicates that SAM is biased towards texture rather than shape. We first evaluate its robustness against style transfer (synthetic corruption), followed by 15 common corruptions, and find that SAM demonstrates robustness in these scenarios. Moreover, we assess SAM's resilience to local patch occlusion and adversarial patch attacks, finding it resilient to occlusion but vulnerable to patch attacks. We observe that patch attacks disrupt the feature map and misguide the attention mechanism, whereas patch occlusion does not cause such misguidance. Given that visible patch attacks are easily detectable, we further investigate robustness against global adversarial attacks that remain imperceptible to humans by employing basic attacks and a new mask-aware loss. Our findings suggest that SAM's vulnerability primarily stems from its more reliance on high-frequency signals compared to low-frequency ones. Moreover, we further investigate the targeted transferability of adversarial examples and propose a contrastive learning-driven approach with a plug-and-play modulation module, enabling more effective transferability across different SAM models. In addition, we investigate a range of defense strategies to enhance the robustness of SAM, as well as stronger and more adaptive attack methods. Overall, this work provides a comprehensive study of SAM's robustness across diverse scenarios and is expected to offer valuable insights into its practical applicability and effectiveness in real-world settings."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "An Edge-Sensing Measurement Framework for Cross-Sensor Urban Altitude Estimation via Physics-Informed Neural Fields",
+    "authors": "Zichun Chen, Siyu Zhu, Shuo Sun, Yanxing Wu, Yongxing Wang, Xiao Hu",
+    "publish": "IEEE Transactions on Instrumentation and Measurement",
+    "url": "https://doi.org/10.1109/tim.2026.3699687",
+    "source": "IEEE",
+    "abstract": "Very low-level (VLL) airspace and Advanced Air Mobility (AAM) operations require different aircraft, infrastructure systems, terrain databases, and traffic-management services to interpret altitude in a consistent manner. Unlike horizontal position, where latitude and longitude provide a broadly adopted defacto reference, the vertical channel remains fragmented. Land surveying products commonly use mean-sea-level or orthometric height, aviation systems rely on barometric pressure altitude, and many UAV applications use GNSS height above ellipsoid or height above ground level. This lack of a unified height system creates ambiguity when heterogeneous legacy and emerging systems coexist in dense urban airspace. This paper addresses this vertical harmonization problem by constructing a continuous conversion field that transforms barometric measurements into a unified geometric height reference. To this end, we develop an edge-sensing measurement framework that combines a custom GeoBox multi-sensor IoT terminal with a physics-informed neural field (PINF). The proposed PINF embeds the hypsometric equation, multi-resolution hash encoding, a physics-derived pressure-bias feature, and altitude-aware curriculum learning to decouple sensor-specific barometer bias from environmental correction. The framework is evaluated on an urban GeoBox deployment using an 8-fold leave-one-sensor-out protocol, where each heldout GeoBox is excluded from training and validation. The proposed method achieves a mean absolute error of 3.55 m, corresponding to a 90.4% reduction relative to the uncalibrated physics baseline. These results demonstrate the potential of edge-sensed, physically constrained neural fields for building local height-conversion infrastructure for low altitude applications."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "ICOEI 2026 Committees",
+    "authors": "N/A",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11542164",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Hybrid Relay Architecture: A Decentralized and Semantically-agnostic Interoperability Framework for Blockchain",
+    "authors": "Liyuan Ma, Sheng Chen, Yiran Lv, Boyue Luan, Xiulong Liu, Keqiu Li",
+    "publish": "IEEE Transactions on Computers",
+    "url": "https://doi.org/10.1109/tc.2026.3699633",
+    "source": "IEEE",
+    "abstract": "The rapidly expanding blockchain ecosystem faces a critical interoperability crisis—evidenced by siloed total value locked and bridge losses. Existing interoperability solutions are trapped in a paradigm dilemma: centralized relays offer performance but introduce single points of failure, while decentralized relay-chains provide security but suffer from poor scalability and rigidity. To overcome these limitations, we introduce the <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Hybrid Relay Architecture</i>, a new decentralized interoperability paradigm that reconciles the efficiency of centralized relays with the security guarantees of decentralized systems via dynamic role stratification and probabilistic trust coordination. We instantiate this paradigm as <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Celestial</i>, which realizes hybrid relaying through (1) a unified interchain data unit for coordination, (2) a geo-aware topology that enables adaptive role assignment, and (3) a proof of cross-chain transmission protocol that incentivizes honest node participation. Implemented in 12K+ LoC and evaluated across 90+ nodes spanning three continents, <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Celestial</i> achieves 3,340 TPS with sub-600ms P99 latency, recovers from faults 6.4× faster than state-of-the-art systems, and reduces verification cost by 63% under adaptive attacks."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Robust Open-Set Signal Emitter Identification Using Collaborative Learning and Distributed Attention Networks",
+    "authors": "Liangtian Wan, Yixuan Ya, Lu Sun, Jiashuai Wang, Kuixian Li, Yun Lin, Xianpeng Wang",
+    "publish": "IEEE Transactions on Computational Social Systems",
+    "url": "https://doi.org/10.1109/tcss.2026.3694432",
+    "source": "IEEE",
+    "abstract": "Signal emitter identification (SEI) has significant practical value in both military and civilian domains. In the military domain, it is used for target tracking and identification, while in civilian applications, it plays a crucial role in spectrum management and radio security. Current SEI technologies mainly focus on closed-set classification. However, in real-life scenarios, the electromagnetic environment is usually open and nonstatic. Existing algorithms suffer significant performance degradation when confronted with a large number of unknown class data. In the context of cyber–physical–social systems, SEI is required to break through the traditional single-node analysis model. Therefore, this article proposes an open-set recognition method based on collaborative learning of knowledge and data and distributed attention networks (CoDiNet). This method achieves robust recognition in complex electromagnetic environments through three-stage optimization involving collaborative learning of knowledge and data, distributed residual attention networks, and socialized dynamic decision-making. To validate the proposed methodology, empirical evaluations were performed on the ADS-B dataset, demonstrating that the CoDiNet framework achieves effective discrimination of both registered and emergent emitter categories under open-set conditions. The false alarm rate is significantly reduced, and the risk of misclassifying known classes as unknown classes is lowered. The method achieves a more balanced and stable performance, while also enhancing the robustness and reliability of the system. Overall, CoDiNet outperforms existing algorithms."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "An Angularly Stable and Bidirectional Frequency Selective Rasorber Based on an Antenna-Filter-Antenna Architecture",
+    "authors": "Peiqi Liu, Xiangkun Kong, Yukun Zou, Ruotong Guo, Chenrui Jiang, Lingqi Kong, Qiang Chen, Hui Pan",
+    "publish": "IEEE Open Journal of Antennas and Propagation",
+    "url": "https://doi.org/10.1109/ojap.2026.3699666",
+    "source": "IEEE",
+    "abstract": "Frequency selective rasorbers (FSRs) have been widely investigated for their capability to reduce radar cross-section (RCS) by integrating frequency selectivity with electromagnetic absorption. However, existing three-dimensional FSRs often suffer from performance degradation under large oblique incidence angles due to the angular sensitivity of their resonant structures. To address this challenge, this paper presents an angularly stable and bidirectional FSR based on a novel antenna-filter-antenna (A-F-A) architecture. The proposed design features a symmetric receiving antenna–absorptive coupled-line filter–transmitting antenna signal processing chain. By converting incident spatial waves into guided waves via slot antennas, the filtering and absorption responses are effectively decoupled from the incidence angle, thereby achieving inherent angular stability. Furthermore, the structural symmetry of the A-F-A configuration endows the rasorber with bidirectional performance, ensuring identical scattering characteristics for waves incident from both forward and backward directions. Experimental results demonstrate that at a 0° incident angle for TM polarization, the proposed FSR achieves an actual measured insertion loss of 0.81 dB at 9.58 GHz and an absorption rate exceeding 80% across the 11.16–14.00 GHz band. Most notably, the device exhibits remarkable stability under oblique incidence, maintaining its transmission and absorption performance up to 50° for TM polarization. This work provides a robust solution for realizing high-performance radomes and stealth platforms requiring wide-angle and bidirectional electromagnetic wave control."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Environmental Adaptation Enabled by an Amplitude-Tunable Traveling Wave Robot with a Soft Corkscrew (ATWBot)_supp1-3697245.mp4",
+    "authors": "Aiguo Song",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tro.2026.3697245/mm4",
+    "source": "IEEE",
+    "abstract": ""
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Comprehensive General Model of Tendon-Actuated Concentric Tube Robots with Multiple Tubes and Tendons_supp1-3699204.mp4",
+    "authors": "Pejman Kheradmand",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tmrb.2026.3699204/mm1",
+    "source": "IEEE",
+    "abstract": "Tendon-actuated concentric tube mechanisms combine the advantages of tendon-driven continuum robots and concentric tube robots while addressing their respective limitations. They overcome the restricted degrees of freedom often seen in tendon-driven designs and mitigate issues such as restricted curvatures associated with concentric tube robots. However, a complete and general mechanical model for these systems remains an open problem. In this work, we propose a Cosserat rod-based framework for modeling the general case of <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">n</i> concentric tubes, each actuated by <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">m<sub>i</sub></i> tendons, where <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">i</i> = {1, . . . , <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">n</i>}. The model allows each tube to twist and elongate while enforcing a shared centerline for bending. We validate the proposed framework through experiments with two-tube and three-tube assemblies under various tendon routing configurations, achieving tip prediction errors < 4% of the robot’s total length. We further demonstrate the model’s generality by applying it to existing robots in the field, where maximum tip deviations remain around 5% of the total length. This model provides a foundation for accurate shape estimation and control of advanced tendon-actuated concentric tube robots."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Minimum Data Rate for Consensus of Linear MASs Under Weighted-Average Protocols",
+    "authors": "Can Zhao, Liwei An, Lili Zhang",
+    "publish": "IEEE Transactions on Cybernetics",
+    "url": "https://doi.org/10.1109/tcyb.2026.3697392",
+    "source": "IEEE",
+    "abstract": "This article investigates the minimum data rate for achieving consensus of discrete-time linear multiagent systems under weighted-average protocols. The agents transmit information to each other over a network under data rate constraints. The minimum data rate required to enable the multiagent system to achieve consensus is obtained. It is shown that the minimum data rate is an intrinsic property of the multiagent system, which is independent of encoding–decoding schemes, controller gains, and communication topologies (as long as they are connected) chosen. Accordingly, an encoding–decoding scheme is proposed which achieves the minimum data rate. Then, it is proved that the multiagent system can achieve consensus based on the proposed scheme. Further, the minimum data rate for achieving asymptotic consensus with a given asymptotic convergence rate is derived. Finally, the effectiveness of the proposed scheme is verified by simulation examples."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Participatory Urban Conflict Mapping",
+    "authors": "Laura Cipriani, Willmar Ricardo Rugeles Joya, Stefano Maffei",
+    "publish": "Proceedings of the 19th Participatory Design Conference 2026, Vol. 2: Exploratory Papers and Doctoral Colloquium",
+    "url": "https://doi.org/10.1145/3789492.3796394",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Exploring Participatory Methods for Design Research on Disability Inclusion in Public Toilets",
+    "authors": "Divyang Purkayastha, Gaurav Raheja",
+    "publish": "Proceedings of the 19th Participatory Design Conference 2026, Vol. 2: Exploratory Papers and Doctoral Colloquium",
+    "url": "https://doi.org/10.1145/3789492.3796413",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-4",
+    "title": "Evaluating Human- and AI-Generated Code Quality Based on Code Smell",
+    "authors": "Di Guo, Yadong Zhou, Dong Xu, Juan Wang, Xueli Jia",
+    "publish": "Proceedings of the 2026 International Conference on AI, Computer Security and Trusted Data",
+    "url": "https://doi.org/10.1145/3811874.3812123",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-4",
+    "title": "Evaluating Lightweight GAN- Generated Synthetic Data for Privacy Preservation in Mobile Crowd Sensing.",
+    "authors": "Shimna Mohan K, Prashant Panse",
+    "publish": "Proceedings of the 7th International Conference on Information Management &amp; Machine Intelligence",
+    "url": "https://doi.org/10.1145/3793449.3793460",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-4",
+    "title": "A Hybrid Generative–Adaptive Deep Learning Framework for Robust Heart Disease Prediction",
+    "authors": "Sorabh Gupta, Mitu Sehgal, Sukhvinder Singh Deora, Shally Nagpal, Mandeep Kaur",
+    "publish": "Proceedings of the 7th International Conference on Information Management &amp; Machine Intelligence",
+    "url": "https://doi.org/10.1145/3793449.3793472",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-4",
+    "title": "Evaluating the Performance of Deep Learning Models Using Explainable AI Approaches for Reliable Skin Cancer Detection and Diagnosis",
+    "authors": "Shreya Pandey, Shiva Khemka, Adity Yadav, Ashish Tiwari, Yogesh Kumar Meena, Bably Dolly",
+    "publish": "Proceedings of the 7th International Conference on Information Management &amp; Machine Intelligence",
+    "url": "https://doi.org/10.1145/3793449.3793496",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Smart Vending Machine For Grocery Shop with Custom Quantity Dispensing",
+    "authors": "P.Ranjith Kumar, M.Vimala, S.Ramasamy, K.Kamalesh, M.Kannuppandi, B.Madhankumar",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11541330",
+    "source": "IEEE",
+    "abstract": "The creation of an automated vending machine system with an Arduino controller for effective and user-friendly operation is presented in this project. Because the system is made to take user input via a keypad, a variety of goods, including rice, sugar, and other groceries. The machine automatically dispenses the appropriate amount of the selected item based on the user's selection. Servo motors, which are controlled by the Arduino to precisely drop the required quantity of each item, are used to manage the process. By reducing human intervention, increasing transaction speed, and guaranteeing accurate dispensing, the system seeks to optimize vending operations. Furthermore, the solution incorporates effective real-time control, guaranteeing a smooth and dependable vending process. This automated vending machine shows how Arduino-based solutions can be used in common consumer applications, offering accuracy, convenience, and dependability in a form that is simple to implement. All things considered, the developed vending machine not only streamlines the dispensing process but also encourages sustainability by cutting down on packaging waste and allowing customers to buy just the amounts they require. This demonstrates the potential of Arduino-based smart vending systems in influencing the direction of automated retail and makes it a workable and scalable solution for both urban supermarkets and rural retail settings."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Bias and Fairness in AI Systems: Theoretical Analysis and Empirical Validation Through Reweighing Mitigation",
+    "authors": "Louis Adamu Obadiah, Daniel Godwin, Ndachimya Magaji Edward, Nibras Mohammad Abubakar, Jibrailu Daniel, Douglas Kilyobas Titus",
+    "publish": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+    "url": "https://doi.org/10.1109/ichora69329.2026.11537050",
+    "source": "IEEE",
+    "abstract": "Artificial Intelligence increasingly influences highstakes decisions in employment, lending, healthcare, and criminal justice. While AI systems promise efficiency and objectivity, they risk institutionalizing discrimination at scale when trained on biased data or designed without explicit fairness constraints. This paper presents a comprehensive investigation bridging theoretical analysis with empirical validation to address bias and fairness in AI. A systematic analysis of bias sources and fairness frameworks is integrated with a Python-based fairness assessment framework implemented using the AI Fairness 360 (AIF360) toolkit. Using the UCI Adult Income dataset, Logistic Regression is applied as the baseline classifier, and Reweighing is implemented as a preprocessing mitigation technique to evaluate algorithmic fairness across gender groups. Empirical results demonstrate measurable gender bias in the baseline model (Statistical Parity Difference: −0.175; Equal Opportunity Difference: −0.258). Following Reweighing mitigation, fairness disparities were substantially reduced (SPD: −0.062; EOD: +0.060), representing improvements of 64.6 % and 76.7 % respectively. These fairness gains were achieved with only a modest accuracy trade-off, as model accuracy declined from 0.825 to 0.812 (−1.3 percentage points). ROC analysis further confirmed convergence in discriminative performance across gender groups, with the gender AUC gap reducing from 0.054 to −0.014 following mitigation, indicating a reversal from male to marginal female discriminative advantage post-mitigation. An extended multi-classifier evaluation further demonstrates that Reweighing's effectiveness varies substantially across algorithm types achieving strong SPD reductions in Logistic Regression (64.5 %) and SVM (63.5 %), while showing limited impact on ensemble methods such as Random Forest, suggesting that mitigation effectiveness is algorithm-dependent. These findings provide quantitative evidence that algorithmic bias is both detectable and meaningfully mitigable through systematic fairness interventions, while demonstrating that fairness improvements need not require severe degradation in predictive performance."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Software Sustainability Debt and the Governance-Process-Execution Framework: Evidence from 513,000 Real-World CI/CD Workflows",
+    "authors": "Rohit Dhawan, Minav Suresh Patel, Priyank Desai, Ankush Dhar",
+    "publish": "2026 IEEE Conference on Technologies for Sustainability (SusTech)",
+    "url": "https://doi.org/10.1109/sustech67720.2026.11536298",
+    "source": "IEEE",
+    "abstract": "Software systems increasingly drive computing's carbon footprint, yet most workloads execute without sustainability governance. This study introduces Software Sustainability Debt (SSD) as the avoidable emissions accumulating from unmanaged execution, and the Governance-Process-Execution (GPE) framework as an enforceable solution through explicit policy guardrails. Analyzing 513,000 GitHub Actions workflows across three European grids under operationally constrained parameters, we demonstrate that governed approaches achieve 1% single-region reductions while maintaining SLA compliance, scaling to <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{1 0. 7 \\%}$</tex> (GB-DE), <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{2 9. 9 \\%}$</tex> (GB-FR), <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{3 0. 6 \\%}$</tex> (DEFR), and 32.4% (tri-region) through cross-regional coordination. Unlike prior grid-aware systems, which act opportunistically when conditions are favorable, GPE enforces sustainability with the same operational guarantees as cost, SLA, and latency, making it deployable today rather than hypothetical. These results demonstrate that sustainability governance can operate under strict operational constraints, providing organizations a deployable framework for carbon accountability that maintains SLA compliance while enabling material emission reductions where infrastructure flexibility permits."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Machine Learning for Predicting and Managing Industrial Co and Nox Emissions: Data-Driven Modeling for Sustainable Production",
+    "authors": "Dilara Abzhanova, Sapar Toxanov, Andrii Biloshchytskyi",
+    "publish": "2026 IEEE Conference on Technologies for Sustainability (SusTech)",
+    "url": "https://doi.org/10.1109/sustech67720.2026.11536498",
+    "source": "IEEE",
+    "abstract": "Industrial emissions of nitrogen oxides (NOx) and carbon monoxide (CO) pose significant risks to human health and climate. Conventional monitoring techniques do not enable early prediction of regulatory exceedances. This work suggests a strategy for predicting CO and NOx emissions utilizing a gas turbine unit's digital twin architecture and machine learning algorithms. Four regression models - linear, polynomial (second degree), Ridge, and Lasso - were used and contrasted. The models were trained using historical data from an industrial facility (more than 35,000 records for the years 2020–2025), including key technological parameters such as ambient conditions, compressor discharge pressure (CDP), and turbine inlet temperature (TIT). The test results showed that the polynomial model was the most accurate: the coefficient of determination R<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup> climbed to 0.78, and the mean squared error (MSE) decreased by 22%. Sensitivity analysis revealed that CO emissions are positively impacted by compressor discharge pressure (CDP) and negatively impacted by turbine inlet temperature (TIT). Unlike existing studies based on simulated or standalone models, this work demonstrates a closed-loop digital twin prototype validated on real industrial sensor data with integrated diagnostics and sensitivity analysis. The proposed approach improves the accuracy of environmental performance assessment and can be used in proactive environmental management systems, ESG reporting, and sustainable industrial operations."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Artificial Intelligence based Object Detection Assistant for the Visually Impaired",
+    "authors": "K. Sasirekha, K. Shanthini, M. Divyaraj",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11541657",
+    "source": "IEEE",
+    "abstract": "This paper discusses Vision Aid, a real-time, multimodal artificial intelligence system intended to provide visually impaired persons with greater awareness of their environment and the ability to move independently. The proposed system combines five complementary perception modules: YOLOv8, used to detect objects; MiDaS, used to estimate depth; EasyOCR, used to read text; MediaPipe, used to recognize gestures; and a Vision Transformer, used to analyze facial expressions. Unlike traditional assistive systems, which have isolated modules, the proposed system integrates these modules to enable holistic analysis. A centralized fusion system ranks safety-critical objects based on the depth-based ranking and contextual decision rule. To achieve minimal latency, the system manages live video streams and provides structural auditory feedback with the help of an asynchronous text-to-speech module. End-to-end and benchmark testing on real-world and experimental data show high performance at the module level, with 89.4% mAP, 91.2% accuracy, and an end-to-end task success rate of 88.6%. The framework had an average speed of 31.7 FPS and an average response latency of 0.7 seconds. The user assessment with visually impaired participants showed clear, responsive, and lower cognitive load. The findings substantiate the hypothesis that the proposed multimodal fusion architecture will deliver credible real-time support, improved situational awareness, and increased safety in a dynamic environment."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Smart Solar Advisor: AI-Driven IoT-Based System for Location-Aware Monthly Energy Forecasting",
+    "authors": "Chamika Dilshan, Limasha Madusarani, Vihanga Upamal, Malmi Nadee, Thilini Jayalath, Nushkan Nismi",
+    "publish": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+    "url": "https://doi.org/10.1109/ichora69329.2026.11537004",
+    "source": "IEEE",
+    "abstract": "Recent advances in Internet of Things technologies and machine learning, including real-time monitoring of environmental conditions, have greatly improved the accuracy of renewable energy forecasting via data-supported predictions. This paper introduces the Smart Solar Advisor, an IoT and site-specific based assessment framework for estimating the expected monthly energy production of solar photovoltaic systems developed prior to their installation. A sensor-based module collects environmental measurements at the site level via the Internet to a central server. The server processes input data to perform validation, normalization of data and anomaly detection to achieve consistent and reliable input data. These processed input data are then supplied to a trained regression model using the XGBoost algorithm deployed as a serialized artefact, which outputs an accurate estimation of the expected monthly energy generation of the solar photovoltaic system. Furthermore, the use of nearby site similarities enables more reliable predictions in areas that do not have enough historical data by referencing locations with similar geography. The framework serves as a practical, accurate decision-support tool to assist users in assessing solar potential, supporting sustainable energy use while making informed decisions on where to invest."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Fairness-Aware Constraint Satisfaction Framework for University Exam Timetabling with Dual-Role Instructor Conflict Modeling",
+    "authors": "Jibrailu Daniel, Yusuf Garga Bello, Emin Çağan Apaydın, Atakan Onay, Mutaz Wael, Nevşin Nağaş, Sudenur Yanık",
+    "publish": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+    "url": "https://doi.org/10.1109/ichora69329.2026.11537242",
+    "source": "IEEE",
+    "abstract": "Exam scheduling at universities is an NP-hard problem due to high levels of constraint interaction. Existing Constraint Programming (CP) approaches to the University Exam Timetabling Problem (UETP) treat the instructor pool and the student body as mutually exclusive sets, omit room assignment from the constraint model, and address workload balance only as a soft post-processing heuristic rather than as a first-class optimisation objective. This paper closes all three gaps within a single, unified Constraint Satisfaction Optimisation Problem (CSOP) framework. The three principal novelties over prior CP-based work are: (i) a formally encoded dualrole instructor conflict hard constraint (H4) that prevents PhD candidates from being simultaneously examined and assigned as invigilators, a constraint class absent from all reviewed CP formulations; (ii) a multi-room Boolean assignment matrix that allows large-enrollment examinations to span multiple physical venues within the CP model itself, rather than being resolved by a post-processing heuristic; and (iii) a min-max workload fairness proxy integrated as a primary weighted CP-SAT objective, providing a provably tighter per-instructor bound than the variance minimisation objectives used in prior work. The model is solved by the Google OR-Tools CP-SAT solver. Experiments on four instances of the Carter/Toronto benchmark suite and on real institutional data from a metropolitan university demonstrate that all hard constraints are satisfied across every tested instance, near-optimal workload fairness (min-max gap 0–3) is achieved on three of four benchmarks, and the monolithic formulation scales to 189 examinations within practical time limits. A structural scalability boundary is identified at approximately 300 examinations for the monolithic formulation, beyond which column generation decomposition is required. An ablation study exposes a fundamental tradeoff between consecutive-invigilation avoidance and long-term fairness."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "A Scalable OCR System to Bridge the Annotation Gap in Low Resource Languages",
+    "authors": "Ashlin Deepa R N, R Lakshmi Sravani, Arra Deepthi",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11542148",
+    "source": "IEEE",
+    "abstract": "Optical Character Recognition (OCR) has evolved significantly over the years and has achieved strong performance for languages such as English using traditional machine learning and deep learning techniques. However, OCR for Indian languages remain a challenging task due to the complexity of scripts and large variations in handwriting styles. Although research has been carried out in this domain, achieving real-time OCR performance for Indian languages is still limited. Most machine learning, deep learning, semi-supervised, and self-supervised approaches require a large amount of labeled or unlabeled data, which is scarce for Indian languages. This data scarcity becomes a major bottleneck in developing robust OCR systems for Indian scripts. To address this limitation, this paper focuses on analyzing Few-shot learning which is particularly suitable for low-resource scenarios. This technique aims to achieve accurate recognition using a pretrained model and a support set. The training is limited to a small set of labelled samples. The research shows that Few shots approach outperforms many State-of-the-art techniques under supervised learning. Here, the applicability of few-shot learning techniques for handwritten OCR in Indian languages is explored in detail."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Hardware Acceleration of User-Based Collaborative Filtering on an FPGA-Based SoC",
+    "authors": "Burak Batmaz, Zeynep Batmaz",
+    "publish": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+    "url": "https://doi.org/10.1109/ichora69329.2026.11537259",
+    "source": "IEEE",
+    "abstract": "User-based collaborative filtering is effective in recommender systems, but its similarity computation stage is computationally expensive for embedded platforms. This paper presents a hardware-accelerated user-based collaborative filtering implementation on the AMD Xilinx Kria KV260 FPGA-based embedded SoC. The proposed design accelerates cosine similarity computation using a memory-centric architecture with optimized AXI interfaces for efficient data transfer. The accelerator is implemented using Vitis High-Level Synthesis and integrated with a C++ host application through the Xilinx Runtime framework. Experimental results on the MovieLens <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{1 M}$</tex> dataset show that the proposed approach preserves prediction accuracy while achieving up to approximately <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$3 \\times$</tex> speedup over a single-core software implementation. These results show the potential of FPGA-based acceleration for low-latency recommender systems in embedded environments."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Leveraging Harmonic Analysis for Feature Extraction and Selection in Time-Series Data Processing",
+    "authors": "Yong Wang, Qiongqiong Yao, Xiaowen Chen, Jinghao Hei, Bing Liu, Jinke Wang",
+    "publish": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+    "url": "https://doi.org/10.1109/ichora69329.2026.11537101",
+    "source": "IEEE",
+    "abstract": "Traditional time-domain analysis and conventional frequency-domain deep learning architectures often lack adaptive frequency-domain feature selection mechanisms, easily leading to severe parameter redundancy, feature aliasing, and overfitting in low signal-to-noise ratio (SNR) environments. To address this issue, this study proposes a comprehensive algorithm framework for time series data feature extraction and selection based on harmonic analysis (TF-HAS). This framework innovatively introduces the theory of diagonal bidirectional integral bispectrum (DBIB) and harmonic aggregation entropy (HaAgEn) based on higher-order statistics, effectively isolating and removing Gaussian background noise from the physical level using a quadratic phase coupling mechanism. Based on this, a spectral feature sparse selection mechanism integrating frequency-domain self-attention and Top-K masking is designed to actively block the backpropagation of high-frequency redundant noise. Furthermore, the top layer of the model combines contrastive time-frequency representation enhancement techniques with a KolmogorovArnold network (KAN) using B-spline functions, significantly improving the model's decision resolution and generalization performance under complex mappings. Experimental results based on the Mendeley power quality disturbance dataset, real sea trial axis-frequency electromagnetic field data, and long-sequence prediction benchmark datasets (ETTh1, Weather) demonstrate that the TF-HAS framework not only exhibits excellent error suppression capabilities in long-range prediction tasks but also achieves a classification accuracy of over 96.8% in extremely low signal-to-noise ratio environments. This study provides effective theoretical basis and technical reference for feature purification, dimensionality reduction selection, and lightweight modeling of complex non-stationary time series."
+  },
+  {
+    "date": "2026-6-3",
+    "title": "ML-FS\n                    <sup>2</sup>\n                    -CDA- Meta-Learning-Driven Few-Shot Skin Lesion Segmentation with Cross-Dataset Adaptation",
+    "authors": "M. Megala, T.R. Nisha Dayana",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11541317",
+    "source": "IEEE",
+    "abstract": "Skin lesion segmentation is one of the most critical tasks for the early detection of melanoma; however, the performance of segmentation is often limited by the lack of annotated data and considerable domain variability among dermoscopic data available in various datasets e.g., International Skin Imaging Collaboration archive, PH2 Dataset and HAM10000. Conventional deep learning models are trained by feeding them with large labeled datasets and are not generalizable to imaging devices and acquisition settings. This paper proposes a framework for the Meta-Learning-Driven Few-Shot Skin Lesion Segmentation with Cross-Dataset Adaptation (ML-FS2-CDA) to solve these problems. The framework incorporates episodic meta-learning, prototype-guided attention segmentation, style-content feature disentanglement, domain adversarial alignment and self-supervised consistency regularization. Experimental evaluation with three public datasets shows the superior performance including Dice scores of 92.5% on ISIC 2018, 94.0% on PH2 and 96.5% on HAM10000, resulting in better performance than several state-of-the-art methods under limited supervision. The results confirm a greater cross domain robustness and a lower point of dependency for the annotations. The proposed approach provides a scalable and data efficient solution for the skin lesions segmentation in heterogeneity environments to be clinically reliable."
+  }
+]
