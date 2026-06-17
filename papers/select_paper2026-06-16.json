@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-06-16",
+    "title": "Toward Quantum-Enhanced ISAC: Active-RIS-Aided Integrated Sensing and Communication with Rydberg Atomic Receivers",
+    "authors": "Hong-Bae Jeon, Hyung-Joo Moon, Yonghwi Kim",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.17641v1",
+    "source": "arXiv",
+    "abstract": "In this paper, we investigate an active-RIS (ARIS)-aided integrated sensing and communication (ISAC) system with Rydberg Atomic REceiver (RARE). Leveraging the magnitude-only and real-domain observation structure of RARE, we first derive a unified ISAC model, along with a closed-form Cramer-Rao bound (CRB) for direction-of-arrival (DoA) estimation. Based on this formulation, we propose a joint design of the {base station (BS)} beamforming and ARIS reflection coefficients to minimize the CRB under RARE-specific signal-to-interference-noise-ratio (SINR) and ARIS power constraints. To tackle the resulting highly non-convex problem, we develop an alternating optimization (AO) framework that combines semidefinite relaxation (SDR) for beamforming and a majorization-minimization (MM)-based approach for ARIS design. Numerical results demonstrate that the proposed RARE-aware framework significantly outperforms conventional RF-based designs and achieves performance close to the radar-only benchmark, highlighting the potential of RARE for quantum-enhanced ISAC with ARIS.",
+    "title_zh": "迈向量子增强的ISAC：基于Rydberg原子接收器的主动式可重构智能表面辅助集成感知与通信\n\n（解析：该翻译采用学术论文标题的典型结构，通过冒号分隔研究目标与实现方法。技术术语处理如下：\n1. \"Quantum-Enhanced ISAC\" 保留ISAC作为专业缩写，译为\"量子增强的ISAC\"\n2. \"Active-RIS-Aided\" 译为\"主动式可重构智能表面辅助\"，其中：\n   - Active 对应\"主动式\"\n   - RIS（Reconfigurable Intelligent Surface）译为\"可重构智能表面\"\n   - Aided 译为\"辅助\"\n3. \"Rydberg Atomic Receivers\" 保留Rydberg专业术语，译为\"Rydberg原子接收器\"\n4. 整体结构遵循\"研究目标：技术实现方式\"的学术标题规范，同时通过\"集成感知与通信\"准确传达Integrated Sensing and Communication的核心概念）",
+    "abstract_zh": "本文研究了一种基于主动可重构智能表面（ARIS）的量子增强式集成感知与通信（ISAC）系统，该系统采用里德伯原子接收器（RARE）。通过利用RARE的仅幅度信息（magnitude-only）和实域观测（real-domain observation）特性，我们首先推导了ISAC的统一模型，并给出了到达角（DoA）估计的闭式克拉默-拉奥下界（CRB）。在此基础上，我们提出了一种联合设计方法，通过优化基站（BS）波束成形和ARIS反射系数，在RARE特有的信干噪比（SINR）约束和ARIS功率限制下最小化CRB。针对高度非凸问题，我们设计了一种交替优化（AO）框架，结合半定影松（SDR）方法进行波束成形优化，以及主元-最小化（MM）算法实现ARIS反射系数设计。数值仿真结果表明，本文提出的RARE感知增强框架在性能上显著优于传统射频（RF）基设计，其性能已接近纯雷达基准，充分验证了RARE在量子增强ISAC系统中的潜力。"
+  },
+  {
+    "date": "2026-6-16",
+    "title": "Multi-Target Imaging with OFDM Transmission for Low-Altitude Wireless Networks",
+    "authors": "Yihong Liu, Yuxiang Wu, Tengyu Zhang, Huihui Wu, Yucong Wang, Dongqi Luo, Feifei Gao",
+    "publish": "2026 IEEE Wireless Communications and Networking Conference (WCNC)",
+    "url": "https://doi.org/10.1109/wcnc65185.2026.11555205",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向低空无线网络的多目标成像OFDM传输技术",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-16",
+    "title": "Rotor Micro-Doppler Extraction in Protocol-Driven TDD ISAC With Periodic Sparse Sampling",
+    "authors": "Jiachen Wei, Dingyou Ma, Kan Yu, Qixun Zhang, Haotian Liu, Zheng Jiang, Zhiyong Feng",
+    "publish": "IEEE Wireless Communications Letters",
+    "url": "https://doi.org/10.1109/lwc.2026.3703825",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "《协议驱动的TDD ISAC系统中基于周期性稀疏采样的转子微多普勒特征提取》\n\n解析：\n1. \"Rotor Micro-Doppler Extraction\" 译为\"转子微多普勒特征提取\"，精准对应技术核心（提取旋转部件的微多普勒信号特征）。\n2. \"Protocol-Driven TDD ISAC\" 处理为\"协议驱动的TDD ISAC系统\"，保留专业缩写ISAC（可能指智能空域通信系统），TDD直接使用国际通用缩写。\n3. \"With Periodic Sparse Sampling\" 译为\"基于周期性稀疏采样\"，突出技术手段，符合中文论文标题\"方法+对象\"的表述习惯。\n\n结构优化：\n- 采用\"总-分\"结构，先点明系统类型（协议驱动的TDD ISAC系统），再说明技术特征（基于周期性稀疏采样）\n- 动词\"提取\"前置，突出研究重点\n- 专业术语（TDD/ISAC/微多普勒）保留英文缩写，符合学术规范\n\n扩展建议：\n若需强调创新性，可调整为：\n《面向协议驱动TDD ISAC系统的周期性稀疏采样转子微多普勒特征提取方法》\n（增加\"方法\"后缀，突出技术方案的创新性）",
+    "abstract_zh": "None"
+  }
+]
