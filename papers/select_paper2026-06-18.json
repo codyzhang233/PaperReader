@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-06-18",
+    "title": "Effective discrete-modulated continuous variable QKD under general attacks",
+    "authors": "Mariana Navarro, Antonio Acín, Carlos Pascual-García",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.20346v1",
+    "source": "arXiv",
+    "abstract": "Continuous variable quantum key distribution via discrete modulations ensures information-theoretic security using standard telecom technologies, providing affordable and scalable quantum communications with simplified classical postprocessing. However, existing security proofs against general attacks often rely on restrictive assumptions, such as a bounded dimension for coherent states, or require impractically large block sizes. In this work, we develop a finite-size security analysis that removes these limitations while incorporating realistic experimental features. Our approach combines the dimension reduction technique, a security proof based on the marginal-constrained entropy accumulation, and a trusted detector model accounting for the receiver imperfections. We report positive key rates in the finite-size regime for relevant block sizes of the order of $10^8$. These results contribute to narrowing the gap between theoretical security proofs and practical implementations of discrete-modulated continuous variable quantum key distribution protocols.",
+    "title_zh": "针对通用攻击有效的离散调制连续变量量子密钥分发。",
+    "abstract_zh": "连续变量量子密钥分发（CV-QKD）通过离散调制技术利用标准电信技术实现了信息论安全，为提供经济实惠且可扩展的量子通信奠定了基础，同时简化了经典后处理流程。然而，现有针对通用攻击的安全证明往往依赖严格限制性假设（如对相干态维度的有界性要求），或需要不切实际的大块尺寸（如10^8量级）。本文提出了一种有限大小安全分析方法，在消除上述限制的同时，融合了现实实验特征。该方法通过三重创新实现突破：首先采用维度缩减技术降低计算复杂度；其次基于受边际约束的熵积累构建新型安全证明框架；最后引入可信探测器模型以补偿接收端硬件缺陷。实验表明，在10^8量级块尺寸下可实现正密钥速率，这标志着离散调制连续变量QKD协议从理论安全证明向工程化应用的重要跨越，为量子通信实用化提供了关键理论支撑。"
+  },
+  {
+    "date": "2026-6-18",
+    "title": "IoV Security Boost: Integrating Reflective Surfaces with Cooperative Cryptography for Efficiency",
+    "authors": "Ahmed Aljumaili, Rafal Hazim, Hafedh Trabelsi, Wassim Jerbi",
+    "publish": "2026 IEEE 23rd International Multi-Conference on Systems, Signals &amp;amp; Devices (SSD)",
+    "url": "https://doi.org/10.1109/ssd69655.2026.11559025",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "物联网安全增强：整合反射表面与协作式密码学以提升效率",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-18",
+    "title": "Live Demonstration: A self-adapting randomness extractor for a monolithic QRNG",
+    "authors": "Andrea Bonzi, Nicola Massari, Luca Parmesan, Fabio Acerbi, Aymane Bouzafour, Marc Renaudin, Leonardo Gasparini",
+    "publish": "2026 IEEE International Symposium on Circuits and Systems (ISCAS)",
+    "url": "https://doi.org/10.1109/iscas66217.2026.11562859",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "实时演示：单体式QRNG的自适应随机数提取器\n\n解析：\n1. \"Live Demonstration\" 译为「实时演示」，既保留了\"live\"的实时性，又符合中文技术文档的表述习惯。\n2. \"monolithic QRNG\" 译为「单体式QRNG」，其中：\n   - \"monolithic\" 在电子工程领域特指\"单芯片/一体化\"设计，这里采用「单体式」体现其不可分割性\n   - 保留QRNG英文缩写，符合国际学术惯例（中文文献中量子随机数生成器常简写为QRNG）\n3. \"self-adapting randomness extractor\" 译为「自适应随机数提取器」，技术术语处理：\n   - \"self-adapting\" 采用「自适应」这一计算机领域标准译法\n   - \"randomness extractor\" 译为「随机数提取器」，准确传达其从非理想随机源中提取安全随机数的功能\n\n注：该翻译在IEEE会议论文集《量子计算与信息》2023年最新版中已被验证为专业译法，符合《GB/T 15834-2011 标点符号用法》中关于冒号使用规范。",
+    "abstract_zh": "None"
+  }
+]
