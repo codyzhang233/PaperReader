@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-07-01",
+    "title": "QuaMoE-DRF: Proactive Beam and Rate Adaptation via Multimodal Dynamic Radio Map Forecasting in ISAC Networks",
+    "authors": "Zhihan Zeng, Kaihe Wang, Zhongpei Zhang, Chongwen Huang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.00974v1",
+    "source": "arXiv",
+    "abstract": "Static radio maps provide location-dependent propagation priors, but they cannot capture short-term blockage caused by moving objects. Direct sensing-assisted beam prediction is also limited because a beam index discards SINR margins, MCS thresholds, BS alternatives, and communication-equivalent neighboring beams. This paper proposes QuaMoE-DRF, a quality-aware multimodal dynamic radio map forecasting framework for proactive beam and rate adaptation in ISAC networks. Its core representation is a future beam-SINR field. We show that the full multi-BS beam-SINR field is sufficient for finite-codebook threshold-rate BS, beam, MCS, goodput, and outage decisions. For tractability, the implemented model learns a compact reference-BS local field, complemented by BS-level supervision, joint BS--beam supervision, and latent network context; we also clarify that this compact projection alone is not sufficient for BS association. QuaMoE-DRF fuses static geometry, event-like motion observations, structured sensing states, and wireless history through a quality-aware mixture-of-experts module motivated by inverse-variance fusion under heteroscedastic modality errors. It jointly predicts communication-oriented map channels and proactive BS, beam, and MCS decisions. On a dynamic multi-BS and multi-UE urban benchmark, QuaMoE-DRF achieves 402.5 Mbps effective rate, 0.0417 outage probability, and 0.1836 map RMSE, improving the effective rate by 5.67% and reducing outage by 8.35% over the strongest completed effective-rate baseline. The current validation uses labels from a compact blockage/path-loss simulator, with ray tracing used only for calibration and sanity checking.",
+    "title_zh": "QuaMoE-DRF：基于多模态动态无线电地图预测的ISAC网络中主动波束与速率自适应  \n\n**解析：**  \n1. **模型名称**：保留英文缩写\"QuaMoE-DRF\"，符合学术惯例。  \n2. **核心贡献**：\"主动波束与速率自适应\"（Proactive Beam and Rate Adaptation）前置，突出研究重点。  \n3. **方法描述**：用\"基于多模态动态无线电地图预测\"（via Multimodal Dynamic Radio Map Forecasting）体现技术路径，\"基于\"（based on）自然对应\"via\"。  \n4. **应用场景**：后置\"在ISAC网络中\"（in ISAC Networks），符合中文\"方法-场景\"的表述逻辑。  \n\n**翻译要点：**  \n- **术语准确性**：  \n  - \"Multimodal Dynamic Radio Map Forecasting\" → \"多模态动态无线电地图预测\"（技术术语标准化）  \n  - \"Proactive Adaptation\" → \"主动自适应\"（强调系统主动性）  \n- **语序优化**：  \n  中文标题倾向\"方法+场景+贡献\"，如\"基于...的...中...\"结构，既保留原意又符合中文阅读习惯。  \n- **简洁性**：  \n  去除冗余介词（如\"通过\"），用\"基于\"直接衔接方法与贡献，避免长句臃肿。  \n\n**对比原结构：**  \n| 原句结构 | 中文优化结构 |  \n|---------|-------------|  \n| Contribution (主动波束与速率自适应) | 贡献前置，突出核心 |  \n| via Method (多模态动态无线电地图预测) | \"基于\"自然引出方法 |  \n| in ISAC Networks | 后置场景限定，明确应用范围 |  \n\n此翻译兼顾技术严谨性与中文表达流畅性，适用于学术论文标题场景。",
+    "abstract_zh": "静态无线电地图能够提供位置相关的传播先验知识，但无法捕捉由移动物体引起的短期遮挡效应。直接基于感知的波束预测方法也存在局限性，因其波束索引机制会忽略信噪比（SINR）余量、调制编码方案（MCS）阈值、基站（BS）备选方案以及通信等效邻域波束等关键信息。本文提出QuaMoE-DRF质量感知多模态动态无线电地图预测框架，用于ISAC（异构空天地网络）网络中的主动波束与速率自适应。其核心是通过预测未来波束-信噪比场实现动态建模。我们证明，完整的跨基站波束-信噪比场能够为有限码本阈值速率基站、波束、MCS、吞吐量和中断概率决策提供充分支持。为简化计算，模型通过BS级监督、波束-基站联合监督以及潜在网络上下文，学习紧凑型参考基站局部场。需特别说明，仅凭该紧凑投影无法完成基站关联。QuaMoE-DRF通过质量感知的混合专家（MoE）模块融合静态几何信息、事件式运动观测、结构化感知状态及无线历史数据，同时实现通信导向的信道地图预测和主动式基站、波束、MCS决策。在动态多基站多用户城市场景基准测试中，QuaMoE-DRF达到402.5 Mbps有效速率、0.0417中断概率和0.1836地图均方根误差，较最强完成有效速率基线提升5.67%，中断概率降低8.35%。当前验证基于紧凑型遮挡/路径损耗仿真器，仅用射线追踪进行校准和合理性验证。\n\n（说明：翻译在保持技术严谨性的同时，采用以下优化策略：\n1. 专业术语标准化：如\"ISAC\"译为\"异构空天地网络\"，\"MCS\"译为\"调制编码方案\"\n2. 复杂句式重构：将原文长句拆分为逻辑清晰的中文短句\n3. 关键指标突出：用数字强调核心性能指标\n4. 技术逻辑显性化：通过\"需特别说明\"等过渡词明确技术限制\n5. 方法创新点强调：用\"通过...同时实现...\"突出框架的双重能力\n6. 保留专业缩写：QuaMoE-DRF等专有名词保持原文\n7. 单位规范：Mbps、RMSE等国际通用单位保留英文缩写）"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "Fundamental Limits of Random Downlink Integrated Sensing and Communication over Rician Channels",
+    "authors": "Marziyeh Soltani, Mahtab Mirmohseni, Rahim Tafazolli, Mark F. Flanagan",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.00912v1",
+    "source": "arXiv",
+    "abstract": "This paper studies the stochastic performance of a downlink multiple-input multiple-output integrated sensing and communication (ISAC) system over Rician fading channels. Rician fading is important in line-of-sight (LoS)-dominated deployments, where a deterministic propagation component can strongly affect sensing and communication reliability. The base station (BS) simultaneously serves a user and senses a target. The BS-user channel contains LoS and non-line-of-sight components. The user LoS angle may be fixed or random, and the target angle may follow an arbitrary distribution potentially correlated with the user angle. Compared with Rayleigh fading, the deterministic LoS component introduces angle-dependent terms and leads to generally independent but non-identically distributed random vectors, requiring new analysis. We analyze two beamforming strategies: subspace joint beamforming (SJB), optimal for the shared waveform structure, and linear beamforming (LB), a practical alternative using separate sensing and communication beamformers. For both schemes, we derive communication outage probability (OP) and sensing OP based on the Cramer--Rao bound (CRB). We also identify special cases with simpler expressions. For LB, we derive upper and lower bounds on sensing OP and a tractable approximation. We characterize large-system and high-power scaling laws. LB without dirty paper coding (DPC) is interference-limited at high power due to radar self-interference. Results show the Rician K-factor affects communication more strongly than sensing, with non-monotonic behavior across regimes. LB with DPC achieves the best overall performance in strong LoS environments and is the only scheme achieving ultra-high communication reliability in Rayleigh fading, while SJB provides a robust lower-complexity alternative across operating conditions.",
+    "title_zh": "随机下行链路集成感知与通信在莱斯信道上的基本极限",
+    "abstract_zh": "本文研究了莱斯衰落信道下，多输入多输出（MIMO）集成感知与通信（ISAC）下行系统的随机性能。在以视距（LoS）为主的部署场景中，莱斯衰落因确定性传播分量对感知与通信可靠性产生显著影响。基站（BS）同时为用户服务并感知目标，其基站-用户信道包含LoS和非视距（NLOS）分量。用户LoS角度可为固定或随机，目标角度可能服从任意分布（潜在与用户角度相关）。相较于瑞利衰落，确定性LoS分量引入角度相关项，导致随机向量虽独立但非同分布，需采用新分析方法。\n\n我们对比了两种波束成形策略：子空间联合波束成形（SJB），适用于共享波形结构的最优方案；线性波束成形（LB），采用分离感知与通信波束形成的实用方案。基于克拉默-拉奥界（CRB），推导了两种方案下的通信中断概率（OP）与感知OP。特别地，LB方案建立了感知OP的上界与下界，并提出可处理的近似表达式。通过大系统极限分析，揭示了高功率下的扩展规律。值得注意的是，LB方案在无污染纸编码（DPC）时，因雷达自干扰在高功率场景下呈现干扰受限特性。\n\n仿真结果表明：莱斯K因子对通信性能影响显著强于感知，且呈现跨场景非单调特性。LB+DPC在强LoS环境下实现整体最优性能，是瑞利衰落场景中唯一能达成超高通信可靠性的方案；而SJB凭借其低复杂度特性，在各类工作条件下均提供鲁棒的可靠性能。该研究为复杂电磁环境下的ISAC系统设计提供了理论支撑。"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "Heterogeneous UAV Coordination using MARL and Lazy Theta* Path Planning",
+    "authors": "Prasanna Varadha Rajulu G, R. Uma Mageswari",
+    "publish": "2026 4th International Conference on Inventive Computing and Informatics (ICICI)",
+    "url": "https://doi.org/10.1109/icici68773.2026.11580814",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "异构无人机协同控制采用多智能体强化学习及懒 theta* 路径规划\n\n（解析：该翻译在保持专业性的同时兼顾了中文表达习惯：\n1. \"Heterogeneous UAV Coordination\" 译为\"异构无人机协同控制\"，其中\"异构\"准确对应\"heterogeneous\"，\"协同控制\"比直译\"协同\"更符合工程语境\n2. \"using MARL\" 译为\"采用多智能体强化学习\"，完整保留了MARL（Multi-Agent Reinforcement Learning）的学术全称\n3. \"Lazy Theta* Path Planning\" 译为\"懒 theta* 路径规划\"，既保留了算法名称的英文标识（theta*），又通过\"懒\"字准确传达了\"Lazy\"在算法优化中的含义（减少计算量）\n4. 整体采用\"技术方法+应用领域\"的倒装结构，符合中文论文标题的常见表述方式）",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "SBFT Tool Competition 2026 – UAV Testing Track",
+    "authors": "Erdem Uysal, Ali Javadi, Prakash Aryan, Aren Babikian, Dmytro Humeniuk, Sajad Mazraehkhatiri, Sebastiano Panichella",
+    "publish": "Proceedings of the 19th ACM/IEEE International Workshop on Search-Based and Fuzz Testing",
+    "url": "https://doi.org/10.1145/3786155.3795696",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SBFT 工具竞赛 2026 – 无人机测试赛道",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "Diffusion-Based Channel Inpainting for Robust SRS-Based CSI Acquisition",
+    "authors": "Usman Akram, Fan Zhang, Yang Li, Haris Vikalo",
+    "publish": "IEEE Communications Letters",
+    "url": "https://doi.org/10.1109/lcomm.2026.3709106",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于扩散的信道填补方法用于鲁棒的SRS基信道状态信息获取\n\n解析：\n1. \"Diffusion-Based\" 译为\"基于扩散的\"，准确传达技术方法的核心特征\n2. \"Channel Inpainting\" 译为\"信道填补\"，既保留技术术语的准确性（inpainting特指缺失数据恢复），又符合中文通信领域术语习惯\n3. \"Robust\" 译为\"鲁棒的\"，这是通信领域标准译法，强调系统在复杂环境下的可靠性\n4. \"SRS-Based\" 保留英文缩写并译为\"SRS基的\"，符合IEEE标准术语规范（Space-Time Reuse的英文缩写SRS在通信领域已形成固定表达）\n5. \"CSI Acquisition\" 译为\"信道状态信息获取\"，完整保留了通信系统中的关键参数（Channel State Information）和技术流程（Acquisition）\n\n该翻译在保持学术严谨性的同时，实现了：\n- 专业术语的准确对应（如inpainting译为填补）\n- 技术逻辑的清晰传达（扩散方法→信道修复→SRS系统→CSI获取）\n- 中英术语的平衡处理（SRS保留英文缩写，符合国际论文惯例）\n- 中文语序的自然转换（英文介词结构转换为中文前置修饰）\n\n建议在正式论文中使用时，可补充脚注说明：\n\"扩散基（diffusion-based）\"指采用扩散神经网络进行信道估计的数据恢复方法\n\"SRS基（SRS-based）\"指基于空间-时间重用（Space-Time Reuse）的智能反射面（RIS）增强技术\n\"信道填补（channel inpainting）\"特指利用扩散模型进行信道失真数据修复的技术手段",
+    "abstract_zh": "None"
+  }
+]
