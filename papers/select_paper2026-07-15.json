@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-07-15",
+    "title": "Energy Minimization Oriented Resource Allocation for Integrated Sensing and Communication in Marine IoT Networks",
+    "authors": "Qianru Wang, Li Ping Qian, Chenglong Dou, Haijun Zhang, Yuan Wu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.13462v1",
+    "source": "arXiv",
+    "abstract": "Integrated sensing and communication (ISAC) has become a promising technical framework for Marine Internet of Things (MIoT) systems. Nevertheless, all devices rely on battery power, so energy efficiency becomes a core bottleneck limiting practical deployment. This paper investigates the energy consumption minimization problem of MIoT-oriented ISAC systems. In this system, an uncrewed aerial vehicle (UAV) uses non-orthogonal multiple access (NOMA) to simultaneously perform target sensing and collect data from uncrewed surface vehicles (USVs), then forwards processed sensing information and USV data to a shore-based base station (SBS). Subject to latency limits and sensing performance requirements, total system energy consumption can be minimized via joint optimization of multiple variables, UAV transmit beamforming, dedicated sensing signal, USV transmit power, UAV computation power, and time resource allocation for sensing and communication phases. To tackle this non-convex optimization problem, we build a layered solution architecture that divides the original problem into independent subproblems and optimizes each alternately according to its mathematical features. Specifically, we first derive closed-form USV transmit power solutions and conduct variable substitution. The successive convex approximation (SCA) method is adopted to convert remaining non-convex subproblems into convex forms, on which we design efficient iterative algorithms. Simulation results verify the validity and accuracy of our algorithm in reducing system energy consumption. Compared with orthogonal frequency division multiple access (OFDMA) and genetic algorithm benchmarks, our scheme lowers system energy consumption by 19.71% and 8%, respectively. In addition, our optimized energy value only has an 8.72% gap from the optimum solved by the LINGO solver.",
+    "title_zh": "海洋物联网网络中集成感知与通信的面向能量最小化的资源分配",
+    "abstract_zh": "集成感知与通信（ISAC）已成为海洋物联网（MIoT）系统的 promising 技术框架。然而，所有设备依赖电池供电，因此能耗效率成为制约实际部署的关键瓶颈。本文针对 MIoT 驱动的 ISAC 系统能耗最小化问题展开研究。在该系统中，无人机（UAV）通过非正交多址接入（NOMA）技术同时执行目标感知与无人船（USV）数据采集，并将处理后的感知信息与 USV 数据转发至岸基基站（SBS）。在满足延迟约束和感知性能需求的前提下，通过联合优化多变量、无人机发射波束成形、专用感知信号、无人船发射功率、无人机计算功率以及感知与通信阶段的时间资源分配，可实现系统总能耗最小化。针对非凸优化问题，本文提出分层解决方案架构，将原问题分解为独立子问题并逐层优化。具体而言，首先推导了 USV 发射功率的闭合式解并完成变量替换；随后采用逐次凸逼近（SCA）方法将剩余非凸子问题转化为凸形式，并设计高效迭代算法。仿真结果表明，所提算法在降低系统能耗方面具有有效性和高精度。相较于正交频分多址接入（OFDMA）和遗传算法基准测试，本方案分别降低系统能耗 19.71% 和 8%，且优化能耗值与 LINGO 解算器获得的最佳解仅存在 8.72% 的差距。\n\n（翻译说明：1. 专业术语采用学术界通用译法，如 NOMA→非正交多址接入；2. 保留英文缩写（括号内标注中文全称），确保技术准确性；3. 复杂长句通过分句和标点优化可读性；4. 关键数据（百分比）保留数字格式，符合学术规范；5. \"逐次凸逼近\"（SCA）作为方法专有名词首次出现时标注英文缩写，后续直接使用中文译名。整体译文在保持技术严谨性的同时，通过分层表述和术语标准化增强了中文可读性。）"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "M3F-UAV: A Missing-Modality Multimodal Foundation Model for Low-Altitude Wireless Sensing",
+    "authors": "Pengxuan Gao, Kai Ying, Botao Wu, Jianhua Mo, Qingsong Wen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.13678v1",
+    "source": "arXiv",
+    "abstract": "Low-altitude unmanned aerial vehicles (UAVs) are emerging as key platforms for wireless intelligence tasks. However, practical low-altitude wireless systems usually operate in complex urban environments, where visual occlusion, sparse geometric observations, multipath propagation, and sensor failures may degrade the reliability of single-modality models. To address these challenges, this paper proposes M3F-UAV, a missing-modality multimodal foundation model for low-altitude wireless sensing. The proposed framework learns a unified multimodal representation from visual, geometric, and wireless observations. Specifically, modality-specific pretrained feature extractors are adopted for RGB/depth images, LiDAR point clouds, and CSI matrices, respectively. Through cross-modal fusion and missing-modality-aware pretraining with feature-level masked reconstruction and UAV localization objectives, M3F-UAV can extract fixed-size features from different modality combinations and adapt them to downstream low-altitude wireless tasks with lightweight task heads. Experiments on the LAMBDA dataset show that M3F-UAV outperforms single-modality baselines and maintains robust performance under missing-modality settings.",
+    "title_zh": "M3F-UAV: 针对低空无线传感的缺失模态多模态基础模型\n\n（解析：1. 保留英文缩写M3F-UAV作为专有名词；2. \"Missing-Modality\"译为\"缺失模态\"体现技术特征；3. \"Multimodal Foundation Model\"采用学界通用译法\"多模态基础模型\"；4. \"Low-Altitude Wireless Sensing\"译为\"低空无线传感\"准确传达应用场景；5. 使用冒号结构保持与英文原题一致，符合中文科技论文标题规范。）",
+    "abstract_zh": "低空无人机正逐渐成为无线智能任务的关键平台。然而，实际应用的低空无线系统通常运行于复杂的城市环境中，视觉遮挡、稀疏几何观测、多径传播和传感器故障等问题可能削弱单模态模型的可靠性。为此，本文提出M3F-UAV（Missing-Modality Multimodal Foundation Model for Low-Altitude Wireless Sensing），一种面向低空无线感知的缺失模态多模态基础模型。该框架通过跨模态融合和缺失模态感知的预训练（结合特征级掩码重建与无人机定位目标），从RGB/深度图像、LiDAR点云和CSI矩阵三类异构观测中学习统一的多模态表征。具体而言，模型采用针对RGB/深度图像、LiDAR点云和CSI矩阵的专用预训练特征提取器，通过轻量级任务头适配下游低空无线感知任务。在LAMBDA数据集上的实验表明，M3F-UAV在缺失模态场景下仍能保持鲁棒性能，其综合表现显著优于单模态基线模型。"
+  },
+  {
+    "date": "2026-7-15",
+    "title": "WS28: The 4th Workshop on Near-Field Communications, Localization, and Sensing",
+    "authors": "N/A",
+    "publish": "2026 IEEE International Conference on Communications Workshops (ICC Workshops)",
+    "url": "https://doi.org/10.1109/iccworkshops63917.2026.11586526",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "WS28: 第四届近场通信、定位与传感研讨会",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-15",
+    "title": "Transciphering of Lightweight Symmetric Ciphertexts for Privacy-Preserving Generative AI Inference in Telecom Systems",
+    "authors": "Chunling Chen, Lun Li, Ruida Wang, Xianhui Lu, Kunpeng Wang",
+    "publish": "2026 IEEE International Conference on Communications Workshops (ICC Workshops)",
+    "url": "https://doi.org/10.1109/iccworkshops63917.2026.11586551",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "轻量级对称密文解密：面向电信系统隐私保护的生成式AI推理\n\n解析：\n1. \"Transciphering\" 译为\"解密\"，精准对应技术动作，避免过度翻译。\n2. \"Lightweight Symmetric Ciphertexts\" 采用\"轻量级对称密文\"的递进式翻译，既保留技术特征又符合中文语序。\n3. \"Privacy-Preserving\" 使用\"隐私保护\"的规范译法，符合行业术语。\n4. \"Generative AI Inference\" 译为\"生成式AI推理\"，准确传达技术内涵。\n5. \"In Telecom Systems\" 处理为副标题结构\"：面向电信系统\"，通过冒号实现主副标题的逻辑分层，既突出核心方法又明确应用场景。\n\n该翻译采用学术论文标题的典型结构：\n[核心方法]：[应用场景] + [技术目标]\n既保证专业术语的准确性（如\"对称密文\"），又通过冒号结构实现技术要素与应用价值的清晰区隔，符合中文科技论文的标题规范。",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-15",
+    "title": "Low-Complexity Near-Field Localization in Multipath Environment by ELAA Partitioning in Presence of Mutual Coupling",
+    "authors": "Zohreh Ebadi, Amir Masoud Molaei, Simon Cotton, Tian Hong Loh, Okan Yurduseven",
+    "publish": "2026 IEEE International Conference on Communications Workshops (ICC Workshops)",
+    "url": "https://doi.org/10.1109/iccworkshops63917.2026.11586474",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于ELAA分区的低复杂度近场多径环境定位（在互耦合存在条件下）\n\n解析：\n1. \"Low-Complexity\" 译为\"低复杂度\"，符合中文技术文献常用表述\n2. \"Near-Field Localization\" 译为\"近场定位\"，准确传达技术特征\n3. \"Multipath Environment\" 译为\"多径环境\"，专业术语规范\n4. \"ELAA Partitioning\" 保留英文缩写并译为\"ELAA分区\"，符合学术翻译惯例\n5. \"in presence of mutual coupling\" 处理为副标题注释\"（在互耦合存在条件下）\"，既保持技术严谨性又符合中文排版习惯\n\n该翻译：\n- 严格保持技术参数的准确性\n- 采用\"主标题+副标题\"的复合结构，符合中文论文标题规范\n- 专业术语处理兼顾可读性与专业性\n- 通过括号注释完整保留了原文限定条件\n- 整体字数控制在合理范围（28字），符合学术标题简洁性要求\n\n注：ELAA作为特定技术方法名称，在首次出现时可考虑标注中文译名（如：扩展线性阵列（ELAA）分区技术），但根据用户提供的上下文，此处直接保留英文缩写更为合适。",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-15",
+    "title": "Transmit Beampattern Design for Continuous Aperture Array (CAPA)-aided Sensing Systems",
+    "authors": "Junjie Ye, Zhaolin Wang, Yuanwei Liu, Peichang Zhang, Lei Huang, Arumugam Nallanathan",
+    "publish": "2026 IEEE International Conference on Communications Workshops (ICC Workshops)",
+    "url": "https://doi.org/10.1109/iccworkshops63917.2026.11586310",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "连续孔径阵列（CAPA）辅助传感系统中的传输束瓣图案设计",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-15",
+    "title": "Packaging and Antenna Design for a 46 -Element Dual-Surface Mmwave Active STAR-RIS Built with CMOS RFICs",
+    "authors": "Zijian Shao, Muhamed Allam, Wenkai Fang, Hooman Saeidi, Alexander Stepko, Kaushik Sengupta",
+    "publish": "2026 IEEE MTT-S Radio Frequency Technology and Techniques Symposium (IMS RFTT)",
+    "url": "https://doi.org/10.1109/imsrftt43070.2026.11602506",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "采用CMOS射频集成电路构建的46单元双面毫米波有源STAR-RIS封装与天线设计\n\n（解析说明：\n1. \"Built with CMOS RFICs\"前置译为\"采用CMOS射频集成电路构建的\"，既符合中文表达习惯又突出技术实现路径\n2. \"46-element\"译为\"46单元\"符合电子工程领域术语规范\n3. \"Dual-Surface\"译为\"双面\"准确传达结构特征\n4. \"Mmwave Active\"译为\"毫米波有源\"完整保留技术特征（mmwave=毫米波，active=有源器件）\n5. \"STAR-RIS\"作为专有技术名称保留不译，符合学术规范\n6. \"Packaging and Antenna Design\"译为\"封装与天线设计\"采用专业术语组合，符合IEEE论文命名惯例\n7. 整体采用\"技术实现方式+系统特征+设计对象\"的递进式结构，既保持专业性的同时确保中文可读性）",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-15",
+    "title": "Architectural Enhancements for Efficient Sensing Data Utilization in 6G ISAC",
+    "authors": "Muhammad Awais Jadoon, Sebastian Robitzsch",
+    "publish": "2026 IEEE International Conference on Communications Workshops (ICC Workshops)",
+    "url": "https://doi.org/10.1109/iccworkshops63917.2026.11586244",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "6G ISAC中高效感知数据利用的架构优化",
+    "abstract_zh": "None"
+  }
+]
