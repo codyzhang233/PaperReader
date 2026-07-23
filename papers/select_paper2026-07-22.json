@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-07-22",
+    "title": "A Covert Precision Satellite Communication Framework Assisted by Cooperative IRSs",
+    "authors": "Haoyang Wu, Yunfan Bai, Mei Shen, Yuwen Qian, Guangji Chen, Long Shi, Feng Shu, Jun Li",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.19883v1",
+    "source": "arXiv",
+    "abstract": "Satellite communication (SatCom), as an effective complement to terrestrial networks, has attracted considerable attention from both academia and industry owing to its wide coverage and high flexibility. However, the inherent openness of satellite links renders them highly vulnerable to eavesdropping, thereby posing significant security challenges. In this paper, we propose a satellite covert precision wireless communication (CPWC) system, where multiple intelligent reflecting surfaces (IRSs) cooperate to assist satellite transmissions, ensuring that confidential information is delivered to legitimate users while remaining undetectable to wardens. To further enhance covertness, an orthogonal frequency division multiplexing (OFDM)-based random subcarrier selection (RSCS) method is developed to concentrate the signal energy at the intended receiver. Under a practical satellite-terrestrial channel model, we derive closed-form covertness constraints for the CPWC system based on relative entropy and detection error probability. Under the relative-entropy constraint and the satellite power constraint, we maximize the covert rate by an alternating-optimization (AO) based semidefinite relaxation (SDR) iterative algorithm and obtain a high-quality feasible solution. Using this solution as a warm start, we further impose the detection-error-probability constraint and refine the beamformer through a sequential quadratic programming (SQP) based algorithm. Numerical results demonstrate the effectiveness of the proposed CPWC system, where the detection-error-probability-based scheme outperforms the second-order cone programming (SOCP) benchmark, the random-phase-shift design, the one-bit IRS quantized scheme, and the SDR baseline without precise communication (PC) in terms of covert rate.",
+    "title_zh": "一种由协同合作的智能反射面辅助的精确卫星通信框架",
+    "abstract_zh": "卫星通信（SatCom）作为一种有效的陆地网络补充手段，近年来在学术界和工业界均受到广泛关注，这主要归功于其广阔的覆盖范围和高度灵活性。然而，卫星链路固有的开放性使其极易遭受窃听攻击，从而带来严峻的安全挑战。本文提出了一种隐蔽精确无线通信（CPWC）系统，通过部署多智能反射面（IRSs）协同辅助卫星传输，在确保机密信息安全传输至合法用户的同时，实现通信隐蔽性。为增强隐蔽性，本文基于正交频分多址（OFDM）技术设计了随机子载波选择（RSCS）方法，将信号能量精准聚焦于目标接收端。在实用卫星-地面信道模型下，本文基于相对熵和检测错误概率推导出CPWC系统的闭合型隐蔽性约束条件。在相对熵约束和卫星功率约束下，本文通过交替优化（AO）半定比松弛（SDR）迭代算法最大化隐蔽速率，并利用该解作为初始值，进一步通过基于序列二次规划（SQP）的算法引入检测错误概率约束，优化波束形成器。数值结果表明，本文提出的基于检测错误概率的方案在隐蔽速率上显著优于二阶锥规划（SOCP）基准、随机相位偏移设计、单比特IRS量化方案以及未采用精确通信（PC）的SDR基线方案。"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "Optimization of MIMO STEEP for Secure Communications over MIMOME Channels",
+    "authors": "Dinglin Yu, Yingbo Hua",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.19738v1",
+    "source": "arXiv",
+    "abstract": "A transmission scheme for secure communications, called secret-message transmission by echoing encrypted probes (STEEP), can deliver a positive secrecy rate, even when eavesdropping channels are much stronger than that between users, subject to sufficient asymmetric power allocations from users. This paper considers an optimization problem for STEEP applied to MIMO (or MIMOME) channels between multi-antenna users and multi-antenna Eve. We reveal for the first time a significant increase of the achievable secrecy rate of MIMO STEEP using optimized precoders.",
+    "title_zh": "MIMO STEEP的优化用于MIMOME信道上的安全通信",
+    "abstract_zh": "一种名为秘密信息传输（Secret-Message Transmission by Echoing Encrypted Probes, STEEP）的 secure communication scheme，即使在窃听信道比用户间信道强得多的情况下，只要用户具备足够的不对称功率分配能力，仍能实现正保密速率。本文针对多天线用户与多天线Eve之间的MIMO（或MIMOME）信道，首次研究了STEEP方案下的优化问题，并揭示通过优化预编码器（optimized precoders）可实现MIMO STEEP系统可达保密速率的显著提升。\n\n（说明：翻译中保留了专业术语如STEEP、MIMO、Eve等英文缩写，符合学术惯例；\"asymmetric power allocations\"译为\"不对称功率分配\"，\"optimized precoders\"译为\"优化预编码器\"，确保技术准确性；通过调整语序和用词（如\"首次研究\"替代\"reveal for the first time\"），使表达更符合中文论文的表述习惯。）"
+  },
+  {
+    "date": "2026-7-22",
+    "title": "Optimal Delay and Energy Consumption Trade-Off Upload of Sensing Data in Bistatic ISAC",
+    "authors": "Xi Song, Linsong Du, Tong Li, Shihai Shao",
+    "publish": "IEEE Wireless Communications Letters",
+    "url": "https://doi.org/10.1109/lwc.2026.3715815",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "双站ISAC中感知数据上传的最优延迟与能耗权衡",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-22",
+    "title": "Resource Allocation for RSMA-Based Coordinated Direct and Relay Transmission with Additional Relay Information",
+    "authors": "Dan Jiang, Yuanyuan Gao, Qiao Su, Nan Sha, Mingxi Guo, Liyuan Gong",
+    "publish": "2026 2nd Asia Conference on Communications and 6G (ACC6G)",
+    "url": "https://doi.org/10.1109/acc6g70208.2026.11605780",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于RSMA的协调直连与中继传输及补充中继信息的资源分配\n\n（解析：该翻译完整保留了原文的技术要素和结构逻辑：\n1. \"RSMA-Based\" 译为\"基于RSMA的\"，符合中文技术文献命名习惯；\n2. \"Coordinated Direct and Relay Transmission\" 采用\"协调直连与中继传输\"的译法，其中：\n   - \"Direct\" 译为\"直连\"（网络领域常用术语，比\"直接传输\"更简洁专业）\n   - \"Relay\" 译为\"中继\"（标准通信术语）\n3. \"with Additional Relay Information\" 译为\"及补充中继信息\"，通过\"及\"连接实现自然衔接；\n4. 整体结构采用中文技术论文标题的典型范式：[方法]+[技术特征]+[研究内容]。\n\n注：若需更符合中文论文标题的简洁性，可调整为：\n\"RSMA基协调直连中继传输补充信息资源分配研究\"（字数更少，但需确保专业术语准确性）",
+    "abstract_zh": "None"
+  }
+]
