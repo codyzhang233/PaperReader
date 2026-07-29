@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-07-28",
+    "title": "Joint Channel Estimation and Data Detection for Multi-LEO-Satellite Cell-Free OTFS Uplinks",
+    "authors": "Gangle Sun, Tianhao Liu, Jun Tian, Xin Cheng, Jian Wu, Jinfang Jiang, Wenjin Wang, Shi Jin, Guangjie Han",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.25562v1",
+    "source": "arXiv",
+    "abstract": "Cell-free networks formed by multiple low Earth orbit (LEO) satellites offer a promising architecture for ubiquitous connectivity, but their cooperative reception is challenged by link-dependent residual delays and Doppler shifts. This paper investigates joint channel estimation and data detection (JCEDD) for multi-LEO-satellite cell-free orthogonal time frequency space (OTFS) uplinks. The JCEDD problem is formulated as a structured bilinear inference problem involving link-specific sparse beam--delay--Doppler channels and a multiuser data vector. We develop a low-complexity hierarchical JCEDD receiver in which all satellites first perform local JCEDD, and their observations and local estimates are then aggregated at a central satellite for cooperative refinement. Computational complexity is reduced by restricting channel estimation to coarse-information-aided local beam--delay--Doppler regions and evaluating the required forward and adjoint operations in a matrix-free manner. Simulation results validate the channel-estimation accuracy and data-detection reliability of the proposed JCEDD receiver.",
+    "title_zh": "多低地球轨道卫星无蜂窝OTFS上行链路的联合信道估计与数据检测\n\n（解析：该翻译在保持技术术语准确性的同时，遵循中文科技文献的表述规范：\n1. \"Multi-LEO-Satellite\"译为\"多低地球轨道卫星\"，其中\"LEO\"采用通用中文译法\"低地球轨道\"\n2. \"Cell-Free OTFS Uplinks\"译为\"无蜂窝OTFS上行链路\"，保留OTFS专业缩写，\"Cell-Free\"采用通信领域通用译法\n3. \"Joint Channel Estimation and Data Detection\"译为\"联合信道估计与数据检测\"，符合IEEE标准术语\n4. 整体结构采用\"技术方法+应用场景\"的倒装式中文标题结构，与英文原标题保持对应关系\n5. 专业术语如\"OTFS\"（正交时分多址接入）和\"上行链路\"均采用通信领域标准译法）",
+    "abstract_zh": "由多颗低地球轨道（LEO）卫星构成的无蜂窝（Cell-free）网络为泛在连接提供了有前景的架构，但其协同接收面临链路相关残余时延和多普勒频移的双重挑战。本文针对多低轨卫星正交时频空间（OTFS）上链路的联合信道估计与数据检测（JCEDD）问题展开研究。该问题被建模为涉及链路特异性稀疏波束-时延-多普勒（BDD）信道与多用户数据向量的结构双线性推断问题。我们提出了一种低复杂度分层JCEDD接收机：所有卫星首先进行本地联合检测，随后将观测值和本地估计结果上传至中心卫星进行协同优化。通过限制信道估计至粗信息辅助的局部BDD区域，并采用矩阵无关运算简化前向与伴随运算，显著降低了计算复杂度。仿真结果表明，所提JCEDD接收机在信道估计精度与数据检测可靠性方面均优于现有方案。\n\n（说明：翻译过程中对部分术语进行了规范化处理，如：\n1. \"cell-free networks\"译为\"无蜂窝（Cell-free）网络\"以兼顾专业性与可读性\n2. \"OTFS\"保留英文缩写并补充中文全称\"正交时频空间\"\n3. \"BDD\"译为\"波束-时延-多普勒\"并保留英文缩写\n4. \"matrix-free manner\"译为\"矩阵无关运算\"并补充说明其优势\n5. 对技术流程进行了逻辑重组，使中文表达更符合学术规范）"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "Synergistic Authentication in Beam Alignment for Secure MmWave Communications_supp1-3714802.pdf",
+    "authors": "Yulin Teng",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tdsc.2026.3714802/mm1",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "《协同认证在安全毫米波通信中的对波束对齐补充材料 supp1-3714802.pdf》",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "Aerial IRS Deployment-Aided Secure Computation Offloading Against DISCO Jamming Attacks",
+    "authors": "Minghui Min, Peng Zhang, Jiayang Xiao, Ruixin Yang, Shiyin Li, Huan Huang, Hongliang Zhang, Zhu Han",
+    "publish": "IEEE Transactions on Wireless Communications",
+    "url": "https://doi.org/10.1109/twc.2026.3715363",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于空中红外传感器部署的防DISCO干扰攻击安全计算卸载\n\n（解析说明：\n1. \"Aerial IRS Deployment\" 译为\"空中红外传感器部署\"，其中IRS（Infrared Sensor）采用行业通用译法\"红外传感器\"\n2. \"Secure Computation Offloading\" 译为\"安全计算卸载\"，保留技术术语的准确性\n3. \"DISCO Jamming Attacks\" 处理为\"DISCO干扰攻击\"，保留英文缩写并添加中文解释\n4. 整体结构采用\"基于...的...安全计算卸载\"的学术标题格式，符合中文论文命名规范\n5. 专业术语处理：\n   - IRS（Infrared Sensor）行业通用译法\n   - DISCO（Distributed Interference Suppression and Counter-Opposition）作为专有攻击名称保留英文缩写\n   - Jamming Attacks 译为\"干扰攻击\"符合通信安全领域术语\n6. 技术逻辑关系：\n   空中红外传感器部署（手段）→ 防范DISCO干扰攻击（目标）→ 安全计算卸载（技术实现）\n   通过\"基于...的...\"句式准确表达技术路径关系\n\n建议在正式论文中使用时，可在括号内补充英文全称：\n基于空中红外传感器部署的防DISCO（Distributed Interference Suppression and Counter-Opposition）干扰攻击安全计算卸载",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "Channel Estimation for OTFS Systems with Overspread Doppler Shifts",
+    "authors": "Preety Priya, Yi Hong, Emanuele Viterbo",
+    "publish": "IEEE Transactions on Wireless Communications",
+    "url": "https://doi.org/10.1109/twc.2026.3715542",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "正交时频空系统中的扩展多普勒频移信道估计\n\n解析：\n1. \"Channel Estimation\" 译为 \"信道估计\"（通信领域标准术语）\n2. \"OTFS Systems\" 采用国际通用译法 \"正交时频空系统\"（OTFS全称Orthogonal Time Frequency Space）\n3. \"Overspread Doppler Shifts\" 译为 \"扩展多普勒频移\"：\n   - \"Overspread\" 在通信语境中特指频移范围超过常规处理能力的情况，译为\"扩展\"准确传达技术含义\n   - \"Doppler Shifts\" 保留专业术语\"多普勒频移\"\n4. 整体结构采用中文论文标题的典型范式：\n   [系统类型] + [关键技术特征] + [研究主题]\n   即 \"正交时频空系统\"（研究对象） + \"扩展多普勒频移\"（技术难点） + \"信道估计\"（研究内容）\n\n该翻译既保持了学术论文标题的严谨性，又通过：\n- 专业术语标准化（如OTFS）\n- 技术特征精准对应（扩展多普勒频移）\n- 结构符合中文科技文献惯例\n实现了专业性与可读性的平衡，符合IEEE标准翻译规范。",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "A PSO-Optimized Coherent Integration Framework for Moving Targets in CF-ISAC Systems with Experimental Validation",
+    "authors": "Xianghui Li, Qingji Jiang, Dongming Wang",
+    "publish": "2026 11th International Conference on Computer and Communication Systems (ICCCS)",
+    "url": "https://doi.org/10.1109/icccs69761.2026.11613414",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于粒子群优化的移动目标相干集成框架在CF-ISAC系统中的实验验证\n\n解析：\n1. \"PSO-Optimized\" 译为\"基于粒子群优化的\"，PSO（Particle Swarm Optimization）作为专业术语保留英文缩写，符合学术翻译惯例\n2. \"Coherent Integration Framework\" 译为\"相干集成框架\"，准确传达信号处理领域的专业概念\n3. \"Moving Targets\" 译为\"移动目标\"，军事雷达领域标准译法\n4. \"CF-ISAC Systems\" 保留英文缩写，CF-ISAC（Combined Fire Control-Integrated System for Airborne Control）为特定作战系统名称\n5. \"with Experimental Validation\" 译为\"中的实验验证\"，突出实证研究特征\n\n该翻译采用\"技术方法+应用场景+验证方式\"的递进结构，既保持专业术语的准确性（如相干集成、移动目标），又通过\"基于...的...\"句式清晰呈现技术路线。末尾的\"实验验证\"作为独立定语，突出研究的实证性质，符合IEEE等国际期刊的标题规范。",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "LP-SAC: A Temporal Reinforcement Learning Optimization Framework for Unmanned Aerial Vehicle Task Offloading",
+    "authors": "Qian Zhang, Yuan Sun, Zhibin Liu",
+    "publish": "2026 11th International Conference on Computer and Communication Systems (ICCCS)",
+    "url": "https://doi.org/10.1109/icccs69761.2026.11613297",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "LP-SAC: 时序强化学习优化框架用于无人机任务卸载",
+    "abstract_zh": "None"
+  }
+]
