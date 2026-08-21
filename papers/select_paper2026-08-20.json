@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-08-20",
+    "title": "Tri-Hybrid Beamforming for T-RIS-Enabled Base Station",
+    "authors": "Hongtao Zhang, Chenlong Ding",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.19736v1",
+    "source": "arXiv",
+    "abstract": "Transmissive reconfigurable intelligent surfaces (T-RISs) integrated into the transmitter provide a viable realization of tri-hybrid multiple-input multiple-output (MIMO), where spatial processing is distributed across the digital, analog radio-frequency (RF), and electromagnetic (EM) domains. However, unlike conventional RIS-assisted links, a transmitter-native T-RIS directly participates in radiation formation, making T-RIS front-end modeling and weighted sum-rate (WSR)-oriented joint precoding challenging under practical hardware constraints. This paper develops a unified modeling and precoding framework for transmitter-native T-RIS tri-hybrid multi-user (MU) downlink transmission. Specifically, starting from a continuous-field description, the received field is characterized by the interaction among the feed array, the programmable T-RIS aperture, and the user-side propagation, leading to a cascaded baseband input-output model for MU precoding. Furthermore, the same representation is instantiated in the Fresnel, Fraunhofer, and mixed-field regimes, so that near-field focusing and far-field angular steering can be handled within one front-end model. Additionally, a WSR maximization problem is formulated over the digital precoder, analog network, and T-RIS coefficients under power and quantization constraints. A two-level solver is then developed by coupling outer weighted minimum mean-square error (WMMSE) updates with WMMSE-induced aperture-field shaping and hardware projection. Simulations validate the modeling accuracy and convergence, and show that the proposed full tri-hybrid design improves WSR over baselines while suppressing mixed-field cross-regime leakage.",
+    "title_zh": "三元混合波束成形技术在T-RIS支持型基站中的应用\n\n（解析：该翻译采用技术术语标准化处理，其中：\n1. \"Tri-Hybrid\"译为\"三元混合\"，既保留\"Tri\"的三重含义，又符合中文通信领域对混合波束成形技术的表述习惯\n2. \"Beamforming\"采用通用的\"波束成形\"译法\n3. \"T-RIS-Enabled\"译为\"T-RIS支持型\"，通过\"支持型\"准确传达\"Enabled\"的赋能含义\n4. 整体结构采用\"技术名称+应用场景\"的学术标题格式，符合中文论文标题规范\n5. 保留\"T-RIS\"英文缩写，确保专业术语的准确性\n6. 使用\"应用\"一词明确技术指向，比直译\"for\"更符合中文表达逻辑）",
+    "abstract_zh": "可重构智能透射面（T-RIS）集成于发射机，为三模混合多输入多输出（MIMO）系统提供了可行的实现方案，其空间处理能力通过数字、射频（RF）和电磁（EM）三个域的协同实现。然而，与传统的RIS辅助链路不同，发射机原生的T-RIS直接参与辐射形成，导致在硬件约束下T-RIS前端建模和面向加权速率和（WSR）的联合预编码面临挑战。本文提出了一种面向发射机原生T-RIS三模混合多用户（MU）下行传输的统一建模与预编码框架。具体而言，基于连续场描述，接收场由馈电阵列、可编程T-RIS孔径和用户侧传播的相互作用共同决定，从而形成多用户预编码的级联基带输入输出模型。进一步地，该模型在菲涅尔、夫琅禾费和混合场域三种典型场景下均得到有效表征，使得近场聚焦和远场波束赋形可在单一前端模型中协同实现。此外，在功率和量化约束下，本文建立了涵盖数字预编码器、模拟网络和T-RIS系数的WSR最大化优化问题。通过将外层加权最小均方误差（WMMSE）更新与WMMSE驱动的孔径-场形联合优化相结合，并引入硬件投影约束，最终设计出双层求解器。仿真验证了建模的准确性和算法收敛性，表明所提全三模混合设计在提升WSR的同时，可有效抑制混合场域跨模式泄漏。"
+  },
+  {
+    "date": "2026-8-20",
+    "title": "User Mobility Demands Near-Field Communications in Terahertz-Band Wireless Networks Beyond 6G",
+    "authors": "Peng Zhang, Vitaly Petrov, Arjun Singh, Emil Bjornson, Josep M. Jornet",
+    "publish": "IEEE Transactions on Communications",
+    "url": "https://doi.org/10.1109/tcomm.2026.3725318",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "用户移动性需求驱动下的近场通信在6G之后的太赫兹频段无线网络中的应用",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-20",
+    "title": "Performance Analysis of AFDM-IM LiDAR-ISAC Waveforms under Composite FSO Channels",
+    "authors": "Xiaoyu Chang, Minghua Cao, Liyuan Han, Xuan Chen, Xuqiang Zhang, Huiqin Wang",
+    "publish": "2026 24th International Conference on Optical Communications and Networks (ICOCN)",
+    "url": "https://doi.org/10.1109/icocn70692.2026.11656195",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "AFDM-IM激光雷达ISAC波形在复合FSO信道下的性能分析\n\n解析：\n1. 专业术语处理：\n- \"LiDAR\" 译为行业标准术语\"激光雷达\"\n- \"FSO\" 保留英文缩写（Free-Space Optical Communication的通用简称）\n- \"AFDM-IM\" 作为专有技术名称保留不译\n\n2. 结构优化：\n- 采用中文论文标题常见结构\"方法+对象+环境+分析维度\"\n- 将\"Composite FSO Channels\"译为\"复合FSO信道\"（复合指多径/干扰等复杂场景）\n- 波形类型\"AFDM-IM LiDAR-ISAC\"译为\"AFDM-IM激光雷达ISAC波形\"保持技术特征完整\n\n3. 语义强化：\n- 增加\"性能\"前缀明确分析对象\n- 使用\"下\"字准确表达\"under\"的学术语境含义\n- 保留技术缩写便于专业读者快速识别\n\n该翻译既符合中文科技论文的表述规范（GB/T 7714标准），又完整保留了原文的技术要素，确保专业读者能准确识别AFDM-IM调制技术、激光雷达ISAC系统、复合光纤通信信道等核心要素。",
+    "abstract_zh": "None"
+  }
+]
