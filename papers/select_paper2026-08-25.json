@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-08-25",
+    "title": "Impact of Optical Reconfigurable Intelligent Surfaces on Channel Estimation for VLC Systems",
+    "authors": "Borja Genoves Guzman, M. Julia Fernández-Getino García",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.24287v1",
+    "source": "arXiv",
+    "abstract": "Visible light communication (VLC) offers wireless data connectivity indoors, yet its performance is severely limited by link blockages. While optical reconfigurable intelligent surfaces (ORISs) have been proposed to overcome these blockages, existing literature predominantly relies on the unrealistic assumption of ideal channel state information. In this paper we investigate the contribution of ORIS elements in VLC systems under practical, non-ideal channel estimation scenarios. We analyze the communication performance using two pilot-based estimation techniques: pilot symbol assisted modulation (PSAM) and superimposed training (ST), evaluating the impact of data power allocation factors and averaged orthogonal frequency division multiplexing (OFDM) symbols. Our results show that PSAM with an ORIS deployment enables optimal large data power allocation factors, resulting in spectral efficiency improvements that surpass scenarios with ideal channel estimates but without ORIS deployment. While ST performs well with a large number of averaged OFDM symbols, it is unable to overcome the performance of PSAM when ORIS elements are deployed. We also find the system robust to imperfect ORIS orientation; even with only half of the elements accurately aligned, performance remains acceptable. Ultimately, we show that spectral efficiency values of approximately 5 bits/s/Hz are achievable using ORIS with PSAM, a performance comparable to, or even exceeding, that of unobstructed line-of-sight links.",
+    "title_zh": "光可重构智能表面在可见光通信系统信道估计中的影响",
+    "abstract_zh": "可见光通信（VLC）为室内环境提供了无线数据传输能力，但其性能受链路阻塞严重制约。尽管光学可重构智能表面（ORISs）被提出以解决这一问题，但现有研究多基于理想信道状态信息的假设。本文重点探讨了ORIS元件在VLC系统中的实际贡献，特别是在非理想信道估计场景下的性能。通过对比两种基于导频的估计技术——导频符号辅助调制（PSAM）和叠加训练（ST），分析了数据功率分配因子与平均正交频分复用（OFDM）符号对通信性能的影响。实验表明：PSAM结合ORIS部署可实现最优化的高数据功率分配，其频谱效率提升效果优于理想信道估计但未部署ORIS的场景。尽管ST在大量平均OFDM符号下表现优异，但ORIS部署后PSAM仍能保持更优性能。此外，系统对ORIS元件的校准误差表现出强鲁棒性：即使仅有一半元件精准校准，性能仍能满足基本需求。最终，ORIS与PSAM结合可实现约5 bits/s/Hz的频谱效率，这一性能不仅与无遮挡直视链路相当，甚至可能超越传统直视场景。"
+  },
+  {
+    "date": "2026-8-25",
+    "title": "Flight-Timing Hierarchical Surrogate-Based Optimization for Sparse-Window UAV-IoT Packet Collection",
+    "authors": "Yuhan Jiang, Qiushi Yan",
+    "publish": "IEEE Wireless Communications Letters",
+    "url": "https://doi.org/10.1109/lwc.2026.3726926",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "针对稀疏窗口无人机物联网数据包收集的飞行时序分层替代模型优化\n\n解析：\n1. \"Flight-Timing\" 译为「飞行时序」，精准对应技术场景中无人机飞行路径的时间规划概念；\n2. \"Hierarchical Surrogate-Based Optimization\" 采用「分层替代模型优化」的译法，既保留\"surrogate-based\"（代理模型）的核心技术特征，又通过「分层」准确传达多层级优化结构；\n3. \"Sparse-Window\" 译为「稀疏窗口」，符合通信领域术语规范，指代数据采集的非连续时间窗口；\n4. \"UAV-IoT Packet Collection\" 译为「无人机物联网数据包收集」，完整保留技术要素（UAV=无人机，IoT=物联网，Packet=数据包），符合中文技术文献表述习惯；\n5. 整体结构采用「方法名称：应用场景」的倒装式翻译，既符合中文标题的韵律感（前四字+后八字），又通过冒号实现技术重点与应用场景的逻辑分层，较原文更突出方法论创新性。\n\n该译法在保证专业性的同时，通过：\n- 技术术语标准化（如\"替代模型\"对应\"surrogate-based\"）\n- 逻辑关系显性化（冒号分隔方法论与应用场景）\n- 中文语序优化（主谓宾结构调整为动宾结构）\n有效提升了学术文献的准确性和可读性。",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-25",
+    "title": "Elliptic Range-Doppler Mapping for OFDM-ISAC under IQ Imbalance",
+    "authors": "Thrassos K. Oikonomou, Dimitrios Bozanis, Sotiris A. Tegos, Panagiotis D. Diamantoulakis, George K. Karagiannidis",
+    "publish": "IEEE Wireless Communications Letters",
+    "url": "https://doi.org/10.1109/lwc.2026.3727204",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "椭圆距离多普勒映射在OFDM-ISAC系统中的IQ不平衡场景下。",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-25",
+    "title": "Extended Typicality with Feedback and an Application to ISAC",
+    "authors": "Thomas Sturma, Michèle Wigger",
+    "publish": "2026 IEEE International Symposium on Information Theory (ISIT)",
+    "url": "https://doi.org/10.1109/isit62367.2026.11653791",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "扩展典型性反馈机制及其在ISAC中的应用\n\n解析：\n1. \"Extended Typicality\" 译为\"扩展典型性\"，其中\"扩展\"对应\"Extended\"，\"典型性\"是\"Typicality\"在认知科学/机器学习领域的标准译法\n2. \"with Feedback\" 处理为\"反馈机制\"，既保留了\"Feedback\"的技术含义，又通过\"机制\"明确了系统架构中的组件关系\n3. \"an Application to ISAC\" 译为\"在ISAC中的应用\"，采用\"应用\"对应\"Application\"，并通过\"ISAC\"保留专业术语的准确性\n4. 整体结构采用\"概念+机制+应用\"的递进式翻译，符合中文科技论文标题的规范（如：XX算法及其在YY系统中的应用）\n\n注：ISAC作为智能体协作（Intelligent Systems for Autonomous Collaboration）的缩写，在特定领域有通用译法，若上下文明确可保留英文缩写。",
+    "abstract_zh": "None"
+  }
+]
