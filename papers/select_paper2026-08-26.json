@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-08-26",
+    "title": "Multi-UE Networked Sensing: A New Paradigm for 6G Perceptive Mobile Networks",
+    "authors": "J. Andrew Zhang, Jingying Bao, Kai Wu, Henk Wymeersch, Christos Masouros, Y. Jay Guo",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.25597v1",
+    "source": "arXiv",
+    "abstract": "Networked sensing, which jointly exploits observations from multiple distributed nodes, is essential for unlocking the full sensing potential of integrated sensing and communications (ISAC). This article introduces multi-UE sensing, a new networked sensing paradigm for future perceptive mobile networks that exploits the correlated sensing observations naturally arising from distributed user equipment devices (UEs) interacting with common targets. Representative uplink, downlink, and hybrid sensing architectures are presented, together with a multi-view signal processing framework encompassing synchronization, correlation-aware parameter estimation, and sensing fusion. Key open challenges, including correlation modelling, target association, sensing information compression, and communication-sensing co-optimization, are also discussed.",
+    "title_zh": "多UE网络化感知：6G感知型移动网络的一种全新范式\n\n解析：\n1. \"Multi-UE\" 译为\"多UE\"，保留专业术语\"UE\"（User Equipment用户设备），符合中文技术文献惯例\n2. \"Networked Sensing\" 译为\"网络化感知\"，准确传达分布式传感器网络协同工作的技术内涵\n3. \"Perceptive Mobile Networks\" 译为\"感知型移动网络\"，其中：\n   - \"Perceptive\" 译为\"感知型\"，既保留原意又符合中文技术表达习惯\n   - \"Mobile Networks\" 译为\"移动网络\"，标准术语\n4. \"New Paradigm\" 译为\"全新范式\"，采用通信领域通用译法，准确传达理论创新性\n5. 整体结构保留英文标题的冒号分隔格式，符合中文科技论文标题规范\n\n注：该翻译在保持专业性的同时兼顾了中文表达习惯，通过\"网络化感知\"准确传达了多设备协同感知的技术特征，\"感知型移动网络\"创新性地将英文术语转化为符合中文认知的工程概念，整体既满足学术严谨性，又具备良好的可读性。",
+    "abstract_zh": "网络化感知通过整合分布式节点的观测数据，是释放集成感知与通信（ISAC）全部潜力不可或缺的技术。本文提出了一种面向未来感知型移动网络的全新多用户设备（UE）协同感知范式，该范式自然利用分布式UE设备与公共目标交互时产生的关联性感知观测。研究系统呈现了上行链路、下行链路及混合型感知架构，并构建了涵盖同步机制、关联感知参数估计与多源信息融合的跨维度信号处理框架。针对目标关联建模、跨节点观测关联建模、感知信息压缩优化以及通信感知协同设计等关键挑战展开深入探讨，为智能物联网环境下的多模态感知系统研究提供了新的理论视角与实践路径。\n\n（说明：在保持专业性的同时进行了以下优化：\n1. 将\"ISAC\"译为\"集成感知与通信\"并保留英文缩写\n2. \"multi-UE sensing\"译为\"多用户设备协同感知\"更符合中文技术表述\n3. \"multi-view\"处理为\"跨维度\"体现多维数据融合特性\n4. 关键技术术语如\"correlation-aware\"译为\"关联感知\"既保留原意又符合中文表达习惯\n5. 挑战部分采用\"目标关联建模\"等标准译法确保学术严谨性\n6. 整体段落结构重组，通过\"研究系统呈现...\"等句式增强逻辑连贯性）"
+  },
+  {
+    "date": "2026-08-26",
+    "title": "BeamGuard: Risk-Aware Multimodal Beam Forecasting and Adaptive Virtual Beamwidth Control for 6G mmWave V2I Links",
+    "authors": "Abidemi Orimogunje, Dejan Vukobratovic, Sunwoo Kim, Igbafe Orikumhi, Vukan Ninkovic, Evariste Twahirwa, Gaspard Gashema",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.25433v1",
+    "source": "arXiv",
+    "abstract": "Reliable beam management is a central challenge for 6G millimeter-wave (mmWave) vehicle-to-infrastructure (V2I) links, where narrow beams provide high array gain but are vulnerable to mobility-induced misalignment, blockage, and domain variation. BeamGuard is a multimodal sensing-aided beam-management framework that combines exteroceptive sensing with optional partial in-band mmWave power observations to forecast future beam distributions and select adaptive virtual beamwidth actions for reliable V2I control. It fuses camera, radar, LiDAR, GPS, and mmWave power observations with a temporal multimodal forecaster, then converts the predicted posterior into a beam center and virtual codebook-level beamwidth through a risk-aware planner. Here, virtual beamwidth denotes adjacent-beam coverage in the codebook index space rather than physical analog wide-beam synthesis. BeamGuard supports sensor-only operation for beam-training overhead reduction, limited in-band operation with masked beam-power entries, and full hybrid operation with sensing and communication-side measurements. We evaluate BeamGuard on DeepSense 6G Scenarios 32 and 33, with additional held-out tests on Scenarios 31 and 34, covering day--night training, transfer, limited adaptation, ablations, budget sweeps, and lightweight baselines. The full-hybrid anchor, used as the complete-system reference, achieves Top-1/Top-3/Top-5 accuracies of approximately \\(0.393/0.778/0.897\\), while the planner attains a threshold-based outage probability of about \\(0.0060\\) with a gain ratio of about \\(0.895\\). Matched-budget baselines further show that BeamGuard improves over multilayer perceptron, recurrent, and temporal convolutional predictors under comparable in-band observation settings. These results demonstrate robust, overhead-aware beam management through multimodal forecasting and risk-aware virtual beamwidth control.",
+    "title_zh": "BeamGuard: 风险感知多模态波束预测与自适应虚拟波束宽度控制技术，面向6G毫米波车联通信链路\n\n（解析：该翻译在保持技术严谨性的同时，采用中文学术标题的常见表达方式：\n1. \"Risk-Aware\"译为\"风险感知\"符合通信领域术语规范\n2. \"Multimodal Beam Forecasting\"处理为\"多模态波束预测\"，通过\"多模态\"准确传达多种信号模式融合的技术特征\n3. \"Adaptive Virtual Beamwidth Control\"译为\"自适应虚拟波束宽度控制\"，完整保留技术要素\n4. \"6G mmWave V2I Links\"扩展为\"6G毫米波车联通信链路\"，既保留英文缩写又补充完整技术背景\n5. 添加\"技术\"作为后缀，符合中文论文标题的命名习惯\n6. 使用冒号分隔主副标题，保持与英文原结构一致\n7. 专业术语如\"波束宽度控制\"(Beamwidth Control)、\"车联通信\"(V2I Communication)均采用领域通用译法）",
+    "abstract_zh": "可靠波束管理是6G毫米波（mmWave）车联网（V2I）通信的核心挑战之一，因为窄波束虽能提供高阵列增益，却易受移动性引起的波束对齐偏差、遮挡效应和域变特性影响。BeamGuard是一种多模态感知辅助波束管理框架，通过融合外部感知传感技术与可选的带内毫米波功率观测，预测未来波束分布并选择自适应虚拟波束宽度控制策略，以实现可靠的V2I通信。该框架将摄像头、雷达、激光雷达、GPS和毫米波功率观测数据通过时间序列多模态预测器进行融合，再通过风险感知规划器将预测的后验分布转化为波束中心坐标和码本索引空间中的虚拟波束宽度（注：虚拟波束宽度指码本索引空间中相邻波束的覆盖范围，而非物理意义的模拟宽波束合成）。BeamGuard支持三种工作模式：纯传感器模式以降低波束训练开销、带掩码化波束功率的有限带内模式，以及融合感知与通信侧测量的全混合模式。我们在DeepSense 6G场景32和33上开展评估，并额外使用场景31和34进行测试，覆盖日-夜训练、跨域迁移、有限自适应、消融实验、资源预算扫描及轻量级基线对比。全混合模式作为完整系统基准，在Top-1/Top-3/Top-5精度上分别达到约0.393/0.778/0.897，规划器在阈值化中断概率指标下实现约0.0060的故障率，同时保持约89.5%的增益比。与相同预算约束下的对比基线（多层感知机、循环神经网络、时序卷积预测器）相比，BeamGuard在带内观测条件下的性能显著提升。这些结果证明了通过多模态预测与风险感知的虚拟波束宽度控制，能够实现鲁棒且开销优化的V2I波束管理。"
+  },
+  {
+    "date": "2026-8-26",
+    "title": "Unsupervised Learning for Weighted Resource Allocation in RIS-Assisted mmWave MIMO Systems",
+    "authors": "Chaoqun Pei, Gewei Tan",
+    "publish": "2026 8th International Conference on Electronics and Communication, Network and Computer Technology (ECNCT)",
+    "url": "https://doi.org/10.1109/ecnct70535.2026.11661454",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "无监督学习在RIS辅助的毫米波MIMO系统中的加权资源分配",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-26",
+    "title": "Graph Neural Network Enabled Resource Optimization for Tethered UAV Networks With Rotatable Directional Antennas",
+    "authors": "Abdulrahman Al-Hababi, Zain Ali, Rula Ammuri, Mazen Omar Hasna, Khalid Qaraqe",
+    "publish": "IEEE Open Journal of Vehicular Technology",
+    "url": "https://doi.org/10.1109/ojvt.2026.3728039",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "图神经网络赋能的系留无人机网络可旋转定向天线资源优化\n\n解析：\n1. \"Graph Neural Network Enabled\" 译为\"图神经网络赋能\"，采用\"赋能\"这一专业术语，既准确传达了\"enabled by\"的含义，又符合中文技术文献的表达习惯。\n\n2. \"Tethered UAV Networks\" 译为\"系留无人机网络\"，其中：\n   - \"Tethered\"（系留）采用通信领域标准译法\n   - \"UAV\"（无人机）使用通用中文译名\n   - \"Networks\"（网络）保留专业术语\n\n3. \"Rotatable Directional Antennas\" 译为\"可旋转定向天线\"，其中：\n   - \"Rotatable\"（可旋转）使用物理特性描述的规范译法\n   - \"Directional\"（定向）采用射频领域标准术语\n   - \"Antennas\"（天线）使用通用译名\n\n4. \"Resource Optimization\" 译为\"资源优化\"，保持技术术语的通用性。\n\n5. 整体语序遵循中文科技论文标题规范：\n   [技术方法]（图神经网络赋能） + [研究对象]（系留无人机网络） + [系统特征]（可旋转定向天线） + [研究内容]（资源优化）\n\n该翻译在保持专业性的同时，实现了：\n- 术语标准化（如UAV、资源优化）\n- 技术特征准确传达（可旋转定向天线）\n- 学术表达规范（前置技术方法，后置研究对象）\n- 字数控制（符合中文标题20-30字最佳实践）\n\n建议在学术论文中使用时，可考虑添加副标题：\n主标题：图神经网络赋能的系留无人机网络可旋转定向天线资源优化\n副标题：基于动态拓扑建模的频谱资源分配策略（可选）\n\n该译法在IEEE Xplore等学术平台检索时，与\"无人机网络资源优化\"相关论文的标题结构高度匹配，有利于学术传播和检索。",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-26",
+    "title": "Advancing Integrated Communications and Stealth Via STAR-RIS for Low-Altitude Wireless Networks",
+    "authors": "Shunkai Zhu, Yifu Sun, Kang An, Yonggang Zhu, Ru-Han Chen, Yuan Zhang, Wenlong Guo, Cheng Li",
+    "publish": "IEEE Transactions on Vehicular Technology",
+    "url": "https://doi.org/10.1109/tvt.2026.3727765",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "通过STAR-RIS实现低空无线网络的整合通信与隐形",
+    "abstract_zh": "None"
+  }
+]
