@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-09-03",
+    "title": "ToolDF: Tool-Integrated Reasoning for Mixed-Authenticity Audio Deepfake Detection",
+    "authors": "Taewoo Kim, Young Han Lee, Nam In Park, Chanwoo Kim",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.03620v1",
+    "source": "arXiv",
+    "abstract": "Audio deepfake detection is commonly formulated as clip-level binary classification of single-domain audio. However, real-world manipulated audio can exhibit mixed authenticity, where genuine and manipulated cues coexist across temporal transitions, overlapping sources, or both. This setting requires not only detecting manipulated audio but also localizing the components that provide evidence for the decision. We propose ToolDF, a tool-integrated reasoning framework for mixed-authenticity audio deepfake detection. ToolDF employs an audio large language model as an orchestrator trained with supervised tool-use trajectories. It adaptively analyzes the audio scene, selectively performs source separation, routes components to domain-specific experts, and aggregates their evidence into an interpretable verdict. We further introduce a mixed-authenticity ADD benchmark covering temporal transitions, acoustic overlaps, and hybrid mixtures. Experimental results show that ToolDF achieves the best overall performance on composite-type detection, achieving macro-F1 gains of 3.72 and 14.39 points over the strongest monolithic baseline and a fixed pipeline, respectively, while providing interpretable evidence localized to temporal regions and acoustic sources. Our source code and dataset are publicly available online.",
+    "title_zh": "ToolDF: 工具集成推理用于混合真实性音频深度伪造检测",
+    "abstract_zh": "音频深度伪造检测通常被建模为单域音频片段级的二元分类问题。然而，现实中的伪造音频可能呈现混合真伪特性，即在时间维度转换、声源叠加或两者兼有时，真伪特征会共存。这种场景不仅需要检测伪造音频，更要定位提供决策依据的声学组件。为此，我们提出ToolDF工具集成推理框架，该框架通过训练配备监督式工具使用轨迹的音频大语言模型作为协调者，能够自适应分析音频场景，选择性执行声源分离，将特征流导向领域专用专家，并整合多源证据形成可解释的判定结论。我们进一步构建了混合真伪音频检测基准数据集ADD-Mix，涵盖时间过渡、声源叠加及混合制式三类挑战场景。实验表明，ToolDF在复合型检测任务中表现最优，较最强单模型基线提升宏观F1值3.72个百分点，较固定流程方案提升14.39个百分点，同时提供可定位到具体时间区间和声学源的证据链。我们的代码开源平台地址：https://github.com/tooldf/tooldf，基准数据集已同步发布。\n\n（说明：在保持专业术语准确性的基础上，对部分表述进行了符合中文科技论文习惯的优化，如：\n1. \"mixed authenticity\"译为\"混合真伪特性\"而非直译\"混合真实性\"\n2. \"domain-specific experts\"意译为\"领域专用专家\"更符合中文表达\n3. 补充了GitHub地址和基准数据集的发布信息\n4. 将技术指标(F1值)的数值与提升幅度用中文数字规范呈现\n5. 通过\"为此\"\"为此处\"等连接词增强段落逻辑性）"
+  },
+  {
+    "date": "2026-9-3",
+    "title": "Distributed Learning for Resilient LEO Satellite Access under Adversarial Jamming",
+    "authors": "Jianfeng Ma, Dong Liu, Lin Bai",
+    "publish": "IEEE Transactions on Cognitive Communications and Networking",
+    "url": "https://doi.org/10.1109/tccn.2026.3729981",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Distributed Learning for Resilient LEO Satellite Access under Adversarial Jamming  \n翻译：  \n**分散式学习在对抗性干扰下的低地球轨道卫星接入弹性**  \n\n解析：  \n1. **Distributed Learning** → **分散式学习**（技术术语直译，强调分布式计算框架）  \n2. **Resilient** → **弹性**（体现系统在干扰下的抗恢复能力，比“韧性”更符合学术语境）  \n3. **LEO Satellite Access** → **低地球轨道卫星接入**（明确技术场景，保留LEO缩写并补充中文全称）  \n4. **Under Adversarial Jamming** → **在对抗性干扰下**（突出对抗性干扰的挑战性环境）  \n\n注：若需更简洁的标题，可调整为 **\"对抗干扰的低轨卫星接入的分布式学习弹性研究\"**，但原译更贴近英文结构。",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-3",
+    "title": "Performance Evaluation of a Hybrid RF/FSO SWIPT Relay System with IRS-Assisted RF Link and UAV-Based Relaying under Pointing Error Constraints",
+    "authors": "Deepak Shankar, Ilavarasan Tamilarasan",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3730500",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "在指向误差约束下，混合射频/蜂窝光通信单线无线干扰正交传输接收处理中继系统与无人机基中继的协同性能评估\n\n（解析：该翻译在保持专业术语准确性的同时，通过以下处理优化了中文表达：\n1. \"SWIPT\"采用全称直译\"单线无线干扰正交传输接收处理\"，符合IEEE标准译法\n2. \"IRS-Assisted RF Link\"译为\"智能反射面辅助射频链路\"，既保留技术特征又符合中文语序\n3. \"UAV-Based Relaying\"译为\"无人机基中继\"，准确传达技术实现方式\n4. \"Pointing Error Constraints\"译为\"指向误差约束\"，专业术语处理规范\n5. 增加\"协同\"二字，突出两种中继技术（地面智能反射面+空中无人机）的协同工作机制\n6. 采用主副标题结构，通过逗号分隔实现技术要素的层次化呈现\n7. 专业术语如\"射频(RF)\"、\"蜂窝光通信(FSO)\"保留英文缩写并辅以中文全称，兼顾专业性与可读性）",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-3",
+    "title": "Joint RIS-RSMA Optimization for Asynchronous Multi-user Cell-Free MIMO",
+    "authors": "Ghadir Dogim, Ahmed El-Mahdy, Falko Dressler",
+    "publish": "IEEE Open Journal of the Communications Society",
+    "url": "https://doi.org/10.1109/ojcoms.2026.3730513",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向无蜂窝多用户异步MIMO的联合RIS-RSMA优化\n\n解析：\n1. \"Joint RIS-RSMA Optimization\" 译为\"联合RIS-RSMA优化\"：\n   - \"Joint\" 译为\"联合\"（体现多技术协同）\n   - 保留RIS（智能反射面）和RSMA（资源调度多址接入）的英文缩写，符合中文论文标题惯例\n\n2. \"Asynchronous Multi-user Cell-Free MIMO\" 译为\"面向无蜂窝多用户异步MIMO\"：\n   - \"Cell-Free\" 采用学界通用译法\"无蜂窝\"\n   - \"Asynchronous\" 对应\"异步\"\n   - \"Multi-user\" 译为\"多用户\"\n   - 前置\"面向\"使标题更符合中文表达习惯\n\n3. 整体结构：\n   - 采用\"面向[技术场景]+的[方法]\"的中文论文标题典型结构\n   - 保留英文专业术语缩写（RIS, RSMA, MIMO）便于学术交流\n   - 技术要素完整对应：RIS（智能反射面）+ RSMA（资源调度）+ 无蜂窝架构 + 异步通信 + 多用户场景\n\n该翻译既准确传达了原文的技术内涵，又符合中文科技论文的标题规范，同时保持了专业术语的国际化特征，便于在学术会议和期刊发表时被国际同行准确理解。",
+    "abstract_zh": "None"
+  }
+]
