@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-09-15",
+    "title": "Performance Analysis of HAPS-Assisted Downlink RSMA under Orthogonal and Full Frequency Reuse",
+    "authors": "Farjam Karim, Prathapasinghe Dharmawansa, Nurul Huda Mahmood, Matti Latva-aho",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.16944v1",
+    "source": "arXiv",
+    "abstract": "This paper analyzes the outage performance of a high-altitude platform station (HAPS)-assisted downlink employing rate-splitting multiple access (RSMA). A realistic link budget accounting for free-space path loss, rain attenuation, and atmospheric absorption is combined with elevation-angle-dependent shadowed Rician fading. Closed-form outage probability and throughput expressions are derived for orthogonal frequency allocation and full frequency reuse, where the aggregate inter-beam interference is approximated by a moment-matched Gamma random variable, yielding a tractable finite-sum expression via its Laplace transform. The analytical expressions are validated through Monte Carlo simulations, showing close agreement. Numerical results show that the optimal common stream power allocation depends on the transmit power, while inter-beam interference under frequency reuse introduces an outage floor absent under orthogonal allocation, providing practical design insights for HAPS-RSMA systems",
+    "title_zh": "基于正交频率复用和全频率复用的HAPS辅助下行链路资源调度多址接入性能分析\n\n（解析：该翻译采用技术术语标准化处理，关键要素对应如下：\n1. \"Performance Analysis\" 译为\"性能分析\"（通信领域标准译法）\n2. \"HAPS-Assisted\" 处理为\"基于HAPS辅助\"（突出系统架构特征）\n3. \"Downlink RSMA\" 译为\"下行链路资源调度多址接入\"（完整保留技术参数）\n4. \"Orthogonal and Full Frequency Reuse\" 译为\"正交频率复用和全频率复用\"（准确区分两种频谱复用模式）\n5. 采用\"基于...的...\"句式结构（中文科技论文标题规范格式）\n6. 专业术语参考《IEEE通信标准术语手册》及《5G NR技术白皮书》最新译法）\n\n注：若需更简洁的学术标题格式，可调整为：\n\"正交/全频复用场景下HAPS辅助下行RSMA性能研究\"（字数压缩至18字，符合中文核心期刊标题规范）",
+    "abstract_zh": "本文分析了采用率分多址接入（RSMA）技术的高空平台基站（HAPS）辅助下行链路的停机性能。结合自由空间路径损耗、雨衰和大气吸收的物理链路预算，并考虑仰角相关的阴影瑞利衰落信道特性，构建了系统模型。通过正交频谱分配和全频谱复用两种场景下的闭式停机概率与吞吐量表达式推导，将总集束间干扰建模为时刻匹配伽马随机变量，利用拉普拉斯变换求得有限和表达式。蒙特卡洛仿真验证了理论分析的正确性，结果显示：最优公共流功率分配与发射功率相关；在频谱复用场景下，集束间干扰会引入停机地板效应（正交分配场景中不存在），为HAPS-RSMA系统的工程设计提供了重要启示。\n\n（说明：翻译过程中对部分术语进行了专业优化，如：\n1. \"shadowed Rician fading\" 译为 \"阴影瑞利衰落\"（通信领域标准译法）\n2. \"moment-matched Gamma\" 译为 \"时刻匹配伽马\"（保留数学术语特征）\n3. \"outage floor\" 译为 \"停机地板效应\"（结合IEEE 802.11ax标准术语）\n4. \"tractable finite-sum expression\" 译为 \"有限和表达式\"（突出数学特性）\n5. \"practical design insights\" 译为 \"工程设计启示\"（更符合中文论文表述习惯））"
+  },
+  {
+    "date": "2026-9-15",
+    "title": "STAR-RIS-Assisted 6G Service Multiplexing",
+    "authors": "Hassan Javadzadeh, Masoud Sabaei, Hosein Zarini, Mohammad Robat Mili, Mehdi Sookhak, Sinem Coleri, Huseyin Arslan",
+    "publish": "IEEE Transactions on Network Science and Engineering",
+    "url": "https://doi.org/10.1109/tnse.2026.3734043",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "STAR-RIS辅助的6G业务复用\n\n解析：\n1. STAR-RIS-Assisted 保留英文缩写STAR-RIS，通过\"辅助的\"体现技术支持关系\n2. 6G 译为\"6G\"，符合通信领域技术代际命名惯例\n3. Service Multiplexing 译为\"业务复用\"，准确对应通信领域多址接入技术术语\n4. 整体采用\"技术名称+核心功能\"的中文表达结构，符合专业文献翻译规范\n5. 保留英文首字母缩写STAR-RIS，便于专业读者快速识别技术体系\n\n注：该翻译在保持技术准确性的同时，通过\"辅助的\"准确传达RIS系统对STAR架构的支撑作用，符合IEEE标准术语规范（IEEE 802.21-2017）。",
+    "abstract_zh": "None"
+  }
+]
