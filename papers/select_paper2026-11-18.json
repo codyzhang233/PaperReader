@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-11-18",
+    "title": "Physical Layer Security for Digital Semantic Communication: A Bit-Level Perspective",
+    "authors": "Seonjung Kim, Jaehyeok Kim, Yo-Seb Jeon",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2611.23940v1",
+    "source": "arXiv",
+    "abstract": "Digital semantic communication requires reliable recovery of task-relevant information at a legitimate receiver while limiting source reconstruction by an eavesdropper. Uniform bit protection, however, does not account for the heterogeneous reliability and secrecy requirements of semantic bits. This paper proposes a bit-level physical layer security (PLS) framework that learns these requirements and incorporates them into physical-layer resource allocation. We first introduce a wiretap semantic feature channel whose two-stage training learns per-bit target bit-flip probabilities for the legitimate receiver (Bob) and the eavesdropper (Eve). These targets characterize the reliability requirements at Bob and the secrecy protection requirements against Eve. Based on the learned targets, we formulate a joint power and artificial-noise (AN) allocation problem for a multiple-input single-output wiretap channel under a worst-case angular-separation model. For a given target profile, the optimal information-AN power split admits a closed-form solution, and the per-bit power allocation is obtained by water-filling. We further develop a leakage-aware selection method among multiple learned-target profiles and extend the design to multiple-input multiple-output channels. Simulation results demonstrate that the proposed framework achieves a better trade-off between preserving reconstruction quality at Bob and degrading that at Eve than uniform power allocation and the evaluated learning-based secure semantic communication schemes.",
+    "title_zh": "物理层安全在数字语义通信中的应用：位级视角",
+    "abstract_zh": "数字语义通信要求在合法接收者（Bob）处可靠恢复任务相关信息，同时限制窃听者（Eve）的源重建能力。然而，均匀比特保护机制未考虑语义比特在可靠性和机密性要求上的异质性。本文提出一种基于物理层安全（PLS）的比特级框架，通过学习合法接收端和窃听者的异质需求并将其融入物理层资源分配。首先，我们构建了窃听语义特征信道模型，通过两阶段训练学习每个比特对合法接收者（Bob）和窃听者（Eve）的目标误码率。这些目标分别表征了Bob的可靠通信需求与Eve的机密性保护需求。基于学习得到的双目标函数，我们建立了多天线单输出窃听信道下联合功率与人工噪声（AN）分配的优化模型，该模型在最坏角度分离场景下具有理论解。通过解析求解最优信息-AN功率分配比，结合水填充算法实现逐比特功率分配。进一步提出基于泄漏意识的跨目标函数选择方法，并将框架扩展至多输入多输出场景。仿真结果表明，本框架在Bob端重建质量与Eve端重建质量的折衷性能优于传统均匀功率分配方案，以及现有基于学习的语义安全通信方法。\n\n（说明：翻译过程中对部分专业术语进行了规范化处理，如：\n1. \"wiretap channel\"译为\"窃听信道\"（通信安全领域标准译法）\n2. \"angular-separation\"译为\"角度分离\"（无线通信领域通用术语）\n3. \"water-filling\"保留专业译法\"水填充\"\n4. 对\"leakage-aware\"采用\"泄漏意识\"的意译\n5. 通过添加括号注释保持技术准确性\n6. 优化了长难句的中文表达结构，在保持专业性的同时提升可读性）"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Toward a Demand-Aware ISAC Service Layer for 6G: Multi-Consumer Sensing Consolidation and Predictive Frame Resilience",
+    "authors": "Samed Keşir, Emre Arslan, Semih Aktaş, Batuhan Kaplan, Ahmet Faruk Coşkun",
+    "publish": "2026 IEEE Conference on Standards for Communications and Networking (CSCN)",
+    "url": "https://doi.org/10.1109/cscn71666.2026.11772002",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "迈向6G需求感知型ISAC服务层的多用户传感聚合与预测帧抗韧性\n\n（解析说明：\n1. \"Demand-Aware\" 译为\"需求感知型\"，精准传达\"根据需求动态调整\"的技术内涵；\n2. \"ISAC\" 作为专业术语保留英文缩写，符合学术翻译惯例；\n3. \"Multi-Consumer Sensing Consolidation\" 译为\"多用户传感聚合\"，其中\"聚合\"既体现数据整合又保留技术术语特征；\n4. \"Predictive Frame Resilience\" 译为\"预测帧抗韧性\"，\"抗韧性\"较\"容错性\"更突出网络架构的主动适应能力；\n5. 整体采用\"主副标题\"结构，冒号前为研究目标，冒号后为技术路径，符合中文论文标题规范；\n6. 专业术语如\"6G服务层\"保持技术准确性，\"传感聚合\"等表述兼顾专业性与可读性）",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Anti-Jamming Optimization for EM-Compliant Active RIS via Decoupling Architecture",
+    "authors": "Yang Cao, Wenchi Cheng, Jingqing Wang, Lifeng Wang",
+    "publish": "IEEE Transactions on Communications",
+    "url": "https://doi.org/10.1109/tcomm.2026.3755502",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于解耦架构的符合电磁兼容的有源智能反射面抗干扰优化\n\nExplanation:\n1. 抗干扰优化 (Anti-Jamming Optimization) - Maintains the technical focus on interference resistance.\n2. 符合电磁兼容的 (EM-Compliant) - Uses the standard Chinese term for electromagnetic compatibility certification.\n3. 有源智能反射面 (Active RIS) - Accurately translates the technical term for reconfigurable intelligent surfaces.\n4. 解耦架构 (Decoupling Architecture) - Proper technical translation of the system design approach.\n5. 结构顺序 - Follows Chinese academic title conventions: Methodology (解耦架构) + System Type (有源智能反射面) + Optimization Goal (抗干扰优化) + Compliance Requirement (符合电磁兼容的)\n\nThis translation maintains:\n- Technical accuracy for RIS and EM compliance terminology\n- Logical information hierarchy\n- Standard academic phrasing in Chinese\n- Conciseness while preserving all original elements",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Root Selection And Structured Neural Reception For Index-Modulated OCDM ISAC With Zadoff-Chu Sensing",
+    "authors": "José Miracy de Souza Filho, José Carlos Marinello Filho",
+    "publish": "2026 IEEE 36th International Workshop on Machine Learning for Signal Processing (MLSP)",
+    "url": "https://doi.org/10.1109/mlsp68619.2026.11772602",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "根选与结构化神经接收器在指数调制OCDM ISAC中结合Zadoff-Chu传感\n\n解析：\n1. \"Root Selection\" 译为\"根选\"，采用通信领域通用的缩略语译法，既保留专业术语特征又符合中文表达习惯。\n2. \"Structured Neural Reception\" 译为\"结构化神经接收器\"，通过\"结构化\"对应structured，准确传达系统设计的有序性。\n3. \"Index-Modulated OCDM ISAC\" 译为\"指数调制OCDM ISAC\"，完整保留英文缩写ISAC（Index-Modulated OCDM Access Controller），符合学术文献规范。\n4. \"Zadoff-Chu Sensing\" 译为\"Zadoff-Chu传感\"，采用国际通用的音译+专业术语组合方式，确保领域内认知一致性。\n\n该翻译方案：\n- 保持专业术语的准确性（如OCDM、Zadoff-Chu）\n- 采用中文科技文献惯用的名词化结构\n- 通过冒号分层呈现技术主题（主标题：根选与结构化神经接收器；副标题：指数调制OCDM ISAC中结合Zadoff-Chu传感）\n- 保留英文缩写ISAC以方便国际学术交流\n- 总字数控制在合理范围（中文标题通常不超过30字）\n\n建议在正式论文中使用完整翻译：\n《基于Zadoff-Chu传感的指数调制OCDM ISAC系统：根节点选择与结构化神经接收器设计》\n\n该译法既符合中文科技论文的标题规范（主副标题结构），又完整保留了关键技术要素，同时通过保留ISAC缩写和Zadoff-Chu专业术语，确保了国际学术界的可识别性。",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Clock-Fair Waveform Design for Multi-Target Asynchronous Bistatic OFDM-ISAC",
+    "authors": "Feng Su, Xu Wang, Guangbo Song, Jiahao Bai, Guohua Wei",
+    "publish": "IEEE Wireless Communications Letters",
+    "url": "https://doi.org/10.1109/lwc.2026.3755254",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "时钟同步公平波形设计用于多目标异步双站OFDM-ISAC系统\n\n（解析说明：\n1. \"Clock-Fair\" 译为\"时钟同步公平\"，既保留了\"clock\"的技术含义，又通过\"同步\"强调了时序协调特性，\"公平\"对应\"fair\"的公平性原则\n2. \"Waveform Design\" 译为\"波形设计\"，这是通信领域标准译法\n3. \"Multi-Target Asynchronous Bistatic\" 译为\"多目标异步双站\"，其中：\n   - \"Multi-Target\" 对应\"多目标\"\n   - \"Asynchronous\" 译为\"异步\"（非同步）\n   - \"Bistatic\" 译为\"双站\"（指收发分离的雷达体制）\n4. \"OFDM-ISAC\" 作为专有技术名称保留不译，但根据中文科技文献惯例，在首次出现时可加注中文全称（此处因上下文已知，故直接保留）\n5. 整体结构采用\"技术特性+应用场景\"的中文科技标题常见格式，符合IEEE等国际期刊的中文标题规范）",
+    "abstract_zh": "None"
+  }
+]
